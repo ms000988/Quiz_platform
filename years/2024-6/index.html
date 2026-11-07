@@ -2,16 +2,34 @@
 <html lang='sv'>
 <head>
     <meta charset='UTF-8'>
-    <title>Delprov – 2024-6</title>
+    <title>SFI Läsförståelse – 2024</title>
     <link rel='stylesheet' href='../../assets/css/style.css'>
+    <script src='https://cdn.jsdelivr.net/npm/chart.js'></script>
 </head>
 <body>
-    <h1>Välj delprov för 2024-6</h1>
+    <header>
+        <h1>SFI Läsförståelse – 2024</h1>
+        <p class='exam-meta'>Provnummer: 6</p>
+    </header>
 
-    <div class='exam-parts'>
-        <a href='reading/index.html' class='btn'>📘 Läsförståelse</a>
-        <a href='listening/index.html' class='btn'>🎧 Hörförståelse</a>
-        <a href='writing/index.html' class='btn'>✍️ Skriva</a>
-    </div>
+    <main>
+        <div id='progressContainer'><div id='progressBar'></div></div>
+
+        <div id='sectionA'></div>
+        <div id='sectionB'></div>
+        <div id='sectionC'></div>
+        <div id='sectionD'></div>
+        <div id='sectionE'></div>
+        <div id='sectionF'></div>
+        <div id='sectionG'></div>
+        <div id='sectionH'></div>
+
+        <button id='submitBtn'>Rätta provet</button>
+        <div id='result'></div>
+    </main>
+
+    <script src='load-sections.js'></script>
+    <script src='quiz.js'></script>
+
 </body>
 </html>
