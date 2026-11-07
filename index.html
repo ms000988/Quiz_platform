@@ -1,22 +1,269 @@
 <!DOCTYPE html>
 <html lang="sv">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SFI Quiz Plattform</title>
+    <title>SFI Läsförståelse – Provplattform</title>
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #eef2f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background: #005bbb;
+            color: white;
+            padding: 25px;
+            text-align: center;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 30px;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 40px auto;
+            padding: 10px;
+        }
+
+        /* Search + Filters */
+        .controls {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 25px;
+            align-items: center;
+        }
+
+        .controls input,
+        .controls select {
+            padding: 10px;
+            font-size: 15px;
+            border-radius: 6px;
+            border: 1px solid #ccc;
+        }
+
+        .year-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+            gap: 25px;
+        }
+
+        .year-card {
+            background: white;
+            border-radius: 12px;
+            padding: 20px;
+            border: 1px solid #d7dce3;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+            transition: 0.25s ease;
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeIn 0.4s forwards;
+            position: relative;
+        }
+
+        @keyframes fadeIn {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .year-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+        }
+
+        .year-card h2 {
+            margin: 0 0 8px 0;
+            font-size: 22px;
+            color: #005bbb;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .year-card p {
+            margin: 0 0 15px 0;
+            color: #444;
+        }
+
+        .year-card a {
+            display: inline-block;
+            padding: 10px 14px;
+            background: #005bbb;
+            color: white;
+            text-decoration: none;
+            border-radius: 6px;
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .year-card a:hover {
+            background: #004999;
+        }
+
+        .icon {
+            width: 28px;
+            height: 28px;
+        }
+
+        .badge {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background: #28a745;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 6px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+
+        .history {
+            font-size: 13px;
+            color: #333;
+            margin-top: 10px;
+            background: #f0f4ff;
+            padding: 8px;
+            border-radius: 6px;
+        }
+    </style>
 </head>
 
 <body>
+    <header>
+        <h1>SFI Läsförståelse – Provplattform</h1>
+        <p>Välj ett provår för att starta testet</p>
+    </header>
+
     <div class="container">
-        <h1>SFI Quiz Plattform</h1>
-        <p>Välj ett år för att börja:</p>
 
-        <a class="btn" href="years/2026/index.html">SFI C – 2026</a>
-        <a class="btn" href="years/2025/index.html">SFI C – 2025</a>
-        <a class="btn" href="years/2024/index.html">SFI C – 2024</a>
+        <!-- SEARCH + FILTERS + SORT -->
+        <div class="controls">
+            <input type="text" id="searchInput" placeholder="Sök år eller provnummer...">
+
+            <select id="filterSelect">
+                <option value="all">Alla år</option>
+                <option value="2020+">2020 och senare</option>
+                <option value="2015-2019">2015–2019</option>
+                <option value="2012-2014">2012–2014</option>
+            </select>
+
+            <select id="sortSelect">
+                <option value="newest">Nyaste först</option>
+                <option value="oldest">Äldsta först</option>
+                <option value="az">A–Ö</option>
+                <option value="za">Ö–A</option>
+            </select>
+        </div>
+
+        <div id="yearList" class="year-grid"></div>
     </div>
-</body>
 
+    <script>
+        // All your exam folders
+        const examFolders = [
+            "2012-1","2013-2","2013-3","2013-4",
+            "2014-5","2014-6","2015-7","2015-8",
+            "2016-9","2016-10","2017-11","2017-12",
+            "2018-13","2018-14","2019-15","2019-16",
+            "2020-18","2022-1","2022-2","2022-3",
+            "2023-4","2023-5","2024-6","2024-7",
+            "2025-8","2025-9","2026"
+        ];
+
+        const container = document.getElementById("yearList");
+        const searchInput = document.getElementById("searchInput");
+        const filterSelect = document.getElementById("filterSelect");
+        const sortSelect = document.getElementById("sortSelect");
+
+        function getHistory(folder) {
+            return JSON.parse(localStorage.getItem("history_" + folder));
+        }
+
+        function renderList() {
+            container.innerHTML = "";
+
+            let list = [...examFolders];
+
+            // SEARCH
+            const search = searchInput.value.toLowerCase();
+            if (search.trim() !== "") {
+                list = list.filter(f => f.toLowerCase().includes(search));
+            }
+
+            // FILTERS
+            const filter = filterSelect.value;
+            list = list.filter(folder => {
+                const year = parseInt(folder.split("-")[0]);
+
+                if (filter === "2020+") return year >= 2020;
+                if (filter === "2015-2019") return year >= 2015 && year <= 2019;
+                if (filter === "2012-2014") return year >= 2012 && year <= 2014;
+                return true;
+            });
+
+            // SORTING
+            if (sortSelect.value === "newest") {
+                list.sort((a, b) => parseInt(b.split("-")[0]) - parseInt(a.split("-")[0]));
+            } else if (sortSelect.value === "oldest") {
+                list.sort((a, b) => parseInt(a.split("-")[0]) - parseInt(b.split("-")[0]));
+            } else if (sortSelect.value === "az") {
+                list.sort();
+            } else if (sortSelect.value === "za") {
+                list.sort().reverse();
+            }
+
+            // RENDER CARDS
+            list.forEach(folder => {
+                const [year, number] = folder.split("-");
+                const history = getHistory(folder);
+
+                const card = document.createElement("div");
+                card.className = "year-card";
+
+                card.innerHTML = `
+                    <h2>
+                        <img class="icon" src="assets/images/icon.png" alt="icon">
+                        Provår ${year}
+                    </h2>
+                    <p>Provnummer: ${number}</p>
+                    <a href="years/${folder}/index.html">Starta provet</a>
+                `;
+
+                if (history) {
+                    const badge = document.createElement("div");
+                    badge.className = "badge";
+                    badge.textContent = "KLAR";
+                    card.appendChild(badge);
+
+                    const histBox = document.createElement("div");
+                    histBox.className = "history";
+                    histBox.innerHTML = `
+                        <strong>Senaste resultat:</strong> ${history.score}%<br>
+                        <strong>Datum:</strong> ${history.date}
+                    `;
+                    card.appendChild(histBox);
+                }
+
+                container.appendChild(card);
+            });
+        }
+
+        // Event listeners
+        searchInput.addEventListener("input", renderList);
+        filterSelect.addEventListener("change", renderList);
+        sortSelect.addEventListener("change", renderList);
+
+        // Initial render
+        renderList();
+    </script>
+</body>
 </html>

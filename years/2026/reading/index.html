@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SFI C – 2026</title>
+
+    <!-- Correct CSS path -->
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+
+    <!-- Chart.js (stable version) -->
+
+</head>
+
+<body>
+
+    <h1 style="text-align:center; margin-top:20px;">SFI C – 2026</h1>
+    <p style="text-align:center;">All sections are displayed below:</p>
+
+    <!-- Progress Bar -->
+    <div id="progressContainer">
+        <div id="progressBar"></div>
+    </div>
+
+    <!-- Section Containers -->
+    <div id="sectionA"></div>
+    <div id="sectionB"></div>
+    <div id="sectionC"></div>
+    <div id="sectionD"></div>
+    <div id="sectionE"></div>
+    <div id="sectionF"></div>
+    <div id="sectionG"></div>
+    <div id="sectionH"></div>
+
+    <!-- Submit Button -->
+    <button id="submitBtn">Submit all answers</button>
+
+    <!-- Result Box -->
+    <div id="result"></div>
+<div class="nav-buttons">
+    <a href="../listening/index.html" class="nav-btn">🎧 Hörförståelse</a>
+    <a href="../writing/index.html" class="nav-btn">✍️ Skriva</a>
+    <a href="../index.html" class="nav-btn back">⬅️ Tillbaka</a>
+</div>
+
+
+
+    <!-- Load sections FIRST -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <script src="load-sections.js"></script>
+    <script src="quiz.js"></script>
+
+    <!-- Load quiz.js LAST (fixes your error) -->
+</body>
+</html>
