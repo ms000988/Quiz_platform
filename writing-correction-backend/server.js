@@ -32,6 +32,38 @@ app.post("/correct", async (req, res) => {
     res.json({ matches: data.matches });
 });
 
+app.post("/cefr", async (req, res) => {
+    const text = req.body.text;
+
+    try {
+        const response = await fetch(
+            "https://api-inference.huggingface.co/models/cointegrated/roberta-base-cefr-classification",
+            {
+                method: "POST",
+                headers: {
+                    "Content-Type": "application/json",
+                    "Authorization": "Bearer hf_xxxxxxxxxxxxxxxxx" // optional if you have a free key
+                },
+                body: JSON.stringify({ text })
+            }
+        );
+
+        const result = await response.json();
+
+        if (!Array.isArray(result)) {
+            return res.json({ cefr: "Unknown" });
+        }
+
+        // Pick the highest scoring CEFR label
+        const best = result.sort((a, b) => b.score - a.score)[0];
+
+        res.json({ cefr: best.label });
+    } catch (err) {
+        res.json({ cefr: "Error" });
+    }
+});
+
+
 // Root route
 app.get("/", (req, res) => {
     res.send("Writing correction API is running.");
