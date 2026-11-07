@@ -1,4 +1,6 @@
-// --- DUPLICATE CHECK ---
+// ------------------------------
+// DUPLICATE CHECK
+// ------------------------------
 function normalizeText(text) {
     return text
         .toLowerCase()
@@ -18,33 +20,40 @@ function isDuplicateSubmission(text) {
     return history.some(entry => normalizeText(entry.text) === normalizedNew);
 }
 
-// --- SCORING FUNCTIONS ---
+// ------------------------------
+// SCORING SYSTEM (REALISTIC)
+// ------------------------------
+
+// Grammar (0–30)
 function grammarScore(errors) {
-    return Math.max(0, 40 - errors * 4);
+    return Math.max(0, 30 - errors * 5);
 }
 
+// CEFR (0–20)
 function cefrScore(level) {
     switch (level) {
         case "A1": return 5;
-        case "A2": return 15;
-        case "B1": return 25;
-        case "B2": return 30;
-        case "C1": return 30;
-        default: return 5;
+        case "A2": return 10;
+        case "B1": return 15;
+        case "B2": return 20;
+        case "C1": return 20;
+        default: return 0; // "Error"
     }
 }
 
+// Content coverage (0–30)
 function contentCoverage(text) {
     const lower = text.toLowerCase();
     let score = 0;
 
-    if (lower.includes("bra") || lower.includes("dålig") || lower.includes("område")) score += 7;
-    if (lower.includes("vänner") || lower.includes("träffa")) score += 7;
-    if (lower.includes("flytta") || lower.includes("borde")) score += 7;
+    if (lower.includes("bra") || lower.includes("dålig") || lower.includes("område")) score += 10;
+    if (lower.includes("vänner") || lower.includes("träffa")) score += 10;
+    if (lower.includes("flytta") || lower.includes("borde")) score += 10;
 
     return score;
 }
 
+// Length (0–10)
 function lengthScore(text) {
     const words = text.trim().split(/\s+/).length;
     if (words < 40) return 0;
@@ -52,6 +61,7 @@ function lengthScore(text) {
     return 10;
 }
 
+// Vocabulary richness (0–5)
 function vocabularyScore(text) {
     const words = text.toLowerCase().replace(/[.,!?;:()]/g, "").split(/\s+/).filter(w => w.length > 2);
     const total = words.length;
@@ -60,12 +70,13 @@ function vocabularyScore(text) {
     const unique = new Set(words).size;
     const ttr = unique / total;
 
-    if (ttr < 0.35) return 5;
-    if (ttr < 0.50) return 12;
-    if (ttr < 0.65) return 17;
-    return 20;
+    if (ttr < 0.35) return 1;
+    if (ttr < 0.50) return 3;
+    if (ttr < 0.65) return 4;
+    return 5;
 }
 
+// Sentence complexity (0–5)
 function sentenceComplexityScore(text) {
     const sentences = text.split(/[.!?]/).filter(s => s.trim().length > 0);
     if (sentences.length === 0) return 0;
@@ -75,38 +86,43 @@ function sentenceComplexityScore(text) {
 
     let score = 0;
 
-    if (avgLength < 8) score += 3;
-    else if (avgLength < 12) score += 7;
-    else if (avgLength < 18) score += 12;
-    else score += 15;
+    if (avgLength < 8) score += 1;
+    else if (avgLength < 12) score += 2;
+    else if (avgLength < 18) score += 3;
+    else score += 4;
 
     const subs = ["att", "som", "när", "eftersom", "medan", "om"];
     let subCount = 0;
     subs.forEach(s => {
         subCount += (text.toLowerCase().match(new RegExp(`\\b${s}\\b`, "g")) || []).length;
     });
-    score += Math.min(subCount * 2, 10);
+    score += Math.min(subCount, 1);
 
-    const compounds = ["och", "men", "så", "för att"];
-    let compCount = 0;
-    compounds.forEach(c => {
-        compCount += (text.toLowerCase().match(new RegExp(`\\b${c}\\b`, "g")) || []).length;
-    });
-    score += Math.min(compCount * 1.5, 5);
-
-    return Math.min(score, 20);
+    return Math.min(score, 5);
 }
 
+// FINAL SCORE WITH CAPS
 function finalScore(errors, cefr, text) {
-    return grammarScore(errors)
-        + cefrScore(cefr)
-        + contentCoverage(text)
-        + lengthScore(text)
-        + vocabularyScore(text)
-        + sentenceComplexityScore(text);
+    let score =
+        grammarScore(errors) +
+        cefrScore(cefr) +
+        contentCoverage(text) +
+        lengthScore(text) +
+        vocabularyScore(text) +
+        sentenceComplexityScore(text);
+
+    const words = text.trim().split(/\s+/).length;
+
+    if (cefr === "Error") score = Math.min(score, 40);
+    if (words < 40) score = Math.min(score, 50);
+    if (contentCoverage(text) < 10) score = Math.min(score, 60);
+
+    return score;
 }
 
-// --- READABLE FEEDBACK ---
+// ------------------------------
+// READABLE FEEDBACK
+// ------------------------------
 function generateReadableFeedback(matches, text, cefr) {
     let html = "<h3>📝 Sammanfattning</h3>";
 
@@ -122,16 +138,15 @@ function generateReadableFeedback(matches, text, cefr) {
         html += "</ul>";
     }
 
-    const complexity = sentenceComplexityScore(text);
-    html += `<p><strong>Meningskomplexitet:</strong> ${complexity}/20</p>`;
-
-    const vocab = vocabularyScore(text);
-    html += `<p><strong>Ordförråd:</strong> ${vocab}/20</p>`;
+    html += `<p><strong>Meningskomplexitet:</strong> ${sentenceComplexityScore(text)}/5</p>`;
+    html += `<p><strong>Ordförråd:</strong> ${vocabularyScore(text)}/5</p>`;
 
     return html;
 }
 
-// --- MAIN SUBMIT HANDLER ---
+// ------------------------------
+// MAIN SUBMIT HANDLER
+// ------------------------------
 document.getElementById("submitBtn").addEventListener("click", async () => {
     const btn = document.getElementById("submitBtn");
     btn.disabled = true;
