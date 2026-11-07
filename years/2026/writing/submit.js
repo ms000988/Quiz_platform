@@ -5,6 +5,14 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
 
     const text = document.getElementById("writingInput").value.trim();
 
+    // Reject duplicate submissions
+    if (isDuplicateSubmission(text)) {
+        alert("Du kan inte skicka in samma text två gånger. Gör ändringar och försök igen.");
+        btn.disabled = false;
+        btn.innerText = "Skicka in";
+        return;
+    }
+
     // Grammar correction
     const response = await fetch("https://quiz-platform-aohd.onrender.com/correct", {
         method: "POST",
@@ -26,8 +34,7 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
     // --- SCORING SYSTEM ---
 
     function grammarScore(errors) {
-        const score = 40 - (errors * 4);
-        return Math.max(0, score);
+        return Math.max(0, 40 - errors * 4);
     }
 
     function cefrScore(level) {
@@ -45,14 +52,9 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
         const lower = text.toLowerCase();
         let score = 0;
 
-        if (lower.includes("bra") || lower.includes("dålig") || lower.includes("område"))
-            score += 7;
-
-        if (lower.includes("vänner") || lower.includes("träffa"))
-            score += 7;
-
-        if (lower.includes("flytta") || lower.includes("borde"))
-            score += 7;
+        if (lower.includes("bra") || lower.includes("dålig") || lower.includes("område")) score += 7;
+        if (lower.includes("vänner") || lower.includes("träffa")) score += 7;
+        if (lower.includes("flytta") || lower.includes("borde")) score += 7;
 
         return score;
     }
@@ -64,39 +66,73 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
         return 10;
     }
 
+    function vocabularyScore(text) {
+        const words = text.toLowerCase().replace(/[.,!?;:()]/g, "").split(/\s+/).filter(w => w.length > 2);
+        const total = words.length;
+        if (total === 0) return 0;
+
+        const unique = new Set(words).size;
+        const ttr = unique / total;
+
+        if (ttr < 0.35) return 5;
+        if (ttr < 0.50) return 12;
+        if (ttr < 0.65) return 17;
+        return 20;
+    }
+
+    function sentenceComplexityScore(text) {
+        const sentences = text.split(/[.!?]/).filter(s => s.trim().length > 0);
+        if (sentences.length === 0) return 0;
+
+        const words = text.split(/\s+/);
+        const avgLength = words.length / sentences.length;
+
+        let score = 0;
+
+        if (avgLength < 8) score += 3;
+        else if (avgLength < 12) score += 7;
+        else if (avgLength < 18) score += 12;
+        else score += 15;
+
+        const subs = ["att", "som", "när", "eftersom", "medan", "om"];
+        let subCount = 0;
+        subs.forEach(s => {
+            subCount += (text.toLowerCase().match(new RegExp(`\\b${s}\\b`, "g")) || []).length;
+        });
+        score += Math.min(subCount * 2, 10);
+
+        const compounds = ["och", "men", "så", "för att"];
+        let compCount = 0;
+        compounds.forEach(c => {
+            compCount += (text.toLowerCase().match(new RegExp(`\\b${c}\\b`, "g")) || []).length;
+        });
+        score += Math.min(compCount * 1.5, 5);
+
+        return Math.min(score, 20);
+    }
+
     function finalScore(errors, cefr, text) {
         return grammarScore(errors)
             + cefrScore(cefr)
             + contentCoverage(text)
-            + lengthScore(text);
+            + lengthScore(text)
+            + vocabularyScore(text)
+            + sentenceComplexityScore(text);
     }
 
     const score = finalScore(data.matches.length, cefrData.cefr, text);
 
-    // --- DISPLAY RESULTS ---
+    // --- READABLE FEEDBACK ---
+    const readableFeedback = generateReadableFeedback(data.matches);
 
+    // --- DISPLAY RESULTS ---
     let html = `
         <h3>📚 CEFR-nivå: ${cefrData.cefr}</h3>
         <h3>💯 Poäng: ${score}/100</h3>
-        <h3>Förslag på förbättringar:</h3>
-    `;
-
-    if (data.matches.length === 0) {
-        html += "<p class='correct'>Inga fel hittades! Bra jobbat.</p>";
-    } else {
-        data.matches.forEach(match => {
-            html += `
-                <div class="lt-suggestion">
-                    <p><strong>Problem:</strong> ${match.message}</p>
-                    ${match.replacements.length > 0 ? `<p><strong>Förslag:</strong> ${match.replacements[0].value}</p>` : ""}
-                    <p><strong>Text:</strong> ${match.context.text}</p>
-                </div>
-            `;
-        });
-    }
-
-    // Edit & resend button
-    html += `
+        <h3>🧠 Ordförrådsrikedom: ${vocabularyScore(text)}/20</h3>
+        <h3>🧩 Meningskomplexitet: ${sentenceComplexityScore(text)}/20</h3>
+        <h3>📝 Grammatik:</h3>
+        ${readableFeedback}
         <button id="editBtn" class="secondary-btn">✏️ Redigera och skicka igen</button>
     `;
 
@@ -120,29 +156,31 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
     localStorage.setItem("writingHistory", JSON.stringify(history));
 });
 
-// Show writing history
-function renderHistory() {
+// Duplicate check
+function isDuplicateSubmission(text) {
     const history = JSON.parse(localStorage.getItem("writingHistory") || "[]");
+    if (history.length === 0) return false;
 
-    if (history.length === 0) return;
-
-    let historyHTML = "<h3>📄 Dina tidigare skrivuppgifter</h3>";
-
-    history.forEach(entry => {
-        historyHTML += `
-            <div class="history-item">
-                <p><strong>${entry.date}</strong></p>
-                <p>Poäng: ${entry.score}/100</p>
-                <p>CEFR: ${entry.cefr}</p>
-                <details>
-                    <summary>Visa text</summary>
-                    <p>${entry.text}</p>
-                </details>
-            </div>
-        `;
-    });
-
-    document.getElementById("result").insertAdjacentHTML("afterend", historyHTML);
+    const last = history[history.length - 1].text.trim().toLowerCase();
+    return last === text.trim().toLowerCase();
 }
 
-renderHistory();
+// Readable feedback
+function generateReadableFeedback(matches) {
+    if (matches.length === 0) {
+        return "<p class='correct'>Inga grammatiska fel hittades! Bra jobbat.</p>";
+    }
+
+    let summary = `<p>Du har ${matches.length} grammatiska problem:</p><ul>`;
+    let details = "<h4>💡 Förbättringsförslag:</h4><ul>";
+
+    matches.forEach(m => {
+        summary += `<li>${m.message}</li>`;
+        details += `<li>${m.message} – Förslag: ${m.replacements[0]?.value || "Ingen specifik"}</li>`;
+    });
+
+    summary += "</ul>";
+    details += "</ul>";
+
+    return summary + details;
+}
