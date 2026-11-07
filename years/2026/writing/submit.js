@@ -1,7 +1,7 @@
 document.getElementById("submitBtn").addEventListener("click", async () => {
     const text = document.getElementById("writingInput").value.trim();
 
-    const response = await fetch("https://quiz-platform-aohd.onrender.com/", {
+    const response = await fetch("https://quiz-platform-aohd.onrender.com/correct", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ text })

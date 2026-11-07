@@ -4,7 +4,7 @@ import fetch from "node-fetch";
 
 const app = express();
 
-// FIX: Allow all origins (or restrict later)
+// CORS FIX
 app.use(cors({
     origin: "*",
     methods: ["GET", "POST", "OPTIONS"],
@@ -13,6 +13,7 @@ app.use(cors({
 
 app.use(express.json());
 
+// Correction endpoint
 app.post("/correct", async (req, res) => {
     const text = req.body.text;
 
@@ -36,6 +37,6 @@ app.get("/", (req, res) => {
     res.send("Writing correction API is running.");
 });
 
-// Render requires listening on PORT env variable
+// Render requires PORT from environment
 const PORT = process.env.PORT || 10000;
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
