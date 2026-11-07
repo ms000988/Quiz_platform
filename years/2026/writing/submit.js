@@ -101,45 +101,29 @@ function sentenceComplexityScore(text) {
     return Math.min(score, 5);
 }
 
-// FINAL SCORE WITH CAPS
+// FINAL SCORE (only for full texts)
 function finalScore(errors, cefr, text) {
-    let score =
-        grammarScore(errors) +
-        cefrScore(cefr) +
-        contentCoverage(text) +
-        lengthScore(text) +
-        vocabularyScore(text) +
-        sentenceComplexityScore(text);
-
-    const words = text.trim().split(/\s+/).length;
-
-    if (cefr === "Error") score = Math.min(score, 40);
-    if (words < 40) score = Math.min(score, 50);
-    if (contentCoverage(text) < 10) score = Math.min(score, 60);
-
-    return score;
+    return grammarScore(errors)
+        + cefrScore(cefr)
+        + contentCoverage(text)
+        + lengthScore(text)
+        + vocabularyScore(text)
+        + sentenceComplexityScore(text);
 }
 
 // ------------------------------
 // READABLE FEEDBACK
 // ------------------------------
-function generateReadableFeedback(matches, text, cefr) {
-    let html = "<h3>📝 Sammanfattning</h3>";
-
-    html += `<p><strong>CEFR-nivå:</strong> ${cefr}</p>`;
-
+function generateReadableFeedback(matches) {
     if (matches.length === 0) {
-        html += "<p>Inga grammatiska fel hittades.</p>";
-    } else {
-        html += `<p>Du har ${matches.length} grammatiska problem:</p><ul>`;
-        matches.forEach(m => {
-            html += `<li>${m.message}</li>`;
-        });
-        html += "</ul>";
+        return "<p>Inga grammatiska fel hittades.</p>";
     }
 
-    html += `<p><strong>Meningskomplexitet:</strong> ${sentenceComplexityScore(text)}/5</p>`;
-    html += `<p><strong>Ordförråd:</strong> ${vocabularyScore(text)}/5</p>`;
+    let html = `<p>Du har ${matches.length} grammatiska problem:</p><ul>`;
+    matches.forEach(m => {
+        html += `<li>${m.message}</li>`;
+    });
+    html += "</ul>";
 
     return html;
 }
@@ -153,7 +137,9 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
     btn.innerText = "Skickar...";
 
     const text = document.getElementById("writingInput").value.trim();
+    const words = text.split(/\s+/).length;
 
+    // Duplicate check
     if (isDuplicateSubmission(text)) {
         alert("Du kan inte skicka in samma text igen. Gör ändringar och försök på nytt.");
         btn.disabled = false;
@@ -161,6 +147,7 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
         return;
     }
 
+    // Grammar correction
     const response = await fetch("https://quiz-platform-aohd.onrender.com/correct", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -169,6 +156,7 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
 
     const data = await response.json();
 
+    // CEFR scoring
     const cefrResponse = await fetch("https://quiz-platform-aohd.onrender.com/cefr", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
@@ -177,14 +165,70 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
 
     const cefrData = await cefrResponse.json();
 
-    const score = finalScore(data.matches.length, cefrData.cefr, text);
+    // ------------------------------
+    // RULE: NO SCORE FOR SHORT TEXTS
+    // ------------------------------
+    if (words < 40) {
+        document.getElementById("result").innerHTML = `
+            <h3>⚠️ Texten är för kort</h3>
+            <p>Skriv minst <strong>40 ord</strong> för att få ett resultat.</p>
+            <h3>📝 Grammatik</h3>
+            ${generateReadableFeedback(data.matches)}
+            <button id="editBtn" class="secondary-btn">✏️ Redigera och skicka igen</button>
+        `;
+        document.getElementById("editBtn").addEventListener("click", () => {
+            btn.disabled = false;
+            btn.innerText = "Skicka in";
+        });
+        return;
+    }
 
-    const readableFeedback = generateReadableFeedback(data.matches, text, cefrData.cefr);
+    // ------------------------------
+    // RULE: NO SCORE IF CEFR FAILS
+    // ------------------------------
+    if (cefrData.cefr === "Error") {
+        document.getElementById("result").innerHTML = `
+            <h3>⚠️ CEFR-nivå kunde inte bestämmas</h3>
+            <p>Skriv en längre och mer sammanhängande text.</p>
+            <h3>📝 Grammatik</h3>
+            ${generateReadableFeedback(data.matches)}
+            <button id="editBtn" class="secondary-btn">✏️ Redigera och skicka igen</button>
+        `;
+        document.getElementById("editBtn").addEventListener("click", () => {
+            btn.disabled = false;
+            btn.innerText = "Skicka in";
+        });
+        return;
+    }
+
+    // ------------------------------
+    // RULE: NO SCORE IF CONTENT MISSING
+    // ------------------------------
+    if (contentCoverage(text) < 10) {
+        document.getElementById("result").innerHTML = `
+            <h3>⚠️ Du har inte svarat på uppgiften</h3>
+            <p>Beskriv området, vänner och om din vän ska flytta.</p>
+            <h3>📝 Grammatik</h3>
+            ${generateReadableFeedback(data.matches)}
+            <button id="editBtn" class="secondary-btn">✏️ Redigera och skicka igen</button>
+        `;
+        document.getElementById("editBtn").addEventListener("click", () => {
+            btn.disabled = false;
+            btn.innerText = "Skicka in";
+        });
+        return;
+    }
+
+    // ------------------------------
+    // FULL SCORING (valid text)
+    // ------------------------------
+    const score = finalScore(data.matches.length, cefrData.cefr, text);
 
     let html = `
         <h3>📚 CEFR-nivå: ${cefrData.cefr}</h3>
         <h3>💯 Poäng: ${score}/100</h3>
-        ${readableFeedback}
+        <h3>📝 Grammatik</h3>
+        ${generateReadableFeedback(data.matches)}
         <button id="editBtn" class="secondary-btn">✏️ Redigera och skicka igen</button>
     `;
 
@@ -195,6 +239,7 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
         btn.innerText = "Skicka in";
     });
 
+    // Save history
     const history = JSON.parse(localStorage.getItem("writingHistory") || "[]");
 
     history.push({
