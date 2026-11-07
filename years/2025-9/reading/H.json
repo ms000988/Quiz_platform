@@ -1,0 +1,67 @@
+{
+  "questions": [
+    {
+      "question": "Vilken rubrik passar bäst för text 1?",
+      "answer": "Kom i tid",
+      "id": "H1"
+    },
+    {
+      "question": "Vilken rubrik passar bäst för text 2?",
+      "answer": "Anställ vikarier",
+      "id": "H2"
+    },
+    {
+      "question": "Vilken rubrik passar bäst för text 3?",
+      "answer": "Längre rast",
+      "id": "H3"
+    },
+    {
+      "question": "Vilken rubrik passar bäst för text 4?",
+      "answer": "Fler studiebesök",
+      "id": "H4"
+    },
+    {
+      "question": "Vilken veckodag är det träning för äldre personer?",
+      "answer": "Tisdag",
+      "id": "H5"
+    },
+    {
+      "question": "Vem berättar om stadens historia?",
+      "answer": "Maria Jansson",
+      "id": "H6"
+    },
+    {
+      "question": "När är sista anmälningsdatum för studieteknik?",
+      "answer": "30 september",
+      "id": "H7"
+    },
+    {
+      "question": "Var kan man lyssna på musik på fredagar?",
+      "answer": "Kafé Smakriket",
+      "id": "H8"
+    }
+  ],
+  "section": "H",
+  "texts": [
+    {
+      "text": [
+        "Det är viktigt att komma i tid.",
+        "Skolan borde ha vikarier när lärare är borta.",
+        "Elever vill ha längre lunchrast.",
+        "Elever vill åka på studiebesök."
+      ],
+      "name": "Klassråd"
+    },
+    {
+      "text": [
+        "Föreläsning om Österstad av Maria Jansson.",
+        "Gympa för äldre på tisdagar.",
+        "Språkgrupp för föräldralediga.",
+        "Kurs i studieteknik med Hassan Karim.",
+        "Konsert på Kafé Smakriket varje fredag."
+      ],
+      "name": "Folkets hus"
+    }
+  ],
+  "title": "Anteckningar från ett möte + Folkets hus"
+}

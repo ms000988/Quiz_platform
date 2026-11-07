@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "options": [
+        "bra",
+        "dålig",
+        "både bra och dålig"
+      ],
+      "question": "Vad tycker Ingrid om affären?",
+      "answer": 0,
+      "id": "A1"
+    },
+    {
+      "options": [
+        "bra",
+        "dålig",
+        "både bra och dålig"
+      ],
+      "question": "Vad tycker Katinka om affären?",
+      "answer": 2,
+      "id": "A2"
+    },
+    {
+      "options": [
+        "bra",
+        "dålig",
+        "både bra och dålig"
+      ],
+      "question": "Vad tycker Roberto om affären?",
+      "answer": 1,
+      "id": "A3"
+    },
+    {
+      "options": [
+        "bra",
+        "dålig",
+        "både bra och dålig"
+      ],
+      "question": "Vad tycker Jesper om affären?",
+      "answer": 2,
+      "id": "A4"
+    }
+  ],
+  "section": "A",
+  "texts": [
+    {
+      "text": "Det här är första gången jag besöker butiken. Jag såg direkt att de har en stor hylla med speciella varor från olika delar av världen. Det gör att jag gärna kommer tillbaka hit.",
+      "name": "Ingrid"
+    },
+    {
+      "text": "Personalen här är väldigt trevlig, och jag pratar gärna med dem när jag handlar. Men det blir ofta problem när man ska betala med kort. Kortläsaren verkar krångla ganska ofta.",
+      "name": "Katinka"
+    },
+    {
+      "text": "Butiken borde ha fler kassor öppna, särskilt på kvällar och helger. Det blir långa köer då. Jag tycker också att personalen borde börja hälsa på kunderna.",
+      "name": "Roberto"
+    },
+    {
+      "text": "Det finns mycket frukt och grönt att välja på och priserna är okej. Men det är synd att man inte kan köpa nybakat bröd och bullar här. Ett litet bageri i butiken hade varit perfekt.",
+      "name": "Jesper"
+    }
+  ],
+  "title": "Åsikter om en affär"
+}

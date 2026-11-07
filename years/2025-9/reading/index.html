@@ -1,23 +1,94 @@
 <!DOCTYPE html>
-<html lang='sv'>
+<html lang="sv">
 <head>
-    <meta charset='UTF-8'>
-    <title>Läsförståelse – 2025-9</title>
-    <link rel='stylesheet' href='../../../assets/css/style.css'>
+    <meta charset="UTF-8">
+    <title>SFI C – 2025 Läsförståelse</title>
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+    <style>
+        #app {
+            max-width: 900px;
+            margin: 30px auto;
+            padding: 10px;
+        }
+        .section-nav {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .section-btn {
+            display: inline-block;
+            margin: 3px;
+            padding: 6px 12px;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+            background: #f5f5f5;
+            cursor: pointer;
+        }
+        .section-btn.active {
+            background: #007bff;
+            color: #fff;
+        }
+        .text-block {
+            margin-bottom: 15px;
+            padding: 10px;
+            border-radius: 6px;
+            background: #fafafa;
+        }
+        .question-block {
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 6px;
+            border: 1px solid #ddd;
+        }
+        .question-block p {
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        .option {
+            display: block;
+            margin: 3px 0;
+        }
+        .nav-buttons {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .nav-btn {
+            display: inline-block;
+            margin: 5px;
+            padding: 8px 16px;
+            background: #007bff;
+            color: #fff;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+        .nav-btn.back {
+            background: #555;
+        }
+    </style>
 </head>
 <body>
-    <h1>Läsförståelse – 2025-9</h1>
 
-    <div id='progressContainer'><div id='progressBar'></div></div>
+    <h1 style="text-align:center; margin-top:20px;">SFI C – 2025 Läsförståelse</h1>
+    <p style="text-align:center;">Välj en sektion och svara på frågorna.</p>
 
-    <div id='sectionA'></div>
-    <div id='sectionB'></div>
-    <div id='sectionC'></div>
-    <div id='sectionD'></div>
+    <div id="app">
+        <div class="section-nav" id="sectionNav"></div>
+        <div id="sectionContent">
+            <canvas id="chartBirths" width="400" height="200"></canvas>
+            <canvas id="chartWeekdays" width="400" height="200"></canvas>
 
-    <button id='submitBtn'>Rätta provet</button>
-    <div id='result'></div>
+        </div>
+        <button id="submitAllBtn" class="nav-btn" style="margin-top:20px;">✔ Slutför provet</button>
+        <div id="summaryPage"></div>
 
-    <script src='quiz.js'></script>
+    </div>
+
+    <div class="nav-buttons">
+        <a href="../listening/index.html" class="nav-btn">🎧 Hörförståelse</a>
+        <a href="../writing/index.html" class="nav-btn">✍️ Skriva</a>
+        <a href="../index.html" class="nav-btn back">⬅️ Tillbaka</a>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <script src="reading-2025.js"></script>
 </body>
 </html>

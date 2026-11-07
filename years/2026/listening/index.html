@@ -1,28 +1,96 @@
 <!DOCTYPE html>
-<html lang='sv'>
+<html lang="sv">
 <head>
-    <meta charset='UTF-8'>
-    <title>Hörförståelse – 2026-10</title>
-    <link rel='stylesheet' href='../../../assets/css/style.css'>
+    <meta charset="UTF-8">
+    <title>SFI C – Hörförståelse</title>
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../../../assets/css/style.css">
+
+    <style>
+        /* Listening Page Layout */
+        #listeningContainer {
+            max-width: 800px;
+            margin: 30px auto;
+            padding: 10px;
+        }
+
+        .listening-part {
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 8px;
+            background: #fafafa;
+        }
+
+        .audio-limit {
+            color: red;
+            font-weight: bold;
+            margin-top: 5px;
+        }
+
+        .question-block {
+            margin-top: 20px;
+        }
+
+        .question-block p {
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .option-btn {
+            display: block;
+            width: 100%;
+            margin: 5px 0;
+            padding: 10px;
+            border-radius: 5px;
+            background: #f0f0f0;
+            cursor: pointer;
+            border: 1px solid #ccc;
+            text-align: left;
+        }
+
+        .option-btn:hover {
+            background: #e0e0e0;
+        }
+
+        .nav-buttons {
+            text-align: center;
+            margin-top: 40px;
+        }
+
+        .nav-btn {
+            display: inline-block;
+            margin: 5px;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            border-radius: 6px;
+            text-decoration: none;
+        }
+
+        .nav-btn.back {
+            background: #555;
+        }
+    </style>
 </head>
+
 <body>
-    <h1>Hörförståelse – 2026-10</h1>
 
-    <audio controls src='../assets/audio/audio1.mp3'></audio>
+    <h1 style="text-align:center; margin-top:20px;">🎧 Hörförståelse – SFI C</h1>
+    <p style="text-align:center;">Lyssna på varje del och svara på frågorna.</p>
 
-    <div id='progressContainer'><div id='progressBar'></div></div>
+    <!-- Dynamic Listening Parts -->
+    <div id="listeningContainer"></div>
 
-    <div id='questions'></div>
-
-    <button id='submitBtn'>Rätta provet</button>
-    <div id='result'></div>
+    <!-- Navigation -->
     <div class="nav-buttons">
-    <a href="../reading/index.html" class="nav-btn">📘 Läsförståelse</a>
-    <a href="../writing/index.html" class="nav-btn">✍️ Skriva</a>
-    <a href="../index.html" class="nav-btn back">⬅️ Tillbaka</a>
-</div>
+        <a href="../writing/index.html" class="nav-btn">✍️ Skriva</a>
+        <a href="../index.html" class="nav-btn back">⬅️ Tillbaka</a>
+    </div>
 
+    <!-- Load dynamic listening system -->
+    <script type="module" src="listening.js"></script>
 
-    <script src='quiz.js'></script>
 </body>
 </html>

@@ -360,6 +360,40 @@ input[type="radio"] {
     cursor: help;
 }
 
+.listening-part {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+.audio-limit {
+    color: red;
+    font-weight: bold;
+}
+
+.question-block {
+    margin-top: 15px;
+}
+
+.question-block p {
+    font-weight: bold;
+}
+
+.option-btn {
+    display: block;
+    margin: 5px 0;
+    padding: 8px;
+    border-radius: 5px;
+    background: #f0f0f0;
+    cursor: pointer;
+}
+
+.option-btn:hover {
+    background: #e0e0e0;
+}
+
+
 
 
 
