@@ -21,94 +21,40 @@ function isDuplicateSubmission(text) {
 }
 
 // ------------------------------
-// SCORING SYSTEM (REALISTIC)
+// ERROR HIGHLIGHTING
 // ------------------------------
+function classifyErrorType(match) {
+    const msg = match.message.toLowerCase();
 
-// Grammar (0–30)
-function grammarScore(errors) {
-    return Math.max(0, 30 - errors * 5);
+    if (msg.includes("stavfel") || msg.includes("felstavning")) return "error-spelling";
+    if (msg.includes("komma") || msg.includes("punkt") || msg.includes("mellanslag")) return "error-punctuation";
+
+    return "error-grammar";
 }
 
-// CEFR (0–20)
-function cefrScore(level) {
-    switch (level) {
-        case "A1": return 5;
-        case "A2": return 10;
-        case "B1": return 15;
-        case "B2": return 20;
-        case "C1": return 20;
-        default: return 0; // "Error"
-    }
-}
+function highlightErrors(text, matches) {
+    let highlighted = text;
+    let offsetShift = 0;
 
-// Content coverage (0–30)
-function contentCoverage(text) {
-    const lower = text.toLowerCase();
-    let score = 0;
+    matches.forEach(match => {
+        const start = match.offset + offsetShift;
+        const end = start + match.length;
 
-    if (lower.includes("bra") || lower.includes("dålig") || lower.includes("område")) score += 10;
-    if (lower.includes("vänner") || lower.includes("träffa")) score += 10;
-    if (lower.includes("flytta") || lower.includes("borde")) score += 10;
+        const wrongText = highlighted.substring(start, end);
+        const errorType = classifyErrorType(match);
 
-    return score;
-}
+        const replacementHTML =
+            `<span class="${errorType}" title="${match.message}">${wrongText}</span>`;
 
-// Length (0–10)
-function lengthScore(text) {
-    const words = text.trim().split(/\s+/).length;
-    if (words < 40) return 0;
-    if (words < 80) return 5;
-    return 10;
-}
+        highlighted =
+            highlighted.substring(0, start) +
+            replacementHTML +
+            highlighted.substring(end);
 
-// Vocabulary richness (0–5)
-function vocabularyScore(text) {
-    const words = text.toLowerCase().replace(/[.,!?;:()]/g, "").split(/\s+/).filter(w => w.length > 2);
-    const total = words.length;
-    if (total === 0) return 0;
-
-    const unique = new Set(words).size;
-    const ttr = unique / total;
-
-    if (ttr < 0.35) return 1;
-    if (ttr < 0.50) return 3;
-    if (ttr < 0.65) return 4;
-    return 5;
-}
-
-// Sentence complexity (0–5)
-function sentenceComplexityScore(text) {
-    const sentences = text.split(/[.!?]/).filter(s => s.trim().length > 0);
-    if (sentences.length === 0) return 0;
-
-    const words = text.split(/\s+/);
-    const avgLength = words.length / sentences.length;
-
-    let score = 0;
-
-    if (avgLength < 8) score += 1;
-    else if (avgLength < 12) score += 2;
-    else if (avgLength < 18) score += 3;
-    else score += 4;
-
-    const subs = ["att", "som", "när", "eftersom", "medan", "om"];
-    let subCount = 0;
-    subs.forEach(s => {
-        subCount += (text.toLowerCase().match(new RegExp(`\\b${s}\\b`, "g")) || []).length;
+        offsetShift += replacementHTML.length - wrongText.length;
     });
-    score += Math.min(subCount, 1);
 
-    return Math.min(score, 5);
-}
-
-// FINAL SCORE (only for full texts)
-function finalScore(errors, cefr, text) {
-    return grammarScore(errors)
-        + cefrScore(cefr)
-        + contentCoverage(text)
-        + lengthScore(text)
-        + vocabularyScore(text)
-        + sentenceComplexityScore(text);
+    return highlighted.replace(/\n/g, "<br>");
 }
 
 // ------------------------------
@@ -169,11 +115,18 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
     // RULE: NO SCORE FOR SHORT TEXTS
     // ------------------------------
     if (words < 40) {
+        const highlighted = highlightErrors(text, data.matches);
+
         document.getElementById("result").innerHTML = `
             <h3>⚠️ Texten är för kort</h3>
             <p>Skriv minst <strong>40 ord</strong> för att få ett resultat.</p>
+
+            <h3>📄 Din text med markeringar</h3>
+            <div class="highlighted-text">${highlighted}</div>
+
             <h3>📝 Grammatik</h3>
             ${generateReadableFeedback(data.matches)}
+
             <button id="editBtn" class="secondary-btn">✏️ Redigera och skicka igen</button>
         `;
         document.getElementById("editBtn").addEventListener("click", () => {
@@ -186,30 +139,19 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
     // ------------------------------
     // RULE: NO SCORE IF CEFR FAILS
     // ------------------------------
-    if (cefrData.cefr === "Error") {
+    if (cefrData.cefr !== "A1" && cefrData.cefr !== "A2" && cefrData.cefr !== "B1" && cefrData.cefr !== "B2" && cefrData.cefr !== "C1") {
+        const highlighted = highlightErrors(text, data.matches);
+
         document.getElementById("result").innerHTML = `
             <h3>⚠️ CEFR-nivå kunde inte bestämmas</h3>
             <p>Skriv en längre och mer sammanhängande text.</p>
-            <h3>📝 Grammatik</h3>
-            ${generateReadableFeedback(data.matches)}
-            <button id="editBtn" class="secondary-btn">✏️ Redigera och skicka igen</button>
-        `;
-        document.getElementById("editBtn").addEventListener("click", () => {
-            btn.disabled = false;
-            btn.innerText = "Skicka in";
-        });
-        return;
-    }
 
-    // ------------------------------
-    // RULE: NO SCORE IF CONTENT MISSING
-    // ------------------------------
-    if (contentCoverage(text) < 10) {
-        document.getElementById("result").innerHTML = `
-            <h3>⚠️ Du har inte svarat på uppgiften</h3>
-            <p>Beskriv området, vänner och om din vän ska flytta.</p>
+            <h3>📄 Din text med markeringar</h3>
+            <div class="highlighted-text">${highlighted}</div>
+
             <h3>📝 Grammatik</h3>
             ${generateReadableFeedback(data.matches)}
+
             <button id="editBtn" class="secondary-btn">✏️ Redigera och skicka igen</button>
         `;
         document.getElementById("editBtn").addEventListener("click", () => {
@@ -222,17 +164,19 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
     // ------------------------------
     // FULL SCORING (valid text)
     // ------------------------------
-    const score = finalScore(data.matches.length, cefrData.cefr, text);
+    const highlighted = highlightErrors(text, data.matches);
 
-    let html = `
+    document.getElementById("result").innerHTML = `
         <h3>📚 CEFR-nivå: ${cefrData.cefr}</h3>
-        <h3>💯 Poäng: ${score}/100</h3>
+
+        <h3>📄 Din text med markeringar</h3>
+        <div class="highlighted-text">${highlighted}</div>
+
         <h3>📝 Grammatik</h3>
         ${generateReadableFeedback(data.matches)}
+
         <button id="editBtn" class="secondary-btn">✏️ Redigera och skicka igen</button>
     `;
-
-    document.getElementById("result").innerHTML = html;
 
     document.getElementById("editBtn").addEventListener("click", () => {
         btn.disabled = false;
@@ -245,7 +189,6 @@ document.getElementById("submitBtn").addEventListener("click", async () => {
     history.push({
         date: new Date().toLocaleString("sv-SE"),
         text: text,
-        score: score,
         cefr: cefrData.cefr
     });
 

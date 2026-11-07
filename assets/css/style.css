@@ -321,6 +321,46 @@ input[type="radio"] {
 .nav-btn.back:hover {
     background: #222;
 }
+.error-highlight {
+    background-color: #ffcccc;
+
+    border-bottom: 2px solid red;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+/* Grammar error (red) */
+.error-grammar {
+    background-color: #ffcccc;
+    border-bottom: 2px solid #ff0000;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+/* Spelling error (yellow) */
+.error-spelling {
+    background-color: #fff3cd;
+    border-bottom: 2px solid #ffcc00;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+/* Punctuation error (blue) */
+.error-punctuation {
+    background-color: #cce5ff;
+    border-bottom: 2px solid #007bff;
+    padding: 2px;
+    border-radius: 3px;
+}
+
+/* Hover tooltip */
+.error-grammar:hover,
+.error-spelling:hover,
+.error-punctuation:hover {
+    cursor: help;
+}
+
+
 
 
 /* ============================

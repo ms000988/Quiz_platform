@@ -33,8 +33,34 @@ app.post("/correct", async (req, res) => {
 });
 
 app.post("/cefr", async (req, res) => {
-    const text = req.body.text;
+    const text = req.body.text.trim();
+    const words = text.split(/\s+/).length;
 
+    // 1. Too short
+    if (words < 40) {
+        return res.json({ cefr: "TooShort" });
+    }
+
+    // 2. Repeated lines (meaningless)
+    const lines = text.split("\n").map(l => l.trim());
+    const uniqueLines = new Set(lines);
+    if (uniqueLines.size <= 2 && lines.length > 3) {
+        return res.json({ cefr: "Meaningless" });
+    }
+
+    // 3. No verbs → not a real text
+    const hasVerb = /(är|har|ska|kan|vill|tycker|bor|finns|kommer|går)/i.test(text);
+    if (!hasVerb) {
+        return res.json({ cefr: "NoVerbs" });
+    }
+
+    // 4. Not enough sentences
+    const sentenceCount = text.split(/[.!?]/).filter(s => s.trim().length > 0).length;
+    if (sentenceCount < 2) {
+        return res.json({ cefr: "TooFewSentences" });
+    }
+
+    // 5. CEFR model
     try {
         const response = await fetch(
             "https://api-inference.huggingface.co/models/cointegrated/roberta-base-cefr-classification",
@@ -42,7 +68,7 @@ app.post("/cefr", async (req, res) => {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
-                    "Authorization": "Bearer hf_xxxxxxxxxxxxxxxxx" // optional if you have a free key
+                    "Authorization": "Bearer hf_xxxxxxxxxxxxx"
                 },
                 body: JSON.stringify({ text })
             }
@@ -51,17 +77,17 @@ app.post("/cefr", async (req, res) => {
         const result = await response.json();
 
         if (!Array.isArray(result)) {
-            return res.json({ cefr: "Unknown" });
+            return res.json({ cefr: "Error" });
         }
 
-        // Pick the highest scoring CEFR label
         const best = result.sort((a, b) => b.score - a.score)[0];
-
         res.json({ cefr: best.label });
+
     } catch (err) {
         res.json({ cefr: "Error" });
     }
 });
+
 
 
 // Root route
