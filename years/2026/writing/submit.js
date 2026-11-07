@@ -1,18 +1,29 @@
-document.getElementById("submitBtn").addEventListener("click", () => {
+document.getElementById("submitBtn").addEventListener("click", async () => {
     const text = document.getElementById("writingInput").value.trim();
 
-    if (text.length < 20) {
-        document.getElementById("result").innerHTML =
-            "<p class='wrong'>Du måste skriva lite mer.</p>";
-        return;
+    const response = await fetch("https://quiz-platform-aohd.onrender.com/", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ text })
+    });
+
+    const data = await response.json();
+
+    let html = "<h3>Förslag på förbättringar:</h3>";
+
+    if (data.matches.length === 0) {
+        html += "<p class='correct'>Inga fel hittades! Bra jobbat.</p>";
+    } else {
+        data.matches.forEach(match => {
+            html += `
+                <div class="lt-suggestion">
+                    <p><strong>Problem:</strong> ${match.message}</p>
+                    ${match.replacements.length > 0 ? `<p><strong>Förslag:</strong> ${match.replacements[0].value}</p>` : ""}
+                    <p><strong>Text:</strong> ${match.context.text}</p>
+                </div>
+            `;
+        });
     }
 
-    // Save writing answer locally
-    localStorage.setItem("writing_2026-10", JSON.stringify({
-        answer: text,
-        date: new Date().toLocaleString()
-    }));
-
-    document.getElementById("result").innerHTML =
-        "<p class='correct'>Ditt svar har sparats! Du kan nu gå vidare.</p>";
+    document.getElementById("result").innerHTML = html;
 });
