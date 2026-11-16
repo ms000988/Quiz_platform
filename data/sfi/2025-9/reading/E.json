@@ -1,0 +1,27 @@
+{
+  "questions": [
+    {
+      "question": "När blev du intresserad av bilar?",
+      "answer": "2",
+      "id": "E1"
+    },
+    {
+      "question": "Vilka bilar gillar du?",
+      "answer": "4",
+      "id": "E2"
+    },
+    {
+      "question": "Vad är det roligaste med att reparera bilar?",
+      "answer": "5",
+      "id": "E3"
+    },
+    {
+      "question": "Brukar du köra dina bilar också?",
+      "answer": "1",
+      "id": "E4"
+    }
+  ],
+  "section": "E",
+  "text": "Elin berättar att hennes intresse för bilar började när hon var barn. Hon gillar äldre bilmodeller och tycker att det roligaste är att se en bil få nytt liv. Hon kör sina bilar ibland.",
+  "title": "Intervju med Elin"
+}

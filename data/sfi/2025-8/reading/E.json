@@ -1,0 +1,61 @@
+{
+  "section": "E",
+  "icon": "🚗",
+  "title": "Några personer berättar om sina jobb",
+  "instructions": "Läs vad personerna säger och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Elsa (Frisör)",
+      "body": "Jag är frisör och för några år sedan öppnade jag en egen salong. Jag har bara två anställda och vi har många kunder så det kan vara lite stressigt. Men min salong har god ekonomi så jag har en ordentlig inkomst varje månad och det känns skönt!"
+    },
+    {
+      "heading": "Sven (Bovärd)",
+      "body": "Jag är bovärd på ett hyresbolag och tar emot anmälningar om fel och löser problem i våra bostäder. Det kan till exempel vara ett trasigt kylskåp eller ett lås som ska bytas. Jag gillar att det är så olika saker att göra varje dag, så det är aldrig tråkigt på jobbet."
+    },
+    {
+      "heading": "Alexandra (Möbelaffär)",
+      "body": "Jag jobbar i en möbelaffär och hjälper kunder att hitta möbler till sina bostäder. Jag skulle vilja tjäna mer, men pengar är inte allt. Det är viktigare att man trivs med dem man jobbar med. Och det gör jag verkligen. Vi har alltid så trevligt i personalrummet."
+    },
+    {
+      "heading": "Bartek / Yumi / Massoud",
+      "body": "Yumi: Jag talar flera språk. Förra året blev jag kontaktad av en kvinna som ville anställa mig som tolk på sitt företag och jag tackade ja. Det är så roligt att få jobba med språk varje dag och hjälpa kunder med översättningar.\nMassoud: Jag studerar till tandläkare och har ett extra arbete. Jag kör taxi. Det passar mig för jag kan välja själv när och hur mycket jag ska arbeta. Perfekt, för då kan jag kombinera utbildningen med arbetet."
+    }
+  ],
+  "questions": [
+    {
+      "id": "E_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad tycker Elsa är bra med jobbet?",
+      "options": ["lönen", "arbetstiderna", "kollegorna"],
+      "answer": "lönen"
+    },
+    {
+      "id": "E_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad tycker Sven är bra med jobbet?",
+      "options": ["arbetstiderna", "arbetsuppgifterna", "lokalerna"],
+      "answer": "arbetsuppgifterna"
+    },
+    {
+      "id": "E_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad tycker Alexandra är bra med jobbet?",
+      "options": ["lönen", "kollegorna", "lokalerna"],
+      "answer": "kollegorna"
+    },
+    {
+      "id": "E_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad tycker Yumi är bra med jobbet?",
+      "options": ["lokalerna", "arbetstiderna", "arbetsuppgifterna"],
+      "answer": "arbetsuppgifterna"
+    },
+    {
+      "id": "E_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad tycker Massoud är bra med jobbet?",
+      "options": ["lönen", "arbetstiderna", "arbetsuppgifterna"],
+      "answer": "arbetstiderna"
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "section": "C",
+  "icon": "🎸",
+  "title": "Musiken i Tinas liv",
+  "instructions": "Läs texten om Tina och bandet Glöd och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Musiken i Tinas liv och bandet Glöd",
+      "body": "Musik har alltid varit viktigt för Tina. Sedan ett år tillbaka sjunger hon i bandet Glöd på sin fritid.\nTina berättar att det var mycket musik i hemmet när hon var barn. De sjöng ofta tillsammans och båda hennes föräldrar spelade flera instrument. När Tina fyllde fem år fick hon en gitarr, men hon lärde sig aldrig att spela på den då. Det var först när Tina och hennes klasskompisar fick en väldigt duktig musiklärare, som hon lyckades lära sig spela.\n- Jag är så tacksam för all musik i mitt liv. Den ger mig så mycket glädje, säger Tina.\nEfter gymnasiet arbetade Tina på olika restauranger och på fritiden gick hon ofta på konserter och lyssnade på musik. Hon spelade och sjöng inte så mycket själv då, men efter ett tag började hon längta efter det. En kväll efter arbetet satt hon hemma med sin mobil. Då läste hon om några som ville starta ett band. Hon skrev till dem och två veckor senare startade de ett band tillsammans, bandet Glöd.\n- Tänk att det gick så lätt. Sociala medier är fantastiskt, säger Tina.\nTina och bandet hyr ett rum i källaren i ett hyreshus. Där träffas de efter jobbet och spelar på kvällarna. De bestämmer tillsammans vilka sånger som de ska spela. Kvällarna med bandet blir ofta långa men Tina berättar att hon ändå är pigg och glad när hon går därifrån.\n- Jag har så mycket mer energi än förut. Det är det som jag gillar mest med att vara med i bandet, säger Tina.\nFör en månad sedan hade bandet sin första spelning för publik. Lokalen var full med vänner och familj den kvällen. De hade också bjudit alla som bor i hyreshuset. Tina berättar att kvällen började dåligt men slutade bra.\n- När vi hade spelat två låtar blev det svart i hela rummet och musiken tystnade. Men som tur var ordnade det sig snabbt med elen och vi kunde fortsätta spela. Så kvällen blev lyckad ändå, berättar hon.\nTina och bandet har stora planer för framtiden. De letar efter en pianist och någon som kan spela saxofon. Om man är fler när man spelar blir det ju roligare både för oss och för publiken, avslutar Tina."
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q1",
+      "type": "mcq",
+      "prompt": "A. Hur lärde sig Tina att spela gitarr?",
+      "options": ["genom föräldrarna", "genom kompisar", "genom en lärare"],
+      "answer": "genom en lärare"
+    },
+    {
+      "id": "C_Q2",
+      "type": "mcq",
+      "prompt": "B. Hur fick Tina kontakt med de andra personerna i bandet?",
+      "options": ["på sitt jobb", "på en fest", "på internet"],
+      "answer": "på internet"
+    },
+    {
+      "id": "C_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad är det bästa med att vara med i bandet, säger Tina?",
+      "options": ["att hon orkar mer nu", "att hon sjunger bättre nu", "att hon är mindre rädd nu"],
+      "answer": "att hon orkar mer nu"
+    },
+    {
+      "id": "C_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad var problemet när de spelade för publik första gången?",
+      "options": ["Grannarna blev arga.", "Ljudet och ljuset försvann.", "Nästan ingen kom och lyssnade."],
+      "answer": "Ljudet och ljuset försvann."
+    },
+    {
+      "id": "C_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad berättar Tina att bandet vill göra i framtiden?",
+      "options": ["skriva egen musik", "hitta nya medlemmar", "spela i andra städer"],
+      "answer": "hitta nya medlemmar"
+    },
+    {
+      "id": "C_Q6",
+      "type": "mcq",
+      "prompt": "F. Vad handlar texten mest om?",
+      "options": ["att umgås med familjen", "att gå en bra utbildning", "att ha ett roligt intresse"],
+      "answer": "att ha ett roligt intresse"
+    }
+  ]
+}

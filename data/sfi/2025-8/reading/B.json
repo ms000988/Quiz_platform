@@ -1,0 +1,54 @@
+{
+  "section": "B",
+  "icon": "📔",
+  "title": "En dagbok",
+  "instructions": "Leo har semester. Han skriver i en dagbok om sin första semestervecka. Välj det ord som passar bäst i texten.",
+  "texts": [
+    {
+      "heading": "måndag 2 juli",
+      "body": "Idag började min semester. Min granne Amir ringde och frågade om jag ville se en film på tv tillsammans hos honom. Jag tackade ja. Filmen var inte så bra, men det var kul att [träffa] Amir i alla fall."
+    },
+    {
+      "heading": "tisdag 3 juli",
+      "body": "Vilken tråkig dag! Jag hade tänkt att ha picknick med mina vänner, men jag ändrade mig när jag tittade ut genom fönstret och såg att det blåste och regnade. Det är inget bra sommarväder i år! Jag är så [besviken]!"
+    },
+    {
+      "heading": "onsdag 4 juli",
+      "body": "Idag kom mamma och pappa på besök. Jag gjorde en fisksoppa. Det var första gången jag lagade den så jag var lite nervös, men mamma tyckte att den smakade bra. Hon ville till och med [ta] mer."
+    },
+    {
+      "heading": "torsdag 5 juli",
+      "body": "Imorgon flyger jag till Paris. Mitt flyg går redan klockan fem på morgonen och det går inga bussar till flygplatsen så tidigt. Så min kompis Jakob har sagt att han kan [köra] mig dit."
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilket ord passar bäst i måndagens text?",
+      "options": ["hitta", "träffa", "visa"],
+      "answer": "träffa"
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilket ord passar bäst i tisdagens text?",
+      "options": ["besviken", "nöjd", "lugn"],
+      "answer": "besviken"
+    },
+    {
+      "id": "B_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilket ord passar bäst i onsdagens text?",
+      "options": ["ta", "handla", "ge"],
+      "answer": "ta"
+    },
+    {
+      "id": "B_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilket ord passar bäst i torsdagens text?",
+      "options": ["anmäla", "flytta", "köra"],
+      "answer": "köra"
+    }
+  ]
+}

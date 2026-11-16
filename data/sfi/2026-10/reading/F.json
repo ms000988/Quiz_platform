@@ -1,0 +1,54 @@
+{
+  "section": "F",
+  "icon": "🏢",
+  "title": "Bostadsområdet Kungsgården",
+  "instructions": "Läs texterna om bostadsområdet Kungsgården och välj den rubrik (1–6) som bäst sammanfattar vad varje text handlar om.\n\nRubriker:\n1. Aktiviteter för alla boende\n2. Internet i våra hus\n3. Kontakt och service\n4. Lokal som alla kan hyra\n5. Lediga lägenheter\n6. Sopor och återvinning",
+  "texts": [
+    {
+      "heading": "Text A",
+      "body": "Du kan få hjälp av våra fastighetsskötare kl. 8–16 alla vardagar. Vill du göra en felanmälan eller fråga om något kan du ringa eller enkelt göra det på Mina sidor på www.kungsgarden.infosidan.com."
+    },
+    {
+      "heading": "Text B",
+      "body": "Det är viktigt att alla hjälps åt att hålla rent och snyggt i området. Bredvid stora parkeringen finns en miljöstation där du slänger skräp och sorterar avfall från hushållet i olika behållare."
+    },
+    {
+      "heading": "Text C",
+      "body": "Det finns ett gårdshus med ett stort rum som boende i området kan använda för större privata fester. Bokning och betalning görs på webbsidan. Tänk på att visa hänsyn och städa efter dig."
+    },
+    {
+      "heading": "Text D",
+      "body": "För dig som vill umgås med dina grannar ordnas det träffar med fika och spel under hösten och vintern. På sommaren ordnar vi grillkvällar med lekar för både vuxna och barn. Läs mer om vad som händer i området just nu, på anslag i trappuppgångar och på vår webbsida."
+    }
+  ],
+  "questions": [
+    {
+      "id": "F_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilken rubrik passar till Text A?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "3"
+    },
+    {
+      "id": "F_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilken rubrik passar till Text B?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "6"
+    },
+    {
+      "id": "F_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilken rubrik passar till Text C?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "4"
+    },
+    {
+      "id": "F_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilken rubrik passar till Text D?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "1"
+    }
+  ]
+}

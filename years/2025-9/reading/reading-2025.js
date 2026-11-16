@@ -81,41 +81,50 @@ function renderSection(data) {
         });
     }
 
-    // QUESTIONS
-    if (data.questions) {
-        data.questions.forEach(q => {
-            const qb = document.createElement("div");
-            qb.className = "question-block";
+// QUESTIONS
+if (data.questions) {
+    data.questions.forEach(q => {
+        const qb = document.createElement("div");
+        qb.className = "question-block";
 
-            const qp = document.createElement("p");
-            qp.textContent = q.id + ": " + q.question;
-            qb.appendChild(qp);
+        const qp = document.createElement("div");
+        qp.className = "question-title";
+        qp.textContent = `${q.id}: ${q.question}`;
+        qb.appendChild(qp);
 
-            if (q.options) {
-                q.options.forEach((opt, idx) => {
-                    const label = document.createElement("label");
-                    label.className = "option";
+        // Multiple choice
+        if (q.options) {
+            q.options.forEach((opt, idx) => {
+                const label = document.createElement("label");
+                label.className = "option";
 
-                    const input = document.createElement("input");
-                    input.type = "radio";
-                    input.name = q.id;
-                    input.value = idx;
-
-                    label.appendChild(input);
-                    label.appendChild(document.createTextNode(" " + opt));
-                    qb.appendChild(label);
-                });
-            } else {
                 const input = document.createElement("input");
-                input.type = "text";
+                input.type = "radio";
                 input.name = q.id;
-                input.style.width = "100%";
-                qb.appendChild(input);
-            }
+                input.value = idx;
 
-            appContent.appendChild(qb);
-        });
-    }
+                const span = document.createElement("span");
+                span.textContent = opt;
+
+                label.appendChild(input);
+                label.appendChild(span);
+                qb.appendChild(label);
+            });
+        }
+
+        // Textbox answer
+        else {
+            const input = document.createElement("input");
+            input.type = "text";
+            input.name = q.id;
+            input.className = "text-answer";
+            qb.appendChild(input);
+        }
+
+        appContent.appendChild(qb);
+    });
+}
+
 }
 function renderDiagrams() {
     // Clear old charts if switching sections
@@ -271,6 +280,32 @@ document.getElementById("submitAllBtn").addEventListener("click", async () => {
     window.scrollTo({ top: document.body.scrollHeight, behavior: "smooth" });
 });
 
+document.getElementById("prevSection").onclick = () => {
+    goToSection(currentSectionIndex - 1);
+};
+
+document.getElementById("nextSection").onclick = () => {
+    goToSection(currentSectionIndex + 1);
+};
+
+let touchStartX = 0;
+
+document.addEventListener("touchstart", e => {
+    touchStartX = e.changedTouches[0].screenX;
+});
+
+document.addEventListener("touchend", e => {
+    let touchEndX = e.changedTouches[0].screenX;
+    let diff = touchStartX - touchEndX;
+
+    if (Math.abs(diff) < 50) return;
+
+    if (diff > 0) {
+        goToSection(currentSectionIndex + 1); // swipe left → next
+    } else {
+        goToSection(currentSectionIndex - 1); // swipe right → previous
+    }
+});
 
 // init
 createNav();

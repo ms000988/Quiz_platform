@@ -1,0 +1,65 @@
+{
+  "section": "D",
+  "icon": "☀️",
+  "title": "Annonser om sommarjobb",
+  "instructions": "Läs annonserna om sommarjobb och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Jobba utomhus i sommar (Parkjobb)",
+      "body": "Gillar du att arbeta i utemiljö? Då har Ranstad kommun jobbet för dig! Du klipper gräs och planterar blommor i parkerna i stan. Du arbetar dagtid i 5 veckor, med start 17 juni. Observera att det är tidiga morgnar, med start 06:30. Skicka din ansökan senast 15 april. Bengt Strand ger mer information, 072-305411"
+    },
+    {
+      "heading": "Modebutiken Stil",
+      "body": "Bli sommarens bästa säljare! Modebutiken Stil söker dig som är positiv och gillar att arbeta i grupp. Dina uppgifter är att hjälpa våra kunder och ta fram varor i affären. Arbetsperioden börjar 15 juni och håller på i 6 veckor, kl. 10-18 mån-fre. Skicka din ansökan senast 30 april. Vill du veta mer, ring Sofia Bergström, 073-951223"
+    },
+    {
+      "heading": "Pizzeria Italiano (Diskare)",
+      "body": "Diskare - jobb hela sommaren! Kom och var en del av vårt roliga gäng på pizzeria Italiano! Du har ansvar för att matsalen är fin och att tallrikar, glas och bestick är rena efter dagens lunch och middag. Du arbetar både dagtid och kvällstid i 8 veckor, med start 13 juni. Skicka din ansökan senast 10 april. Hör av dig till Erik Olsson för mer information, 070-196641"
+    },
+    {
+      "heading": "Äldreboendet Solgården",
+      "body": "Sommarjobba på äldreboende. Kom till oss på äldreboendet Solgården! Du är omtänksam och ger ett bra stöd, till exempel när de boende ska äta, vill prata eller vill gå en kort promenad. Vårdutbildning är ett krav. Du arbetar dagtid i 9 veckor, med start 10 juni. Därefter kan du arbeta kvällstid under resten av året. Skicka din ansökan senast 1 april. Intresserad? Ring Mehmet Brown, 079-141794"
+    },
+    {
+      "heading": "Rent och fint (Städjobb)",
+      "body": "Sommarjobba hos oss på Rent och fint. Vi är ett företag som växer. Nu letar vi efter nya medarbetare. Vi städar hemma hos privatpersoner och hos företag och även på sjukhus och förskolor. Din arbetsperiod börjar 1 juli och du arbetar i 5 veckor. Skicka din ansökan senast 25 april. Ring Maj Roos för mer information, 076-176981"
+    }
+  ],
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "short",
+      "prompt": "A. Hur många veckor är butiksjobbet?",
+      "answer": "6 veckor",
+      "acceptedAnswers": ["6 veckor", "6", "sex veckor"]
+    },
+    {
+      "id": "D_Q2",
+      "type": "short",
+      "prompt": "B. Vilket datum börjar vårdjobbet?",
+      "answer": "10 juni",
+      "acceptedAnswers": ["10 juni", "10/6", "den 10 juni"]
+    },
+    {
+      "id": "D_Q3",
+      "type": "short",
+      "prompt": "C. Vem ska man kontakta om man har frågor om restaurangjobbet?",
+      "answer": "Erik Olsson",
+      "acceptedAnswers": ["Erik Olsson", "erik olsson"]
+    },
+    {
+      "id": "D_Q4",
+      "type": "short",
+      "prompt": "D. När är sista datumet att söka städjobbet?",
+      "answer": "25 april",
+      "acceptedAnswers": ["25 april", "25/4", "den 25 april"]
+    },
+    {
+      "id": "D_Q5",
+      "type": "short",
+      "prompt": "E. Vilken tid börjar arbetsdagen på parkjobbet?",
+      "answer": "06.30",
+      "acceptedAnswers": ["06.30", "kl 06.30", "klockan 06.30", "6.30"]
+    }
+  ]
+}

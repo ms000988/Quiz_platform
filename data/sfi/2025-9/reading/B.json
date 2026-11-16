@@ -1,0 +1,78 @@
+{
+  "questions": [
+    {
+      "options": [
+        "klar",
+        "frisk",
+        "ledig"
+      ],
+      "question": "Vilket ord passar bäst i texten? (A)",
+      "answer": 1,
+      "id": "B1"
+    },
+    {
+      "options": [
+        "hittade",
+        "sparade",
+        "kastade"
+      ],
+      "question": "Vilket ord passar bäst i texten? (B)",
+      "answer": 0,
+      "id": "B2"
+    },
+    {
+      "options": [
+        "lugn",
+        "sjuk",
+        "ensam"
+      ],
+      "question": "Vilket ord passar bäst i texten? (C)",
+      "answer": 0,
+      "id": "B3"
+    },
+    {
+      "options": [
+        "måste",
+        "kunde",
+        "behövde"
+      ],
+      "question": "Vilket ord passar bäst i texten? (D)",
+      "answer": 1,
+      "id": "B4"
+    },
+    {
+      "options": [
+        "hjälpa",
+        "gratulera",
+        "träffa"
+      ],
+      "question": "Vilket ord passar bäst i texten? (E)",
+      "answer": 2,
+      "id": "B5"
+    }
+  ],
+  "section": "B",
+  "texts": [
+    {
+      "text": "Jag skulle egentligen vara ledig i dag, men min kollega Lena blev förkyld, så jag fick ta hennes arbetspass. Jag hoppas att hon blir frisk snart.",
+      "date": "Tisdag 1 april"
+    },
+    {
+      "text": "Jag jobbade kväll och kom hem sent. Jag var hungrig, men kylskåpet var tomt och alla affärer hade stängt. Till slut hittade jag lite kycklinggryta i frysen.",
+      "date": "Onsdag 2 april"
+    },
+    {
+      "text": "En barnfamilj reste med oss i dag. Ett av barnen var rädd för att flyga, så jag pratade och skojade med henne. Då blev hon lugnare.",
+      "date": "Torsdag 3 april"
+    },
+    {
+      "text": "Min kompis Anastasia ringde och ville springa i parken. Men jag hade en läkartid, så jag kunde inte träna i dag.",
+      "date": "Fredag 4 april"
+    },
+    {
+      "text": "I dag fyller jag år! Jag har bjudit mina föräldrar och några kusiner. Det är alltid roligt att träffa släkten.",
+      "date": "Lördag 5 april"
+    }
+  ],
+  "title": "En dagbok"
+}

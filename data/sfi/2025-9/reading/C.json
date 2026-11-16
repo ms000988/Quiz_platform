@@ -1,0 +1,48 @@
+{
+  "questions": [
+    {
+      "question": "Vem vill träffa sina syskon mer?",
+      "answer": "Kifle",
+      "id": "C1"
+    },
+    {
+      "question": "Vem får mycket hjälp av sina syskon?",
+      "answer": "Ella",
+      "id": "C2"
+    },
+    {
+      "question": "Vem bråkar med sina syskon?",
+      "answer": "Martin",
+      "id": "C3"
+    },
+    {
+      "question": "Vem trivs bra med att inte ha några syskon?",
+      "answer": "Rakel",
+      "id": "C4"
+    }
+  ],
+  "section": "C",
+  "texts": [
+    {
+      "text": "Mina bröder är mycket äldre än jag. De ger mig bra råd och hjälper mig med praktiska saker. Ibland önskar jag att jag hade en syster också.",
+      "name": "Ella"
+    },
+    {
+      "text": "Jag har två äldre systrar. Förr hade vi en bra relation, men nu kritiserar de allt jag gör. Ibland skriker vi åt varandra.",
+      "name": "Martin"
+    },
+    {
+      "text": "Jag bor med min mamma och storebror. Det fungerar bra, men jag vill prova att bo själv när jag slutar gymnasiet.",
+      "name": "Dante"
+    },
+    {
+      "text": "Jag bor i Skåne, men mina syskon bor i andra delar av landet. Jag saknar dem och hoppas att vi kan ses oftare.",
+      "name": "Kifle"
+    },
+    {
+      "text": "Jag är enda barnet. Mina vänner tycker synd om mig, men jag trivs med att vara ensam.",
+      "name": "Rakel"
+    }
+  ],
+  "title": "Syskonrelationer"
+}

@@ -1,0 +1,54 @@
+{
+  "section": "E",
+  "icon": "📚",
+  "title": "Några personer berättar om sina kurser",
+  "instructions": "Några personer går olika kurser på en folkhögskola. Läs vad de säger och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Alex",
+      "body": "- Jag har lärt mig massor och haft roligt på den här kursen. Men jag trodde att vi skulle få lära oss mer om hur man jobbar med bild och text på datorn. Och tyvärr har vi inte fått göra det."
+    },
+    {
+      "heading": "Jim",
+      "body": "- Det måste vara svårt att vara lärare när man har många elever, men vår lärare klarar verkligen det. Jag är väldigt imponerad! Jag kommer att rekommendera kursen till alla som funderar på att gå den."
+    },
+    {
+      "heading": "Maya",
+      "body": "- Läraren på kursen är toppen. Hon förklarar tydligt så att alla kan förstå. Men många av lektionerna är på distans och det passar inte mig. Jag vill ha mer tid i klassrummet, för jag lär mig mer när jag är tillsammans med läraren och de andra eleverna."
+    },
+    {
+      "heading": "Lisa",
+      "body": "- Uppgifterna på kursen är för enkla för mig. Jag kunde nästan allt redan innan jag började. Helt fel kurs för mig."
+    }
+  ],
+  "questions": [
+    {
+      "id": "E_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad tycker Alex om kursen?",
+      "options": ["bra.", "dålig.", "både bra och dålig."],
+      "answer": "både bra och dålig."
+    },
+    {
+      "id": "E_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad tycker Jim om kursen?",
+      "options": ["bra.", "dålig.", "både bra och dålig."],
+      "answer": "bra."
+    },
+    {
+      "id": "E_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad tycker Maya om kursen?",
+      "options": ["bra.", "dålig.", "både bra och dålig."],
+      "answer": "både bra och dålig."
+    },
+    {
+      "id": "E_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad tycker Lisa om kursen?",
+      "options": ["bra.", "dålig.", "både bra och dålig."],
+      "answer": "dålig."
+    }
+  ]
+}

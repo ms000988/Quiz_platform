@@ -1,0 +1,19 @@
+{
+  "examId": "2024-6",
+  "talks": [
+    {
+      "part": 1,
+      "title": "Tala - Del 1: Situation och beskrivning",
+      "prompt": "Beskriv en situation där du behövde lösa ett problem. Vad hände och hur gjorde du?",
+      "preparationTimeSeconds": 60,
+      "speakingTimeSeconds": 120
+    },
+    {
+      "part": 2,
+      "title": "Tala - Del 2: Åsikter och diskussion",
+      "prompt": "Vilka för- och nackdelar finns det med att arbeta eller studera på distans? Motivera dina åsikter.",
+      "preparationTimeSeconds": 60,
+      "speakingTimeSeconds": 120
+    }
+  ]
+}

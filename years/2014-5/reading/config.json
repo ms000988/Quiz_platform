@@ -1,0 +1,7 @@
+{
+  "year": "2014-5",
+  "module": "reading",
+  "title": "SFI Läsförståelse 2014-5",
+  "passThreshold": 0.6,
+  "sections": ["A.json", "B.json", "C.json", "D.json", "E.json", "F.json", "G.json", "H.json"]
+}

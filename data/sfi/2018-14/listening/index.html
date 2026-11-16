@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SFI Hörförståelse – 2018-14</title>
+  <link rel="stylesheet" href="../../../../assets/css/style.css" />
+</head>
+<body>
+  <div id="listening-app"></div>
+
+  <script type="module">
+    import { ListeningRenderer } from '../../../../assets/core/listening-renderer.js';
+
+    const app = new ListeningRenderer({
+      dataPath: './listening.json',
+      rootElement: document.getElementById('listening-app'),
+      examId: '2018-14'
+    });
+    app.init();
+  </script>
+</body>
+</html>

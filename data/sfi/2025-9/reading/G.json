@@ -1,0 +1,64 @@
+{
+  "questions": [
+    {
+      "options": [
+        "ge bort något",
+        "klaga på något",
+        "be om ursäkt"
+      ],
+      "question": "Vad vill Hamid?",
+      "answer": 1,
+      "id": "G1"
+    },
+    {
+      "options": [
+        "ge tips",
+        "sälja något",
+        "be om hjälp"
+      ],
+      "question": "Vad vill Rebecka?",
+      "answer": 0,
+      "id": "G2"
+    },
+    {
+      "options": [
+        "be om ursäkt",
+        "ge tips",
+        "tacka för något"
+      ],
+      "question": "Vad vill Parvin?",
+      "answer": 2,
+      "id": "G3"
+    },
+    {
+      "options": [
+        "låna något",
+        "tacka för något",
+        "klaga på något"
+      ],
+      "question": "Vad vill Edvin?",
+      "answer": 0,
+      "id": "G4"
+    }
+  ],
+  "section": "G",
+  "texts": [
+    {
+      "text": "Sopstationen är alltid full. Kommunen måste tömma oftare.",
+      "name": "Hamid"
+    },
+    {
+      "text": "Biblioteket har extra öppet på helgerna med aktiviteter för barn.",
+      "name": "Rebecka"
+    },
+    {
+      "text": "Tack till grannarna som hjälpte mig att hitta min katt.",
+      "name": "Parvin"
+    },
+    {
+      "text": "Har någon utemöbler att låna ut till min fest?",
+      "name": "Edvin"
+    }
+  ],
+  "title": "Meddelanden på sociala medier"
+}

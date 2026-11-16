@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SFI Tala – 2013-4</title>
+  <link rel="stylesheet" href="../../../assets/css/style.css" />
+</head>
+<body>
+  <div id="speaking-app"></div>
+
+  <script type="module">
+    import { SpeakingClient } from '../../../assets/core/speaking-client.js';
+
+    const app = new SpeakingClient({
+      dataPath: './speaking.json',
+      rootElement: document.getElementById('speaking-app'),
+      examId: '2013-4'
+    });
+    app.init();
+  </script>
+</body>
+</html>

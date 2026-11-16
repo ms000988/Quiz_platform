@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SFI Läsförståelse – 2022-1</title>
+  <link rel="stylesheet" href="../../../../assets/css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div id="reading-app"></div>
+
+  <script type="module">
+    import { ReadingRenderer } from '../../../../assets/core/reading-renderer.js';
+
+    const app = new ReadingRenderer({
+      configPath: './config.json',
+      rootElement: document.getElementById('reading-app'),
+      examId: '2022-1'
+    });
+    app.init();
+  </script>
+</body>
+</html>

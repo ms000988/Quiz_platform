@@ -1,0 +1,19 @@
+{
+  "examId": "2013-4",
+  "parts": [
+    {
+      "id": 1,
+      "title": "Del 1",
+      "audio": "audio1.mp3",
+      "maxPlays": 2,
+      "questions": []
+    },
+    {
+      "id": 2,
+      "title": "Del 2",
+      "audio": "audio2.mp3",
+      "maxPlays": 2,
+      "questions": []
+    }
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "section": "C",
+  "icon": "👨‍👩‍👧‍👦",
+  "title": "Åsikter om ett bostadsområde",
+  "instructions": "I en grupp på internet skriver några grannar om vad de vill ska bli bättre i området där de bor. Svara på frågorna genom att skriva personens namn.",
+  "texts": [
+    {
+      "heading": "Daniel",
+      "body": "Bostäderna på Granvägen är jättefina. Men nu har de byggt två nya hus och det är många som har flyttat in. Det börjar bli trångt på gatan och ibland vet jag inte var jag ska ställa min bil. Det är dags att bygga ett garage i närheten!"
+    },
+    {
+      "heading": "Maja",
+      "body": "Jag älskar att sitta ute i solen, men det är inte kul att se allt skräp på gräsmattan och på gården. Det skulle vara bra om hyresbolaget kunde tömma alla papperskorgar oftare och anställa personal som håller rent på marken i området."
+    },
+    {
+      "heading": "Elias",
+      "body": "Jag har bil men tycker att det är härligt att cykla till och från jobbet. Tidigare brukade jag alltid låsa min cykel utanför huset. Tyvärr har det blivit osäkert att lämna den där. Två gånger har någon tagit min cykel på natten. Hyresbolaget borde sätta upp en kamera!"
+    },
+    {
+      "heading": "Hanna",
+      "body": "Det är så grått och tråkigt här mellan husen. Jag tycker att hyresbolaget ska ställa dit några lådor med jord som vi alla kan plantera i. Det skulle vara trevligt med lite mer grönt. Luften blir friskare då också. Det är ju så mycket trafik här omkring."
+    },
+    {
+      "heading": "Nasir",
+      "body": "På vintern är det så mörkt ute när jag kommer hem från jobbet. Då måste man verkligen akta sig för bilarna så att man inte blir påkörd. Och en gång trampade jag i hundbajs precis framför dörren. Mer belysning på gatorna, tack! Så att man ser var man ska gå."
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q1",
+      "type": "short",
+      "prompt": "A. Vem vill odla växter?",
+      "answer": "Hanna",
+      "acceptedAnswers": ["Hanna", "hanna"]
+    },
+    {
+      "id": "C_Q2",
+      "type": "short",
+      "prompt": "B. Vem vill ha fler parkeringsplatser / ett garage?",
+      "answer": "Daniel",
+      "acceptedAnswers": ["Daniel", "daniel"]
+    },
+    {
+      "id": "C_Q3",
+      "type": "short",
+      "prompt": "C. Vem vill ha fler lampor (belysning)?",
+      "answer": "Nasir",
+      "acceptedAnswers": ["Nasir", "nasir"]
+    },
+    {
+      "id": "C_Q4",
+      "type": "short",
+      "prompt": "D. Vem vill ha bättre städning?",
+      "answer": "Maja",
+      "acceptedAnswers": ["Maja", "maja"]
+    }
+  ]
+}

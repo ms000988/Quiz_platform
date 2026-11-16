@@ -1,0 +1,28 @@
+{
+  "section": "H",
+  "icon": "📊",
+  "title": "Ett diagram",
+  "instructions": "Studera diagrammet om besökare på olika platser i Västerhamns kommun och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Diagraminformation",
+      "body": "Diagrammet visar antal besökare på fyra platser (Sporthall, Badhus, Museum, Bibliotek) under åren 2022, 2023 och 2024 i Västerhamns kommun."
+    }
+  ],
+  "questions": [
+    {
+      "id": "H_Q1",
+      "type": "short",
+      "prompt": "A. Hur många besökte badhuset år 2024?",
+      "answer": "6000",
+      "acceptedAnswers": ["6000", "6 000"]
+    },
+    {
+      "id": "H_Q2",
+      "type": "short",
+      "prompt": "B. Vilken plats hade samma antal besökare år 2022 och 2024?",
+      "answer": "Bibliotek",
+      "acceptedAnswers": ["Bibliotek", "bibliotek"]
+    }
+  ]
+}

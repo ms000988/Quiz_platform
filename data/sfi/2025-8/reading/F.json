@@ -1,0 +1,49 @@
+{
+  "section": "F",
+  "icon": "🍦",
+  "title": "Ett oväntat möte",
+  "instructions": "Läs tidningsartikeln om Irina Larssen och Nelly Reganski och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Ett oväntat möte",
+      "body": "Irina Larssen och Nelly Reganski är bästa vänner. Deras vänskap började på ett lite ovanligt sätt.\nIrma berättar att det var en vinterkväll i december. Hon var på väg till Stockholm och hade fått ett erbjudande om ett jobb på ett sjukhus där. Hon ville fira det med sina föräldrar. Därför var hon på väg från Stockholm till Hälledal, en liten ort i norra Sverige, där de bor.\n- Jag var glad men jättetrött efter en intensiv dag. Dessutom var jag lite nervös för jag hade hört på radio att det kunde bli snökaos och problem med trafiken, berättar Irma.\nHon somnade på bussen och när hon vaknade mitt i natten hade den stannat på slutstationen. De hade åkt förbi Hälledal, där hon skulle stiga av.\n- Där stod jag helt ensam i minus 15 graders kyla och visste inte hur jag skulle komma till Hälledal, säger Irma.\nMen då stannade en bil på vägen framför henne. En helt okänd tjej, Nelly, öppnade dörren. Hon frågade om Irma behövde skjuts. Sedan körde hon Irma hela vägen till Hälledal. Det var så de träffades och blev vänner. Nelly berättade att hon också bodde i Stockholm, men att hon skulle gå på ett bröllop i närheten av Hälledal dagen efter.\nIrma och Nelly började umgås när de kom tillbaka till Stockholm. De brukar ses flera gånger i veckan. Nelly undervisar i sång och dans på ett gymnasium som ligger alldeles bredvid sjukhuset där Irma arbetar. Så ibland ses de och äter lunch på en pizzeria runt hörnet. Men oftast möts de på gymmet eller springer en runda efter jobbet.\n- Vi båda är ganska aktiva personer och älskar att röra på oss, berättar Irma.\nJust nu längtar de till semestern. Nelly fyller 25 år i juli och Irma har redan köpt en födelsedagspresent – tågbiljetter till Tyskland. De har planerat att resa tillsammans då.\n- Det ska bli jättekul att göra det ihop med Nelly, för jag har aldrig haft en så bra vän som hon. Jag är väldigt tacksam för den där bussresan som gjorde att vi möttes. Det var verkligen tur i oturen, avslutar Irma."
+    }
+  ],
+  "questions": [
+    {
+      "id": "F_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad skulle Irma göra i Hälledal?",
+      "options": ["träffa familjen", "arbeta", "studera"],
+      "answer": "träffa familjen"
+    },
+    {
+      "id": "F_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad hände på resan till Hälledal?",
+      "options": ["Irma blev sjuk.", "Irma tog fel buss.", "Irma missade sin hållplats."],
+      "answer": "Irma missade sin hållplats."
+    },
+    {
+      "id": "F_Q3",
+      "type": "mcq",
+      "prompt": "C. Hur blev Irma och Nelly vänner?",
+      "options": ["Nelly hjälpte Irma.", "Nelly och Irma träffades på en fest.", "Nelly och Irma åkte samma buss."],
+      "answer": "Nelly hjälpte Irma."
+    },
+    {
+      "id": "F_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad brukar Irma och Nelly göra tillsammans?",
+      "options": ["laga mat", "träna", "lyssna på musik"],
+      "answer": "träna"
+    },
+    {
+      "id": "F_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad ska de göra i sommar?",
+      "options": ["ha en stor fest", "åka utomlands", "flytta till en annan stad"],
+      "answer": "åka utomlands"
+    }
+  ]
+}

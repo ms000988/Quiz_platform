@@ -1,0 +1,42 @@
+{
+  "section": "B",
+  "icon": "🚗",
+  "title": "Intervju med Carlos",
+  "instructions": "Läs frågorna och intervjun med Carlos som reparerar bilar. Välj det svar som passar bäst till varje fråga (1–5).",
+  "texts": [
+    {
+      "heading": "Svarsalternativ",
+      "body": "1. Inte så ofta, men det händer ibland. Nu i somras tog jag faktiskt en tur till Göteborg tillsammans med några vänner. Och bilen fungerade hela vägen!\n2. Det började när jag var barn. Min pappa hade flera bilar som han höll på med i sitt garage. Jag tittade ofta på när han mekade med bilarna. Efter ett tag började jag hjälpa honom.\n3. Det är inte alltid så lätt att hitta reservdelar till gamla bilar. En gång letade jag i flera månader på internet för att hitta de delar som jag behövde.\n4. Det ska vara äldre modeller, tycker jag. Just nu har jag en sportbil från 70-talet, som jag fixar med på helgerna. Det finns bara två av den modellen i hela Sverige.\n5. - Att få se hur bilen får ett nytt liv. Jag blir så glad när jag lyckas laga en bil som har varit trasig länge. Ibland känner jag mig som en läkare som gör sina patienter friska."
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "A. När blev du intresserad av bilar?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "2"
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilka bilar gillar du?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "id": "B_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad är det roligaste med att reparera bilar?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "B_Q4",
+      "type": "mcq",
+      "prompt": "D. Brukar du köra dina bilar också?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "1"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "minWords": 80,
+  "title": "Svara på ett mejl",
+  "promptHtml": "<div class=\"page-container\">\r\n\r\n        \r\n\r\n        <div class=\"writing-card\">\r\n            <h2>Svara på ett mejl</h2>\r\n\r\n            <p>Du har fått ett mejl från en vän. Läs mejlet och skriv ett svar.</p>\r\n\r\n            <div class=\"email-box\">\r\n                <p>Hej!</p>\r\n                <p>Hoppas allt är bra.</p>\r\n                <p>\r\n                    Jag funderar på att flytta till området där du bor. Jag vill gärna veta hur det är att bo där.\r\n                    Vad är bra och vad är dåligt i ditt område? Hur kan man träffa nya vänner där?\r\n                </p>\r\n                <p>Vad tycker du, ska jag flytta till ditt område eller inte?</p>\r\n                <p>Vi hörs!</p>\r\n            </div>\r\n\r\n            <h3>Du ska berätta:</h3>\r\n            <ul class=\"requirements\">\r\n                <li>vad som är bra och dåligt i området där du bor,</li>\r\n                <li>hur man kan träffa nya vänner i ditt område,</li>\r\n                <li>om du tycker att din vän ska flytta dit eller inte – och varför.</li>\r\n            </ul>",
+  "examId": "2026"
+}

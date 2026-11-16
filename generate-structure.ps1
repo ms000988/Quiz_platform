@@ -166,7 +166,7 @@ updateProgress();
 "@
 
 # Create years folder
-$yearsRoot = Join-Path $root "years"
+$yearsRoot = Join-Path $root "data/sfi"
 if (!(Test-Path $yearsRoot)) {
     New-Item -ItemType Directory -Path $yearsRoot | Out-Null
 }

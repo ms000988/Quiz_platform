@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html lang='sv'>
+<html lang="sv">
 <head>
-    <meta charset='UTF-8'>
-    <title>Läsförståelse – 2026-10</title>
-    <link rel='stylesheet' href='../../../assets/css/style.css'>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SFI Läsförståelse – 2026-10</title>
+  <link rel="stylesheet" href="../../../assets/css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
-    <h1>Läsförståelse – 2026-10</h1>
+  <div id="reading-app"></div>
 
-    <div id='progressContainer'><div id='progressBar'></div></div>
+  <script type="module">
+    import { ReadingRenderer } from '../../../assets/core/reading-renderer.js';
 
-    <div id='sectionA'></div>
-    <div id='sectionB'></div>
-    <div id='sectionC'></div>
-    <div id='sectionD'></div>
-
-    <button id='submitBtn'>Rätta provet</button>
-    <div id='result'></div>
-
-    <script src='quiz.js'></script>
+    const app = new ReadingRenderer({
+      configPath: './config.json',
+      rootElement: document.getElementById('reading-app'),
+      examId: '2026-10'
+    });
+    app.init();
+  </script>
 </body>
 </html>

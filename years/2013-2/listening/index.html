@@ -1,22 +1,23 @@
 <!DOCTYPE html>
-<html lang='sv'>
+<html lang="sv">
 <head>
-    <meta charset='UTF-8'>
-    <title>Hörförståelse – 2013-2</title>
-    <link rel='stylesheet' href='../../../assets/css/style.css'>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SFI Hörförståelse – 2013-2</title>
+  <link rel="stylesheet" href="../../../assets/css/style.css" />
 </head>
 <body>
-    <h1>Hörförståelse – 2013-2</h1>
+  <div id="listening-app"></div>
 
-    <audio controls src='../assets/audio/audio1.mp3'></audio>
+  <script type="module">
+    import { ListeningRenderer } from '../../../assets/core/listening-renderer.js';
 
-    <div id='progressContainer'><div id='progressBar'></div></div>
-
-    <div id='questions'></div>
-
-    <button id='submitBtn'>Rätta provet</button>
-    <div id='result'></div>
-
-    <script src='quiz.js'></script>
+    const app = new ListeningRenderer({
+      dataPath: './listening.json',
+      rootElement: document.getElementById('listening-app'),
+      examId: '2013-2'
+    });
+    app.init();
+  </script>
 </body>
 </html>

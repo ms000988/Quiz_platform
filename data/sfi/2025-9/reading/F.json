@@ -1,0 +1,57 @@
+{
+  "questions": [
+    {
+      "options": [
+        "I skolan",
+        "i sitt hem",
+        "på en resa"
+      ],
+      "question": "Var lärde sig Filip att göra glass?",
+      "answer": 1,
+      "id": "F1"
+    },
+    {
+      "options": [
+        "Han blev sjuk",
+        "Glassen tog slut snabbt",
+        "Det kom nästan inga kunder"
+      ],
+      "question": "Vad hände första dagen på Filips café?",
+      "answer": 2,
+      "id": "F2"
+    },
+    {
+      "options": [
+        "att prova nya smaker",
+        "att bestämma allt själv",
+        "att kunderna gillar glassen"
+      ],
+      "question": "Vad är det bästa med jobbet?",
+      "answer": 2,
+      "id": "F3"
+    },
+    {
+      "options": [
+        "att jobba mycket",
+        "att arbeta ensam",
+        "att sälja mindre på vintern"
+      ],
+      "question": "Vad är svårt med att ha caféet?",
+      "answer": 0,
+      "id": "F4"
+    },
+    {
+      "options": [
+        "ha billigare priser",
+        "starta fler caféer",
+        "sälja glass i mataffärer"
+      ],
+      "question": "Vad vill Filip göra i framtiden?",
+      "answer": 1,
+      "id": "F5"
+    }
+  ],
+  "section": "F",
+  "text": "Filip lärde sig göra glass efter en resa till Italien. Han öppnade ett glasscafé som blev populärt under sommaren. Det bästa med jobbet är att se kunderna njuta av glassen.",
+  "title": "Han gör stadens godaste glass"
+}

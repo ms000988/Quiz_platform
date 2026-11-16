@@ -1,0 +1,54 @@
+{
+  "section": "A",
+  "icon": "📌",
+  "title": "Meddelanden på en anslagstavla",
+  "instructions": "Läs meddelandena på anslagstavlan och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Anton",
+      "body": "Hej!\nJag har precis flyttat hit till Västköping och börjat läsa kursen Engelska nivå 1 på distans. Det känns lite ensamt här i min lägenhet, så jag vill komma i kontakt med andra för att göra roliga saker efter skolan. Mejla gärna mig om du också vill det.\nHälsningar Anton\nanton@univ.nu"
+    },
+    {
+      "heading": "Emir",
+      "body": "Till dig som hittade min dator!\nSå snällt att du lämnade in den på expeditionen. Jag blev så ledsen när datorn var borta, men blev sedan så glad att du hittat den!\nStor kram till dig!\nHälsningar Emir"
+    },
+    {
+      "heading": "Alma",
+      "body": "Hej!\nJag är en student som behöver extra pengar. Just nu läser jag en kurs i handel och ekonomi. Vet du något företag inom service som behöver personal på kvällar och helger? Jag har precis tagit B-körkort.\nHälsningar Alma, 070-196652"
+    },
+    {
+      "heading": "Katrin",
+      "body": "Hallå allihop!\nJag tycker att vårt fina elevkök ska vara en trevlig plats för alla. Men nu ligger det ofta matlådor och annat på borden, som någon lämnat kvar. Snälla, det är väl inte så svårt att plocka undan efter sig?\n/ Katrin"
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad vill Anton?",
+      "options": ["hitta en bostad", "träffa nya vänner", "få hjälp med läxor"],
+      "answer": "träffa nya vänner"
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad vill Emir?",
+      "options": ["hjälpa någon", "be om ursäkt", "tacka för något"],
+      "answer": "tacka för något"
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad vill Alma?",
+      "options": ["köpa en bil", "hitta ett jobb", "få hjälp med läxor"],
+      "answer": "hitta ett jobb"
+    },
+    {
+      "id": "A_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad vill Katrin?",
+      "options": ["klaga på något", "be om ursäkt", "tacka för något"],
+      "answer": "klaga på något"
+    }
+  ]
+}

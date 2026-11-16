@@ -1,0 +1,16 @@
+{
+  "questions": [
+    {
+      "question": "Vilket år föddes fler än 400 barn?",
+      "answer": "2021",
+      "id": "D1"
+    },
+    {
+      "question": "Vilken veckodag föddes flest barn år 2023?",
+      "answer": "tisdag",
+      "id": "D2"
+    }
+  ],
+  "section": "D",
+  "title": "Två diagram"
+}

@@ -1,54 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="sv">
 <head>
-    <meta charset="UTF-8">
-    <title>SFI C – 2026</title>
-
-    <!-- Correct CSS path -->
-    <link rel="stylesheet" href="../../../assets/css/style.css">
-
-    <!-- Chart.js (stable version) -->
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SFI Läsförståelse – 2026</title>
+  <link rel="stylesheet" href="../../../assets/css/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
-
 <body>
+  <div id="reading-app"></div>
 
-    <h1 style="text-align:center; margin-top:20px;">SFI C – 2026</h1>
-    <p style="text-align:center;">All sections are displayed below:</p>
+  <script type="module">
+    import { ReadingRenderer } from '../../../assets/core/reading-renderer.js';
 
-    <!-- Progress Bar -->
-    <div id="progressContainer">
-        <div id="progressBar"></div>
-    </div>
-
-    <!-- Section Containers -->
-    <div id="sectionA"></div>
-    <div id="sectionB"></div>
-    <div id="sectionC"></div>
-    <div id="sectionD"></div>
-    <div id="sectionE"></div>
-    <div id="sectionF"></div>
-    <div id="sectionG"></div>
-    <div id="sectionH"></div>
-
-    <!-- Submit Button -->
-    <button id="submitBtn">Submit all answers</button>
-
-    <!-- Result Box -->
-    <div id="result"></div>
-<div class="nav-buttons">
-    <a href="../listening/index.html" class="nav-btn">🎧 Hörförståelse</a>
-    <a href="../writing/index.html" class="nav-btn">✍️ Skriva</a>
-    <a href="../index.html" class="nav-btn back">⬅️ Tillbaka</a>
-</div>
-
-
-
-    <!-- Load sections FIRST -->
-    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
-    <script src="load-sections.js"></script>
-    <script src="quiz.js"></script>
-
-    <!-- Load quiz.js LAST (fixes your error) -->
+    const app = new ReadingRenderer({
+      configPath: './config.json',
+      rootElement: document.getElementById('reading-app'),
+      examId: '2026'
+    });
+    app.init();
+  </script>
 </body>
 </html>

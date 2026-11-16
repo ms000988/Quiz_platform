@@ -1,0 +1,42 @@
+{
+  "section": "A",
+  "icon": "🛒",
+  "title": "En intervju",
+  "instructions": "Läs frågorna och intervjun med Emil som arbetar i en mataffär. Välj det svar som passar bäst till varje fråga (1–5).",
+  "texts": [
+    {
+      "heading": "Emil arbetar i en mataffär",
+      "body": "Svarsalternativ:\n1. Det är bra om man har mycket tålamod och är snabb. Det hjälper också om man är social och så måste man vara trevlig mot kunderna såklart.\n2. - Jag tänker fortsätta jobba inom försäljning. Det skulle vara kul att få mer ansvar och leda en grupp eller att prova på andra yrken inom service.\n3. - På dagarna arbetar jag i kassan i en matbutik. Jag har jobbat här i snart fem år och jag trivs jättebra. När jag är ledig brukar jag umgås med min familj och vänner.\n4. Ibland, när vi har för lite personal. Då blir det långa köer till kassan och en del kunder blir arga och otrevliga mot mig. Man hinner inte heller ta rast. Det är jobbigt, men det händer inte så ofta.\n5. - Jag hade praktik här när jag gick på gymnasiet. Och efter studenten ringde chefen och frågade om jag ville komma tillbaka. Jag tackade ja för det är en bra arbetsplats."
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. Hur fick du ditt jobb?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilka egenskaper är viktiga i ditt arbete?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "1"
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. När kan det vara stressigt i ditt arbete?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "id": "A_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad vill du göra i framtiden?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "2"
+    }
+  ]
+}
