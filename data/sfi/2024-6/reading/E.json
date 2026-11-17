@@ -1,8 +1,43 @@
 {
   "section": "E",
-  "icon": "🚗",
-  "title": "Sektion E",
-  "instructions": "Läs intervjun och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "💬",
+  "title": "Vi som bor i Blombacka",
+  "instructions": "Läs vad personerna skriver i gruppen Vi som bor i Blombacka och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Birgitta",
+      "body": "Till parkeringsvakten som jobbar i Blombacka centrum!\nJag är väldigt ledsen för att jag sa otrevliga saker till dig när jag fick böter. Det var mitt fel och du gjorde bara ditt jobb. Jag lovar att jag ska försöka parkera rätt i framtiden!"
+    },
+    {
+      "heading": "Hamid",
+      "body": "Hej! Är det någon som är intresserad av att plocka lite äpplen? Jag har en stor trädgård full med äppelträd men orkar inte ta hand om allt. Ni kan komma och hämta så mycket frukt ni vill. Jag tar inte betalt. Välkommen!"
+    },
+    {
+      "heading": "Ulrika",
+      "body": "I måndags kom jag till min arbetsplats och upptäckte att jag hade glömt min väska med datorn någonstans på vägen. Då ringde de från caféet i centrum. Någon hade hittat min väska och lämnat in den där. Vilken tur att det finns så ärliga människor. Så snällt av dig som tog hand om den!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "E_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad vill Birgitta göra?",
+      "options": ["be om ursäkt", "klaga på en bot", "tacka för hjälpen"],
+      "answer": "be om ursäkt"
+    },
+    {
+      "id": "E_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad erbjuder Hamid?",
+      "options": ["gratis frukt", "hjälp i trädgården", "billiga äpplen"],
+      "answer": "gratis frukt"
+    },
+    {
+      "id": "E_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad vill Ulrika göra?",
+      "options": ["tacka någon", "efterlysa sin dator", "varnade för tjuvar"],
+      "answer": "tacka någon"
+    }
+  ]
 }

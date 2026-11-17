@@ -1,8 +1,49 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "💖",
+  "title": "Kärleken började med en annons",
+  "instructions": "Läs artikeln om Eva och Leif Eriksson som träffades genom en kontaktannons och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Kärleken började med en annons",
+      "body": "Eva och Leif Eriksson träffades genom en annons i en tidning. Nu har de varit tillsammans i 60 år och det ska de fira.\nIdag är det många som träffar sin partner på nätet, men när Eva och Leif var unga fanns inte internet. I stället brukade man sätta in en annons i tidningen om man ville träffa någon. Det kallas för kontaktannons.\nNär Eva var 18 år brukade hon läsa kontaktannonser i sin mammas veckotidningar. Hon var egentligen inte intresserad av att få nya kontakter men hon tyckte att det var kul. Ibland skrev hon svar, fast bara på skoj. Men en dag läste Eva en annons som Leif Eriksson hade skickat in till tidningen. Hon gillade annonsen och bestämde sig för att svara på riktigt.\n- Jag blev nyfiken på Leif direkt. Han var inte som de killar jag hade pratat med tidigare. Han skrev så fint om sina tankar och känslor, säger Eva. Jag blev kär i honom genom hans brev.\nEva och Leif bodde i olika delar av Sverige så det dröjde länge innan de träffades för första gången. Leif skickade ett fint foto på sig själv efter en månad men det tog ett halvår innan han kom och hälsade på mig. Då promenerade vi på en vacker väg vid havet i flera timmar, berättar Eva.\nRedan vid första träffen förstod Eva och Leif att de ville leva tillsammans och tre månader senare gifte de sig. Evas föräldrar bjöd in till ett stort bröllop för släkt och vänner.\nNu har de varit gifta i sextio år och de har haft ett bra liv tillsammans. De har rest mycket, både med och utan sina tre barn.\n- Vi har alltid gillat att resa, hela familjen, både här i Sverige och till andra länder, sa Eva.\nBröllopsdagen ska de förstås fira men med familjen och inte med något stort kalas. Den dagen ska de åka tillbaka till Evas hemstad, bara de två.\n- Leif och jag ska ta en promenad på samma väg som för sextio år sedan. Det var ju en bra väg, säger Eva med ett leende."
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "A. Varför läste Eva kontaktannonser?",
+      "options": ["för att det var roligt", "för att få vänner", "för att hitta en man"],
+      "answer": "för att det var roligt"
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. Varför blev Eva kär i Leif?",
+      "options": ["Leif skojade mycket.", "Leif var snygg.", "Leifs brev var intressanta."],
+      "answer": "Leifs brev var intressanta."
+    },
+    {
+      "id": "B_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilken mening stämmer med texten om Eva och Leif?",
+      "options": ["Eva och Leif bodde långt ifrån varandra.", "Evas föräldrar kände Leif.", "Eva och Leif gifte sig på en resa."],
+      "answer": "Eva och Leif bodde långt ifrån varandra."
+    },
+    {
+      "id": "B_Q4",
+      "type": "mcq",
+      "prompt": "D. Hur ska Eva och Leif fira att de har varit gifta i 60 år?",
+      "options": ["äta middag med barnen.", "besöka platsen där de träffades.", "göra en resa utomlands."],
+      "answer": "besöka platsen där de träffades."
+    },
+    {
+      "id": "B_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad handlar texten mest om?",
+      "options": ["en stor fest", "en rolig semester", "en lång relation"],
+      "answer": "en lång relation"
+    }
+  ]
 }

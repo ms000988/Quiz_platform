@@ -1,8 +1,49 @@
 {
   "section": "G",
-  "icon": "📱",
-  "title": "Sektion G",
-  "instructions": "Läs inläggen och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "✉️",
+  "title": "Ett mejl: Västerköping",
+  "instructions": "Läs Julians mejl till Farida och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Till: Farida | Ämne: Västerköping",
+      "body": "Hej Farida!\n\nJag tänkte berätta lite om resan med klassen till Västerköping. Vad synd att du inte kunde följa med! Resan var rolig även om vi hade lite problem när vi skulle ta tåget dit. Det var slutsålt så vi fick inte plats. Vi fick ta bussen i stället, så resan tog ganska lång tid. Vi borde ha planerat resan lite tidigare.\n\nVästerköping var jättemysigt. Man har nära till allt man vill göra och se, men staden är ändå inte för liten. Man kan cykla eller gå till affärer, till bad och vatten, och alla aktiviteter. Jag skulle gärna flytta dit, men då måste jag hitta en bostad först.\n\nEfter en lång promenad i stan blev vi hungriga och gick till en restaurang. När jag skulle betala funkade inte mitt bankkort. Så typiskt! Men som tur var hade jag kontanter. Och vet du vad, där i kassan jobbade en gammal kompis till mig. Kul!\n\nPå eftermiddagen skulle vi äta glass i en park. Men solen försvann och det var kallt, så vi gick till ett museum istället. Det var intressant men vi kunde vara där bara en kort stund. Sedan var vi tvungna att springa till stationen. Så trist att vi inte hann titta på allt!\n\nImorgon är det inga lektioner och jag är ledig från jobbet också, så jag skulle vilja hälsa på dig. Funkar det?\n\n/ Julian"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G_Q1",
+      "type": "mcq",
+      "prompt": "A. Varför åkte de buss?",
+      "options": ["Tåget var fullbokat.", "Tåget var försenat.", "Tågbiljetten var för dyr."],
+      "answer": "Tåget var fullbokat."
+    },
+    {
+      "id": "G_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad tyckte Julian bäst om med Västerköping?",
+      "options": ["Det är vackra hus där.", "Det är fin natur där.", "Det är lagom stort där."],
+      "answer": "Det är lagom stort där."
+    },
+    {
+      "id": "G_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad hände på restaurangen?",
+      "options": ["Julian glömde sin plånbok.", "Julian träffade en vän.", "Julian fick gratis mat."],
+      "answer": "Julian träffade en vän."
+    },
+    {
+      "id": "G_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad var tråkigt på eftermiddagen, tycker Julian?",
+      "options": ["Det började regna.", "De hade för lite tid.", "De missade tåget."],
+      "answer": "De hade för lite tid."
+    },
+    {
+      "id": "G_Q5",
+      "type": "mcq",
+      "prompt": "E. Ska Julian och Farida träffas imorgon?",
+      "options": ["nej", "ja", "kanske"],
+      "answer": "kanske"
+    }
+  ]
 }

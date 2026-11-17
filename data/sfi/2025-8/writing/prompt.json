@@ -1,5 +1,6 @@
 {
   "examId": "2025-8",
-  "promptText": "Skriv en text om dina framtidsplaner eller en upplevelse. Motivera dina åsikter.",
-  "minWords": 100
+  "title": "Svara på ett mejl",
+  "promptHtml": "<p><strong>Du har fått ett mejl från en vän som har tagit körkort. Läs mejlet och skriv ett svar.</strong></p><div style='background: var(--bg-page); padding: 16px; border-radius: 8px; border: 1px solid var(--border); margin: 12px 0;'><p><strong>Hej!</strong></p><p>Jag har precis tagit körkort och köpt en bil! Nu vill jag göra en bilresa tillsammans med dig, gärna ett par dagar. När kan du åka? 😊</p><p>Skriv och berätta vart du vill åka och vad vi kan göra där.</p><p>Hör av dig!</p><p>Kram</p></div><p style='margin-top: 16px;'><strong>Svara på mejlet. Du ska:</strong></p><ul><li>berätta när du kan åka,</li><li>berätta vart du vill åka och varför,</li><li>berätta vad du och din vän kan göra där.</li></ul><p style='margin-top: 8px; color: var(--text-muted); font-size: 0.9rem;'>Tänk på hur du börjar och avslutar mejlet.</p>",
+  "minWords": 80
 }

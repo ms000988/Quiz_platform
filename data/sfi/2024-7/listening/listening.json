@@ -3,17 +3,175 @@
   "parts": [
     {
       "id": 1,
-      "title": "Del 1",
-      "audio": "audio1.mp3",
+      "title": "Uppgift 1: Ett samtal (Stefan och Jessika)",
+      "audio": "Höra.m4a",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L1_A",
+          "prompt": "A. Vart är Jessika på väg?",
+          "options": ["till en läkare", "till ett apotek", "till sina föräldrar"],
+          "answer": "till ett apotek"
+        },
+        {
+          "id": "L1_B",
+          "prompt": "B. När ska Jessika börja jobba igen?",
+          "options": ["i höst", "i vinter", "i vår"],
+          "answer": "i vår"
+        },
+        {
+          "id": "L1_C",
+          "prompt": "C. Vad ska Stefan göra ikväll?",
+          "options": ["gå på fest", "gå till gymmet", "gå och handla"],
+          "answer": "gå på fest"
+        },
+        {
+          "id": "L1_D",
+          "prompt": "D. Ska Jessika och Stefan ses på söndag?",
+          "options": ["ja", "nej", "kanske"],
+          "answer": "nej"
+        }
+      ]
     },
     {
       "id": 2,
-      "title": "Del 2",
+      "title": "Uppgift 2: Några personer berättar",
       "audio": "audio2.mp3",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L2_A",
+          "prompt": "A. Hur fick Anja sitt jobb? Genom ...",
+          "options": ["en vän", "en annons", "sociala medier", "en utbildning"],
+          "answer": "en vän"
+        },
+        {
+          "id": "L2_B",
+          "prompt": "B. Hur fick Leo sitt jobb? Genom ...",
+          "options": ["en vän", "en annons", "sociala medier", "en utbildning"],
+          "answer": "en utbildning"
+        },
+        {
+          "id": "L2_C",
+          "prompt": "C. Hur fick Nora sitt jobb? Genom ...",
+          "options": ["en vän", "en annons", "sociala medier", "en utbildning"],
+          "answer": "en annons"
+        },
+        {
+          "id": "L2_D",
+          "prompt": "D. Hur fick Niklas sitt jobb? Genom ...",
+          "options": ["en vän", "en annons", "sociala medier", "en utbildning"],
+          "answer": "en utbildning"
+        },
+        {
+          "id": "L2_E",
+          "prompt": "E. Hur fick Vera sitt jobb? Genom ...",
+          "options": ["en vän", "en annons", "sociala medier", "en utbildning"],
+          "answer": "sociala medier"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Uppgift 3: Nyheter från Solvik",
+      "audio": "audio3.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L3_A",
+          "prompt": "A. Vad säger nyheten om sjukhuset? Sjukhuset ...",
+          "options": ["ska stänga.", "måste flytta.", "behöver mer personal."],
+          "answer": "ska stänga."
+        },
+        {
+          "id": "L3_B",
+          "prompt": "B. Vad ska kommunen göra i centrum?",
+          "options": ["förbjuda trafik", "plantera blommor", "städa bättre"],
+          "answer": "städa bättre"
+        },
+        {
+          "id": "L3_C",
+          "prompt": "C. Varför är skolan stängd?",
+          "options": ["Lärarna ska ha ett möte på skolan.", "Någon har tagit skolans datorer.", "Skolan har problem med el och internet."],
+          "answer": "Någon har tagit skolans datorer."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Uppgift 4: Telefonsamtal",
+      "audio": "audio4.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L4_A",
+          "prompt": "A. Tobias ringer till en granne. Vad vill Tobias?",
+          "options": ["be om hjälp", "lämna ett paket", "bjuda på middag"],
+          "answer": "lämna ett paket"
+        },
+        {
+          "id": "L4_B",
+          "prompt": "B. Nadja ringer till en trafikskola. Vad vill Nadja?",
+          "options": ["anmäla sig till en kurs", "tacka nej till en kurs", "veta vad en kurs kostar"],
+          "answer": "tacka nej till en kurs"
+        },
+        {
+          "id": "L4_C",
+          "prompt": "C. Gudrun ringer till en butik på internet. Vad vill Gudrun?",
+          "options": ["fråga om en betalning", "veta när ett paket kommer", "lämna tillbaka en vara"],
+          "answer": "lämna tillbaka en vara"
+        },
+        {
+          "id": "L4_D",
+          "prompt": "D. Patricia ringer till en second hand-affär. Vad vill Patricia?",
+          "options": ["lämna in kläder", "beställa hem kläder", "fråga om affärens öppettider"],
+          "answer": "lämna in kläder"
+        },
+        {
+          "id": "L4_E",
+          "prompt": "E. Axel ringer till ett tågbolag. Vad vill Axel?",
+          "options": ["köpa en biljett", "få pengar tillbaka", "avboka en resa"],
+          "answer": "få pengar tillbaka"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Uppgift 5: Fredrik berättar",
+      "audio": "audio5.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L5_A",
+          "prompt": "A. Var ligger Fredriks hus?",
+          "options": ["nära hans föräldrar", "nära hans jobb", "nära hans vänner"],
+          "answer": "nära hans föräldrar"
+        },
+        {
+          "id": "L5_B",
+          "prompt": "B. Vad tyckte Fredrik var jobbigast när han byggde huset?",
+          "options": ["att det var dåligt väder", "att han hade så lite tid", "att han fick ont i ryggen"],
+          "answer": "att han hade så lite tid"
+        },
+        {
+          "id": "L5_C",
+          "prompt": "C. Vad var roligt med att bygga huset?",
+          "options": ["att han fick många nya grannar", "att hans vänner hjälpte till", "att han lärde sig mycket"],
+          "answer": "att han lärde sig mycket"
+        },
+        {
+          "id": "L5_D",
+          "prompt": "D. Vilket tips ger Fredrik?",
+          "options": ["spara pengar innan", "ta många pauser", "planera noga"],
+          "answer": "planera noga"
+        },
+        {
+          "id": "L5_E",
+          "prompt": "E. Vad ska Fredrik och hans fru göra nästa sommar? De ska ...",
+          "options": ["göra fint i trädgården.", "bygga ett extra rum.", "resa utomlands."],
+          "answer": "resa utomlands."
+        }
+      ]
     }
   ]
 }

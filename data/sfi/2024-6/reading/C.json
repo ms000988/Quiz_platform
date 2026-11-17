@@ -1,8 +1,58 @@
 {
   "section": "C",
-  "icon": "👨‍👩‍👧‍👦",
-  "title": "Sektion C",
-  "instructions": "Läs texterna och matcha rätt person med påståendet.",
-  "texts": [],
-  "questions": []
+  "icon": "❄️",
+  "title": "Intervjuer: Vad gör du för att må bra på vintern?",
+  "instructions": "Läs vad några personer gör för att må bra på vintern. Svara på frågorna genom att skriva personens namn.",
+  "texts": [
+    {
+      "heading": "Stig",
+      "body": "- På vintern blir det ju mörkt ganska tidigt. Så jag försöker njuta av de soltimmar vi får då. Jag har tur, eftersom jag jobbar på en förskola. Vi är ofta med barnen på gården. Och på helgerna tar jag alltid mitt morgonkaffe på balkongen. Då får jag det dagsljus som kroppen behöver."
+    },
+    {
+      "heading": "Vera",
+      "body": "- För ett tag sedan hörde jag på radio att det är extra viktigt att få i sig mycket vitaminer och mineraler på vintern. Det hjälper oss att må bra. Jag tänker på det när jag handlar så att mitt kylskåp är fullt med nyttiga livsmedel. Det funkar verkligen!"
+    },
+    {
+      "heading": "Melvin",
+      "body": "- Jag blir deprimerad när det är mörkt och kallt. Min bästa medicin är att gå och sjunga i kör två gånger i veckan på vintern. Då andas jag djupt och slappnar av, särskilt när det är mina favoritlåtar. Jag kan verkligen rekommendera det."
+    },
+    {
+      "heading": "Rakel",
+      "body": "- Redan innan vintern kommer skriver jag en lång lista med ljudböcker, som jag vill lyssna på. Jag älskar att sitta i min fåtölj med en kopp varmt te och njuta av vackra kärlekshistorier eller höra om spännande resor."
+    },
+    {
+      "heading": "Jim",
+      "body": "- Jag stoppar i mig så mycket godis och chips, och det mår jag inte bra av. Nu har jag hittat ett badhus som har bra vattengympa. Jag går dit flera gånger i veckan under vintern när det inte går att bada i sjön. Det hjälper mig att hålla mig i form."
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q1",
+      "type": "short",
+      "prompt": "A. Vem äter hälsosam mat?",
+      "answer": "Vera",
+      "acceptedAnswers": ["Vera", "vera"]
+    },
+    {
+      "id": "C_Q2",
+      "type": "short",
+      "prompt": "B. Vem brukar träna?",
+      "answer": "Jim",
+      "acceptedAnswers": ["Jim", "jim"]
+    },
+    {
+      "id": "C_Q3",
+      "type": "short",
+      "prompt": "C. Vem tycker att musik är viktigt?",
+      "answer": "Melvin",
+      "acceptedAnswers": ["Melvin", "melvin"]
+    },
+    {
+      "id": "C_Q4",
+      "type": "short",
+      "prompt": "D. Vem brukar vara ute mycket?",
+      "answer": "Stig",
+      "acceptedAnswers": ["Stig", "stig"]
+    }
+  ]
 }

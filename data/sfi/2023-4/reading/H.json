@@ -1,8 +1,42 @@
 {
   "section": "H",
-  "icon": "🏛️",
-  "title": "Sektion H",
-  "instructions": "Läs mötesanteckningarna och informationsbladet.",
-  "texts": [],
-  "questions": []
+  "icon": "💬",
+  "title": "Kvarnstadens komvux diskuterar",
+  "instructions": "Eleverna diskuterar på skolans webbsida hur skolan kan bli bättre. Läs inläggen och svara på vem som föreslår vad.\n\nPersoner: Zoltan, Nancy, Theo, Gabrail, Anna",
+  "texts": [
+    {
+      "heading": "Inlägg på webbsidan",
+      "body": "• Zoltan (16:43): Vår skola är fin och bra. Men jag vill gärna studera hemma en dag i veckan, i stället för att vara i skolan alla fem dagar. Vad skönt att kunna sitta hemma i soffan och läsa en text eller göra uppgifter i lugn och ro.\n\n• Nancy (16:49): Jag är så irriterad på de som skriver på våra bänkar. Det är inte kul att sitta vid ett bord som någon har ritat på. Några är trasiga också, särskilt de i datasalen. Det skulle vara bra om skolan kunde köpa in snyggare bord och byta ut de som är sönder.\n\n• Theo (17:02): Det är lite tråkigt att bara läsa och skriva uppgifter varje dag. Det finns många appar och webbsidor som inte kostar något och som man kan använda på lektionerna. Därför tycker jag att skolan ska köpa in bärbara datorer eller surfplattor till alla elever.\n\n• Gabrail (18:48): Jag saknar en kaffeautomat vid sofforna i korridoren. Kafeterian är så liten och det är alltid lång kö.\n\n• Anna (19:26): Jag läser flera kurser och det kostar mycket att köpa all kurslitteratur. Jag tycker att det ska finnas på skolan så att eleverna kan låna. Skolan kan också fixa en hylla i korridoren så att eleverna kan byta material med varandra."
+    }
+  ],
+  "questions": [
+    {
+      "id": "H_Q1",
+      "type": "short",
+      "prompt": "A. Vem vill ha nya möbler i klassrummen?",
+      "answer": "Nancy",
+      "acceptedAnswers": ["Nancy", "nancy"]
+    },
+    {
+      "id": "H_Q2",
+      "type": "short",
+      "prompt": "B. Vem vill ha gratis böcker (låna kurslitteratur)?",
+      "answer": "Anna",
+      "acceptedAnswers": ["Anna", "anna"]
+    },
+    {
+      "id": "H_Q3",
+      "type": "short",
+      "prompt": "C. Vem vill studera på distans ibland?",
+      "answer": "Zoltan",
+      "acceptedAnswers": ["Zoltan", "zoltan"]
+    },
+    {
+      "id": "H_Q4",
+      "type": "short",
+      "prompt": "D. Vem vill använda mer digitala hjälpmedel i undervisningen?",
+      "answer": "Theo",
+      "acceptedAnswers": ["Theo", "theo"]
+    }
+  ]
 }

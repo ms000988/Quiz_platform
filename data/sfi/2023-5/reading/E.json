@@ -1,8 +1,32 @@
 {
   "section": "E",
-  "icon": "🚗",
-  "title": "Sektion E",
-  "instructions": "Läs intervjun och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "📺",
+  "title": "TV-program",
+  "instructions": "Läs informationen om TV-programmen och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Våga drömma",
+      "body": "Se hela världen från din tv-soffan! I programmet besöker vi spännande platser som många inte vet något om. Vi möter människor som bor där. De hjälper oss att hitta den vackraste naturen och den godaste maten. Följ med!\nKanal Stjärnan, kl. 20:45"
+    },
+    {
+      "heading": "Personlig utveckling",
+      "body": "Har du ingen energi och svårt att somna? Har du svårt att koncentrera dig på jobbet? Vi möter Jaleh Heydari som är expert på hur vi ska andas rätt och slappna av. Hon ger tips på hur vi kan klara av stressiga situationer och känna oss lugna i vardagen.\nKanal 100, kl. 19:15"
+    }
+  ],
+  "questions": [
+    {
+      "id": "E_Q1",
+      "type": "mcq",
+      "prompt": "C. Vad handlar tv-programmet Våga drömma om?",
+      "options": ["Hus och hem", "Resor", "Kropp och hälsa"],
+      "answer": "Resor"
+    },
+    {
+      "id": "E_Q2",
+      "type": "mcq",
+      "prompt": "D. Vad handlar tv-programmet Personlig utveckling om?",
+      "options": ["Politik och samhälle", "Skola och studier", "Kropp och hälsa"],
+      "answer": "Kropp och hälsa"
+    }
+  ]
 }

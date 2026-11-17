@@ -1,8 +1,54 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "💃",
+  "title": "Några personer berättar (Danskurs)",
+  "instructions": "I stan finns det en ny dansskola. Här berättar några personer om de vill gå en danskurs eller inte. Läs vad personerna säger och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Kaiyo",
+      "body": "- Min mamma brukade dansa mycket när hon var ung. Nu tjatar hon på mig att jag ska testa en kurs. Men jag vet faktiskt inte, jag får se hur jag gör."
+    },
+    {
+      "heading": "Samuel",
+      "body": "- Det är ju roligt att dansa med sina vänner när man är på en fest. Men att gå på en kurs och dansa med personer som jag aldrig träffat förut är inget för mig."
+    },
+    {
+      "heading": "Iris",
+      "body": "- Jag älskar att dansa och jag är faktiskt ganska duktig. Men jag har fullt upp med mitt arbete och familj, så en danskurs är inget jag har tid med."
+    },
+    {
+      "heading": "Paul",
+      "body": "- Jag tycker verkligen inte om att dansa. Men jag ska gifta mig i höst och min flickvän vill att vi lär oss lite danser till bröllopsfesten, så jag har lovat att testa. Vi börjar ikväll."
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. Ska Kaiyo gå en danskurs?",
+      "options": ["ja", "nej", "kanske"],
+      "answer": "kanske"
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Ska Samuel gå en danskurs?",
+      "options": ["ja", "nej", "kanske"],
+      "answer": "nej"
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Ska Iris gå en danskurs?",
+      "options": ["ja", "nej", "kanske"],
+      "answer": "nej"
+    },
+    {
+      "id": "A_Q4",
+      "type": "mcq",
+      "prompt": "D. Ska Paul gå en danskurs?",
+      "options": ["ja", "nej", "kanske"],
+      "answer": "ja"
+    }
+  ]
 }

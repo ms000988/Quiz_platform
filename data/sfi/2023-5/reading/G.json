@@ -1,8 +1,42 @@
 {
   "section": "G",
-  "icon": "📱",
-  "title": "Sektion G",
-  "instructions": "Läs inläggen och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "👴",
+  "title": "Intervjuer på stan: Vad vill du göra när du går i pension?",
+  "instructions": "Några personer berättar i en tidning vad de vill göra när de går i pension. Läs frågorna och svara genom att skriva personens namn.\n\nPersoner: Stefan, Bosse, Frank, Milena",
+  "texts": [
+    {
+      "heading": "Intervjuer",
+      "body": "• Stefan: Jag är trött på kalla vintrar och vill resa till varmare länder och uppleva nya kulturer.\n• Bosse: Jag har bott i lägenhet i stan hela livet, men när jag blir pensionär vill jag flytta ut på landet till ett litet hus.\n• Frank: Mina barn och barnbarn bor i en annan stad. När jag slutar jobba vill jag flytta närmare dem så vi kan träffas mycket oftare.\n• Milena: Jag har alltid velat lära mig att måla tavlor. När jag får mer tid ska jag anmäla mig till en konstkurs."
+    }
+  ],
+  "questions": [
+    {
+      "id": "G_Q1",
+      "type": "short",
+      "prompt": "A. Vem vill resa till andra länder?",
+      "answer": "Stefan",
+      "acceptedAnswers": ["Stefan", "stefan"]
+    },
+    {
+      "id": "G_Q2",
+      "type": "short",
+      "prompt": "B. Vem vill flytta?",
+      "answer": "Bosse",
+      "acceptedAnswers": ["Bosse", "bosse"]
+    },
+    {
+      "id": "G_Q3",
+      "type": "short",
+      "prompt": "C. Vem vill träffa sin familj mer?",
+      "answer": "Frank",
+      "acceptedAnswers": ["Frank", "frank"]
+    },
+    {
+      "id": "G_Q4",
+      "type": "short",
+      "prompt": "D. Vem vill lära sig något nytt?",
+      "answer": "Milena",
+      "acceptedAnswers": ["Milena", "milena"]
+    }
+  ]
 }

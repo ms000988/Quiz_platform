@@ -1,9 +1,32 @@
 {
   "section": "D",
-  "icon": "📊",
-  "title": "Sektion D",
-  "instructions": "Studera diagrammen och svara på frågorna.",
-  "texts": [],
-  "charts": [],
-  "questions": []
+  "icon": "📔",
+  "title": "En dagbok (David)",
+  "instructions": "David skriver lite om sitt liv i en dagbok. Läs texterna och välj det ord som passar bäst i varje lucka.",
+  "texts": [
+    {
+      "heading": "onsdag 20 april",
+      "body": "Jag har sökt jobb på en restaurang. Idag ringde chefen och sa att hon vill träffa mig imorgon. Jag har aldrig varit på en jobbintervju förut så jag är ganska nervös. Idag ska jag söka efter information på internet för jag vill [A] vilka frågor jag kan få på intervjun."
+    },
+    {
+      "heading": "torsdag 21 april",
+      "body": "Vilken dag! Nu har jag varit på intervjun och det kändes riktigt bra. Chefen var trevlig och det verkar vara ett roligt arbete. Jag vill gärna ha jobbet. Hoppas att hon [B] mig!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilket ord passar bäst i onsdagens text?",
+      "options": ["visa", "veta", "berätta"],
+      "answer": "veta"
+    },
+    {
+      "id": "D_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilket ord passar bäst i torsdagens text?",
+      "options": ["glömmer", "tackar", "anställer"],
+      "answer": "anställer"
+    }
+  ]
 }

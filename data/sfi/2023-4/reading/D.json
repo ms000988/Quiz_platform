@@ -1,9 +1,42 @@
 {
   "section": "D",
-  "icon": "📊",
-  "title": "Sektion D",
-  "instructions": "Studera diagrammen och svara på frågorna.",
-  "texts": [],
-  "charts": [],
-  "questions": []
+  "icon": "🚒",
+  "title": "Intervju med Ronja Mäkinen",
+  "instructions": "Läs frågorna och intervjun med Ronja Mäkinen som arbetar som brandman. Välj det svar (1–5) som passar bäst till varje fråga.",
+  "texts": [
+    {
+      "heading": "Svarsalternativ",
+      "body": "1. Våra arbetskläder och vår utrustning väger jättemycket. Så det är tungt att springa i trapporna i ett hus som brinner. Det är också jobbigt att möta människor som är ledsna efter en brand. Ofta har de inget hem kvar.\n\n2. En dag när jag var barn började grannens hus att brinna. Då kom två brandbilar och en av brandmännen var en kvinna. Hon var så stark och modig och redan då visste jag att jag ville vara som hon.\n\n3. - Jag är 35 år och kommer från Falun. Just nu bor jag i Mora tillsammans med min pojkvän och jag trivs fantastiskt bra här. Jag har arbetat som brandman i fyra år nu.\n\n4. Efter gymnasiet studerar du på en 2-årig utbildning så att du får en examen i säkerhets- och räddningsarbete. Utbildningen finns i Revinge utanför Lund och på Sandö, norr om Härnösand.\n\n5. - Att mitt jobb alltid känns viktigt och meningsfullt och att jag lär mig nya saker hela tiden. Jag trivs också bra med mina kollegor. Sen är det alltid en fin känsla när vi har räddat någons liv."
+    }
+  ],
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "mcq",
+      "prompt": "A. När bestämde du att du skulle bli brandman?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "2"
+    },
+    {
+      "id": "D_Q2",
+      "type": "mcq",
+      "prompt": "B. Hur blir man brandman?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "id": "D_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad är det bästa med ditt arbete?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "D_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad är svårt i ditt arbete?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "1"
+    }
+  ]
 }

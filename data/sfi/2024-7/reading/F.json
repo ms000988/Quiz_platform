@@ -1,8 +1,65 @@
 {
   "section": "F",
-  "icon": "🍦",
-  "title": "Sektion F",
-  "instructions": "Läs artikeln och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "💻",
+  "title": "Att studera på distans",
+  "instructions": "Några personer berättar vad de tycker om att studera på distans. Läs vad personerna säger och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Nadal",
+      "body": "Jag har ett stressigt liv privat så det är bekvämt för mig att läsa kurser på distans. Då kan jag göra mina uppgifter när jag har lite tid över."
+    },
+    {
+      "heading": "Kajsa",
+      "body": "Förra året testade jag att plugga på distans en termin. Jag trodde att det skulle fungera för mig men jag var faktiskt missnöjd. Jag behöver få träffa klasskompisar och diskutera med dem för att lära mig."
+    },
+    {
+      "heading": "Pablo",
+      "body": "Man sparar mycket tid om man studerar på distans och inte behöver åka till skolan så ofta. Men å andra sidan kan det vara problem att hitta en tid som funkar för alla när man ska ses och göra grupparbeten på kursen."
+    },
+    {
+      "heading": "Vanessa",
+      "body": "När jag var yngre fanns det inga kurser på distans. Och det var ju synd, för nu har jag provat att läsa spanska på distans och jag är riktigt nöjd med kursen."
+    },
+    {
+      "heading": "Gina",
+      "body": "Det jag gillar är att läraren lägger ut videolektioner på nätet. Då kan man titta flera gånger. Samtidigt är det ganska svårt att hitta motivation när man sitter hemma i soffan och studerar utan klasskamrater."
+    }
+  ],
+  "questions": [
+    {
+      "id": "F_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad tycker Nadal om att studera på distans? Det är ...",
+      "options": ["bra.", "dåligt.", "både bra och dåligt."],
+      "answer": "bra."
+    },
+    {
+      "id": "F_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad tycker Kajsa om att studera på distans? Det är ...",
+      "options": ["bra.", "dåligt.", "både bra och dåligt."],
+      "answer": "dåligt."
+    },
+    {
+      "id": "F_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad tycker Pablo om att studera på distans? Det är ...",
+      "options": ["bra.", "dåligt.", "både bra och dåligt."],
+      "answer": "både bra och dåligt."
+    },
+    {
+      "id": "F_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad tycker Vanessa om att studera på distans? Det är ...",
+      "options": ["bra.", "dåligt.", "både bra och dåligt."],
+      "answer": "bra."
+    },
+    {
+      "id": "F_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad tycker Gina om att studera på distans? Det är ...",
+      "options": ["bra.", "dåligt.", "både bra och dåligt."],
+      "answer": "både bra och dåligt."
+    }
+  ]
 }

@@ -1,8 +1,58 @@
 {
   "section": "E",
-  "icon": "🚗",
-  "title": "Sektion E",
-  "instructions": "Läs intervjun och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "💼",
+  "title": "Vad tycker du är viktigt för att trivas på jobbet?",
+  "instructions": "Några personer berättar om vad de tycker är viktigt för att man ska trivas på arbetet. Välj rätt alternativ (1–5) för varje person.",
+  "texts": [
+    {
+      "heading": "Rebecka",
+      "body": "- Det är nog att få jobba med sådant som man tycker om att göra. Och jag älskar att prata med kunder, svara på frågor och ge råd och det får jag göra hela dagarna i mitt jobb."
+    },
+    {
+      "heading": "Patrik",
+      "body": "- Jag tycker att det är viktigt att man får vara med och bestämma en del över sitt schema. Där jag jobbar nu planerar vi alltid det tillsammans. Jag väljer ofta kvälls- och helgpass för det passar mig bra."
+    },
+    {
+      "heading": "Arne",
+      "body": "- Jag är pensionär nu men när jag jobbade var kontakten med alla mina kollegor viktigast för mig. Dagarna gick fort när vi jobbade tillsammans, för vi hade så roligt ihop."
+    },
+    {
+      "heading": "Kim",
+      "body": "- Jag vill ha det fint omkring mig när jag jobbar. Tyvärr är miljön där jag jobbar nu dålig. Det mesta är slitet och rummen är kalla på vintern, så jag trivs inte så bra där."
+    },
+    {
+      "heading": "Svarsalternativ (exempelvis)",
+      "body": "1. Bra arbetsmiljö och lokaler\n2. Trevliga kollegor\n3. Möjlighet att påverka arbetstider\n4. Roliga och intressanta arbetsuppgifter"
+    }
+  ],
+  "questions": [
+    {
+      "id": "E_Q1",
+      "type": "short",
+      "prompt": "A. Vilket alternativ passar bäst för Rebecka?",
+      "answer": "4",
+      "acceptedAnswers": ["4", "fyra"]
+    },
+    {
+      "id": "E_Q2",
+      "type": "short",
+      "prompt": "B. Vilket alternativ passar bäst för Patrik?",
+      "answer": "3",
+      "acceptedAnswers": ["3", "tre"]
+    },
+    {
+      "id": "E_Q3",
+      "type": "short",
+      "prompt": "C. Vilket alternativ passar bäst för Arne?",
+      "answer": "2",
+      "acceptedAnswers": ["2", "två"]
+    },
+    {
+      "id": "E_Q4",
+      "type": "short",
+      "prompt": "D. Vilket alternativ passar bäst för Kim?",
+      "answer": "1",
+      "acceptedAnswers": ["1", "ett"]
+    }
+  ]
 }

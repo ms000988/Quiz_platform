@@ -1,5 +1,413 @@
+# update-2023-5.ps1 - Populates official Reading (A-H) and Writing data for exam session 2023-5
+
+Write-Host "Populating Reading and Writing data for 2023-5..." -ForegroundColor Cyan
+
+$examDir = "data/sfi/2023-5"
+$readingDir = Join-Path $examDir "reading"
+$writingDir = Join-Path $examDir "writing"
+
+New-Item -ItemType Directory -Path $readingDir -Force | Out-Null
+New-Item -ItemType Directory -Path $writingDir -Force | Out-Null
+
+# ==========================================
+# 1. READING CONFIG & SECTIONS (A - H)
+# ==========================================
+
+$configJson = @'
 {
-  "examId": "2024-6",
-  "promptText": "Skriv en text om dina framtidsplaner eller en upplevelse. Motivera dina åsikter.",
-  "minWords": 100
+  "year": "2023-5",
+  "module": "reading",
+  "title": "SFI Läsförståelse – Exam 2023-5",
+  "passThreshold": 0.6,
+  "sections": ["A.json", "B.json", "C.json", "D.json", "E.json", "F.json", "G.json", "H.json"]
 }
+'@
+Set-Content -Path "$readingDir/config.json" -Value $configJson -Encoding utf8
+
+# Section A: Information om en festival
+$secA = @'
+{
+  "section": "A",
+  "icon": "🎪",
+  "title": "Information om en festival",
+  "instructions": "Läs informationen om festivalen i Lövby kommun och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Festivalen i Lövby",
+      "body": "Välkommen till Lövby-festivalen! Här är några höjdpunkter från programmet:\n\n• På Stora torget på kvällen spelar och sjunger den kända artisten Erik Palm.\n• Danskursen med ledaren Luka Felin börjar kl. 17:00.\n• Matförsäljning och food trucks finns samlade i Västra parken.\n• Fototävling: Den person som har tagit den bästa bilden vinner ett presentkort på 500 kr.\n• Kostnad: Det är helt gratis att gå på festivalen!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "short",
+      "prompt": "A. Vad heter personen som spelar och sjunger på Stora torget på kvällen?",
+      "answer": "Erik Palm",
+      "acceptedAnswers": ["Erik Palm", "erik palm"]
+    },
+    {
+      "id": "A_Q2",
+      "type": "short",
+      "prompt": "B. Vilken tid börjar danskursen?",
+      "answer": "Kl. 17:00",
+      "acceptedAnswers": ["17:00", "kl 17.00", "kl. 17.00", "17"]
+    },
+    {
+      "id": "A_Q3",
+      "type": "short",
+      "prompt": "C. Vad heter ledaren i danskursen?",
+      "answer": "Luka Felin",
+      "acceptedAnswers": ["Luka Felin", "luka felin"]
+    },
+    {
+      "id": "A_Q4",
+      "type": "short",
+      "prompt": "D. Var på festivalen kan man köpa mat?",
+      "answer": "Västra parken",
+      "acceptedAnswers": ["Västra parken", "västra parken"]
+    },
+    {
+      "id": "A_Q5",
+      "type": "short",
+      "prompt": "E. Vad får personen som har tagit den bästa bilden i fototävlingen?",
+      "answer": "Presentkort på 500 kr",
+      "acceptedAnswers": ["Presentkort på 500 kr", "presentkort på 500 kr", "500 kr"]
+    },
+    {
+      "id": "A_Q6",
+      "type": "short",
+      "prompt": "F. Vad kostar det att gå på festivalen?",
+      "answer": "Gratis",
+      "acceptedAnswers": ["Gratis", "gratis", "0 kr"]
+    }
+  ]
+}
+'@
+Set-Content -Path "$readingDir/A.json" -Value $secA -Encoding utf8
+
+# Section B: Några personer berättar (Alla hjärtans dag)
+$secB = @'
+{
+  "section": "B",
+  "icon": "❤️",
+  "title": "Några personer berättar om Alla hjärtans dag",
+  "instructions": "I många länder firas Alla hjärtans dag den 14 februari. Här berättar några personer om de brukar fira dagen eller inte. Läs vad de säger och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Miya",
+      "body": "- Jag tycker inte att man måste ha en partner för att fira Alla hjärtans dag. Jag är singel, men jag har också rätt att fira. Så jag och mina vänner träffas den 14 februari varje år och ger presenter till varandra."
+    },
+    {
+      "heading": "Valter",
+      "body": "- När jag var ung firade nästan ingen Alla hjärtans dag. Det har blivit vanligt i Sverige först de senaste åren. Jag bryr mig inte om den dagen eftersom jag har levt ensam hela livet. Och om jag vill visa kärlek kan jag göra det en annan dag."
+    },
+    {
+      "heading": "Anna",
+      "body": "- Jag tycker egentligen att Alla hjärtans dag är en ganska konstig dag och inget att fira. Men några gånger har jag och min sambo ändå gjort det. Då har vi köpt något fint till varandra eller ätit på restaurang den dagen. Och vem vet, det kanske händer igen."
+    },
+    {
+      "heading": "Klas",
+      "body": "- Jag och min partner tycker om traditioner. Men Alla hjärtans dag är inget som vi tycker är viktigt. Kärlek är fantastiskt, men det kan man visa på andra sätt än att köpa blommor och choklad på en speciell dag. Så den dagen behövs inte helt enkelt."
+    },
+    {
+      "heading": "Elsa",
+      "body": "- Jag tycker att många affärer bara vill tjäna pengar på att sälja blommor och presenter på Alla hjärtans dag. Men ett par gånger har mina kompisar försökt att bjuda mig på middag för att fira dagen. Då har jag sagt att jag inte är intresserad för jag är helt emot den här dagen."
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "A. Brukar Miya fira Alla hjärtans dag?",
+      "options": ["ja", "nej", "ibland"],
+      "answer": "ja"
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. Brukar Valter fira Alla hjärtans dag?",
+      "options": ["ja", "nej", "ibland"],
+      "answer": "nej"
+    },
+    {
+      "id": "B_Q3",
+      "type": "mcq",
+      "prompt": "C. Brukar Anna fira Alla hjärtans dag?",
+      "options": ["ja", "nej", "ibland"],
+      "answer": "ibland"
+    },
+    {
+      "id": "B_Q4",
+      "type": "mcq",
+      "prompt": "D. Brukar Klas fira Alla hjärtans dag?",
+      "options": ["ja", "nej", "ibland"],
+      "answer": "nej"
+    },
+    {
+      "id": "B_Q5",
+      "type": "mcq",
+      "prompt": "E. Brukar Elsa fira Alla hjärtans dag?",
+      "options": ["ja", "nej", "ibland"],
+      "answer": "nej"
+    }
+  ]
+}
+'@
+Set-Content -Path "$readingDir/B.json" -Value $secB -Encoding utf8
+
+# Section C: En intervju med Ayana
+$secC = @'
+{
+  "section": "C",
+  "icon": "🍳",
+  "title": "En intervju med Ayana",
+  "instructions": "Läs frågorna och intervjun med Ayana som har varit med i TV och laga mat. Välj det svar (1–5) som passar bäst till varje fråga.",
+  "texts": [
+    {
+      "heading": "Svarsalternativ",
+      "body": "1. - Jag vill gärna skriva en egen kokbok i framtiden. Jag har redan börjat samla på recept och tagit bilder på rätter som jag har lagat.\n\n2. - Det kändes lite nervöst i början när kameran startade. Men efter fem minuter glömde jag bort att kameran fanns och det kändes precis som hemma i mitt eget kök.\n\n3. - Jag tittade på matprogram på TV varje kväll och provade nya recept hemma. Det är det bästa sättet att lära sig.\n\n4. - En av mina vänner anmälde mig utan att jag visste om det! När jag fick ett mejl från TV-bolaget blev jag först jätteförvånad, men sedan tackade jag ja.\n\n5. - Man måste ha tålamod och våga testa nya smaker. Det är inte farligt om maten misslyckas någon gång, man lär sig av sina misstag."
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q1",
+      "type": "mcq",
+      "prompt": "A. Hur blir man bra på att laga mat?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "C_Q2",
+      "type": "mcq",
+      "prompt": "B. Varför ville du vara med i TV och laga mat?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "id": "C_Q3",
+      "type": "mcq",
+      "prompt": "C. Hur kändes det att laga mat i TV?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "2"
+    },
+    {
+      "id": "C_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad vill du göra i framtiden?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "1"
+    }
+  ]
+}
+'@
+Set-Content -Path "$readingDir/C.json" -Value $secC -Encoding utf8
+
+# Section D: En dagbok (David)
+$secD = @'
+{
+  "section": "D",
+  "icon": "📔",
+  "title": "En dagbok (David)",
+  "instructions": "David skriver lite om sitt liv i en dagbok. Läs texterna och välj det ord som passar bäst i varje lucka.",
+  "texts": [
+    {
+      "heading": "onsdag 20 april",
+      "body": "Jag har sökt jobb på en restaurang. Idag ringde chefen och sa att hon vill träffa mig imorgon. Jag har aldrig varit på en jobbintervju förut så jag är ganska nervös. Idag ska jag söka efter information på internet för jag vill [A] vilka frågor jag kan få på intervjun."
+    },
+    {
+      "heading": "torsdag 21 april",
+      "body": "Vilken dag! Nu har jag varit på intervjun och det kändes riktigt bra. Chefen var trevlig och det verkar vara ett roligt arbete. Jag vill gärna ha jobbet. Hoppas att hon [B] mig!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilket ord passar bäst i onsdagens text?",
+      "options": ["visa", "veta", "berätta"],
+      "answer": "veta"
+    },
+    {
+      "id": "D_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilket ord passar bäst i torsdagens text?",
+      "options": ["glömmer", "tackar", "anställer"],
+      "answer": "anställer"
+    }
+  ]
+}
+'@
+Set-Content -Path "$readingDir/D.json" -Value $secD -Encoding utf8
+
+# Section E: TV-program (Våga drömma & Personlig utveckling)
+$secE = @'
+{
+  "section": "E",
+  "icon": "📺",
+  "title": "TV-program",
+  "instructions": "Läs informationen om TV-programmen och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Våga drömma",
+      "body": "Se hela världen från din tv-soffan! I programmet besöker vi spännande platser som många inte vet något om. Vi möter människor som bor där. De hjälper oss att hitta den vackraste naturen och den godaste maten. Följ med!\nKanal Stjärnan, kl. 20:45"
+    },
+    {
+      "heading": "Personlig utveckling",
+      "body": "Har du ingen energi och svårt att somna? Har du svårt att koncentrera dig på jobbet? Vi möter Jaleh Heydari som är expert på hur vi ska andas rätt och slappna av. Hon ger tips på hur vi kan klara av stressiga situationer och känna oss lugna i vardagen.\nKanal 100, kl. 19:15"
+    }
+  ],
+  "questions": [
+    {
+      "id": "E_Q1",
+      "type": "mcq",
+      "prompt": "C. Vad handlar tv-programmet Våga drömma om?",
+      "options": ["Hus och hem", "Resor", "Kropp och hälsa"],
+      "answer": "Resor"
+    },
+    {
+      "id": "E_Q2",
+      "type": "mcq",
+      "prompt": "D. Vad handlar tv-programmet Personlig utveckling om?",
+      "options": ["Politik och samhälle", "Skola och studier", "Kropp och hälsa"],
+      "answer": "Kropp och hälsa"
+    }
+  ]
+}
+'@
+Set-Content -Path "$readingDir/E.json" -Value $secE -Encoding utf8
+
+# Section F: Kevin har startat ett hunddagis
+$secF = @'
+{
+  "section": "F",
+  "icon": "🐕",
+  "title": "Kevin har startat ett hunddagis",
+  "instructions": "Läs tidningsartikeln om Kevin och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Kevin har startat ett hunddagis",
+      "body": "Strax utanför Lövby bor Kevin Alm i ett gammalt hus med en stor trädgård. Där har Kevin också ett hunddagis, där han tar hand om tio hundar när deras ägare är på jobbet.\n\nInnan Kevin startade sitt hunddagis jobbade han på ett kontor i stan i flera år. Han tjänade bra och trivdes med alla som han jobbade tillsammans med. Men han tyckte inte att det var så kul att sitta vid datorn och jobba med siffror hela dagarna. Därför började han fundera på att göra något annat.\n\nKevin berättar att han alltid har älskat djur och att hans stora kärlek är just hundar. En dag för två år sedan såg han på tv om en tjej i Norge som hade öppnat ett hunddagis.\n- Jag tyckte att det såg spännande ut och då bestämde jag mig för att själv försöka starta ett, säger Kevin.\n\nKevin bor i ett gammalt hus strax utanför Lövby. Om man bygger om huset lite kan det bli en perfekt plats för ett hunddagis, tänkte han. Kevin berättade om sina planer för sin mamma och pappa. Först blev de lite oroliga eftersom de var rädda att hans grannar skulle klaga. Men allt gick bra.\n- Jag pratade med alla som bor här i området och de var bara positiva.\n\nMen för att starta ett hunddagis behövs pengar. Som tur var, kunde han låna lite av banken. Och nu har han haft sitt hunddagis i snart ett år.\n\nDet är långa dagar för Kevin. De första hundarna kommer klockan sju på morgonen och den sista hämtas vid sex på kvällen. Kevin och hundarna är ofta på promenader i skogen och han trivs jättebra med det.\n- Att vara i naturen och få massor av frisk luft är det som jag gillar mest i mitt arbete, berättar han.\n\nKevins hunddagis är populärt. Just nu är det åtta hundar som väntar på att få en plats där. Han vill gärna ta emot fler hundar. Men det är svårt att klara allt arbete ensam så han skulle behöva hjälp av någon i så fall.\n- Jag har lagt ut en jobbannons och nu hoppas jag att någon är intresserad, avslutar Kevin."
+    }
+  ],
+  "questions": [
+    {
+      "id": "F_Q1",
+      "type": "mcq",
+      "prompt": "A. Varför slutade Kevin på sitt gamla jobb?",
+      "options": ["Lönen var dålig.", "Arbetet var tråkigt.", "Kollegorna var otrevliga."],
+      "answer": "Arbetet var tråkigt."
+    },
+    {
+      "id": "F_Q2",
+      "type": "mcq",
+      "prompt": "B. Hur fick Kevin idén att starta ett hunddagis?",
+      "options": ["genom en film", "genom en vän", "genom en resa"],
+      "answer": "genom en film"
+    },
+    {
+      "id": "F_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad tänkte Kevins föräldrar när han ville öppna hunddagiset? Att han skulle få problem med...",
+      "options": ["huset", "pengar", "grannarna"],
+      "answer": "grannarna"
+    },
+    {
+      "id": "F_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad tycker Kevin är det bästa med jobbet på hunddagiset?",
+      "options": ["Han bestämmer sina arbetstider.", "Han gör många olika saker.", "Han arbetar mycket ute."],
+      "answer": "Han arbetar mycket ute."
+    },
+    {
+      "id": "F_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad vill Kevin göra i framtiden?",
+      "options": ["tjäna mer pengar", "köpa ett större hus", "anställa en person"],
+      "answer": "anställa en person"
+    }
+  ]
+}
+'@
+Set-Content -Path "$readingDir/F.json" -Value $secF -Encoding utf8
+
+# Section G: Pension / Intervjuer på stan (Stefan, Bosse, Frank, Milena)
+$secG = @'
+{
+  "section": "G",
+  "icon": "👴",
+  "title": "Intervjuer på stan: Vad vill du göra när du går i pension?",
+  "instructions": "Några personer berättar i en tidning vad de vill göra när de går i pension. Läs frågorna och svara genom att skriva personens namn.\n\nPersoner: Stefan, Bosse, Frank, Milena",
+  "texts": [
+    {
+      "heading": "Intervjuer",
+      "body": "• Stefan: Jag är trött på kalla vintrar och vill resa till varmare länder och uppleva nya kulturer.\n• Bosse: Jag har bott i lägenhet i stan hela livet, men när jag blir pensionär vill jag flytta ut på landet till ett litet hus.\n• Frank: Mina barn och barnbarn bor i en annan stad. När jag slutar jobba vill jag flytta närmare dem så vi kan träffas mycket oftare.\n• Milena: Jag har alltid velat lära mig att måla tavlor. När jag får mer tid ska jag anmäla mig till en konstkurs."
+    }
+  ],
+  "questions": [
+    {
+      "id": "G_Q1",
+      "type": "short",
+      "prompt": "A. Vem vill resa till andra länder?",
+      "answer": "Stefan",
+      "acceptedAnswers": ["Stefan", "stefan"]
+    },
+    {
+      "id": "G_Q2",
+      "type": "short",
+      "prompt": "B. Vem vill flytta?",
+      "answer": "Bosse",
+      "acceptedAnswers": ["Bosse", "bosse"]
+    },
+    {
+      "id": "G_Q3",
+      "type": "short",
+      "prompt": "C. Vem vill träffa sin familj mer?",
+      "answer": "Frank",
+      "acceptedAnswers": ["Frank", "frank"]
+    },
+    {
+      "id": "G_Q4",
+      "type": "short",
+      "prompt": "D. Vem vill lära sig något nytt?",
+      "answer": "Milena",
+      "acceptedAnswers": ["Milena", "milena"]
+    }
+  ]
+}
+'@
+Set-Content -Path "$readingDir/G.json" -Value $secG -Encoding utf8
+
+# Section H: Diagram / Tabell
+$secH = @'
+{
+  "section": "H",
+  "icon": "📊",
+  "title": "Diagram och statistik",
+  "instructions": "Studera diagrammet och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Statistikinformation",
+      "body": "Diagrammet visar besökare och aktiviteter i Lövby kommun."
+    }
+  ],
+  "questions": []
+}
+'@
+Set-Content -Path "$readingDir/H.json" -Value $secH -Encoding utf8
+
+
+# ==========================================
+# 2. WRITING PROMPT (prompt.json)
+# ==========================================
+
+$writingPrompt = @'
+{
+  "examId": "2023-5",
+  "title": "Skrivuppgift – 2023-5",
+  "promptHtml": "<p><strong>Skriv en text och berätta om dina erfarenheter och framtidsplaner.</strong></p><p style='margin-top: 12px;'><strong>Du ska berätta om:</strong></p><ul><li>ditt nuvarande arbete eller dina studier,</li><li>vad du tycker är bra och mindre bra med det,</li><li>vad du planerar att göra i framtiden.</li></ul>",
+  "minWords": 80
+}
+'@
+Set-Content -Path "$writingDir/prompt.json" -Value $writingPrompt -Encoding utf8
+
+Write-Host "=== Successfully populated Reading (A-H) and Writing for 2023-5! ===" -ForegroundColor Cyan

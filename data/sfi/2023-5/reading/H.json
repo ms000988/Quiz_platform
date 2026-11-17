@@ -1,8 +1,13 @@
 {
   "section": "H",
-  "icon": "🏛️",
-  "title": "Sektion H",
-  "instructions": "Läs mötesanteckningarna och informationsbladet.",
-  "texts": [],
+  "icon": "📊",
+  "title": "Diagram och statistik",
+  "instructions": "Studera diagrammet och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Statistikinformation",
+      "body": "Diagrammet visar besökare och aktiviteter i Lövby kommun."
+    }
+  ],
   "questions": []
 }

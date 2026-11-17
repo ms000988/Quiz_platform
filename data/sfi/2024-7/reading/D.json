@@ -1,9 +1,55 @@
 {
   "section": "D",
-  "icon": "📊",
-  "title": "Sektion D",
-  "instructions": "Studera diagrammen och svara på frågorna.",
-  "texts": [],
+  "icon": "🚌",
+  "title": "En dagbok",
+  "instructions": "Läs texterna ur en bussförares dagbok och välj det ord som passar bäst.",
+  "texts": [
+    {
+      "heading": "måndag 25 april",
+      "body": "Jag började tidigt, redan 06:30. Jag körde korta resor inne i stan. Mitt pass slutade 15:00. Inga förseningar och inget speciellt hände. Det var en lugn [arbetsdag]."
+    },
+    {
+      "heading": "tisdag 26 april",
+      "body": "Idag var en tjej otrevlig mot mig. Hon hade tagit fel buss och skrek på mig för att hon skulle komma sent till vårdcentralen. Men det var ju inte mitt [fel]."
+    },
+    {
+      "heading": "onsdag 27 april",
+      "body": "Kundservice kontaktade mig och sa att en pojke hade glömt sin mobil på bussen. Han hade tur, för jag [hittade] den när jag parkerade i garaget på kvällen."
+    },
+    {
+      "heading": "torsdag 28 april",
+      "body": "I morse var det en äldre man som gick på bussen. Han hade tappat sitt busskort. Men då var det en kvinna som [ville] köpa en biljett till honom. Han var så glad och tacksam för det."
+    }
+  ],
   "charts": [],
-  "questions": []
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilket ord passar bäst i måndagens text?",
+      "options": ["kollega", "arbetsdag", "hållplats"],
+      "answer": "arbetsdag"
+    },
+    {
+      "id": "D_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilket ord passar bäst i tisdagens text?",
+      "options": ["jobb", "svar", "fel"],
+      "answer": "fel"
+    },
+    {
+      "id": "D_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilket ord passar bäst i onsdagens text?",
+      "options": ["hittade", "missade", "kastade"],
+      "answer": "hittade"
+    },
+    {
+      "id": "D_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilket ord passar bäst i torsdagens text?",
+      "options": ["slutade", "ville", "glömde"],
+      "answer": "ville"
+    }
+  ]
 }

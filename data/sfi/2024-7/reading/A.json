@@ -1,8 +1,42 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🚆",
+  "title": "En intervju med Oskar",
+  "instructions": "Här får du läsa en intervju med Oskar som har varit på en tågresa. Välj det svar (1–5) som passar bäst till varje fråga.",
+  "texts": [
+    {
+      "heading": "Svarsalternativ",
+      "body": "1. Egentligen ville min kusin följa med, men han fick inte ledigt från jobbet. Men jag åkte ändå och ibland ringde jag videosamtal till honom så att han fick se olika platser från min telefon.\n\n2. Jag har alltid bott i Skåne och ville se mer av Sverige. Så i somras åkte jag på en lång resa genom norra Sverige på min semester. Istället för att flyga tog jag tåget, för jag tänker på miljön.\n\n3. Man kan spara mycket pengar om man bokar biljetter flera månader innan man ska åka. Då kostar biljetterna mindre. Annars kan tågresor vara ganska dyra.\n\n4. Min kollega har precis kommit hem från en tågresa i Tyskland. Jag är också sugen på att testa det. Så jag gör kanske en liknande resa dit i höst, om jag får ledigt då.\n\n5. Det är nog alla människor som jag träffade på vägen, både på tåget och på de olika platser som jag besökte. Det är alltid kul att lära känna nya personer."
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad var det bästa med resan?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Varför reste du ensam?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "1"
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilket tips ger du till någon som vill resa med tåg?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": "A_Q4",
+      "type": "mcq",
+      "prompt": "D. Vart vill du resa nästa gång?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    }
+  ]
 }

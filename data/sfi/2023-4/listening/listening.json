@@ -2,18 +2,150 @@
   "examId": "2023-4",
   "parts": [
     {
-      "id": 1,
-      "title": "Del 1",
-      "audio": "audio1.mp3",
+      "id": 2,
+      "title": "Uppgift 2: Några personer berättar var de träffade sin partner",
+      "audio": "Höra.ogg",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L2_A",
+          "prompt": "A. Var träffade Masoud sin partner första gången?",
+          "options": ["på en fest", "på ett hotell", "på en restaurang"],
+          "answer": "på en restaurang"
+        },
+        {
+          "id": "L2_B",
+          "prompt": "B. Var träffade Fredrika sin partner första gången?",
+          "options": ["på en kurs", "på en arbetsplats", "på en restaurang"],
+          "answer": "på en kurs"
+        },
+        {
+          "id": "L2_C",
+          "prompt": "C. Var träffade Simon sin partner första gången?",
+          "options": ["på ett gym", "på en buss", "på en restaurang"],
+          "answer": "på en restaurang"
+        },
+        {
+          "id": "L2_D",
+          "prompt": "D. Var träffade Larisa sin partner första gången?",
+          "options": ["på internet", "på en utbildning", "på ett bibliotek"],
+          "answer": "på internet"
+        },
+        {
+          "id": "L2_E",
+          "prompt": "E. Var träffade Arash sin partner första gången?",
+          "options": ["hos en släkting", "hos en granne", "hos en arbetskamrat"],
+          "answer": "hos en granne"
+        },
+        {
+          "id": "L2_F",
+          "prompt": "F. Var träffade Fabian sin partner första gången?",
+          "options": ["på en resa", "på en utbildning", "på en arbetsplats"],
+          "answer": "på en arbetsplats"
+        }
+      ]
     },
     {
-      "id": 2,
-      "title": "Del 2",
-      "audio": "audio2.mp3",
+      "id": 3,
+      "title": "Uppgift 3: Lokala nyheter från Solviks kommun",
+      "audio": "audio3.mp3",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L3_A",
+          "prompt": "A. Vad säger nyheten om eleverna som slutar grundskolan?",
+          "options": ["De har fler läxor nu.", "De är mer stressade nu.", "De har bättre betyg nu."],
+          "answer": "De har fler läxor nu."
+        },
+        {
+          "id": "L3_B",
+          "prompt": "B. Vad behöver Solviks kommun?",
+          "options": ["nya skolor", "bättre bostäder", "fler lärare"],
+          "answer": "fler lärare"
+        },
+        {
+          "id": "L3_C",
+          "prompt": "C. Vad säger nyheten om tågtrafiken under sommaren?",
+          "options": ["Det var svårt att boka tågbiljetter.", "Många tåg var försenade.", "Flera stationer var stängda."],
+          "answer": "Många tåg var försenade."
+        },
+        {
+          "id": "L3_D",
+          "prompt": "D. Vad säger nyheten om biltrafiken i Solvik?",
+          "options": ["många olyckor i trafiken.", "många bilar i centrum.", "många som kör för snabbt."],
+          "answer": "många bilar i centrum."
+        },
+        {
+          "id": "L3_E",
+          "prompt": "E. Vad säger nyheten om äldre personer? Många äldre ...",
+          "options": ["har fått bättre hälsa nu.", "använder internet mer nu.", "besöker släktingar oftare nu."],
+          "answer": "använder internet mer nu."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Uppgift 4: Telefonsamtal",
+      "audio": "audio4.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L4_A",
+          "prompt": "A. Berit ringer till hyresbolaget. Vad vill Berit?",
+          "options": ["anmäla ett fel", "byta lägenhet", "fråga om en betalning"],
+          "answer": "byta lägenhet"
+        },
+        {
+          "id": "L4_B",
+          "prompt": "B. Aziz ringer till en restaurang. Vad vill Aziz?",
+          "options": ["beställa mat", "avboka ett bord", "fråga om en matleverans"],
+          "answer": "fråga om en matleverans"
+        },
+        {
+          "id": "L4_C",
+          "prompt": "C. Maryan ringer till sin arbetskamrat Tomek. Vad vill Maryan?",
+          "options": ["hjälpa Tomek", "gratulera Tomek", "byta arbetstid med Tomek"],
+          "answer": "hjälpa Tomek"
+        },
+        {
+          "id": "L4_D",
+          "prompt": "D. Hans ringer till tandläkaren. Vad vill Hans?",
+          "options": ["boka ett besök", "få information om ett pris", "fråga om öppettider"],
+          "answer": "få information om ett pris"
+        },
+        {
+          "id": "L4_E",
+          "prompt": "E. Rania ringer till sin vän Ermias. Vad vill Rania?",
+          "options": ["fråga om Ermias provresultat", "prata om en jobbansökan", "gratta på födelsedagen"],
+          "answer": "gratta på födelsedagen"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Uppgift 5: Jemal berättar om sitt jobb som bagare",
+      "audio": "audio5.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L5_A",
+          "prompt": "A. Hur blev Jemal intresserad av bakning?",
+          "options": ["Hans föräldrar var bagare.", "Han gick en kurs i bakning.", "Han arbetade extra på ett bageri."],
+          "answer": "Han arbetade extra på ett bageri."
+        },
+        {
+          "id": "L5_B",
+          "prompt": "B. Vad tycker Jemal om sin utbildning till bagare?",
+          "options": ["Den var lång.", "Den var bra.", "Den var svår."],
+          "answer": "Den var bra."
+        },
+        {
+          "id": "L5_C",
+          "prompt": "C. Vad tycker Jemal är viktigt när man arbetar som bagare?",
+          "options": ["att ha många nya idéer", "att tycka om att jobba tillsammans med andra", "att kunna göra många saker samtidigt"],
+          "answer": "att ha många nya idéer"
+        }
+      ]
     }
   ]
 }

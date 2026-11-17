@@ -1,5 +1,6 @@
 {
   "examId": "2024-7",
-  "promptText": "Skriv en text om dina framtidsplaner eller en upplevelse. Motivera dina åsikter.",
-  "minWords": 100
+  "title": "Svara på ett mejl",
+  "promptHtml": "<p><strong>Du har fått ett mejl från en vän. Läs mejlet och skriv ett svar.</strong></p><div style='background: var(--bg-page); padding: 16px; border-radius: 8px; border: 1px solid var(--border); margin: 12px 0;'><p><strong>Hej!</strong></p><p>Snart flyttar jag. Jag har några möbler som jag inte kan ta med då. Titta på bilderna i mejlet <em>(en säng, en röd soffa och en bokhylla)</em>. Vill du ha någon av möblerna?</p><p>Jag har också lite kläder som jag inte längre behöver. Har du något tips på vad jag kan göra med dem?</p><p>Jag vill gärna träffa dig innan jag flyttar. Skriv när det passar dig och ge förslag på något roligt vi kan göra då 😊.</p><p>Kram!</p></div><p style='margin-top: 16px;'><strong>Svara på mejlet. Du ska berätta:</strong></p><ul><li>om du vill ha någon av vännens möbler eller inte och berätta varför,</li><li>vad din vän kan göra med kläderna som vännen inte behöver,</li><li>när ni kan träffas och vad ni kan göra tillsammans då.</li></ul><p style='margin-top: 8px; color: var(--text-muted); font-size: 0.9rem;'>Tänk på hur du börjar och avslutar mejlet!</p>",
+  "minWords": 80
 }

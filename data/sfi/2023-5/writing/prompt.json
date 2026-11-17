@@ -1,5 +1,6 @@
 {
   "examId": "2023-5",
-  "promptText": "Skriv en text om dina framtidsplaner eller en upplevelse. Motivera dina åsikter.",
-  "minWords": 100
+  "title": "Skrivuppgift – 2023-5",
+  "promptHtml": "<p><strong>Skriv en text och berätta om dina erfarenheter och framtidsplaner.</strong></p><p style='margin-top: 12px;'><strong>Du ska berätta om:</strong></p><ul><li>ditt nuvarande arbete eller dina studier,</li><li>vad du tycker är bra och mindre bra med det,</li><li>vad du planerar att göra i framtiden.</li></ul>",
+  "minWords": 80
 }

@@ -1,8 +1,65 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "❤️",
+  "title": "Några personer berättar om Alla hjärtans dag",
+  "instructions": "I många länder firas Alla hjärtans dag den 14 februari. Här berättar några personer om de brukar fira dagen eller inte. Läs vad de säger och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Miya",
+      "body": "- Jag tycker inte att man måste ha en partner för att fira Alla hjärtans dag. Jag är singel, men jag har också rätt att fira. Så jag och mina vänner träffas den 14 februari varje år och ger presenter till varandra."
+    },
+    {
+      "heading": "Valter",
+      "body": "- När jag var ung firade nästan ingen Alla hjärtans dag. Det har blivit vanligt i Sverige först de senaste åren. Jag bryr mig inte om den dagen eftersom jag har levt ensam hela livet. Och om jag vill visa kärlek kan jag göra det en annan dag."
+    },
+    {
+      "heading": "Anna",
+      "body": "- Jag tycker egentligen att Alla hjärtans dag är en ganska konstig dag och inget att fira. Men några gånger har jag och min sambo ändå gjort det. Då har vi köpt något fint till varandra eller ätit på restaurang den dagen. Och vem vet, det kanske händer igen."
+    },
+    {
+      "heading": "Klas",
+      "body": "- Jag och min partner tycker om traditioner. Men Alla hjärtans dag är inget som vi tycker är viktigt. Kärlek är fantastiskt, men det kan man visa på andra sätt än att köpa blommor och choklad på en speciell dag. Så den dagen behövs inte helt enkelt."
+    },
+    {
+      "heading": "Elsa",
+      "body": "- Jag tycker att många affärer bara vill tjäna pengar på att sälja blommor och presenter på Alla hjärtans dag. Men ett par gånger har mina kompisar försökt att bjuda mig på middag för att fira dagen. Då har jag sagt att jag inte är intresserad för jag är helt emot den här dagen."
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "A. Brukar Miya fira Alla hjärtans dag?",
+      "options": ["ja", "nej", "ibland"],
+      "answer": "ja"
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. Brukar Valter fira Alla hjärtans dag?",
+      "options": ["ja", "nej", "ibland"],
+      "answer": "nej"
+    },
+    {
+      "id": "B_Q3",
+      "type": "mcq",
+      "prompt": "C. Brukar Anna fira Alla hjärtans dag?",
+      "options": ["ja", "nej", "ibland"],
+      "answer": "ibland"
+    },
+    {
+      "id": "B_Q4",
+      "type": "mcq",
+      "prompt": "D. Brukar Klas fira Alla hjärtans dag?",
+      "options": ["ja", "nej", "ibland"],
+      "answer": "nej"
+    },
+    {
+      "id": "B_Q5",
+      "type": "mcq",
+      "prompt": "E. Brukar Elsa fira Alla hjärtans dag?",
+      "options": ["ja", "nej", "ibland"],
+      "answer": "nej"
+    }
+  ]
 }

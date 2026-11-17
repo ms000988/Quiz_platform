@@ -1,8 +1,56 @@
 {
   "section": "E",
-  "icon": "🚗",
-  "title": "Sektion E",
-  "instructions": "Läs intervjun och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "💼",
+  "title": "Jobbannonser",
+  "instructions": "Läs de fem olika jobbannonserna i tidningen och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Jobbannonser",
+      "body": "Fem olika jobbannonser för barnskötare, helgjobb, byggföretag, språktjänst, sjukvård och pensionärsjobb."
+    }
+  ],
+  "questions": [
+    {
+      "id": "E_Q1",
+      "type": "short",
+      "prompt": "A. När är sista datumet för att söka arbetet som barnskötare?",
+      "answer": "15 maj",
+      "acceptedAnswers": ["15 maj", "den 15 maj", "15/5"]
+    },
+    {
+      "id": "E_Q2",
+      "type": "short",
+      "prompt": "B. I vilken stad ligger företaget som söker personal bara på helgerna?",
+      "answer": "Stockholm",
+      "acceptedAnswers": ["Stockholm", "stockholm"]
+    },
+    {
+      "id": "E_Q3",
+      "type": "short",
+      "prompt": "C. Vem svarar på frågor om arbetet på byggföretaget?",
+      "answer": "Lars Holm",
+      "acceptedAnswers": ["Lars Holm", "lars holm"]
+    },
+    {
+      "id": "E_Q4",
+      "type": "short",
+      "prompt": "D. Vad heter företaget som söker personal som talar flera språk?",
+      "answer": "Global Språktjänst",
+      "acceptedAnswers": ["Global Språktjänst", "global språktjänst"]
+    },
+    {
+      "id": "E_Q5",
+      "type": "short",
+      "prompt": "E. I vilken stad söker man personal inom sjukvården?",
+      "answer": "Uppsala",
+      "acceptedAnswers": ["Uppsala", "uppsala"]
+    },
+    {
+      "id": "E_Q6",
+      "type": "short",
+      "prompt": "F. Vad heter företaget som vill anställa pensionärer?",
+      "answer": "Jobbglädje",
+      "acceptedAnswers": ["Jobbglädje", "jobbglädje"]
+    }
+  ]
 }

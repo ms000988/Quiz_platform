@@ -3,17 +3,137 @@
   "parts": [
     {
       "id": 1,
-      "title": "Del 1",
+      "title": "Uppgift 1: Samtal mellan vänner",
       "audio": "audio1.mp3",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L1_A",
+          "prompt": "A. Var bor Benjamin just nu?",
+          "options": ["hos en kusin", "hos sina föräldrar", "hos en arbetskamrat"],
+          "answer": "hos sina föräldrar"
+        },
+        {
+          "id": "L1_B",
+          "prompt": "B. Vad vill Benjamin låna av Katja?",
+          "options": ["en bil", "pengar", "flyttlådor"],
+          "answer": "en bil"
+        },
+        {
+          "id": "L1_C",
+          "prompt": "C. Ska Katja komma på Benjamins fest?",
+          "options": ["ja", "nej", "kanske"],
+          "answer": "ja"
+        }
+      ]
     },
     {
       "id": 2,
-      "title": "Del 2",
+      "title": "Uppgift 2: Några personer berättar",
       "audio": "audio2.mp3",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L2_A",
+          "prompt": "A. Vad tycker Renata är bra?",
+          "options": ["parkeringsplatserna", "mataffärerna", "cykelvägarna"],
+          "answer": "cykelvägarna"
+        },
+        {
+          "id": "L2_B",
+          "prompt": "B. Vad tycker Renata att staden behöver?",
+          "options": ["fler bostäder", "fler arbeten", "fler skolor"],
+          "answer": "fler arbeten"
+        },
+        {
+          "id": "L2_C",
+          "prompt": "C. Vad tycker Rafael är bra?",
+          "options": ["naturen", "sporthallen", "busstrafiken"],
+          "answer": "naturen"
+        },
+        {
+          "id": "L2_D",
+          "prompt": "D. Vad tycker Rafael att staden behöver?",
+          "options": ["fler lekplatser", "fler förskolor", "fler bibliotek"],
+          "answer": "fler förskolor"
+        },
+        {
+          "id": "L2_E",
+          "prompt": "E. Vad tycker Sofia är bra?",
+          "options": ["biblioteket", "simhallen", "vårdcentralen"],
+          "answer": "simhallen"
+        },
+        {
+          "id": "L2_F",
+          "prompt": "F. Vad tycker Sofia att staden behöver?",
+          "options": ["fler klädbutiker", "fler restauranger", "fler frisörsalonger"],
+          "answer": "fler restauranger"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Uppgift 4: Telefonsamtal",
+      "audio": "audio4.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L4_A",
+          "prompt": "A. Leila ringer till ett företag. Vad vill Leila?",
+          "options": ["anmäla ett fel på tv:n", "fråga om en betalning", "meddela en ny adress"],
+          "answer": "fråga om en betalning"
+        },
+        {
+          "id": "L4_B",
+          "prompt": "B. Niklas ringer till en skola. Vad vill Niklas?",
+          "options": ["anmäla sig till en utbildning", "meddela ett fel på skolans webbsida", "fråga om ett schema"],
+          "answer": "anmäla sig till en utbildning"
+        },
+        {
+          "id": "L4_C",
+          "prompt": "C. Marco ringer till en kommun. Vad vill Marco?",
+          "options": ["skicka in en ansökan", "boka ett möte", "fråga om ett jobb"],
+          "answer": "fråga om ett jobb"
+        },
+        {
+          "id": "L4_D",
+          "prompt": "D. Fatima ringer till ett bibliotek. Vad vill Fatima?",
+          "options": ["boka en dator", "hitta sitt betalkort", "fråga om en bok"],
+          "answer": "hitta sitt betalkort"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Uppgift 5: Nora berättar",
+      "audio": "audio5.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L5_A",
+          "prompt": "A. Var träffade Nora sin granne Maj-Britt första gången?",
+          "options": ["i hissen", "i tvättstugan", "i trappan"],
+          "answer": "i tvättstugan"
+        },
+        {
+          "id": "L5_B",
+          "prompt": "B. Vad tycker Nora mest om med Maj-Britt?",
+          "options": ["Hon är alltid glad.", "Hon ger många goda råd.", "Hon hjälper ofta Nora."],
+          "answer": "Hon är alltid glad."
+        },
+        {
+          "id": "L5_C",
+          "prompt": "C. Varför tycker Nora att det är bra att unga träffar äldre personer?",
+          "options": ["för att lära sig av de äldre", "för att äldre ofta är ensamma", "för att hjälpa de äldre"],
+          "answer": "för att lära sig av de äldre"
+        },
+        {
+          "id": "L5_D",
+          "prompt": "D. Vad vill Nora göra i framtiden?",
+          "options": ["skriva en bok om äldre", "starta samtalskafé för unga och äldre", "arbeta inom äldrevården"],
+          "answer": "starta samtalskafé för unga och äldre"
+        }
+      ]
     }
   ]
 }

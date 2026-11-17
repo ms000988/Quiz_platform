@@ -1,9 +1,80 @@
 {
   "section": "D",
   "icon": "📊",
-  "title": "Sektion D",
-  "instructions": "Studera diagrammen och svara på frågorna.",
-  "texts": [],
-  "charts": [],
-  "questions": []
+  "title": "Diagram: Antal elever på Nystads komvux",
+  "instructions": "Studera stapeldiagrammet och cirkeldiagrammet om Nystads komvux och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Information om diagrammen",
+      "body": "Det övre diagrammet visar antal elever på SFI, Grundläggande kurser och Gymnasiekurser på Nystads komvux åren 2019–2021.\nDet undre diagrammet visar andelen elever på fyra yrkesprogram på Nystads komvux år 2021."
+    }
+  ],
+  "charts": [
+    {
+      "id": "chartNystadYears",
+      "type": "bar",
+      "title": "Antal elever på Nystads komvux år 2019–2021",
+      "labels": ["2019", "2020", "2021"],
+      "datasets": [
+        {
+          "label": "SFI",
+          "data": [1000, 1300, 1600],
+          "backgroundColor": "#4c1d95"
+        },
+        {
+          "label": "Grundläggande kurser",
+          "data": [900, 500, 1100],
+          "backgroundColor": "#d97706"
+        },
+        {
+          "label": "Gymnasiekurser",
+          "data": [2100, 2300, 2000],
+          "backgroundColor": "#cbd5e1"
+        }
+      ]
+    },
+    {
+      "id": "chartNystadPrograms",
+      "type": "pie",
+      "title": "Andel elever på några yrkesprogram år 2021",
+      "labels": ["Vård och omsorg (50%)", "Barn och fritid (30%)", "Restaurang (15%)", "Bygg (5%)"],
+      "datasets": [
+        {
+          "label": "Andel (%)",
+          "data": [50, 30, 15, 5],
+          "backgroundColor": ["#334155", "#9d174d", "#7dd3fc", "#e2e8f0"]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilken utbildning hade flest elever alla tre åren (2019–2021)?",
+      "options": ["SFI", "Grundläggande kurser", "Gymnasiekurser"],
+      "answer": "Gymnasiekurser"
+    },
+    {
+      "id": "D_Q2",
+      "type": "short",
+      "prompt": "B. Hur många elever läste SFI år 2021?",
+      "answer": "1600",
+      "acceptedAnswers": ["1600", "1 600"]
+    },
+    {
+      "id": "D_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilket yrkesprogram hade störst andel elever år 2021?",
+      "options": ["Vård och omsorg", "Barn och fritid", "Restaurang", "Bygg"],
+      "answer": "Vård och omsorg"
+    },
+    {
+      "id": "D_Q4",
+      "type": "short",
+      "prompt": "D. Hur många procent av eleverna på yrkesprogrammen läste Barn och fritid år 2021?",
+      "answer": "30%",
+      "acceptedAnswers": ["30%", "30 %", "30"]
+    }
+  ]
 }

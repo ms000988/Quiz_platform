@@ -1,8 +1,74 @@
 {
   "section": "H",
-  "icon": "🏛️",
-  "title": "Sektion H",
-  "instructions": "Läs mötesanteckningarna och informationsbladet.",
-  "texts": [],
-  "questions": []
+  "icon": "🏘️",
+  "title": "Information & Relation med grannar",
+  "instructions": "Del 1 (A–D): Välj rätt rubrik (1–6) för informationen till personalen.\nRubriker: 1. Veckans möte | 2. Semester | 3. Nya datorer | 4. Ny personal | 5. Samtal om lön | 6. Utbildning\n\nDel 2 (E–H): Skriv namnet på rätt person utifrån diskussionen om grannar.",
+  "texts": [
+    {
+      "heading": "Information till alla anställda",
+      "body": "• Text A: Vår kassörska Maya kommer att vara föräldraledig i ett år. Därför har vi anställt en vikarie, Peter Danielsson, som börjar hos oss idag. Vi hälsar honom välkommen!\n\n• Text B: På fredag kl 15.00 träffas vi som vanligt i konferensrummet. Då ska vi prata om butikens ekonomi och försäljning i april. Vi får även besök av en fotograf som ska ta bilder till vår webbsida.\n\n• Text C: Vill du bli bättre på att hantera stress på jobbet? I augusti har vi en kurs där man kan få hjälp med det. Man får också tips på hur man bemöter kunder på ett bra sätt. Det är två videolektioner på internet. Anmälan senast 1 juni.\n\n• Text D: Det är dags att planera schemat för de kommande månaderna. Butiken kommer ju ha öppet som vanligt måndag–söndag hela sommaren, så alla kan inte vara borta samtidigt. Ansök innan 30/4 hos din närmaste chef."
+    },
+    {
+      "heading": "Hur är din relation med grannarna?",
+      "body": "• Maria: Alla måste få bestämma själva hur mycket kontakt man vill ha med sina grannar. Men man ska åtminstone bjuda på ett hej och ett leende när man möts, så gör vi i vårt hus. Det är viktigt för att alla ska trivas.\n\n• Fabian: Jag trivs bra med mina grannar där jag bor nu. Vi lämnar varandra ifred. Ingen kommer och ringer på dörren för att prata och fråga om en massa saker. Det passar mig perfekt, för jag vill ta hand om mig och mitt liv själv.\n\n• Hadi: Varje gång när jag ska använda tvättstugan, ligger det tvätt kvar i maskinen. Dessutom är det någon som lämnar sopor kvar i trappan. Jag funderar på att flytta härifrån för jag orkar snart inte längre.\n\n• Linda: Jag har faktiskt väldigt lite kontakt med grannarna för mitt hus ligger ute på landet. Det är ganska stora avstånd mellan husen här. Jag ser inte ens grannarnas hus från min tomt. Jag får nog bjuda in på en grillfest snart så jag kan lära känna dem bättre.\n\n• Musa: Jag vill ha en bra relation med mina grannar. Man måste inte umgås, men jag vill gärna kunna be en granne om att vattna blommor eller ta in posten när jag reser bort. På samma sätt kan de komma till mig när de behöver något."
+    }
+  ],
+  "questions": [
+    {
+      "id": "H_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilken rubrik passar till Text A (Peter Danielsson)?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "4"
+    },
+    {
+      "id": "H_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilken rubrik passar till Text B (fredag kl 15.00)?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "1"
+    },
+    {
+      "id": "H_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilken rubrik passar till Text C (hantera stress)?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "6"
+    },
+    {
+      "id": "H_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilken rubrik passar till Text D (schemat i sommar)?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "2"
+    },
+    {
+      "id": "H_Q5",
+      "type": "short",
+      "prompt": "E. Vem tycker att grannar ska hjälpa varandra?",
+      "answer": "Musa",
+      "acceptedAnswers": ["Musa", "musa"]
+    },
+    {
+      "id": "H_Q6",
+      "type": "short",
+      "prompt": "F. Vem bor långt ifrån sina grannar?",
+      "answer": "Linda",
+      "acceptedAnswers": ["Linda", "linda"]
+    },
+    {
+      "id": "H_Q7",
+      "type": "short",
+      "prompt": "G. Vem tycker att det är viktigt att grannarna hälsar?",
+      "answer": "Maria",
+      "acceptedAnswers": ["Maria", "maria"]
+    },
+    {
+      "id": "H_Q8",
+      "type": "short",
+      "prompt": "H. Vem är arg på sina grannar?",
+      "answer": "Hadi",
+      "acceptedAnswers": ["Hadi", "hadi"]
+    }
+  ]
 }

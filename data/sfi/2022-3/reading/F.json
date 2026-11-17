@@ -1,8 +1,21 @@
 {
   "section": "F",
-  "icon": "🍦",
-  "title": "Sektion F",
-  "instructions": "Läs artikeln och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "📖",
+  "title": "Sektion F: Läsning och analys",
+  "instructions": "Läs texten noggrant och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Att bo i storstad eller på landet",
+      "body": "Många flyttar till städerna för att arbeta och studera, medan andra föredrar lugnet på landet."
+    }
+  ],
+  "questions": [
+    {
+      "id": "F_Q1",
+      "type": "mcq",
+      "prompt": "A. Varför flyttar många till städerna enligt texten?",
+      "options": ["För att få billigare boende", "För att arbeta och studera", "För att slippa natur"],
+      "answer": "För att arbeta och studera"
+    }
+  ]
 }

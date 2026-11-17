@@ -1,8 +1,56 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🎪",
+  "title": "Information om en festival",
+  "instructions": "Läs informationen om festivalen i Lövby kommun och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Festivalen i Lövby",
+      "body": "Välkommen till Lövby-festivalen! Här är några höjdpunkter från programmet:\n\n• På Stora torget på kvällen spelar och sjunger den kända artisten Erik Palm.\n• Danskursen med ledaren Luka Felin börjar kl. 17:00.\n• Matförsäljning och food trucks finns samlade i Västra parken.\n• Fototävling: Den person som har tagit den bästa bilden vinner ett presentkort på 500 kr.\n• Kostnad: Det är helt gratis att gå på festivalen!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "short",
+      "prompt": "A. Vad heter personen som spelar och sjunger på Stora torget på kvällen?",
+      "answer": "Erik Palm",
+      "acceptedAnswers": ["Erik Palm", "erik palm"]
+    },
+    {
+      "id": "A_Q2",
+      "type": "short",
+      "prompt": "B. Vilken tid börjar danskursen?",
+      "answer": "Kl. 17:00",
+      "acceptedAnswers": ["17:00", "kl 17.00", "kl. 17.00", "17"]
+    },
+    {
+      "id": "A_Q3",
+      "type": "short",
+      "prompt": "C. Vad heter ledaren i danskursen?",
+      "answer": "Luka Felin",
+      "acceptedAnswers": ["Luka Felin", "luka felin"]
+    },
+    {
+      "id": "A_Q4",
+      "type": "short",
+      "prompt": "D. Var på festivalen kan man köpa mat?",
+      "answer": "Västra parken",
+      "acceptedAnswers": ["Västra parken", "västra parken"]
+    },
+    {
+      "id": "A_Q5",
+      "type": "short",
+      "prompt": "E. Vad får personen som har tagit den bästa bilden i fototävlingen?",
+      "answer": "Presentkort på 500 kr",
+      "acceptedAnswers": ["Presentkort på 500 kr", "presentkort på 500 kr", "500 kr"]
+    },
+    {
+      "id": "A_Q6",
+      "type": "short",
+      "prompt": "F. Vad kostar det att gå på festivalen?",
+      "answer": "Gratis",
+      "acceptedAnswers": ["Gratis", "gratis", "0 kr"]
+    }
+  ]
 }

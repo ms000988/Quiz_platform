@@ -3,17 +3,73 @@
   "parts": [
     {
       "id": 1,
-      "title": "Del 1",
+      "title": "Uppgift 1: Ett samtal mellan Marcus och Lisa",
       "audio": "audio1.mp3",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L1_A",
+          "prompt": "A. Vad gjorde Lisa på sommaren?",
+          "options": ["Reste", "Arbetade", "Studerade"],
+          "answer": "Reste"
+        },
+        {
+          "id": "L1_B",
+          "prompt": "B. Vad tyckte Marcus och Lisa var dåligt med lektionen?",
+          "options": ["Många elever kom sen.", "Det var för kort rast.", "Läraren talade ju så fort och otydligt."],
+          "answer": "Läraren talade ju så fort och otydligt."
+        },
+        {
+          "id": "L1_C",
+          "prompt": "C. Vad arbetar Marcus med?",
+          "options": ["inom hotell och restaurang", "inom vård och omsorg", "inom butik och försäljning"],
+          "answer": "inom vård och omsorg"
+        },
+        {
+          "id": "L1_D",
+          "prompt": "D. Skulle de studera tillsammans efter skolan imorgon?",
+          "options": ["Ja", "Nej", "Kanske"],
+          "answer": "Kanske"
+        }
+      ]
     },
     {
       "id": 2,
-      "title": "Del 2",
+      "title": "Uppgift 2: Några personer berättar om centrum",
       "audio": "audio2.mp3",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L2_A",
+          "prompt": "A. Vad ska personen göra i centrum idag?",
+          "options": ["Träna", "Klippa håret", "Träffa en läkare"],
+          "answer": "Träna"
+        },
+        {
+          "id": "L2_B",
+          "prompt": "B. Vad vill personen ha i staden?",
+          "options": ["Fler restauranger", "Fler matbutiker med varor från andra länder", "Fler kaféer"],
+          "answer": "Fler matbutiker"
+        },
+        {
+          "id": "L2_C",
+          "prompt": "C. Vad ska Nelson göra idag?",
+          "options": ["Träffa en vän", "Gå på bio", "Köpa en resa"],
+          "answer": "Gå på bio"
+        },
+        {
+          "id": "L2_D",
+          "prompt": "D. Vad vill personen ha i centrum för en trevligare miljö?",
+          "options": ["Fler bostäder", "Fler papperskorgar", "Fler blommor och växter"],
+          "answer": "Fler blommor och växter"
+        },
+        {
+          "id": "L2_E",
+          "prompt": "E. Vad saknar personen i centrum?",
+          "options": ["Fler cykelvägar", "Fler uteserveringar", "Fler parkeringsplatser"],
+          "answer": "Fler uteserveringar"
+        }
+      ]
     }
   ]
 }

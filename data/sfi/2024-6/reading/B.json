@@ -1,8 +1,65 @@
 {
   "section": "B",
   "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "title": "En dagbok (Tanja)",
+  "instructions": "Tanja skriver lite om sitt liv i en dagbok. Läs texterna och välj det ord som passar bäst i varje lucka.",
+  "texts": [
+    {
+      "heading": "måndag 1 september",
+      "body": "Idag börjar jag studera engelska på universitetet. Min plan är att bli tolk i framtiden, eftersom jag vill ha ett [A] där jag kan använda mina kunskaper i språk."
+    },
+    {
+      "heading": "tisdag 2 september",
+      "body": "Vi har fått en lista på böcker som vi ska läsa. De finns inte på biblioteket. Men jag ska kolla på internet. Jag hoppas att jag kan [B] böckerna där."
+    },
+    {
+      "heading": "torsdag 4 september",
+      "body": "Idag ska jag och några kompisar på kursen träffas och plugga tillsammans. Vi måste lämna in en svår uppgift imorgon. Jag hoppas att vi [C] det."
+    },
+    {
+      "heading": "fredag 5 september",
+      "body": "Nu har jag studerat på kursen i en hel vecka. Jag längtar till ikväll. Då ska jag och några tjejer från min grupp träffas på stan och festa lite. Det ska bli så [D]."
+    },
+    {
+      "heading": "lördag 6 september",
+      "body": "Det blev sent igår kväll. Först åt vi middag på en restaurang och sen gick vi till en nattklubb och dansade. Jag har bara sovit tre timmar, men det gör inget. Det var så kul att [E] med mina nya vänner!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilket ord passar i måndagens text?",
+      "options": ["schema", "yrke", "namn"],
+      "answer": "yrke"
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilket ord passar i tisdagens text?",
+      "options": ["hitta", "spara", "visa"],
+      "answer": "hitta"
+    },
+    {
+      "id": "B_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilket ord passar i torsdagens text?",
+      "options": ["känner", "glömmer", "klarar"],
+      "answer": "klarar"
+    },
+    {
+      "id": "B_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilket ord passar i fredagens text?",
+      "options": ["normalt", "härligt", "tråkigt"],
+      "answer": "härligt"
+    },
+    {
+      "id": "B_Q5",
+      "type": "mcq",
+      "prompt": "E. Vilket ord passar i lördagens text?",
+      "options": ["umgås", "arbeta", "prova"],
+      "answer": "umgås"
+    }
+  ]
 }

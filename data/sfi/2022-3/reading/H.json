@@ -1,8 +1,56 @@
 {
   "section": "H",
-  "icon": "🏛️",
-  "title": "Sektion H",
-  "instructions": "Läs mötesanteckningarna och informationsbladet.",
-  "texts": [],
-  "questions": []
+  "icon": "📊",
+  "title": "Diagram och statistik: Klädkonsumtion",
+  "instructions": "Studera diagrammen som visar klädkonsumtion per person (2011–2020) samt hur länge vi använder våra kläder, och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Statistik från Naturvårdsverket",
+      "body": "Diagram 1 visar hur mycket kilo kläder per person som köptes i Sverige åren 2011–2020. Diagram 2 visar hur länge vi använder våra kläder.\nKälla: Naturvårdsverket."
+    }
+  ],
+  "charts": [
+    {
+      "id": "clothingKilos",
+      "type": "bar",
+      "title": "Så många kilo (kg) kläder per person köpte vi år 2011–2020",
+      "labels": ["2011", "2012", "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020"],
+      "datasets": [
+        {
+          "label": "Kilo (kg)",
+          "data": [10.2, 8.8, 9.3, 9.5, 9.9, 10.1, 9.8, 9.6, 9.6, 8.4],
+          "backgroundColor": "#2563eb"
+        }
+      ]
+    },
+    {
+      "id": "clothingDuration",
+      "type": "pie",
+      "title": "Så länge använder vi våra kläder",
+      "labels": ["6 månader eller mindre", "1 år", "2 år", "3 år", "4 år eller mer", "Vet inte"],
+      "datasets": [
+        {
+          "label": "Andel (%)",
+          "data": [5, 8, 15, 14, 48, 10],
+          "backgroundColor": ["#374151", "#dc2626", "#9ca3af", "#d1d5db", "#16a34a", "#eab308"]
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "H_Q1",
+      "type": "short",
+      "prompt": "A. Vilket år köptes det mest kläder per person enligt det övre diagrammet?",
+      "answer": "2016",
+      "acceptedAnswers": ["2016"]
+    },
+    {
+      "id": "H_Q2",
+      "type": "short",
+      "prompt": "B. Hur stor andel (i %) använder sina kläder i 4 år eller mer enligt det nedre diagrammet?",
+      "answer": "48%",
+      "acceptedAnswers": ["48%", "48"]
+    }
+  ]
 }

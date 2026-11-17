@@ -1,8 +1,58 @@
 {
   "section": "C",
-  "icon": "👨‍👩‍👧‍👦",
-  "title": "Sektion C",
-  "instructions": "Läs texterna och matcha rätt person med påståendet.",
-  "texts": [],
-  "questions": []
+  "icon": "🍳",
+  "title": "Annonser: Kurser i matlagning",
+  "instructions": "Svara på frågorna med hjälp av informationen i annonserna.",
+  "texts": [
+    {
+      "heading": "Kurs: Sött och gott",
+      "body": "Tycker du om kakor och sötsaker? Eller vill du göra en egen tårta? Då är den här kursen perfekt för dig.\nTid och plats: fyra onsdagar i oktober kl. 18–21 i Folkets hus. Start 1/10.\nAvgift: 950 kr.\nAnmälan senast 15 september.\nMeddela oss om du har någon allergi!"
+    },
+    {
+      "heading": "Kurs: Goda och enkla rätter",
+      "body": "Kursen är för alla som är mellan 9 och 13 år, som vill kunna fixa god mat själva efter skolan. Kocken Miriam Hamdi lär oss att laga enkla och nyttiga maträtter.\nTid och plats: fem måndagar kl. 18–20 i Vibyskolans kök. Start måndag 30 september.\nKostnad: 500 kr.\nAnmälan senast 20 september."
+    },
+    {
+      "heading": "Kurs: Mat över öppen eld",
+      "body": "Prova på matlagning över öppen eld i naturen. Björn Frisk, kock med stort intresse för friluftsliv, visar hur man gör.\nTid och plats: måndag 23 september kl. 18–20 ute på gården vid Sjöstugan, Broby.\nPris: 250 kr.\nAlla är välkomna, ingen anmälan behövs."
+    },
+    {
+      "heading": "Kurs: Laga mat tillsammans",
+      "body": "Ta med hela familjen och laga mat ihop. Vi lagar flera olika maträtter som passar både stora och små.\nTid och plats: tre lördagar i november kl. 13–17 i Viby värdshus. Start 1 november.\nPris per familj: 1000 kr.\nAnmäl dig senast 20 oktober."
+    },
+    {
+      "heading": "Kurs: Kocken tipsar",
+      "body": "Ranja Karlsson ger tips om hur vi kan minska våra matkostnader – genom att ta hand om våra matrester och skapa nya rätter av det. Bra både för miljön och din ekonomi!\nTid och plats: torsdag 10 oktober kl. 17–19 på Restaurang Björk.\nIngen avgift.\nAnmälan senast 2 oktober."
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q1",
+      "type": "short",
+      "prompt": "A. Vad heter läraren på kursen där man lagar mat utomhus?",
+      "answer": "Björn Frisk",
+      "acceptedAnswers": ["Björn Frisk", "björn frisk", "Björn"]
+    },
+    {
+      "id": "C_Q2",
+      "type": "short",
+      "prompt": "B. När är sista datumet för att anmäla sig till kursen i bakning?",
+      "answer": "15 september",
+      "acceptedAnswers": ["15 september", "15/9", "den 15 september"]
+    },
+    {
+      "id": "C_Q3",
+      "type": "short",
+      "prompt": "C. Vad heter kursen som är gratis?",
+      "answer": "Kocken tipsar",
+      "acceptedAnswers": ["Kocken tipsar", "kocken tipsar"]
+    },
+    {
+      "id": "C_Q4",
+      "type": "short",
+      "prompt": "D. Hur många gånger träffas man på kursen som är på helgen?",
+      "answer": "3 gånger",
+      "acceptedAnswers": ["3", "tre", "3 gånger", "tre gånger", "tre lördagar", "3 lördagar"]
+    }
+  ]
 }

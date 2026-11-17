@@ -1,8 +1,42 @@
 {
   "section": "E",
-  "icon": "🚗",
-  "title": "Sektion E",
-  "instructions": "Läs intervjun och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🏊",
+  "title": "Tabell och diagram: Simhallar",
+  "instructions": "Studera tabellen och diagrammet om simhallarna och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Jämförelse av simhallar",
+      "body": "• Blomdala simhall: Öppettider Vardagar 7.30–19.30, Helger 8.00–15.00. Pris 1 gång: Vuxen 110 kr, Pensionär 60 kr, Barn 30 kr. Årskort: Vuxen 2200 kr, Pensionär 1600 kr, Barn 900 kr. Temperatur: +30 °C. Aktiviteter: Babysim och simskola för små barn på tisdagar.\n\n• Lindby simhall: Öppettider Vardagar 6.30–20.00, Helger 10.00–16.00. Pris 1 gång: Vuxen 70 kr, Pensionär 50 kr, Barn 20 kr. Årskort: Vuxen 2000 kr, Pensionär 1000 kr, Barn 700 kr. Temperatur: +28 °C. Aktiviteter: Simskola på lördagar för dig med funktionshinder.\n\n• Granvik simhall: Öppettider Vardagar 7.00–21.30, Helger 9.00–16.00. Pris 1 gång: Vuxen 75 kr, Pensionär 55 kr, Barn 25 kr. Årskort: Vuxen 1800 kr, Pensionär 1100 kr, Barn 600 kr. Temperatur: 27 °C. Aktiviteter: Vattengympa och simskola för seniorer (65+) på onsdagar.\n\nBesökare på simhallarna i mars månad (totalt 13 500 besökare): Granvik simhall 53 %, Blomdala simhall 27 %, Lindby simhall 20 %."
+    }
+  ],
+  "questions": [
+    {
+      "id": "E_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilken simhall har varmast vatten i bassängen?",
+      "options": ["Blomdala", "Lindby", "Granvik"],
+      "answer": "Blomdala"
+    },
+    {
+      "id": "E_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilken simhall öppnar tidigast på måndagar?",
+      "options": ["Blomdala", "Lindby", "Granvik"],
+      "answer": "Lindby"
+    },
+    {
+      "id": "E_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilken simhall har simkurser som är bara för äldre personer?",
+      "options": ["Blomdala", "Lindby", "Granvik"],
+      "answer": "Granvik"
+    },
+    {
+      "id": "E_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilken simhall hade flest besökare i mars?",
+      "options": ["Blomdala", "Lindby", "Granvik"],
+      "answer": "Granvik"
+    }
+  ]
 }

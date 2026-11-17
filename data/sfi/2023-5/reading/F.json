@@ -1,8 +1,49 @@
 {
   "section": "F",
-  "icon": "🍦",
-  "title": "Sektion F",
-  "instructions": "Läs artikeln och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🐕",
+  "title": "Kevin har startat ett hunddagis",
+  "instructions": "Läs tidningsartikeln om Kevin och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Kevin har startat ett hunddagis",
+      "body": "Strax utanför Lövby bor Kevin Alm i ett gammalt hus med en stor trädgård. Där har Kevin också ett hunddagis, där han tar hand om tio hundar när deras ägare är på jobbet.\n\nInnan Kevin startade sitt hunddagis jobbade han på ett kontor i stan i flera år. Han tjänade bra och trivdes med alla som han jobbade tillsammans med. Men han tyckte inte att det var så kul att sitta vid datorn och jobba med siffror hela dagarna. Därför började han fundera på att göra något annat.\n\nKevin berättar att han alltid har älskat djur och att hans stora kärlek är just hundar. En dag för två år sedan såg han på tv om en tjej i Norge som hade öppnat ett hunddagis.\n- Jag tyckte att det såg spännande ut och då bestämde jag mig för att själv försöka starta ett, säger Kevin.\n\nKevin bor i ett gammalt hus strax utanför Lövby. Om man bygger om huset lite kan det bli en perfekt plats för ett hunddagis, tänkte han. Kevin berättade om sina planer för sin mamma och pappa. Först blev de lite oroliga eftersom de var rädda att hans grannar skulle klaga. Men allt gick bra.\n- Jag pratade med alla som bor här i området och de var bara positiva.\n\nMen för att starta ett hunddagis behövs pengar. Som tur var, kunde han låna lite av banken. Och nu har han haft sitt hunddagis i snart ett år.\n\nDet är långa dagar för Kevin. De första hundarna kommer klockan sju på morgonen och den sista hämtas vid sex på kvällen. Kevin och hundarna är ofta på promenader i skogen och han trivs jättebra med det.\n- Att vara i naturen och få massor av frisk luft är det som jag gillar mest i mitt arbete, berättar han.\n\nKevins hunddagis är populärt. Just nu är det åtta hundar som väntar på att få en plats där. Han vill gärna ta emot fler hundar. Men det är svårt att klara allt arbete ensam så han skulle behöva hjälp av någon i så fall.\n- Jag har lagt ut en jobbannons och nu hoppas jag att någon är intresserad, avslutar Kevin."
+    }
+  ],
+  "questions": [
+    {
+      "id": "F_Q1",
+      "type": "mcq",
+      "prompt": "A. Varför slutade Kevin på sitt gamla jobb?",
+      "options": ["Lönen var dålig.", "Arbetet var tråkigt.", "Kollegorna var otrevliga."],
+      "answer": "Arbetet var tråkigt."
+    },
+    {
+      "id": "F_Q2",
+      "type": "mcq",
+      "prompt": "B. Hur fick Kevin idén att starta ett hunddagis?",
+      "options": ["genom en film", "genom en vän", "genom en resa"],
+      "answer": "genom en film"
+    },
+    {
+      "id": "F_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad tänkte Kevins föräldrar när han ville öppna hunddagiset? Att han skulle få problem med...",
+      "options": ["huset", "pengar", "grannarna"],
+      "answer": "grannarna"
+    },
+    {
+      "id": "F_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad tycker Kevin är det bästa med jobbet på hunddagiset?",
+      "options": ["Han bestämmer sina arbetstider.", "Han gör många olika saker.", "Han arbetar mycket ute."],
+      "answer": "Han arbetar mycket ute."
+    },
+    {
+      "id": "F_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad vill Kevin göra i framtiden?",
+      "options": ["tjäna mer pengar", "köpa ett större hus", "anställa en person"],
+      "answer": "anställa en person"
+    }
+  ]
 }

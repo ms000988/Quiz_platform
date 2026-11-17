@@ -1,8 +1,69 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "🏨",
+  "title": "Paulina älskar sitt jobb på hotellet",
+  "instructions": "Läs tidningsartikeln om Paulina Ortega och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Paulina älskar sitt jobb på hotellet",
+      "body": "I tre år arbetade Paulina Ortega som servitris i Colombias huvudstad, Bogotá. Nu jobbar hon i receptionen på ett stort hotell i centrala Uppsala.\n\nNär vi kommer in på hotellet, möts vi av ett stort leende. Det är Paulina Ortega som hälsar oss välkomna. Paulina är född och uppvuxen i Colombia, men de senaste fem åren har hon bott och arbetat i Uppsala.\n\nPå gymnasiet i Colombia studerade hon på hotell- och restaurangprogrammet. Paulina berättar att hon alltid drömt om att bli flygvärdinna precis som hennes äldre kusin Maria. Det var Marias spännande historier från olika resor som gjorde Paulina nyfiken. Hon ville också åka till andra länder och möta människor från olika kulturer.\n- Sedan jag var 18 år har jag därför rest mycket, säger Paulina. Att möta personer från olika länder är det roligaste jag vet.\n\nFör att spara pengar till sina resor började Paulina jobba som servitris på en pizzeria i stan när hon gick sista året på gymnasiet. Paulina fortsatte att jobba där i två år efter att hon slutat skolan. Hon trivdes bra men ville gärna bo i ett land i Europa och det blev Sverige.\n\nPaulina är mycket social och gillar att prata med alla gäster från hela världen. Hennes kollegor beskriver henne som den mest positiva människan som de känner.\n- Jag har inga problem om det kommer en sur eller arg gäst som klagar på allt. Jag tycker bara att det är extra kul och då gör jag mitt bästa för att få gästen på bättre humör. Och jag lyckas nästan alltid. Det är faktiskt det jag gillar mest, att höra hur glad och tacksam en gäst är efter sitt besök på vårt hotell.\n\nPaulina skrattar när hon berättar om en tidig morgon när hotellet skulle ha en konferens med 100 gäster från olika länder. Helt plötsligt blev det mörkt i hela hotellet. Helt släktes. Men Paulina blev inte alls stressad av det. Hon fick i stället en idé att hon skulle ge konferensens gäster en kort kurs i hur man dansar salsa. Problemet med elektriciteten löstes ganska snabbt, men det blev en rolig start på dagen för flera gäster som fick lära sig att dansa salsa innan de fortsatte med sin konferens.\n\nPå frågan om hon kan rekommendera jobbet som receptionist till andra, svarar hon snabbt:\n- Självklart! Det är det finaste jobbet som finns."
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "A. Hur blev Paulina intresserad av att resa?",
+      "options": [
+        "genom att läsa böcker om andra länder",
+        "genom en kusin som berättade om resor",
+        "genom kurser på gymnasiet i Colombia"
+      ],
+      "answer": "genom en kusin som berättade om resor"
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. Var arbetade Paulina först efter gymnasiet?",
+      "options": [
+        "på ett hotell i centrala Uppsala",
+        "på en pizzeria i Colombia",
+        "på ett hotell i Bogotá"
+      ],
+      "answer": "på en pizzeria i Colombia"
+    },
+    {
+      "id": "B_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad gillar Paulina mest med sitt arbete?",
+      "options": [
+        "att lösa tekniska problem på morgonen",
+        "att få gästerna på bättre humör och glada",
+        "att träffa gäster som har rest mycket"
+      ],
+      "answer": "att få gästerna på bättre humör och glada"
+    },
+    {
+      "id": "B_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad hände en morgon när det var konferens på hotellet?",
+      "options": [
+        "Strömmen gick och det blev mörkt.",
+        "Ingen av gästerna dök upp i tid.",
+        "Brandalarmet började låta i huset."
+      ],
+      "answer": "Strömmen gick och det blev mörkt."
+    },
+    {
+      "id": "B_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad tycker Paulina om sitt arbete som receptionist?",
+      "options": [
+        "Det är ganska stressigt ibland.",
+        "Det är det finaste jobbet som finns.",
+        "Det är roligt men för mycket prat."
+      ],
+      "answer": "Det är det finaste jobbet som finns."
+    }
+  ]
 }

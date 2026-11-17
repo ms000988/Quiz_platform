@@ -1,9 +1,42 @@
 {
   "section": "D",
-  "icon": "📊",
-  "title": "Sektion D",
-  "instructions": "Studera diagrammen och svara på frågorna.",
-  "texts": [],
-  "charts": [],
-  "questions": []
+  "icon": "🧹",
+  "title": "Information om en städdag",
+  "instructions": "Läs texten från en webbsida om en städdag i Strömdals kommun och välj det ord som passar bäst i varje lucka (A–D).",
+  "texts": [
+    {
+      "heading": "Vi städar kommunen tillsammans",
+      "body": "Varje år i september ordnar Strömdals kommun en dag när vi tillsammans går ut och plockar skräp..."
+    }
+  ],
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilket ord passar bäst i lucka A?",
+      "options": ["lära", "göra", "bygga"],
+      "answer": "göra"
+    },
+    {
+      "id": "D_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilket ord passar bäst i lucka B?",
+      "options": ["provar", "behöver", "hittar"],
+      "answer": "hittar"
+    },
+    {
+      "id": "D_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilket ord passar bäst i lucka C?",
+      "options": ["köpa", "försöka", "hämta"],
+      "answer": "hämta"
+    },
+    {
+      "id": "D_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilket ord passar bäst i lucka D?",
+      "options": ["vinna", "låna", "skicka"],
+      "answer": "vinna"
+    }
+  ]
 }

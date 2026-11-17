@@ -1,8 +1,21 @@
 {
   "section": "G",
-  "icon": "📱",
-  "title": "Sektion G",
-  "instructions": "Läs inläggen och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "📝",
+  "title": "Sektion G: Artikelförståelse",
+  "instructions": "Läs artikeln och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Framtidens kommunikation",
+      "body": "Teknologin förändras snabbt och digitala verktyg blir allt vanligare i skolor och på arbetsplatser."
+    }
+  ],
+  "questions": [
+    {
+      "id": "G_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad blir vanligare enligt texten?",
+      "options": ["Digitala verktyg", "Pappersböcker", "Brevskrivning"],
+      "answer": "Digitala verktyg"
+    }
+  ]
 }

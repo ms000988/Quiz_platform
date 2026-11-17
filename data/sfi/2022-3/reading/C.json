@@ -1,8 +1,54 @@
 {
   "section": "C",
-  "icon": "👨‍👩‍👧‍👦",
-  "title": "Sektion C",
-  "instructions": "Läs texterna och matcha rätt person med påståendet.",
-  "texts": [],
-  "questions": []
+  "icon": "🌱",
+  "title": "Vad är viktigt för att må bra?",
+  "instructions": "Några personer berättar om vad som är viktigt för att må bra. Läs vad personerna säger och välj bland rubrikerna (1–6) för rätt rubrik i rutan bredvid varje text.",
+  "texts": [
+    {
+      "heading": "Markus",
+      "body": "- Frisk luft och solljus gör att jag blir piggare på dagen och får bättre sömn på natten..."
+    },
+    {
+      "heading": "Leyla",
+      "body": "- Att vara noga med skärmtid är viktigt för mig..."
+    },
+    {
+      "heading": "Gunnar",
+      "body": "- Jag tänker alltid på vad jag stoppar i mig..."
+    },
+    {
+      "heading": "Larisa",
+      "body": "- Jag arbetar alltid hemifrån och sitter ofta framför tv:n på kvällarna..."
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q1",
+      "type": "short",
+      "prompt": "A. Vilken rubrik/siffra passar för Markus?",
+      "answer": "5",
+      "acceptedAnswers": ["5", "fem"]
+    },
+    {
+      "id": "C_Q2",
+      "type": "short",
+      "prompt": "B. Vilken rubrik/siffra passar för Leyla?",
+      "answer": "4",
+      "acceptedAnswers": ["4", "fyra"]
+    },
+    {
+      "id": "C_Q3",
+      "type": "short",
+      "prompt": "C. Vilken rubrik/siffra passar för Gunnar?",
+      "answer": "6",
+      "acceptedAnswers": ["6", "sex"]
+    },
+    {
+      "id": "C_Q4",
+      "type": "short",
+      "prompt": "D. Vilken rubrik/siffra passar för Larisa?",
+      "answer": "2",
+      "acceptedAnswers": ["2", "två"]
+    }
+  ]
 }

@@ -1,8 +1,65 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "📌",
+  "title": "Annonser på anslagstavla",
+  "instructions": "Här ser du några annonser på en anslagstavla på ett bibliotek. Läs annonserna och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Teknisk hjälp?",
+      "body": "Jag letar efter någon som kan visa mig hur man gör egna filmer. Jag har en bra dator men jag förstår inte hur man klipper filmer och sedan lägger till musik och text. Hör av dig så blir jag väldigt glad!\nLennart, 072-305411"
+    },
+    {
+      "heading": "Dagens ros!",
+      "body": "I förra veckan tappade jag min plånbok här på biblioteket. Men någon var snäll och lämnade in den i receptionen. Jag blev så glad! Tänk att det finns så fina människor!\nKram, Gunilla"
+    },
+    {
+      "heading": "Plugga tyska",
+      "body": "Jag har tyska som modersmål och har jobbat som lärare i 5 år. Nu tänker jag börja undervisa i tyska, i små grupper eller bara för en person. Kvällstid och helger fungerar bäst eftersom jag själv studerar på universitetet på vardagarna. Kontakta mig om du är intresserad!\nHanna, 079-141784"
+    },
+    {
+      "heading": "Kurslitteratur",
+      "body": "Nu är jag klar med min utbildning till undersköterska och har en del böcker som jag inte behöver. Det är böcker för kurser i: Vård och omsorg, Psykologi. Hör av dig om du är intresserad. Du får dem gratis!\n/Shadia, shadia.bahar@univ.nu"
+    },
+    {
+      "heading": "Se hit!",
+      "body": "Jag har precis öppnat en egen restaurang på Nygatan och nu behöver jag hjälp i köket. Utbildning är inget krav men du måste ha erfarenhet av jobb på restaurang. Mejla om du är intresserad av att bli min kollega!\nNaomi, godmat@infosidan.com"
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad vill Lennart?",
+      "options": ["hjälpa någon", "få hjälp med något", "tacka för hjälpen"],
+      "answer": "få hjälp med något"
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad vill Gunilla?",
+      "options": ["fråga om något", "hjälpa någon", "tacka för något"],
+      "answer": "tacka för något"
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad vill Hanna?",
+      "options": ["lära sig ett nytt språk", "få hjälp med läxor", "ge lektioner i ett språk"],
+      "answer": "ge lektioner i ett språk"
+    },
+    {
+      "id": "A_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad vill Shadia?",
+      "options": ["sälja böcker", "ge bort böcker", "låna böcker"],
+      "answer": "ge bort böcker"
+    },
+    {
+      "id": "A_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad vill Naomi?",
+      "options": ["hyra en lokal", "starta ett företag", "anställa personal"],
+      "answer": "anställa personal"
+    }
+  ]
 }

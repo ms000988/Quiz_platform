@@ -1,8 +1,49 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "📚",
+  "title": "Med intresse för böcker",
+  "instructions": "Läs tidningsartikeln om Sabina Lundmark och hennes bokcirkel och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Med intresse för böcker",
+      "body": "Sabina Lundmark är med i en bokcirkel tillsammans med två andra kvinnor. De ses en gång i månaden. En bokcirkel är en grupp människor som träffas ibland och pratar om böcker som de har läst.\n\nDet var Sabina som startade bokcirkeln för ett år sedan. Då flyttade hon till Västerköping och började arbeta som lärare i svenska och engelska där. Hon fick många kollegor men saknade någon att umgås med privat. Därför sökte hon på internet efter personer som ville prata om böcker tillsammans. Två kvinnor svarade och ville vara med.\n\nBokcirkeln träffas en torsdagskväll varje månad, alltid i någon av medlemmarnas kök eller vardagsrum. En viktig del av deras möten är fika. De har alltid en kopp te och något att äta när de diskuterar boken som de har läst. Först pratar de om personerna i boken och vad den handlar om. Sedan diskuterar de vad som är bra eller dåligt med boken.\n- Det bästa med vår bokcirkel är att få höra olika tankar. Och det finns ju ingen rätt eller fel åsikt, säger Sabina.\n\nÄven om de har olika intressen har de inga problem att välja vad de ska läsa. De har en sak gemensamt: de älskar att läsa om olika kulturer och hur folk har det i olika delar av världen.\n- Vi utvecklas och lär oss massor genom böckerna och diskussionerna. Och det mår vi bra av, säger Sabina.\n\nSabina tycker att fler borde läsa och prata om böcker tillsammans. Men om man ska starta en bokcirkel, finns det några saker att tänka på.\n- Det spelar ingen roll var man träffas. Men det är viktigt att man är överens om en ordning för mötena. Så bestäm vem i gruppen som ska hålla i mötet. Han eller hon ställer frågor till gruppen om texten och har koll på tiden. Annars kanske träffarna blir för långa och slutar sent på natten, skrattar Sabina.\n\nNästa månad är det ett år sedan de startade bokcirkeln. Det ska de fira med att gå på bio och titta på en komedi som har vunnit flera priser. Den är gjord efter den senaste boken som de har läst.\n- Vi hoppas att den är lika rolig som boken, avslutar Sabina."
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "A. Varför startade Sabina bokcirkeln? För att ...",
+      "options": ["träna på språk", "få ett nytt jobb", "träffa nya vänner"],
+      "answer": "träffa nya vänner"
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. Var brukar de träffas?",
+      "options": ["hemma hos varandra", "på ett bibliotek", "på ett café"],
+      "answer": "hemma hos varandra"
+    },
+    {
+      "id": "B_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad gillar de att läsa i bokcirkeln? Böcker om ...",
+      "options": ["en god hälsa", "livet i andra länder", "kärlek och relationer"],
+      "answer": "livet i andra länder"
+    },
+    {
+      "id": "B_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad tycker Sabina är viktigt när man har en bokcirkel?",
+      "options": ["att alla får prata lika mycket", "att en person leder samtalet", "att alla har läst boken innan"],
+      "answer": "att en person leder samtalet"
+    },
+    {
+      "id": "B_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad ska de göra när de träffas nästa gång?",
+      "options": ["ha en tävling", "ordna en fest", "se en film"],
+      "answer": "se en film"
+    }
+  ]
 }

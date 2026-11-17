@@ -1,8 +1,42 @@
 {
   "section": "C",
-  "icon": "👨‍👩‍👧‍👦",
-  "title": "Sektion C",
-  "instructions": "Läs texterna och matcha rätt person med påståendet.",
-  "texts": [],
-  "questions": []
+  "icon": "🍳",
+  "title": "En intervju med Ayana",
+  "instructions": "Läs frågorna och intervjun med Ayana som har varit med i TV och laga mat. Välj det svar (1–5) som passar bäst till varje fråga.",
+  "texts": [
+    {
+      "heading": "Svarsalternativ",
+      "body": "1. - Jag vill gärna skriva en egen kokbok i framtiden. Jag har redan börjat samla på recept och tagit bilder på rätter som jag har lagat.\n\n2. - Det kändes lite nervöst i början när kameran startade. Men efter fem minuter glömde jag bort att kameran fanns och det kändes precis som hemma i mitt eget kök.\n\n3. - Jag tittade på matprogram på TV varje kväll och provade nya recept hemma. Det är det bästa sättet att lära sig.\n\n4. - En av mina vänner anmälde mig utan att jag visste om det! När jag fick ett mejl från TV-bolaget blev jag först jätteförvånad, men sedan tackade jag ja.\n\n5. - Man måste ha tålamod och våga testa nya smaker. Det är inte farligt om maten misslyckas någon gång, man lär sig av sina misstag."
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q1",
+      "type": "mcq",
+      "prompt": "A. Hur blir man bra på att laga mat?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "C_Q2",
+      "type": "mcq",
+      "prompt": "B. Varför ville du vara med i TV och laga mat?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "id": "C_Q3",
+      "type": "mcq",
+      "prompt": "C. Hur kändes det att laga mat i TV?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "2"
+    },
+    {
+      "id": "C_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad vill du göra i framtiden?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "1"
+    }
+  ]
 }

@@ -1,7 +1,7 @@
 {
   "year": "2024-6",
   "module": "reading",
-  "title": "SFI Läsförståelse 2024-6",
+  "title": "SFI Läsförståelse – Exam 2024-6",
   "passThreshold": 0.6,
-  "sections": ["A.json", "B.json", "C.json", "D.json", "E.json", "F.json", "G.json", "H.json"]
+  "sections": ["A.json", "B.json", "C.json", "D.json", "E.json", "F.json"]
 }

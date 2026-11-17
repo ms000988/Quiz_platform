@@ -1,8 +1,49 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🎨",
+  "title": "En intervju med Berhane",
+  "instructions": "Läs frågorna och intervjun med Berhane som gillar att måla tavlor på fritiden. Välj det svar (1–6) som passar bäst till varje fråga.",
+  "texts": [
+    {
+      "heading": "Svarsalternativ",
+      "body": "1. - Jag funderar ofta på det. Min dröm är att göra en barnbok med mina bilder. Den ska handla om en katt som åker tåg genom hela Sverige till Lappland, för att titta på norrsken. Men jag hinner inte riktigt just nu.\n\n2. - Det var mina föräldrar som tyckte att jag skulle bli språklärare och jag är glad att jag lyssnade på dem. Det är ett spännande jobb med ganska hög lön och det är bra eftersom jag köper mycket färg och den är dyr.\n\n3. - Jag gick på en gymnasieskola med fokus på olika språk. Men när jag var 16 år studerade jag ett år i Italien. Där hade jag lektioner i bild och konst två gånger i veckan och det var jättekul. Sedan det året målar jag nästan varje dag.\n\n4. - Jag är en 29-årig kille och jag arbetar som lärare på Komvux just nu. Jag är född i Eritrea men jag flyttade till Sverige för 10 år sedan. På fritiden älskar jag att måla tavlor på djur och natur.\n\n5. - Alla i min familj är intresserade av dans och musik. Men min morbror arbetar med konst på ett museum och målar själv en del på sin fritid. När jag var liten tyckte jag så mycket om att vara på hans jobb och titta på allt fint där.\n\n6. - Det händer inte så ofta, men för några år sedan ville en kusin gärna köpa en tavla som hon gillade så mycket. Så när hon fyllde år fick hon den i present för jag vill inte ta betalt av familj och vänner."
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q0",
+      "type": "mcq",
+      "prompt": "Exempel: Kan du berättar lite om dig själv?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "4"
+    },
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. När började du måla tavlor?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "3"
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Har du någon släkting som målar tavlor?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "5"
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Brukar du sälja dina tavlor?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "6"
+    },
+    {
+      "id": "A_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad vill du göra i framtiden?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "1"
+    }
+  ]
 }

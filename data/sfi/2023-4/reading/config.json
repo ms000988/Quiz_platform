@@ -1,7 +1,7 @@
 {
   "year": "2023-4",
   "module": "reading",
-  "title": "SFI Läsförståelse 2023-4",
+  "title": "SFI Läsförståelse – Exam 2023-4",
   "passThreshold": 0.6,
   "sections": ["A.json", "B.json", "C.json", "D.json", "E.json", "F.json", "G.json", "H.json"]
 }

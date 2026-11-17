@@ -1,8 +1,56 @@
 {
   "section": "F",
-  "icon": "🍦",
-  "title": "Sektion F",
-  "instructions": "Läs artikeln och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🏠",
+  "title": "Aktivitetshuset",
+  "instructions": "Läs informationen om Aktivitetshuset och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Aktivitetshuset – en mötesplats för alla åldrar",
+      "body": "• Gympa för blivande mammor: Prova aktiviteter som gör dig piggare och starkare. Kursledare: Ebba Blom. Tisdag, kl. 15.00–17.00, rum 305. Lördag, kl. 10.00–12.00, rum 305. Start vecka 2. E-post: mammagympa@univ.nu\n\n• För dig över 65 år: Är du 65+ och vill bli bättre på dator, internet och mobil? Onsdag, kl. 13.00–15.00, rum 104. Start vecka 3 (anmälan senast 12 januari). Kursledare: Hadi Jafar, hadi.jafar@univ.nu\n\n• Tango för vuxna: Lär dig dansa tango (även för dig som är rullstolsburen). Söndag, kl. 19.00–20.30, rum 305. Start vecka 4. Kursledare: Salome Alonso. Anmäl dig senast den 20 januari.\n\n• Lär dig mer i köket: Smaker från Peru. Måndag, kl. 18.30–22.00, rum 101. Start vecka 2. Anmäl dig senast 5 januari till Alma Rivera.\n\n• Roliga stunder för de minsta (4–12 år):\n  - Rita och måla: tisdag och torsdag, kl. 14.00–17.00, rum 203.\n  - Testa brädspel: måndag, kl. 16.00–18.00, rum 205.\n  - Spela teater: lördag och söndag, kl. 11.00–15.00, rum 219 (start vecka 3, ingen anmälan). Kontakt: Daniel Arvidsson."
+    }
+  ],
+  "questions": [
+    {
+      "id": "F_Q1",
+      "type": "short",
+      "prompt": "A. Vilken dag är IT-kursen för pensionärer?",
+      "answer": "Onsdag",
+      "acceptedAnswers": ["Onsdag", "onsdag"]
+    },
+    {
+      "id": "F_Q2",
+      "type": "short",
+      "prompt": "B. I vilket rum är IT-kursen för pensionärer?",
+      "answer": "Rum 104",
+      "acceptedAnswers": ["Rum 104", "104", "rum 104"]
+    },
+    {
+      "id": "F_Q3",
+      "type": "short",
+      "prompt": "C. Vilken tid slutar kursen där man lagar mat?",
+      "answer": "Kl. 22:00",
+      "acceptedAnswers": ["22:00", "22.00", "kl 22.00", "klockan 22:00"]
+    },
+    {
+      "id": "F_Q4",
+      "type": "short",
+      "prompt": "D. Vilket datum måste du senast anmäla dig om du vill gå danskursen?",
+      "answer": "20 januari",
+      "acceptedAnswers": ["20 januari", "den 20 januari", "20/1"]
+    },
+    {
+      "id": "F_Q5",
+      "type": "short",
+      "prompt": "E. Vad heter ledaren för träningen för gravida kvinnor?",
+      "answer": "Ebba Blom",
+      "acceptedAnswers": ["Ebba Blom", "ebba blom"]
+    },
+    {
+      "id": "F_Q6",
+      "type": "short",
+      "prompt": "F. Vad kan barn göra i Aktivitetshuset på helgerna?",
+      "answer": "Spela teater",
+      "acceptedAnswers": ["Spela teater", "spela teater"]
+    }
+  ]
 }

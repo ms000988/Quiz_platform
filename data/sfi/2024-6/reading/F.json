@@ -1,8 +1,65 @@
 {
   "section": "F",
-  "icon": "🍦",
-  "title": "Sektion F",
-  "instructions": "Läs artikeln och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "💼",
+  "title": "Jobb och karriär",
+  "instructions": "Läs jobbannonserna och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Bli vår nya kollega! (Restaurang WOK)",
+      "body": "Kom och arbeta på Restaurang WOK på Blomgatan 18! Här lagar vi kinesisk mat. Vi behöver en servitör. Erfarenhet är inget krav och det går bra att kombinera jobbet med utbildning. Tjänsten är på 50 % med arbete kl. 18–22. Start: 1 oktober. Skicka din ansökan till restaurangen@univ.nu, senast 10 maj."
+    },
+    {
+      "heading": "Ett jobb för dig! (Granby komvux)",
+      "body": "Gillar du att lösa problem och hjälpa andra? Då är Granby komvux en perfekt plats för dig. Vi söker en receptionist som kan: svara på frågor från elever och besökare, hjälpa elever att anmäla sig till våra kurser, boka klassrum och lokaler åt lärare, skriva ut betyg och intyg. 8 timmars arbetsdag, kl. 8–17, måndag till fredag, med start i höst. För mer information och ansökan, kontakta rektor Anna Bylund, anna.bylund@univ.nu. Skicka din ansökan senast 30 april."
+    },
+    {
+      "heading": "Ledig tjänst! (Solviks grundskola)",
+      "body": "Solviks grundskola har cirka 500 elever. I höst kommer en av våra kollegor att vara föräldraledig. Därför behöver vi en vikarie i engelska för elever i årskurs 4–6. Tjänsten gäller för sex månader med start den 15 oktober. 40 timmars arbetsvecka. Välkommen att söka jobbet på solvik@infosidan.com senast 30 juni."
+    },
+    {
+      "heading": "Kom till oss! (Leilas Hemtjänst)",
+      "body": "Leilas Hemtjänst har kunder från hela världen. Just nu söker vi en svensktalande undersköterska som dessutom talar polska. Goda referenser är ett krav. Tjänsten är på 100 %. Arbete dagtid. Start: 10 oktober. Kontakta oss så berättar vi mer! Tel: 072-30 54 22, e-post: leila.jankovich@univ.nu"
+    },
+    {
+      "heading": "Vi behöver hjälp! (Hotell Bravo)",
+      "body": "Hotell Bravo behöver en städare under perioden juni till augusti. Arbetstid: kl. 7–15, måndag till fredag. För frågor, kontakta Emma Lindblad, hotellbravo@infosidan.com. Ansök senast 20 april på vår webbsida: www.hotellbravo.infosidan.com."
+    }
+  ],
+  "questions": [
+    {
+      "id": "F_Q1",
+      "type": "short",
+      "prompt": "A. Vilket jobb passar någon som vill arbeta på kvällen?",
+      "answer": "Restaurang WOK",
+      "acceptedAnswers": ["Restaurang WOK", "servitör", "restaurang wok"]
+    },
+    {
+      "id": "F_Q2",
+      "type": "short",
+      "prompt": "B. När är sista ansökningsdag för jobbet som receptionist på Granby komvux?",
+      "answer": "30 april",
+      "acceptedAnswers": ["30 april", "30/4", "den 30 april"]
+    },
+    {
+      "id": "F_Q3",
+      "type": "short",
+      "prompt": "C. Hur länge varar vikariatet på Solviks grundskola?",
+      "answer": "sex månader",
+      "acceptedAnswers": ["sex månader", "6 månader", "6"]
+    },
+    {
+      "id": "F_Q4",
+      "type": "short",
+      "prompt": "D. Vilket språk förutom svenska behöver man kunna på Leilas Hemtjänst?",
+      "answer": "polska",
+      "acceptedAnswers": ["polska", "Polska"]
+    },
+    {
+      "id": "F_Q5",
+      "type": "short",
+      "prompt": "E. Vem ska man kontakta om man har frågor om städjobbet på Hotell Bravo?",
+      "answer": "Emma Lindblad",
+      "acceptedAnswers": ["Emma Lindblad", "emma lindblad"]
+    }
+  ]
 }

@@ -1,8 +1,55 @@
 {
   "section": "C",
-  "icon": "👨‍👩‍👧‍👦",
-  "title": "Sektion C",
-  "instructions": "Läs texterna och matcha rätt person med påståendet.",
-  "texts": [],
-  "questions": []
+  "icon": "📊",
+  "title": "Ett diagram: Vigslar i Sverige",
+  "instructions": "Studera stapeldiagrammet som visar hur många par som gifte sig i Sverige år 2015 och år 2020 och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Information om diagrammet",
+      "body": "Diagrammet visar antal par som gifte sig i Sverige under olika månader år 2015 (blå staplar) och år 2020 (orange staplar).\nKälla: SCB (Statistiska centralbyrån)."
+    }
+  ],
+  "charts": [
+    {
+      "id": "chartMarriages",
+      "type": "bar",
+      "title": "Så många par gifte sig i Sverige olika månader år 2015 och år 2020",
+      "labels": ["januari", "februari", "mars", "april", "maj", "juni", "juli", "augusti", "september", "oktober", "november", "december"],
+      "datasets": [
+        {
+          "label": "År 2015",
+          "data": [2600, 3000, 2400, 2800, 5800, 6700, 7600, 9000, 4700, 3200, 2300, 2200],
+          "backgroundColor": "#1e3a8a"
+        },
+        {
+          "label": "År 2020",
+          "data": [2100, 3700, 1900, 1900, 3300, 4100, 4800, 6100, 3600, 3100, 2000, 1600],
+          "backgroundColor": "#ea580c"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q1",
+      "type": "short",
+      "prompt": "A. Ungefär hur många par gifte sig i februari år 2015?",
+      "answer": "3000",
+      "acceptedAnswers": ["3000", "3 000", "ca 3000"]
+    },
+    {
+      "id": "C_Q2",
+      "type": "short",
+      "prompt": "B. Vilken månad år 2020 gifte sig minst antal par?",
+      "answer": "december",
+      "acceptedAnswers": ["december", "December"]
+    },
+    {
+      "id": "C_Q3",
+      "type": "short",
+      "prompt": "C. Vilken månad var det populärast att gifta sig, både 2015 och 2020?",
+      "answer": "augusti",
+      "acceptedAnswers": ["augusti", "Augusti"]
+    }
+  ]
 }

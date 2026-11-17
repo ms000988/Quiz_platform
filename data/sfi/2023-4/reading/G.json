@@ -1,8 +1,46 @@
 {
   "section": "G",
-  "icon": "📱",
-  "title": "Sektion G",
-  "instructions": "Läs inläggen och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🏫",
+  "title": "Biblioteksregler & Skolbrev",
+  "instructions": "Läs texterna om biblioteket och skolbrevet från rektor Anna Månsson och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Regler för bibliotekets besökare",
+      "body": "För att kunna låna böcker eller använda bibliotekets datorer måste du ha ett lånekort. Det kan du beställa gratis på vår webbsida eller i receptionen. När du hämtar ut ditt lånekort behöver du visa din legitimation.\nI vår datasal finns det 15 datorer som du kan låna. Här kan du också skriva ut och kopiera dokument. Du får använda datorn max tre timmar per dag. Du kan skriva upp dig på en väntelista om det inte finns någon ledig dator.\nStäng av ljudet på mobiltelefonen när du är på biblioteket. Det är inte tillåtet att prata i telefon eller äta och dricka i bibliotekets lokaler. Om du vill det är du i stället välkommen att besöka kafeterian som ligger på plan 1."
+    },
+    {
+      "heading": "Informationsbrev från Kvarnstadens komvux",
+      "body": "Välkommen till en ny termin på Kvarnstadens komvux!\n• Schema: Starttiden ändras till klockan nio i stället för åtta, från och med 15 augusti.\n• Busskort: Bussbolaget Min Tur ger 50% rabatt till elever som lämnar in kursintyg på Parkgatan 35.\n• Matfestival: 3 september på skolgården (idrottshallen är upptagen). Anmäl recept till tävlingen senast 25 augusti på biblioteket.\n• Vägledare: Magnus Pettersson finns i datasalen måndagar kl. 14–16 för att hjälpa till med CV och personligt brev.\n/Anna Månsson, rektor"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad händer med elevernas schema den här terminen?",
+      "options": ["Lektionerna börjar tidigare.", "Lektionerna börjar senare.", "Lektionerna börjar samma tid som förut."],
+      "answer": "Lektionerna börjar senare."
+    },
+    {
+      "id": "G_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad kan skolans elever få av bussbolaget den här terminen?",
+      "options": ["billigare bussresor", "en utbildning till bussförare", "arbete på bussbolaget"],
+      "answer": "billigare bussresor"
+    },
+    {
+      "id": "G_Q3",
+      "type": "mcq",
+      "prompt": "C. Var ska Matfestivalen vara?",
+      "options": ["på biblioteket", "i idrottshallen", "på skolgården"],
+      "answer": "på skolgården"
+    },
+    {
+      "id": "G_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad kan eleverna få hjälp med på måndagar?",
+      "options": ["använda dataprogram", "söka arbete", "anmäla sig till kurser"],
+      "answer": "söka arbete"
+    }
+  ]
 }
