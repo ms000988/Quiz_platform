@@ -1,8 +1,49 @@
 {
   "section": "C",
-  "icon": "👨‍👩‍👧‍👦",
-  "title": "Sektion C",
-  "instructions": "Läs texterna och matcha rätt person med påståendet.",
-  "texts": [],
-  "questions": []
+  "icon": "🗣️",
+  "title": "Uppgift 3: En intervju med Omar (Tolk)",
+  "instructions": "Läs frågorna och välj bland svaren (1–6) från intervjun med tolk Omar. Skriv siffran för rätt svar.",
+  "texts": [
+    {
+      "heading": "Svar från intervjun (1–6)",
+      "body": "1. Det varierar, men ofta gör man först språktest i båda språken och efter det studerar man cirka ett år på högskola. Sedan kan man fortsätta med flera kurser.\n\n2. Man får arbeta kvällar och helger ibland. Och när man har hjälpt en person som är i en jobbig situation kan det vara svårt att koppla av och tänka på något annat när man kommer hem från arbetet.\n\n3. En tolk är en person som hjälper människor att förstå varandra fast de talar olika språk.\n\n4. Jag har alltid varit intresserad av språk och jag ville ha ett jobb där man har mycket kontakt med människor. Jag ville också känna att jag gör något som är viktigt för andra.\n\n5. En tolk måste vara lugn och pålitlig. Men också neutral och bra på att lyssna. Och man måste vara social och öppen.\n\n6. Jag hjälper personer som är nya i Sverige i kontakt med myndigheter. Jag tolkar på sjukhus, socialkontor och i möten med advokat. Ibland tolkar jag via telefon eller video-chatt."
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q0",
+      "type": "mcq",
+      "prompt": "Exempel: Vad är en tolk?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "3"
+    },
+    {
+      "id": "C_Q1",
+      "type": "mcq",
+      "prompt": "A. Varför bestämde du dig för att bli tolk?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "4"
+    },
+    {
+      "id": "C_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad gör du på jobbet?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "6"
+    },
+    {
+      "id": "C_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilka egenskaper är viktiga hos en tolk?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "5"
+    },
+    {
+      "id": "C_Q4",
+      "type": "mcq",
+      "prompt": "D. Hur utbildar man sig till tolk?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "1"
+    }
+  ]
 }

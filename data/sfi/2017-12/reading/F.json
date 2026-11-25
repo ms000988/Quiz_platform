@@ -1,8 +1,94 @@
 {
   "section": "F",
-  "icon": "🍦",
-  "title": "Sektion F",
-  "instructions": "Läs artikeln och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "📚",
+  "title": "Läsa B – Biblioteket och Intervju med sjuksköterska",
+  "instructions": "Läs texterna om personer på biblioteket och intervjun med sjuksköterskan Stefan och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Uppgift 1: Varför är personerna på biblioteket? (1–5)",
+      "body": "• Stig: - Jag jobbar i en sportaffär och blir ofta trött i benen. På min lunchrast brukar jag gå hit till biblioteket för att koppla av en stund. Jag sitter ofta och lyssnar på ett radioprogram i mina hörlurar. Det är skönt att bara ta det lugnt en stund.\n• Stina: - Jag håller på att utbilda mig till bibliotekarie så jag är här i åtta veckor nu och lär mig hur jobbet fungerar. Det är bra att få erfarenhet av jobbet på riktigt och se hur man trivs med det.\n• Mikael: - I dag är jag här med mina två söner. Eftersom det är fredag ska vi titta på film hemma i kväll. Barnen ska få välja en kul dvd här. Man får ha filmen hemma i två veckor, helt gratis. Det är väldigt bra.\n• Junko: - Jag delar lägenhet med en tjej som ofta lyssnar på musik eller pratar i sin mobiltelefon. Här är det lugnt och tyst så att jag kan koncentrera mig när jag gör läxor eller pluggar till ett viktigt prov.\n\nAlternativ: 1. För att studera | 2. För att lämna något | 3. För att låna något | 4. För att vila | 5. För att göra praktik"
+    },
+    {
+      "heading": "Uppgift 2: Intervju med sjuksköterskan Stefan (1–5)",
+      "body": "1. - Alla arbetspass är olika men jag ser alltid till att patienterna får god vård. Jag tar ofta prover på patienterna, ger medicin och kontrollerar blodtryck.\n2. - Vi har ett väldigt stort ansvar för patienterna. Om man tänker på det tycker jag att min lön är för låg. Man blir också trött av att arbeta på nätter och helger.\n3. - För att jag alltid har drömt om att arbeta inom vården. Jag kommer ihåg att jag och min bror brukade leka sjukhus hemma när vi var små.\n4. - Det är att få hjälpa andra människor. Jag mår bra av det och jag trivs i den här miljön.\n5. - Då försöker jag göra personen lugn. Jag pratar med honom eller henne och berättar precis vad jag ska göra."
+    }
+  ],
+  "questions": [
+    {
+      "id": "F_Q1",
+      "type": "mcq",
+      "prompt": "Bibliotek A. Stig (1–5):",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "id": "F_Q2",
+      "type": "mcq",
+      "prompt": "Bibliotek B. Stina (1–5):",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "F_Q3",
+      "type": "mcq",
+      "prompt": "Bibliotek C. Mikael (1–5):",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": "F_Q4",
+      "type": "mcq",
+      "prompt": "Bibliotek D. Junko (1–5):",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "1"
+    },
+    {
+      "id": "F_Q5",
+      "type": "mcq",
+      "prompt": "Sjuksköterska A. Varför utbildade du dig till sjuksköterska? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": "F_Q6",
+      "type": "mcq",
+      "prompt": "Sjuksköterska B. Vad gör du på jobbet? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "1"
+    },
+    {
+      "id": "F_Q7",
+      "type": "mcq",
+      "prompt": "Sjuksköterska C. Vad gör du om en patient känner sig orolig? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "F_Q8",
+      "type": "mcq",
+      "prompt": "Sjuksköterska D. Vad är det bästa med ditt jobb? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: أسباب الذهاب للمكتبة (Stig → 4 للراحة، Stina → 5 للتدريب العملي، Mikael → 3 للاستعارة، Junko → 1 للدراسة) وإجابات مقابلة الممرض (A → 3، B → 1، C → 5، D → 4).",
+    "explanation": "الجزء الأول يوضح تنوّع استخدام المكتبة، والجزء الثاني يوضح مهنة الممرض (sjuksköterska) وأعماله اليومية.",
+    "translation": "النصوص تصف استخدامات المكتبة وتفاصيل عمل الممرض مع المرضى.",
+    "vocabulary": [
+      "bibliotek (مكتبة)",
+      "vila (راحة)",
+      "låna (يستعير)",
+      "praktik (تدريب عملي)",
+      "sjuksköterska (ممرض / ممرضة)",
+      "patient (مريض)",
+      "vård (رعاية صحية)",
+      "ansvar (مسؤولية)"
+    ],
+    "examples": [
+      "Jag går till biblioteket för att låna böcker. (أذهب إلى المكتبة لأستعير كتبًا.)",
+      "Sjuksköterskan hjälper patienten. (الممرض يساعد المريض.)"
+    ],
+    "tip": "ركّز على الكلمات المفتاحية في المكتبة، وابحث عن الإجابة المباشرة في مقابلة العمل."
+  }
 }

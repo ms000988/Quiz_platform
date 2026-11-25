@@ -1,8 +1,69 @@
 {
   "section": "H",
-  "icon": "🏛️",
-  "title": "Sektion H",
-  "instructions": "Läs mötesanteckningarna och informationsbladet.",
-  "texts": [],
-  "questions": []
+  "icon": "🎓",
+  "title": "Läsa B – Information om studier (Komvux)",
+  "instructions": "Läs informationen om studier på Komvux webbsida och välj rätt rubrik till varje text.",
+  "texts": [
+    {
+      "heading": "Text A",
+      "body": "Det finns många olika utbildningar hos oss. Just nu saknas det undersköterskor och kockar på arbetsmarknaden. Därför är det bra yrken att utbilda sig till om man vill vara säker på att få jobb i framtiden."
+    },
+    {
+      "heading": "Text B",
+      "body": "För att du ska få plats på den utbildning som du vill gå är det viktigt att du skickar alla dina papper i god tid. På kommunens webbsida finns information om startdatum samt sista anmälningsdatum för alla kurser."
+    },
+    {
+      "heading": "Text C",
+      "body": "Studiemedel består av bidrag och lån. Du väljer själv om du vill låna eller inte. Lånet måste du sedan betala tillbaka. När du studerar på Komvux har du rätt att få hjälp max två år."
+    },
+    {
+      "heading": "Text D",
+      "body": "Om du stannar hemma från skolan är det viktigt att du kontaktar din lärare och försäkringskassan redan första dagen. Är du borta mer än sju dagar måste du även lämna ett läkarintyg."
+    }
+  ],
+  "questions": [
+    {
+      "id": "H_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilken rubrik passar till text A?",
+      "options": ["Utbildningar / Yrken", "Ansökan", "Ekonomi / Studiemedel", "Sjukdom / Sjukanmälan"],
+      "answer": "Utbildningar / Yrken"
+    },
+    {
+      "id": "H_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilken rubrik passar till text B?",
+      "options": ["Utbildningar / Yrken", "Ansökan", "Ekonomi / Studiemedel", "Sjukdom / Sjukanmälan"],
+      "answer": "Ansökan"
+    },
+    {
+      "id": "H_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilken rubrik passar till text C?",
+      "options": ["Utbildningar / Yrken", "Ansökan", "Ekonomi / Studiemedel", "Sjukdom / Sjukanmälan"],
+      "answer": "Ekonomi / Studiemedel"
+    },
+    {
+      "id": "H_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilken rubrik passar till text D?",
+      "options": ["Utbildningar / Yrken", "Ansökan", "Ekonomi / Studiemedel", "Sjukdom / Sjukanmälan"],
+      "answer": "Sjukdom / Sjukanmälan"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: مطابقة النصوص مع العناوين (A التخصصات/المهن، B التقديم/المواعيد، C الدعم المالي/القرض الدراسي، D التبليغ عن المرض).",
+    "explanation": "النصوص تشرح معلومات مهمة حول الدراسة في Komvux من حيث التخصصات، التقديم، الدعم المالي، والغياب المرضي.",
+    "translation": "كل نص يقدم معلومة أساسية عن الدراسة في الكومفوكس.",
+    "vocabulary": [
+      "utbildning (تعليم / تخصص)",
+      "kurs (دورة)",
+      "studietid (وقت الدراسة)",
+      "sjukanmälan (تبليغ المرض)"
+    ],
+    "examples": [
+      "Jag går en kurs på Komvux. (أشارك في دورة في الكومفوكس.)"
+    ],
+    "tip": "ركّز على العناوين والكلمات المفتاحية للوصول إلى الجواب الصحيح بسرعة."
+  }
 }

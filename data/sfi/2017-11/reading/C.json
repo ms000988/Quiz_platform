@@ -1,8 +1,69 @@
 {
   "section": "C",
-  "icon": "👨‍👩‍👧‍👦",
-  "title": "Sektion C",
-  "instructions": "Läs texterna och matcha rätt person med påståendet.",
-  "texts": [],
-  "questions": []
+  "icon": "💃",
+  "title": "Läsa A – Uppgift 3: Varför går de på danskurs?",
+  "instructions": "Några personer berättar om varför de går på danskurs. Läs vad personerna säger och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Rashid",
+      "body": "- Jag jobbar mycket och blir ofta stressad. Men när jag dansar slappnar jag av och somnar lätt på kvällen sen när jag kommer hem från kursen."
+    },
+    {
+      "heading": "Kate",
+      "body": "- Jag hade aldrig dansat när jag träffade min man. Men eftersom han älskar det bestämde jag mig för att gå en kurs och se om jag också gillar det. Det är svårt men samtidigt bra för mig eftersom vi kan öva hemma."
+    },
+    {
+      "heading": "Mona",
+      "body": "- Jag var så trött hela tiden. Då tyckte en kompis till mig att jag skulle följa med hennes danskurs. Jag har aldrig gillat att träna men hon hade rätt. Dansen gör mig både pigg och glad."
+    },
+    {
+      "heading": "Mike",
+      "body": "- När jag flyttade till Sverige började jag jobba direkt. Men på helgerna när jag var ledig kände jag mig ensam. Jag anmälde mig till en kurs och hoppades på att få lite nya kontakter. Det var ett bra beslut."
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q1",
+      "type": "mcq",
+      "prompt": "A. Varför går Rashid på danskurs?",
+      "options": ["För att bli glad.", "För att bli lugn.", "För att bli stark."],
+      "answer": "För att bli lugn."
+    },
+    {
+      "id": "C_Q2",
+      "type": "mcq",
+      "prompt": "B. Varför går Kate på danskurs?",
+      "options": ["För att prova något nytt.", "För att lära sig svenska.", "För att hitta en partner."],
+      "answer": "För att prova något nytt."
+    },
+    {
+      "id": "C_Q3",
+      "type": "mcq",
+      "prompt": "C. Varför går Mona på danskurs?",
+      "options": ["För att träffa nya vänner.", "För att må bra.", "För att bli lugn."],
+      "answer": "För att må bra."
+    },
+    {
+      "id": "C_Q4",
+      "type": "mcq",
+      "prompt": "D. Varför går Mike på danskurs?",
+      "options": ["För att lära sig svenska.", "För att träffa nya vänner.", "För att må bra."],
+      "answer": "För att träffa nya vänner."
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: Rashid ليسترخي ويصبح هادئًا (För att bli lugn)، Kate لتجربة شيء جديد، Mona لتشعر بتحسن وصحة جيدة (För att må bra)، وMike للتعرف على أصدقاء/معارف جدد.",
+    "explanation": "كل شخص يذكر سببًا مختلفًا للالتحاق بدورة الرقص: الاسترخاء، تجربة شيء جديد، تحسين المزاج، أو تكوين صداقات.",
+    "translation": "أسباب مختلفة للذهاب إلى دورة رقص.",
+    "vocabulary": [
+      "danskurs (دورة رقص)",
+      "slappna av (يسترخي)",
+      "prova något nytt (يجرب شيئًا جديدًا)",
+      "nya kontakter (معارف جدد)"
+    ],
+    "examples": [
+      "Jag dansar för att slappna av. (أرقص لكي أسترخي.)"
+    ],
+    "tip": "اربط الجملة الأخيرة في كلام كل شخص بالاختيار الذي يعبر عن هدفه."
+  }
 }

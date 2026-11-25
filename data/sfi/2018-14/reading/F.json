@@ -1,8 +1,87 @@
 {
   "section": "F",
-  "icon": "🍦",
-  "title": "Sektion F",
-  "instructions": "Läs artikeln och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "✉️",
+  "title": "Uppgift 6: Tankar om studier och mejl",
+  "instructions": "Läs texterna om studier och mejlen och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Adrian",
+      "body": "- Jag har länge tänkt att jag ska gå en kurs i arabiska. Det skulle vara kul att kunna flera språk. Men jag har så mycket att göra nu med små barn hemma. Jag får vänta några år tills barnen blir större."
+    },
+    {
+      "heading": "Mary",
+      "body": "- Jag har precis slutat gymnasiet och är lite trött på skolan nu. Jag har funderat på att söka till polishögskolan till höstterminen men jag har inte bestämt mig än."
+    },
+    {
+      "heading": "Jimmy",
+      "body": "- Jag läser till journalist och är snart färdig. Jag gillar att studera, men nu ser jag fram emot att få börja jobba på en tidning. Jag har gjort praktik förut, men nu i höst får jag skriva artiklar på riktigt."
+    },
+    {
+      "heading": "Mejl från Edgar",
+      "body": "Hej alla!\nJag har ett extra lexikon som jag inte behöver. Mejla mig om du är intresserad! Du får det för 50 kr - nästan gratis ;) (Nypris är ca 300 kr.)\nHälsningar Edgar"
+    },
+    {
+      "heading": "Mejl från Najma",
+      "body": "Hej!\nJag har fått en plats på kursen i ekonomi och har satt in anmälningsavgiften på ert konto. Men jag har tyvärr inte fått schema och datum för kursstart än. Jättefint om ni kan mejla det till mig!\nHälsningar Najma"
+    },
+    {
+      "heading": "Mejl från Sara",
+      "body": "Till alla elever i klass Elb:\nVi ses som vanligt för lektion nu på fredag eftermiddag klockan 13.00. Observera att lektionen är flyttad till sal 204 på våning 2, eftersom vårt vanliga klassrum ska renoveras och målas om.\nHälsningar Sara"
+    },
+    {
+      "heading": "Mejl från Lena",
+      "body": "Hej!\nDet är jag som håller i veckans lärarmöte. Vi brukar ju ta kaffet före mötet men idag behöver vi börja direkt, klockan tre. Vi har många saker som vi ska diskutera så vi fikar medan vi pratar!\nHälsningar Lena"
+    }
+  ],
+  "questions": [
+    {
+      "id": "F_Q1",
+      "type": "mcq",
+      "prompt": "A. Ska Adrian studera i höst?",
+      "options": ["ja", "nej", "kanske"],
+      "answer": "nej"
+    },
+    {
+      "id": "F_Q2",
+      "type": "mcq",
+      "prompt": "B. Ska Mary studera i höst?",
+      "options": ["ja", "nej", "kanske"],
+      "answer": "kanske"
+    },
+    {
+      "id": "F_Q3",
+      "type": "mcq",
+      "prompt": "E. Ska Jimmy studera i höst?",
+      "options": ["ja", "kanske", "nej"],
+      "answer": "nej"
+    },
+    {
+      "id": "F_Q4",
+      "type": "mcq",
+      "prompt": "Mejl A. Vad vill Edgar?",
+      "options": ["ge bort ett lexikon", "köpa ett lexikon", "sälja ett lexikon"],
+      "answer": "sälja ett lexikon"
+    },
+    {
+      "id": "F_Q5",
+      "type": "mcq",
+      "prompt": "Mejl B. Vad vill Najma?",
+      "options": ["anmäla sig till en kurs", "betala för en kurs", "få information om en kurs"],
+      "answer": "få information om en kurs"
+    },
+    {
+      "id": "F_Q6",
+      "type": "mcq",
+      "prompt": "Mejl C. Vad vill Sara?",
+      "options": ["informera om ny tid", "informera om annan lokal", "informera om ett möte"],
+      "answer": "informera om annan lokal"
+    },
+    {
+      "id": "F_Q7",
+      "type": "mcq",
+      "prompt": "Mejl D. Vad vill Lena?",
+      "options": ["bjuda på något", "informera om något", "fråga om något"],
+      "answer": "informera om något"
+    }
+  ]
 }

@@ -2,18 +2,42 @@
   "examId": "2019-15",
   "parts": [
     {
-      "id": 1,
-      "title": "Del 1",
-      "audio": "audio1.mp3",
+      "id": 3,
+      "title": "Uppgift 3: Nyheter",
+      "audio": "audio3.mp3",
       "maxPlays": 2,
-      "questions": []
-    },
-    {
-      "id": 2,
-      "title": "Del 2",
-      "audio": "audio2.mp3",
-      "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L3_A",
+          "prompt": "A. Vad handlar nyheten om?",
+          "options": ["bostad", "ekonomi", "trafik"],
+          "answer": "bostad"
+        },
+        {
+          "id": "L3_B",
+          "prompt": "B. Vad handlar nyheten om?",
+          "options": ["resor", "utbildning", "politik"],
+          "answer": "utbildning"
+        },
+        {
+          "id": "L3_C",
+          "prompt": "C. Vad handlar nyheten om?",
+          "options": ["bostad", "hälsa", "ekonomi"],
+          "answer": "ekonomi"
+        },
+        {
+          "id": "L3_D",
+          "prompt": "D. Vad handlar nyheten om?",
+          "options": ["miljö", "resor", "vård"],
+          "answer": "miljö"
+        },
+        {
+          "id": "L3_E",
+          "prompt": "E. Vad handlar nyheten om?",
+          "options": ["vård", "utbildning"],
+          "answer": "vård"
+        }
+      ]
     }
   ]
 }

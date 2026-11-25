@@ -1,8 +1,54 @@
 {
   "section": "E",
-  "icon": "🚗",
-  "title": "Sektion E",
-  "instructions": "Läs intervjun och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🗞️",
+  "title": "Uppgift 5: Läsarnas sida",
+  "instructions": "Läs vad några personer har skrivit och välj rätt rubrik (1–5).\n\nRubriker:\n1. Tack för hjälpen\n2. Bussen är alltid sen\n3. Ta det lugnt i trafiken\n4. Håll koll på var du går\n5. Alla har inte råd",
+  "texts": [
+    {
+      "heading": "Text A (Johannes)",
+      "body": "Till er som kör som riktiga idioter! Ni kör för fort vid skolor och stannar inte för rött ljus. Så bråttom har ni inte! Ni spar några sekunder men ni är farliga för andra! Skärp er!"
+    },
+    {
+      "heading": "Text B (Annie)",
+      "body": "Jag är så trött på 'duktiga' människor som tjatar om att man ska tänka på miljön. Vi är många som har dålig ekonomi. Och det är jättedyrt med ekologiska och miljövänliga produkter. Vi skulle gärna handla miljövänligt om priserna var lägre!"
+    },
+    {
+      "heading": "Text C (Karim)",
+      "body": "I tisdags missade jag bussen när jag skulle åka till en jobbintervju. Då stannade du din bil och frågade om jag ville åka med! Det är så härligt med människor som tänker på andra! En stor kram till dig!"
+    },
+    {
+      "heading": "Text D (19-årig tjej)",
+      "body": "Jag undrar varför en del människor hela tiden tittar i mobilen när de promenerar på stan. Jag är trött på att krocka med folk på trottoaren! Till och med när de ska över gatan tittar de ner i mobilen och ser inte om det kommer någon bil eller buss."
+    }
+  ],
+  "questions": [
+    {
+      "id": "E_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilken rubrik passar till text A (Johannes)?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": "E_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilken rubrik passar till text B (Annie)?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "E_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilken rubrik passar till text C (Karim)?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "1"
+    },
+    {
+      "id": "E_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilken rubrik passar till text D (19-årig tjej)?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    }
+  ]
 }

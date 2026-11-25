@@ -3,17 +3,351 @@
   "parts": [
     {
       "id": 1,
-      "title": "Del 1",
-      "audio": "audio1.mp3",
+      "title": "Uppgift 1: Några personer berättar (vad de ska göra idag / vad de gör för att må bra)",
+      "audio": "spar01.mp3",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L1_A1",
+          "prompt": "A1. Vad ska Karima göra idag?",
+          "options": ["Ringa till vårdcentralen.", "Köpa mat.", "Se en film."],
+          "answer": "Ringa till vårdcentralen."
+        },
+        {
+          "id": "L1_B1",
+          "prompt": "B1. Vad ska Jesper göra idag?",
+          "options": ["Hjälpa andra.", "Studera.", "Söka arbete."],
+          "answer": "Studera."
+        },
+        {
+          "id": "L1_C1",
+          "prompt": "C1. Vad ska Lovisa göra idag?",
+          "options": ["Köpa biljetter.", "Betala räkningar.", "Skriva ett mejl."],
+          "answer": "Skriva ett mejl."
+        },
+        {
+          "id": "L1_D1",
+          "prompt": "D1. Vad ska Johannes göra idag?",
+          "options": ["Träffa en vän.", "Köpa mat.", "Se en film."],
+          "answer": "Träffa en vän."
+        },
+        {
+          "id": "L1_E1",
+          "prompt": "E1. Vad ska Susanna göra idag?",
+          "options": ["Studera.", "Gå på möte.", "Söka arbete."],
+          "answer": "Gå på möte."
+        },
+        {
+          "id": "L1_F1",
+          "prompt": "F1. Vad ska Nils göra idag?",
+          "options": ["Gå på en kurs.", "Hjälpa andra.", "Gå till biblioteket."],
+          "answer": "Hjälpa andra."
+        },
+        {
+          "id": "L1_A2",
+          "prompt": "A2. Vad gör Fadi för att må bra?",
+          "options": ["tränar", "går en kurs", "träffar vänner"],
+          "answer": "träffar vänner"
+        },
+        {
+          "id": "L1_B2",
+          "prompt": "B2. Vad gör Margareta för att må bra?",
+          "options": ["handlar kläder", "äter godis", "träffar vänner"],
+          "answer": "handlar kläder"
+        },
+        {
+          "id": "L1_C2",
+          "prompt": "C2. Vad gör Rasmus för att må bra?",
+          "options": ["lyssnar på musik", "städar hemma", "pratar med folk"],
+          "answer": "städar hemma"
+        },
+        {
+          "id": "L1_D2",
+          "prompt": "D2. Vad gör Jessica för att må bra?",
+          "options": ["äter nyttigt", "går en kurs", "är ute i naturen"],
+          "answer": "går en kurs"
+        },
+        {
+          "id": "L1_E2",
+          "prompt": "E2. Vad gör Bobby för att må bra?",
+          "options": ["går en kurs", "läser en bok", "hjälper andra"],
+          "answer": "läser en bok"
+        },
+        {
+          "id": "L1_F2",
+          "prompt": "F2. Vad gör Niki för att må bra?",
+          "options": ["tittar på tv", "sover länge", "lyssnar på musik"],
+          "answer": "sover länge"
+        },
+        {
+          "id": "L1_G2",
+          "prompt": "G2. Vad gör Adam för att må bra?",
+          "options": ["är ute i naturen", "äter nyttigt", "surfar på internet"],
+          "answer": "är ute i naturen"
+        }
+      ]
     },
     {
       "id": 2,
-      "title": "Del 2",
-      "audio": "audio2.mp3",
+      "title": "Uppgift 2: Telefonsvarare & Ett samtal på jobbet",
+      "audio": "spar02.mp3",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L2_A1",
+          "prompt": "A1. Telefonsvarare på banken: Ellen har tappat sin plånbok med bankkort och legitimation. Vilken siffra ska hon trycka på?",
+          "options": ["1", "2", "3"],
+          "answer": "3"
+        },
+        {
+          "id": "L2_B1",
+          "prompt": "B1. Telefonsvarare på Vårdcentralen: Annas medicin har tagit slut och hon vill ha mer. Vilken siffra ska hon trycka på?",
+          "options": ["1", "2", "3"],
+          "answer": "2"
+        },
+        {
+          "id": "L2_C1",
+          "prompt": "C1. Telefonsvarare på Sfi-skolan: Stefano mår dåligt och kan inte gå till skolan idag. Vilken siffra ska han trycka på?",
+          "options": ["1", "2", "3"],
+          "answer": "2"
+        },
+        {
+          "id": "L2_A2",
+          "prompt": "A2. Varför är Sara glad?",
+          "options": ["Hon ska flytta.", "Hon ska få högre lön.", "Hon ska ha semester."],
+          "answer": "Hon ska få högre lön."
+        },
+        {
+          "id": "L2_B2",
+          "prompt": "B2. Vad ska Martin göra i helgen?",
+          "options": ["se en film", "träffa sina föräldrar", "handla nya kläder"],
+          "answer": "träffa sina föräldrar"
+        },
+        {
+          "id": "L2_C2",
+          "prompt": "C2. Vad säger Sara och Martin om sin nya chef?",
+          "options": ["Han är tyst.", "Han är glad.", "Han är hjälpsam."],
+          "answer": "Han är hjälpsam."
+        },
+        {
+          "id": "L2_D2",
+          "prompt": "D2. Varför kom Martin sent till jobbet?",
+          "options": ["Han hade en läkartid.", "Han var på en kurs.", "Han fick problem med bilen."],
+          "answer": "Han hade en läkartid."
+        },
+        {
+          "id": "L2_E2",
+          "prompt": "E2. Ska Martin och Sara äta lunch tillsammans?",
+          "options": ["ja", "nej", "kanske"],
+          "answer": "nej"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Uppgift 3: Nyheter & Ett samtal om en fest",
+      "audio": "spar03.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L3_A1",
+          "prompt": "A1. Vad ska äldreboendet använda pengarna till?",
+          "options": ["bättre mat", "fler aktiviteter", "mer personal"],
+          "answer": "fler aktiviteter"
+        },
+        {
+          "id": "L3_B1",
+          "prompt": "B1. Vad säger nyheten om gymnasieskolan? Skolan ska...",
+          "options": ["stänga.", "ordna en fest.", "flytta till större lokaler."],
+          "answer": "ordna en fest."
+        },
+        {
+          "id": "L3_C1",
+          "prompt": "C1. Vad ska Granviks köpcentrum få?",
+          "options": ["fler affärer", "längre öppettider", "gratis parkering"],
+          "answer": "fler affärer"
+        },
+        {
+          "id": "L3_D1",
+          "prompt": "D1. Vad har tågstationen fått?",
+          "options": ["en restaurang", "gratis toaletter", "ett större väntrum"],
+          "answer": "gratis toaletter"
+        },
+        {
+          "id": "L3_E1",
+          "prompt": "E1. Vad har simhallen haft problem med?",
+          "options": ["smutsigt vatten", "små omklädningsrum", "kalla duschar"],
+          "answer": "smutsigt vatten"
+        },
+        {
+          "id": "L3_A2",
+          "prompt": "A2. Ska de åka tillsammans till festen på lördag?",
+          "options": ["Ja", "Nej", "Kanske"],
+          "answer": "Nej"
+        },
+        {
+          "id": "L3_B2",
+          "prompt": "B2. Vad ska de köpa för present?",
+          "options": ["Choklad", "Bok", "Biobiljetter"],
+          "answer": "Biobiljetter"
+        },
+        {
+          "id": "L3_C2",
+          "prompt": "C2. Vem ska köpa presenten?",
+          "options": ["Kvinnan", "Mannen", "Båda två tillsammans"],
+          "answer": "Båda två tillsammans"
+        },
+        {
+          "id": "L3_D2",
+          "prompt": "D2. Ska kvinnan ta med sig sin gitarr?",
+          "options": ["Ja", "Nej", "Kanske"],
+          "answer": "Kanske"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Uppgift 4: Telefonsamtal & Nyheter",
+      "audio": "spar04.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L4_A1",
+          "prompt": "A1. Gabriella ringer till sitt hyresbolag. Vad vill Gabriella?",
+          "options": ["byta lägenhet", "anmäla ett fel", "betala en faktura"],
+          "answer": "betala en faktura"
+        },
+        {
+          "id": "L4_B1",
+          "prompt": "B1. Senait ringer till ett bussbolag. Vad vill Senait?",
+          "options": ["köpa en biljett", "fråga om en tid", "avboka en resa"],
+          "answer": "fråga om en tid"
+        },
+        {
+          "id": "L4_C1",
+          "prompt": "C1. Olle ringer till sin vän Anna. Vad vill Olle?",
+          "options": ["låna pengar", "ge bort en resa", "få hjälp med barnvakt"],
+          "answer": "få hjälp med barnvakt"
+        },
+        {
+          "id": "L4_A2",
+          "prompt": "A2. Nyhet A: Vad handlar nyheten om?",
+          "options": ["Ekonomi", "Väder", "Sport"],
+          "answer": "Väder"
+        },
+        {
+          "id": "L4_B2",
+          "prompt": "B2. Nyhet B: Vad handlar nyheten om?",
+          "options": ["Teknik", "Brott", "Fritid"],
+          "answer": "Teknik"
+        },
+        {
+          "id": "L4_C2",
+          "prompt": "C2. Nyhet C: Vad handlar nyheten om?",
+          "options": ["Resor", "Väder", "Hälsa"],
+          "answer": "Hälsa"
+        },
+        {
+          "id": "L4_D2",
+          "prompt": "D2. Nyhet D: Vad handlar nyheten om?",
+          "options": ["Fritid", "Ekonomi", "Teknik"],
+          "answer": "Ekonomi"
+        },
+        {
+          "id": "L4_E2",
+          "prompt": "E2. Nyhet E: Vad handlar nyheten om?",
+          "options": ["Arbete", "Bostad", "Hälsa"],
+          "answer": "Arbete"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Uppgift 5: Melissa berättar & Tre telefonsamtal",
+      "audio": "spar05.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L5_A1",
+          "prompt": "A1. Varför ville Melissa byta yrke? Hon ville få...",
+          "options": ["högre lön.", "mer tid med familjen.", "roligare arbetsuppgifter."],
+          "answer": "roligare arbetsuppgifter."
+        },
+        {
+          "id": "L5_B1",
+          "prompt": "B1. Vad tycker Melissa var det bästa med utbildningen?",
+          "options": ["praktiken", "lärarna", "klasskompisarna"],
+          "answer": "lärarna"
+        },
+        {
+          "id": "L5_C1",
+          "prompt": "C1. Vad tycker Melissa var jobbigast med utbildningen?",
+          "options": ["Kursen kostade mycket.", "Skolan var långt hemifrån.", "Det var mycket att läsa."],
+          "answer": "Det var mycket att läsa."
+        },
+        {
+          "id": "L5_D1",
+          "prompt": "D1. Vad tycker Melissa bäst om med sitt jobb?",
+          "options": ["Hon gör människor glada.", "Hon lär sig nya saker.", "Hon har trevliga kollegor."],
+          "answer": "Hon gör människor glada."
+        },
+        {
+          "id": "L5_E1",
+          "prompt": "E1. Vad vill Melissa göra i framtiden?",
+          "options": ["studera mer", "starta eget företag", "fortsätta på samma arbetsplats"],
+          "answer": "fortsätta på samma arbetsplats"
+        },
+        {
+          "id": "L5_A2",
+          "prompt": "A2. Samtal 1: Vart ringer mannen?",
+          "options": ["Till en förskola", "Till en vårdcentral", "Till en restaurang"],
+          "answer": "Till en förskola"
+        },
+        {
+          "id": "L5_B2",
+          "prompt": "B2. Samtal 2: Vart ringer kvinnan?",
+          "options": ["Till en bank", "Till ett bibliotek", "Till en affär"],
+          "answer": "Till ett bibliotek"
+        },
+        {
+          "id": "L5_C2",
+          "prompt": "C2. Samtal 3: Vart ringer mannen?",
+          "options": ["Till ett apotek", "Till en restaurang", "Till en tandläkare"],
+          "answer": "Till en tandläkare"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Uppgift 6: Anja berättar om Eisenstadt",
+      "audio": "spar06.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L6_A",
+          "prompt": "A. Varför åkte Anja till Eisenstadt?",
+          "options": ["För att studera.", "För att arbeta.", "För att ha semester."],
+          "answer": "För att arbeta."
+        },
+        {
+          "id": "L6_B",
+          "prompt": "B. Hur bodde Anja i Eisenstadt?",
+          "options": ["På ett hotell.", "I en lägenhet.", "Hos en familj."],
+          "answer": "I en lägenhet."
+        },
+        {
+          "id": "L6_C",
+          "prompt": "C. Vad tyckte Anja var bäst med tiden i Eisenstadt?",
+          "options": ["Att hon lärde sig tyska.", "Att staden var fin.", "Att hon fick en ny vän."],
+          "answer": "Att hon lärde sig tyska."
+        },
+        {
+          "id": "L6_D",
+          "prompt": "D. Ska Anja åka tillbaka till Eisenstadt i sommar?",
+          "options": ["Ja", "Nej", "Kanske"],
+          "answer": "Kanske"
+        }
+      ]
     }
   ]
 }

@@ -1,5 +1,6 @@
 {
   "examId": "2022-2",
-  "promptText": "Skriv en text om dina framtidsplaner eller en upplevelse. Motivera dina åsikter.",
-  "minWords": 100
+  "title": "Skriv och berätta (En plats som du tycker mycket om)",
+  "promptHtml": "<p><strong>Skriv en text och berätta om en plats som du tycker mycket om.</strong></p><p style='margin-top: 12px;'><strong>Du ska berätta:</strong></p><ul><li>vilken plats det är,</li><li>hur det ser ut där,</li><li>vad man kan göra där,</li><li>varför du tycker om platsen.</li></ul>",
+  "minWords": 80
 }

@@ -1,5 +1,6 @@
 {
   "examId": "2019-15",
-  "promptText": "Skriv en text om dina framtidsplaner eller en upplevelse. Motivera dina åsikter.",
-  "minWords": 100
+  "title": "Skriva 2019, 15/16 – Att lära sig svenska",
+  "promptHtml": "<p><strong>Skriv en text om att lära dig svenska.</strong></p><p style='margin-top: 12px;'><strong>Du ska berätta om:</strong></p><ul><li>varför du vill lära dig svenska,</li><li>vad du gör för att lära dig svenska,</li><li>vad du tycker är lätt eller svårt,</li><li>hur andra människor kan hjälpa dig att bli bättre på svenska.</li></ul>",
+  "minWords": 80
 }

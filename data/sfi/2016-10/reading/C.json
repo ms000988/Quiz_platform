@@ -1,8 +1,27 @@
 {
   "section": "C",
-  "icon": "👨‍👩‍👧‍👦",
-  "title": "Sektion C",
-  "instructions": "Läs texterna och matcha rätt person med påståendet.",
-  "texts": [],
-  "questions": []
+  "icon": "📖",
+  "title": "Läsa A – Uppgift 3",
+  "instructions": "Sektion för Uppgift 3 i Läsa A (2016-10).",
+  "texts": [
+    {
+      "heading": "Uppgift 3",
+      "body": "Lägg in text och frågor för Uppgift 3 från 2016-10 om du har sidan sparad."
+    }
+  ],
+  "questions": [],
+  "arabicNotes": {
+    "summary": "ملاحظة: إذا كانت لديك صفحة Uppgift 3 من امتحان 2016-10 يمكن إضافتها هنا بنفس التنسيق.",
+    "explanation": "هذا القسم مخصص للسؤال الثالث في قراءة A لامتحان 2016-10.",
+    "translation": "قسم إضافي للأسئلة المتبقية من 2016-10.",
+    "vocabulary": [
+      "kurs (دورة)",
+      "fråga (سؤال)",
+      "svar (إجابة)"
+    ],
+    "examples": [
+      "Jag läser texten noggrant. (أقرأ النص بعناية.)"
+    ],
+    "tip": "ارفع صورة السؤال الثالث إذا أردت إضافته تلقائيًا."
+  }
 }

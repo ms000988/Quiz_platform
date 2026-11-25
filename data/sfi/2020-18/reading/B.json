@@ -1,8 +1,39 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "💬",
+  "title": "Uppgift B: Tips från kurskamrater på sfi",
+  "instructions": "Läs vad några studerande skriver i en chattgrupp och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Chatt: Studier och fritid",
+      "body": "• Nora: Jag pluggar glosor i tjugo minuter på morgonen och sedan tar jag en kopp kaffe innan jag börjar städa hemma.\n\n• Tariq: När jag känner mig stressad brukar jag bjuda en kompis på fika på ett kafé. Då tänker jag på annat en stund.\n\n• Malin: Jag skriver en kort lista på tre saker jag ska göra idag. Om jag inte hinner allt flyttar jag resten till i morgon."
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "short",
+      "prompt": "A. Vem brukar bjuda en kompis på fika när det känns stressigt? (Skriv namn)",
+      "answer": "Tariq",
+      "acceptedAnswers": ["Tariq", "tariq"]
+    },
+    {
+      "id": "B_Q2",
+      "type": "short",
+      "prompt": "B. Vem skriver en lista med tre saker per dag? (Skriv namn)",
+      "answer": "Malin",
+      "acceptedAnswers": ["Malin", "malin"]
+    },
+    {
+      "id": "B_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad gör Nora på morgonen?",
+      "options": [
+        "Hon pluggar glosor i tjugo minuter.",
+        "Hon går till gymmet i två timmar.",
+        "Hon åker tåg till en annan stad."
+      ],
+      "answer": "Hon pluggar glosor i tjugo minuter."
+    }
+  ]
 }

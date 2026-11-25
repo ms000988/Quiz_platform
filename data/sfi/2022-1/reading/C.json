@@ -1,8 +1,69 @@
 {
   "section": "C",
-  "icon": "👨‍👩‍👧‍👦",
-  "title": "Sektion C",
-  "instructions": "Läs texterna och matcha rätt person med påståendet.",
-  "texts": [],
-  "questions": []
+  "icon": "✉️",
+  "title": "Uppgift 3: Ett mejl (Studentlivet i Tyskland)",
+  "instructions": "Sara har flyttat till Tyskland och skriver ett mejl till sin vän Anton. Läs mejlet och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Ämne: Studentlivet i Tyskland",
+      "body": "Hej Anton!\n\nNu har jag fått fint i min lägenhet som ligger i ett äldre hus utanför Berlins centrum. Det är smidigt att ta bussen till universitetet härifrån. Universitetet är jättestort så jag har gått till fel sal flera gånger. Det är inte enkelt med nya miljöer för mig som du vet.\n\nDirekt de första dagarna var jag ute på stan för att titta på allt nytt. Det finns massor att se och uppleva här, så härligt! Jag trodde att jag skulle sakna min familj mycket i början, men det har gått bra. Jag skickar bilder till dem på mina nya vänner och allt jag upptäcker här i stan!\n\nDet är väldigt intressanta lektioner så jag kan inte klaga på undervisningen. Men kurslitteraturen är krånglig. Det är många sidor och ibland fattar jag inte vad det står. På torsdag ska vi ha en diskussion om en film. Jag har förberett mig noga så jag är inte alls nervös.\n\nIgår var jag ute på restaurang och åt med en kurskamrat. Vi firade att vi hade skrivit vårt första test. Det känns som att det gick bra men man kan ju aldrig vara säker. Det var en del svåra uppgifter. Jag är så nyfiken på hur det gick.\n\nHar du funderat mer på att ta tjänstledigt från ditt jobb, som du berättade sist? Vad kul det skulle vara om du också började plugga här! Då skulle vi kunna läsa tillsammans. Jag kan hjälpa dig att leta efter en bostad här i så fall.\n\nHör av dig!\nKram,\nSara"
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad berättar Sara om universitetet?",
+      "options": [
+        "Det är mycket gammalt.",
+        "Det är svårt att hitta där.",
+        "Det tar lång tid att åka dit."
+      ],
+      "answer": "Det är svårt att hitta där."
+    },
+    {
+      "id": "C_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad berättar Sara om den första veckan i Berlin?",
+      "options": [
+        "Det kändes stressigt.",
+        "Hon kände sig ensam.",
+        "Det kändes spännande."
+      ],
+      "answer": "Det kändes spännande."
+    },
+    {
+      "id": "C_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad tycker Sara är svårt med att studera?",
+      "options": [
+        "att läsa böckerna",
+        "att förstå lärarna",
+        "att prata tyska"
+      ],
+      "answer": "att läsa böckerna"
+    },
+    {
+      "id": "C_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad berättar Sara om det första provet?",
+      "options": [
+        "Hon blev godkänd.",
+        "Hon blev inte godkänd.",
+        "Hon väntar på resultatet."
+      ],
+      "answer": "Hon väntar på resultatet."
+    },
+    {
+      "id": "C_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad vill Sara att Anton ska göra? Hon vill ...",
+      "options": [
+        "att han ska söka nytt jobb.",
+        "att han ska börja studera.",
+        "att han ska bo i hennes lägenhet."
+      ],
+      "answer": "att han ska börja studera."
+    }
+  ]
 }

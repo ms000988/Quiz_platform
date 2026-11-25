@@ -1,8 +1,69 @@
 {
   "section": "E",
-  "icon": "🚗",
-  "title": "Sektion E",
-  "instructions": "Läs intervjun och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🛵",
+  "title": "På mopeden upptäcker de nya platser",
+  "instructions": "Läs artikeln om Karin Jonsson och mopedklubben Damer på väg och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "På mopeden upptäcker de nya platser",
+      "body": "Damer på väg är en klubb för kvinnor som älskar att köra gamla mopeder. Karin Jonsson och hennes vänner träffas varje måndag och åker ut på vägarna och upptäcker nya ställen i naturen.\n\nKarin Jonsson, som är medlem i klubben, berättar att allt började med att hon såg ett gammalt foto på sin mormor på en moped. Då bestämde Karin att hon också ville ha en moped.\n- Om mormor kunde köra moped så borde jag också kunna det. Min mormor åkte ofta moped när jag var liten. En gång åkte hon hela vägen från sitt hem i Småland till en vän i Skåne. Jag kommer ihåg när hon packade väskan och satte sig på mopeden och åkte iväg, berättar Karin.\n\nSedan när Karin fyllde 60 år fick hon en moped i present av sin man. Några av hennes vänner tyckte att det var roligt så de skaffade också mopeder. Den sommaren startade Karin och hennes vänner mopedklubben Damer på väg.\n\nDet spelar ingen roll om det regnar eller om solen skiner. Varje måndag på sommaren träffas de och åker ut med sina mopeder i området kring Broby i Västergötland, där de alla bor. Sommarens första tur går alltid till ett litet café, som ligger några mil från Broby. Men deras allra första tur dit, för nästan åtta år sedan, gick inte så bra.\n- Första gången som vi åkte till caféet hade jag en annan moped. Den stannade var tionde minut ungefär. Så jag ville mest vända och åka tillbaka hemåt. Men till slut kom vi fram ändå. Sen när vi körde hem fick en av oss punktering och en annan bensinstopp, berättar Karin och skrattar.\n\nTätt efter varandra rullar de fram på gamla mopeder. De kör inte snabbt, men det är så de vill ha det. Då hinner de uppleva allt vackert som de åker förbi och känna dofterna från skog och mark.\n\nDet är inte bara medlemmarna i Damer på väg som tycker om att köra moped. Att åka moped har blivit populärt bland många.\n- Jag tror att det har att göra med friheten. Man kommer in på småvägar och kan åka på ett helt annat sätt än om man kör bil, avslutar Karin Jonsson."
+    }
+  ],
+  "questions": [
+    {
+      "id": "E_Q1",
+      "type": "mcq",
+      "prompt": "A. Hur fick Karin idén att börja köra moped? När hon ...",
+      "options": [
+        "åkte på en resa.",
+        "tänkte på sin mormor.",
+        "träffade sin man."
+      ],
+      "answer": "tänkte på sin mormor."
+    },
+    {
+      "id": "E_Q2",
+      "type": "mcq",
+      "prompt": "B. Var brukar kvinnorna i Damer på väg åka med sina mopeder?",
+      "options": [
+        "i Småland",
+        "i Västergötland",
+        "i Skåne"
+      ],
+      "answer": "i Västergötland"
+    },
+    {
+      "id": "E_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad hände när de åkte till caféet första gången?",
+      "options": [
+        "De hittade inte vägen dit.",
+        "De hade dåligt väder.",
+        "De fick problem med mopederna."
+      ],
+      "answer": "De fick problem med mopederna."
+    },
+    {
+      "id": "E_Q4",
+      "type": "mcq",
+      "prompt": "D. Varför kör de långsamt med sina mopeder?",
+      "options": [
+        "De åker ofta på dåliga vägar.",
+        "De vill ha tid att njuta av naturen.",
+        "De är rädda för att åka fort."
+      ],
+      "answer": "De vill ha tid att njuta av naturen."
+    },
+    {
+      "id": "E_Q5",
+      "type": "mcq",
+      "prompt": "E. Varför tror Karin att det är populärt att köra moped?",
+      "options": [
+        "Det är bra för miljön.",
+        "Det är billigt med moped.",
+        "Det är lätt att köra överallt."
+      ],
+      "answer": "Det är lätt att köra överallt."
+    }
+  ]
 }

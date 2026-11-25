@@ -1,8 +1,57 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "📊",
+  "title": "Uppgift 2: Ett diagram (Aktiviteter 2017)",
+  "instructions": "Studera diagrammet som visar några aktiviteter som elever i olika årskurser gick på år 2017 och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Information om diagrammet",
+      "body": "Diagrammet visar hur stor andel (i procent) av elever i årskurs 5, årskurs 8 och gymnasiets årskurs 2 som gick på olika kulturaktiviteter under sex månader år 2017.\nKälla: Myndigheten för kulturanalys."
+    }
+  ],
+  "charts": [
+    {
+      "id": "chartActivities2017",
+      "type": "bar",
+      "title": "Aktiviteter som elever i olika årskurser gick på 2017",
+      "labels": ["Bio", "Dansföreställning", "Konsert", "Konstutställning", "Museum"],
+      "datasets": [
+        {
+          "label": "Elever i årskurs 5",
+          "data": [86, 37, 31, 32, 48],
+          "backgroundColor": "#0284c7"
+        },
+        {
+          "label": "Elever i årskurs 8",
+          "data": [81, 27, 29, 30, 34],
+          "backgroundColor": "#1e293b"
+        },
+        {
+          "label": "Elever i gymnasiets årskurs 2",
+          "data": [81, 21, 33, 28, 31],
+          "backgroundColor": "#eab308"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "short",
+      "prompt": "A. Hur många procent av eleverna i årskurs 8 gick på konsert?",
+      "answer": "29%",
+      "acceptedAnswers": ["29%", "29", "28%", "28", "30%", "30"]
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. I vilken årskurs var andelen elever som gick på museum störst?",
+      "options": [
+        "årskurs 5",
+        "årskurs 8",
+        "gymnasiet årskurs 2"
+      ],
+      "answer": "årskurs 5"
+    }
+  ]
 }

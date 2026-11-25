@@ -1,0 +1,57 @@
+{
+  "section": "J",
+  "icon": "🌳",
+  "title": "Läsa B – Uppgift 5: Insändare",
+  "instructions": "Läs insändaren 'Gör stadsparken fin!' och välj vad de markerade orden (A–D) betyder.",
+  "texts": [
+    {
+      "heading": "Gör stadsparken fin!",
+      "body": "Vi vill ha en levande stad där människor trivs. Stadsparken var tidigare ett vackert naturområde dit många gick för att [vila].\n\nIdag finns tyvärr inte så mycket kvar av den vackra parken. Bänkarna är trasiga och det ligger en massa skräp [överallt].\n\nVi tycker att kommunen borde göra parken fin igen. Det behövs inte mycket och vi har några [förslag]. Plantera blommor, bygg fler parkbänkar och bord så att vi kan ha picknick.\n\nParken kan bli en trevlig [mötesplats] för många, både gamla och unga.\n\nAnette Sandberg och Simon Morley"
+    }
+  ],
+  "questions": [
+    {
+      "id": "J_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad betyder 'vila' i texten?",
+      "options": ["springa", "ta det lugnt", "arbeta med något"],
+      "answer": "ta det lugnt"
+    },
+    {
+      "id": "J_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad betyder 'överallt' i texten?",
+      "options": ["på en plats", "på några ställen", "på hela området"],
+      "answer": "på hela området"
+    },
+    {
+      "id": "J_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad betyder 'förslag' i texten?",
+      "options": ["idéer", "problem", "meddelanden"],
+      "answer": "idéer"
+    },
+    {
+      "id": "J_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad betyder 'mötesplats' i texten?",
+      "options": ["plats där man kan leka", "plats där man kan träffas", "plats där man kan äta"],
+      "answer": "plats där man kan träffas"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: vila → ta det lugnt، överallt → på hela området، förslag → idéer، mötesplats → plats där man kan träffas.",
+    "explanation": "فهم معاني الكلمات في سياق رسالة رأي إلى الصحيفة تدعو لتحسين الحديقة العامة.",
+    "translation": "معاني الكلمات في رسالة رأي حول جعل حديقة المدينة جميلة.",
+    "vocabulary": [
+      "vila (يستريح / يأخذ قسطًا من الراحة)",
+      "överallt (في كل مكان)",
+      "förslag (اقتراحات / أفكار)",
+      "mötesplats (مكان لقاء)"
+    ],
+    "examples": [
+      "Parken kan bli en trevlig mötesplats. (يمكن أن تصبح الحديقة مكان لقاء لطيفًا.)"
+    ],
+    "tip": "استعن بالجمل المجاورة للكلمة المحددة لتأكيد المعنى الصحيح."
+  }
+}

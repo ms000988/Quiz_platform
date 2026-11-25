@@ -1,8 +1,57 @@
 {
   "section": "C",
-  "icon": "👨‍👩‍👧‍👦",
-  "title": "Sektion C",
-  "instructions": "Läs texterna och matcha rätt person med påståendet.",
-  "texts": [],
-  "questions": []
+  "icon": "🚗",
+  "title": "Läsa A – Uppgift 3: Annonser",
+  "instructions": "Läs annonserna (1–4) från fyra trafikskolor och välj rätt siffra:\n1. Björkö Trafikskola: Upp till 50% rabatt juni–augusti, pris per lektion med rabatt 430:-\n2. Jörgens Trafikskola: Körkort på bara 3 veckor, intensivkurser, 30 körlektioner + teori\n3. Öhmans Trafikskola: Paket 1 (5 000:-), Paket 2 (6 900:-), Endast körlektion 740:-, öppet mån–fre 9–16\n4. Abbes Trafikskola: Körkort B 700:-/lektion, taxikurser från 5 500:-, öppet vardagar 17–22 samt lördag och söndag 9–16",
+  "texts": [
+    {
+      "heading": "Personer (A–D)",
+      "body": "• A. Anja vill ta körkort på så kort tid som möjligt.\n• B. Robert har bara tid att övningsköra på kvällar och helger.\n• C. Mustafa vill gå en billig kurs på sommaren.\n• D. Dorota vill bli taxichaufför."
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q1",
+      "type": "mcq",
+      "prompt": "A. Anja vill ta körkort på så kort tid som möjligt. Vilken annons passar bäst? (1–4)",
+      "options": ["1", "2", "3", "4"],
+      "answer": "2"
+    },
+    {
+      "id": "C_Q2",
+      "type": "mcq",
+      "prompt": "B. Robert har bara tid att övningsköra på kvällar och helger. Vilken annons passar bäst? (1–4)",
+      "options": ["1", "2", "3", "4"],
+      "answer": "4"
+    },
+    {
+      "id": "C_Q3",
+      "type": "mcq",
+      "prompt": "C. Mustafa vill gå en billig kurs på sommaren. Vilken annons passar bäst? (1–4)",
+      "options": ["1", "2", "3", "4"],
+      "answer": "1"
+    },
+    {
+      "id": "C_Q4",
+      "type": "mcq",
+      "prompt": "D. Dorota vill bli taxichaufför. Vilken annons passar bäst? (1–4)",
+      "options": ["1", "2", "3", "4"],
+      "answer": "4"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: Anja (أسرع مدة / 3 أسابيع) → 2، Robert (مساءً وعطلة نهاية الأسبوع) → 4، Mustafa (عرض رخيص في الصيف) → 1، Dorota (دورات سائق تاكسي) → 4.",
+    "explanation": "كل إعلان لمدرسة قيادة يقدم مدة، أسعارًا، ومواعيد عمل مختلفة تناسب احتياجات المتقدمين.",
+    "translation": "مطابقة احتياجات المتعلمين مع إعلانات مدارس القيادة.",
+    "vocabulary": [
+      "körkort (رخصة قيادة)",
+      "intensivkurs (دورة مكثفة)",
+      "rabatt (خصم)",
+      "taxikurs (دورة قيادة تاكسي)"
+    ],
+    "examples": [
+      "Kursen ger rabatt under sommaren. (تقدم الدورة خصمًا خلال الصيف.)"
+    ],
+    "tip": "ابحث عن الكلمات المفتاحية مثل '3 veckor' أو 'juni–augusti' أو 'taxikurser' أو 'kvällar och helger'."
+  }
 }

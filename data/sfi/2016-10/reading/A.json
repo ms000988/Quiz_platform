@@ -1,8 +1,84 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🧘",
+  "title": "Läsa A – Uppgift 1: Träning i parken",
+  "instructions": "Läs artikeln om yoga i Stadsparken med Sara Abosti och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Träning i parken",
+      "body": "I sommar kommer det att finnas möjlighet att träna yoga i Stadsparken. Sara Abosti ska vara ledare för träningen, som är gratis och öppen för alla.\n\n- För mig är det jätteviktigt att träna, säger Sara. Jag har en sjukdom som gör att jag nästan alltid har ont i kroppen, men när jag äter bra mat och tränar mår jag mycket bättre.\n\nSara har provat många olika aktiviteter. Men det hon tycker bäst om är yoga.\n- Alla är så stressade hela tiden. Men i yoga får man lära sig att andas på rätt sätt och då är det lättare för kroppen att slappna av. Man blir mindre stressad och lär sig att lyssna på sina känslor. Man gör också olika rörelser så att kroppen blir stark, berättar Sara.\n\nFör några år sedan åkte Sara till Indien och utbildade sig till yoga-lärare. I Indien har människor tränat yoga i över tusen år. Men de senaste åren har yoga blivit populärt även i Sverige. Och nu vill Sara att fler ska få möjlighet att träna yoga och känna hur bra man mår av det. Därför kommer Sara att ge yoga-lektioner i Stadsparken i sommar.\n\nSara tror att Stadsparken är en bra plats att träna på eftersom många människor brukar komma dit på sommarkvällarna. Hon kontaktade därför kommunen och frågade om hon fick ha lektioner i yoga i Stadsparken. I ett par månader fick hon vänta på svar men nu har kommunen äntligen sagt ja.\n\n- Det ska bli jättekul, säger Sara. Jag kommer att leda träningen två kvällar i veckan, på tisdagar och torsdagar.\n\nTräningen kostar ingenting och de som vill vara med kan bara komma till parken några minuter innan träningen börjar. Ung eller gammal, nybörjare eller inte – alla är välkomna.\n\n- Det finns många fördelar med att träna i en park, berättar Sara. Fler människor kan vara med, eftersom det finns gott om plats på den stora gräsmattan. Så jag hoppas att många kommer och tränar med mig!\n\nKom och träna yoga med Sara!\nNär? Alla tisdagar och torsdagar i juli kl. 18:00–19:30\nVar? I Stadsparken, norra delen"
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. Varför började Sara att träna yoga?",
+      "options": [
+        "För att få nya kompisar.",
+        "För att må bättre.",
+        "För att det var roligt."
+      ],
+      "answer": "För att må bättre."
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Varför ska Sara ha yoga-lektioner i parken?",
+      "options": [
+        "Hon vill ha ett sommarjobb.",
+        "Hon vill bli bättre på yoga.",
+        "Hon vill att andra ska få prova yoga."
+      ],
+      "answer": "Hon vill att andra ska få prova yoga."
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilka får komma och träna yoga i parken?",
+      "options": [
+        "De som har bokat en plats.",
+        "Bara de som har tränat tidigare.",
+        "Alla som är intresserade."
+      ],
+      "answer": "Alla som är intresserade."
+    },
+    {
+      "id": "A_Q4",
+      "type": "mcq",
+      "prompt": "D. Hur länge kan man träna yoga i parken?",
+      "options": [
+        "En månad",
+        "Två månader",
+        "Tre månader"
+      ],
+      "answer": "En månad"
+    },
+    {
+      "id": "A_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad handlar artikeln mest om?",
+      "options": [
+        "Resa",
+        "Ekonomi",
+        "Hälsa"
+      ],
+      "answer": "Hälsa"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: بدأت Sara اليوغا لتشعر بتحسن، وتريد أن يجربها الآخرون، والدعوة مفتوحة لكل المهتمين، والمدة شهر واحد (في يوليو/juli)، والموضوع الرئيسي هو الصحة (Hälsa).",
+    "explanation": "المقال يتحدث عن دروس اليوغا المجانية في الحديقة العامة خلال فصل الصيف وفوائدها الجسدية والنفسية.",
+    "translation": "مقال عن تدريب اليوغا في الحديقة وكيف يساعد على الاسترخاء وتحسين الصحة.",
+    "vocabulary": [
+      "träning (تدريب / تمرين)",
+      "hälsa (صحة)",
+      "slappna av (يسترخي)",
+      "gratis (مجاني)"
+    ],
+    "examples": [
+      "Träningen i parken är gratis. (التمرين في الحديقة مجاني.)"
+    ],
+    "tip": "انتبه إلى كلمة 'i juli' في فقرة När? لأنها تدل على شهر واحد (En månad)."
+  }
 }

@@ -1,8 +1,69 @@
 {
   "section": "G",
-  "icon": "📱",
-  "title": "Sektion G",
-  "instructions": "Läs inläggen och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "📝",
+  "title": "Läsa B – Uppgift 2: Ett protokoll",
+  "instructions": "Läs protokollet från klassrådet och välj rätt rubrik (1–6):\n1. Receptionen | 2. Lektionerna | 3. Elevköket | 4. Schemat | 5. Datorerna | 6. Toaletterna",
+  "texts": [
+    {
+      "heading": "A",
+      "body": "Det är ofta kladdigt i mikrougnen. Den klass som har städvecka måste bli bättre på att hålla rent och snyggt i lokalen. Glöm inte att torka borden och tömma diskmaskinen varje dag."
+    },
+    {
+      "heading": "B",
+      "body": "En del hörlurar är trasiga och ibland kan man inte logga in. Vi vill ha fler språkprogram installerade så vi kan öva på egen hand. Obs! Förbjudet att fika samtidigt!"
+    },
+    {
+      "heading": "C",
+      "body": "Vi får för mycket papperskopior. Det är bättre att ha en bok att läsa i. Vår lärare berättar att hon har beställt böcker. Vi vill diskutera mer i klassrummet och öva på att skriva oftare."
+    },
+    {
+      "heading": "D",
+      "body": "Vår lärare påminner om tiderna: 8.00–11.30 varje dag! Rasten är aldrig mer än 20 minuter. Försök att passa tiden! Många elever i gruppen tycker att det är för tidigt att börja klockan åtta. Det är lättare att komma i tid om vi börjar nio."
+    }
+  ],
+  "questions": [
+    {
+      "id": "G_Q1",
+      "type": "mcq",
+      "prompt": "A. Välj rätt rubrik (1–6):",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "3"
+    },
+    {
+      "id": "G_Q2",
+      "type": "mcq",
+      "prompt": "B. Välj rätt rubrik (1–6):",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "5"
+    },
+    {
+      "id": "G_Q3",
+      "type": "mcq",
+      "prompt": "C. Välj rätt rubrik (1–6):",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "2"
+    },
+    {
+      "id": "G_Q4",
+      "type": "mcq",
+      "prompt": "D. Välj rätt rubrik (1–6):",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "4"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: A → 3 (مطبخ الطلاب / Elevköket)، B → 5 (أجهزة الكمبيوتر / Datorerna)، C → 2 (الدروس / Lektionerna)، D → 4 (الجدول الزمني / Schemat).",
+    "explanation": "محضر اجتماع الصف يناقش الميكروويف والنظافة، أجهزة الكمبيوتر والبرامج، الكتب والدروس، ومواعيد البداية والاستراحة.",
+    "translation": "نقاط محضر اجتماع الصف حول مرافق المدرسة والدراسة والمواعيد.",
+    "vocabulary": [
+      "mikrougn (ميكروويف)",
+      "hörlurar (سماعات رأس)",
+      "lektioner (دروس)",
+      "schema (جدول مواعيد)"
+    ],
+    "examples": [
+      "Vi börjar lektionen klockan åtta. (نبدأ الدرس الساعة الثامنة.)"
+    ],
+    "tip": "اربط كل فقرة بالمحور الأساسي: المطبخ، الكمبيوتر، الدروس، أو المواعيد."
+  }
 }

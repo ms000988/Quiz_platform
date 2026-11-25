@@ -3,17 +3,69 @@
   "parts": [
     {
       "id": 1,
-      "title": "Del 1",
+      "title": "Uppgift 1: Samtal om sfi och stress",
       "audio": "audio1.mp3",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L1_A",
+          "prompt": "A. Varför känner sig personen stressad?",
+          "options": [
+            "Mycket att göra hemma och med studierna.",
+            "Bussen blev inställd på morgonen.",
+            "Skolan har stängt i en månad."
+          ],
+          "answer": "Mycket att göra hemma och med studierna."
+        },
+        {
+          "id": "L1_B",
+          "prompt": "B. Vilket tips ger vännen för att må bättre?",
+          "options": [
+            "Att ta en promenad och vila lite.",
+            "Att sluta gå på lektionerna.",
+            "Att dricka fem koppar kaffe på kvällen."
+          ],
+          "answer": "Att ta en promenad och vila lite."
+        },
+        {
+          "id": "L1_C",
+          "prompt": "C. Vad föreslår de att göra när de ses?",
+          "options": [
+            "Ta en fika och prata en stund.",
+            "Skriva ett långt prov tillsammans.",
+            "Flytta till en ny lägenhet."
+          ],
+          "answer": "Ta en fika och prata en stund."
+        }
+      ]
     },
     {
       "id": 2,
-      "title": "Del 2",
+      "title": "Uppgift 2: Planera en träff",
       "audio": "audio2.mp3",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L2_A",
+          "prompt": "A. När passar det bäst för dem att träffas?",
+          "options": [
+            "På lördag eftermiddag.",
+            "Mitt i natten.",
+            "Om ett helt år."
+          ],
+          "answer": "På lördag eftermiddag."
+        },
+        {
+          "id": "L2_B",
+          "prompt": "B. Hur går det på sfi enligt samtalet?",
+          "options": [
+            "Det går ganska bra och känns roligare nu.",
+            "Det finns inga böcker alls.",
+            "De har redan slutat kursen."
+          ],
+          "answer": "Det går ganska bra och känns roligare nu."
+        }
+      ]
     }
   ]
 }

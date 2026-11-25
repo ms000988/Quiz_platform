@@ -1,8 +1,131 @@
 {
   "section": "H",
-  "icon": "🏛️",
-  "title": "Sektion H",
-  "instructions": "Läs mötesanteckningarna och informationsbladet.",
-  "texts": [],
-  "questions": []
+  "icon": "🛍️",
+  "title": "Läsa B – Melodifestivalen, Annonser och Loppis",
+  "instructions": "Läs texterna om Melodifestivalen, annonserna (1–5) och intervjuerna på loppisen och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Melodifestivalen – Åsikter",
+      "body": "• Anne: Roligt med ett program som nästan alla i landet tittar på. Då har man något att prata om på jobbet veckan efteråt!\n• Luiza: - Jag är helt ointresserad av Melodifestivalen. Jag tittar faktiskt aldrig. Det finns så mycket annat som är roligare att titta på.\n• Dawit: - Jag förstår inte varför en del människor är så negativa till Melodifestivalen. Bästa programmet på hela året, tycker jag.\n• Birgitta: Jag tittar tillsammans med barnen. Själv gillar jag inte musiken, den är lite tjatig. Men det är kul att se artisterna och de duktiga dansarna.\n• Benjamin: - Jag vet att många andra ser på Melodifestivalen. Men jag tycker att det är tråkigt. Man skulle kunna använda pengarna till intressanta naturprogram istället."
+    },
+    {
+      "heading": "Annonser i lokaltidningen (1–5)",
+      "body": "1. Café Funkis: Caféet riktar sig till dig som har någon funktionsvariation. Onsdagar kl. 18.30-20.30. Vi fikar, pratar, spelar spel och har kul ihop.\n\n2. Plötsligt händer det: Vet du vad du ska göra i en akut situation? På vår kurs får du veta hur man räddar liv och tar hand om en person som är sjuk eller skadad. Många praktiska övningar, vi tränar bland annat hjärt- och lungräddning.\n\n3. En bandmedlem sökes! Vill du vara med och starta ett band med oss? Vi har basist, trummis och gitarrist, men söker en duktig sångare. Vi gillar mest att spela rock och pop.\n\n4. Mötesplats Toppform: Cirkelgym för seniorer. Förbättra din styrka och kondition! Måndagar och torsdagar kl. 10.30-11.30.\n\n5. Fixarverkstaden: Digitala verkstaden – varje vecka på måndagar kl. 15-18 på biblioteket. Här får du hjälp med att använda dator, surfplatta och smarta telefoner för att fixa enkla saker i vardagen, till exempel bankärenden."
+    },
+    {
+      "heading": "Intervjuer på en loppis",
+      "body": "• Elida: Jag ska snart flytta och har upptäckt att jag har mer grejer än vad jag behöver. Jag står och säljer här för att få lite mer plats hemma i skåpen och förrådet.\n• Martin: Jag har alltid varit intresserad av äldre glas men även böcker och smycken. Här hittar jag alltid något som jag själv vill ha eller som jag kan ge bort i present.\n• Vera: Jag har inte så stor inkomst nu när jag pluggar. Så jag säljer på loppis ibland för att ha råd att resa någonstans i sommar."
+    }
+  ],
+  "questions": [
+    {
+      "id": "H_Q1",
+      "type": "mcq",
+      "prompt": "Melodifestivalen A. Vad tycker Anne om programmet?",
+      "options": ["bra", "dåligt", "både bra och dåligt"],
+      "answer": "bra"
+    },
+    {
+      "id": "H_Q2",
+      "type": "mcq",
+      "prompt": "Melodifestivalen B. Vad tycker Luiza om programmet?",
+      "options": ["bra", "både bra och dåligt", "dåligt"],
+      "answer": "dåligt"
+    },
+    {
+      "id": "H_Q3",
+      "type": "mcq",
+      "prompt": "Melodifestivalen C. Vad tycker Dawit om programmet?",
+      "options": ["bra", "dåligt", "både bra och dåligt"],
+      "answer": "bra"
+    },
+    {
+      "id": "H_Q4",
+      "type": "mcq",
+      "prompt": "Melodifestivalen D. Vad tycker Birgitta om programmet?",
+      "options": ["bra", "dåligt", "både bra och dåligt"],
+      "answer": "både bra och dåligt"
+    },
+    {
+      "id": "H_Q5",
+      "type": "mcq",
+      "prompt": "Melodifestivalen E. Vad tycker Benjamin om programmet?",
+      "options": ["bra", "dåligt", "både bra och dåligt"],
+      "answer": "dåligt"
+    },
+    {
+      "id": "H_Q6",
+      "type": "mcq",
+      "prompt": "Annonser A. Anna vill sjunga tillsammans med musiker. Vilken annons passar bäst?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": "H_Q7",
+      "type": "mcq",
+      "prompt": "Annonser B. Olle vill bli starkare i sin rygg och vill träna på dagtid. Vilken annons passar bäst?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "id": "H_Q8",
+      "type": "mcq",
+      "prompt": "Annonser C. Nadia vill lära sig att betala räkningar på internet. Vilken annons passar bäst?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "H_Q9",
+      "type": "mcq",
+      "prompt": "Annonser D. Enver vill lära sig hur man kan hjälpa en människa vid en olycka. Vilken annons passar bäst?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "2"
+    },
+    {
+      "id": "H_Q10",
+      "type": "mcq",
+      "prompt": "Loppis A. Varför är Elida på loppisen?",
+      "options": ["Hon tycker om gamla saker.", "Hon tänker på miljön.", "Hon har för många saker."],
+      "answer": "Hon har för många saker."
+    },
+    {
+      "id": "H_Q11",
+      "type": "mcq",
+      "prompt": "Loppis B. Varför är Martin på loppisen?",
+      "options": ["Han behöver pengar.", "Han tycker om gamla saker.", "Han vill träffa människor."],
+      "answer": "Han tycker om gamla saker."
+    },
+    {
+      "id": "H_Q12",
+      "type": "mcq",
+      "prompt": "Loppis C. Varför är Vera på loppisen?",
+      "options": ["Hon tänker på miljön.", "Hon vill träffa människor.", "Hon behöver pengar."],
+      "answer": "Hon behöver pengar."
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: آراء حول البرنامج الموسيقي، مطابقة الإعلانات (Anna → 3, Olle → 4, Nadia → 5, Enver → 2)، وأسباب وجود الأشخاص في سوق المستعمل (loppis).",
+    "explanation": "تتضمن هذه المجموعة آراء حول برنامج موسيقي، إعلانات عن أنشطة وخدمات، ومقابلات في سوق المستعمل.",
+    "translation": "النصوص تعبر عن آراء إيجابية وسلبية، خدمات مثل التدريب أو دفع الفواتير، وأسباب البيع والشراء في سوق المستعمل.",
+    "vocabulary": [
+      "tävling (مسابقة)",
+      "musik (موسيقى)",
+      "roligt (ممتع)",
+      "dåligt (سيئ)",
+      "annons (إعلان)",
+      "träna (يتدرب)",
+      "betala (يدفع)",
+      "olycka (حادث)",
+      "loppis (سوق مستعمل)",
+      "gamla saker (أشياء قديمة)",
+      "sälja (يبيع)",
+      "köpa (يشتري)"
+    ],
+    "examples": [
+      "Programmet är roligt. (البرنامج ممتع.)",
+      "Jag tränar på gym. (أتدرب في النادي.)",
+      "Jag säljer på loppis. (أبيع في سوق المستعمل.)"
+    ],
+    "tip": "ابحث عن الكلمات المفتاحية التي تتطابق مع طلب الشخص أو السبب المباشر في النص."
+  }
 }

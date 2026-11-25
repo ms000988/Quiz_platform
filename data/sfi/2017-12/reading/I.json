@@ -1,0 +1,93 @@
+{
+  "section": "I",
+  "icon": "🧾",
+  "title": "Läsa C – Konsumenträtt, En miljon, Meddelanden och Hushållsutgifter",
+  "instructions": "Läs texterna i Läsa C (konsumentservice, intervjuer om en miljon, sms-meddelanden och hushållsutgifter) och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Konsumentservice och -rättigheter (A–D)",
+      "body": "• A (Reklamation): Fel på köpt produkt – rätt att reklamera i upp till tre år (lättast första sex månaderna).\n• B (Öppet köp och bytesrätt): Frivilligt i butiker om det erbjuds, ofta på kvittot, oanvänd vara och kvitto krävs.\n• C (Ångerrätt): Distansavtal (internet/telefon/utanför butik) – rätt att ångra inom 14 dagar (gäller dock inte resor).\n• D (Garanti): Tillverkarens ansvar att en produkt fungerar under viss tid, t.ex. ett år, vid normalt bruk."
+    },
+    {
+      "heading": "Om jag vann en miljon ...",
+      "body": "• Marko (51): köpa husvagn/ny bil och ge en del till barnen som pluggar.\n• Jamal (22): hitta egen bostad (lya) och spara lite inför framtiden.\n• Olga (34): gå ner i arbetstid/halvtid, åka på drömsemester med familjen och byta ut möbler.\n• Bengt (63): sätta in pengar på banken inför pensionen och skänka en slant till välgörenhet.\n• Mimmi (19): resa jorden runt ett år och studera utan att ta lån."
+    },
+    {
+      "heading": "Meddelanden & Hushållsutgifter",
+      "body": "• Firas till Tove: Kan du köpa mjölk och bröd på hemvägen? -> Be om något.\n• Firas om kaffe: Har vi kaffe hemma? -> Fråga något.\n• Gabriel till Adam: Vill du hänga med och ta en öl i morgon efter tentan? -> Fråga något / bjuda in.\n• Adam till Gabriel: Kan vi ta krogen nästa vecka i stället? -> Föreslå en annan tid.\n• Linnea till Mamma: Byxorna kändes trånga, jag lämnar tillbaka dem. -> Ha pengarna tillbaka / lämna tillbaka.\n• Mamma till Linnea: Glöm inte att ta med kvittot! -> Påminna om något.\n• Hushållsutgifter (SCB 2017): Störst utgift är Boende (22,6%)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "I_Q1",
+      "type": "mcq",
+      "prompt": "Konsumenttext A handlar om:",
+      "options": ["Garanti", "Reklamation", "Öppet köp och bytesrätt", "Ångerrätt"],
+      "answer": "Reklamation"
+    },
+    {
+      "id": "I_Q2",
+      "type": "mcq",
+      "prompt": "Konsumenttext B handlar om:",
+      "options": ["Garanti", "Reklamation", "Öppet köp och bytesrätt", "Ångerrätt"],
+      "answer": "Öppet köp och bytesrätt"
+    },
+    {
+      "id": "I_Q3",
+      "type": "mcq",
+      "prompt": "Konsumenttext C handlar om:",
+      "options": ["Garanti", "Reklamation", "Öppet köp och bytesrätt", "Ångerrätt"],
+      "answer": "Ångerrätt"
+    },
+    {
+      "id": "I_Q4",
+      "type": "mcq",
+      "prompt": "Konsumenttext D handlar om:",
+      "options": ["Garanti", "Reklamation", "Öppet köp och bytesrätt", "Ångerrätt"],
+      "answer": "Garanti"
+    },
+    {
+      "id": "I_Q5",
+      "type": "mcq",
+      "prompt": "Meddelande A (mjölk och bröd): Vad vill personen?",
+      "options": ["Köpa något.", "Äta frukost.", "Be om något."],
+      "answer": "Be om något."
+    },
+    {
+      "id": "I_Q6",
+      "type": "mcq",
+      "prompt": "Meddelande B (har vi kaffe hemma?): Vad vill personen?",
+      "options": ["Dricka något.", "Fråga något.", "Sälja något."],
+      "answer": "Fråga något."
+    },
+    {
+      "id": "I_Q7",
+      "type": "mcq",
+      "prompt": "Meddelande D (ta krogen nästa vecka i stället): Vad vill personen?",
+      "options": ["Handla mat.", "Låna pengar.", "Föreslå en annan tid."],
+      "answer": "Föreslå en annan tid."
+    },
+    {
+      "id": "I_Q8",
+      "type": "mcq",
+      "prompt": "Meddelande F (Glöm inte att ta med kvittot!): Vad vill personen?",
+      "options": ["Handla kläder.", "Påminna om något.", "Bestämma en tid."],
+      "answer": "Påminna om något."
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: حقوق المستهلك (A شكوى على عيب/Reklamation، B إرجاع/استبدال في المتجر، C حق التراجع خلال 14 يومًا عن بُعد، D ضمان الشركة المصنّعة)، وأهداف الرسائل والنفقات.",
+    "explanation": "تتناول هذه الصفحات حقوق المستهلك، ماذا سيفعل الأشخاص لو ربحوا مليونًا، الرسائل القصيرة، ونفقات الأسرة.",
+    "translation": "نصوص متقدمة عن حقوق الشراء والإرجاع، الخطط المستقبلية، الرسائل اليومية، وميزانية الأسرة.",
+    "vocabulary": [
+      "kvitto (إيصال / فاتورة)",
+      "reklamation (شكوى على عيب منتج)",
+      "garanti (ضمان)",
+      "ångerrätt (حق التراجع عن الشراء)"
+    ],
+    "examples": [
+      "Glöm inte att ta med kvittot. (لا تنسَ أخذ الإيصال معك.)"
+    ],
+    "tip": "فرّق بين الشراء من المتجر (Öppet köp) والشراء عن بُعد عبر الإنترنت (Ångerrätt) والعيوب (Reklamation) والضمان (Garanti)."
+  }
+}

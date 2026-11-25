@@ -18,6 +18,29 @@
       rootElement: document.getElementById('reading-app'),
       examId: '2018-13'
     });
+    function renderArabicNotes(section) {
+  const notes = section.arabicNotes;
+  if (!notes) return "";
+
+  const vocabItems = (notes.vocabulary || []).map((v) => `<li>${v}</li>`).join("");
+  const exampleItems = (notes.examples || []).map((e) => `<li>${e}</li>`).join("");
+
+  return `
+    <details dir="rtl" style="margin-top: 24px; padding: 14px 18px; border: 1px solid var(--border, #cbd5e1); border-radius: 10px; background: var(--bg-page, #f8fafc); text-align: right; font-family: Tahoma, Arial, sans-serif;">
+      <summary style="cursor: pointer; font-weight: 700; font-size: 1rem;">
+        ملاحظات وشرح بالعربية (Arabic Notes)
+      </summary>
+      <div style="margin-top: 12px; line-height: 1.7;">
+        ${notes.summary ? `<p><strong>ملخص الحل:</strong> ${notes.summary}</p>` : ""}
+        ${notes.explanation ? `<p><strong>الشرح:</strong> ${notes.explanation}</p>` : ""}
+        ${notes.translation ? `<p><strong>الترجمة:</strong> ${notes.translation}</p>` : ""}
+        ${vocabItems ? `<p style="margin-bottom: 4px;"><strong>كلمات جديدة:</strong></p><ul style="margin-top: 0; padding-right: 20px;">${vocabItems}</ul>` : ""}
+        ${exampleItems ? `<p style="margin-bottom: 4px;"><strong>أمثلة:</strong></p><ul style="margin-top: 0; padding-right: 20px;">${exampleItems}</ul>` : ""}
+        ${notes.tip ? `<p><strong>نصيحة:</strong> ${notes.tip}</p>` : ""}
+      </div>
+    </details>
+  `;
+}
     app.init();
   </script>
 </body>

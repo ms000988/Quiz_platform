@@ -1,8 +1,80 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🥤",
+  "title": "Läsa A – Uppgift 1: Oscar dricker inte alkohol",
+  "instructions": "Läs artikeln om Oscar Lundberg och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Oscar dricker inte alkohol",
+      "body": "Allt fler unga väljer att inte dricka alkohol. Oscar Lundberg är en av dem. Han vill stötta andra ungdomar så att de vågar säga nej till alkohol.\n\nNär Oscar var sexton år började flera av hans skolkompisar att pröva alkohol. Men Oscar var inte intresserad av det. I stället försökte han få andra kontakter. Han följde med en tjej till en förening för ungdomar som inte dricker alkohol. Där trodde han att han kunde få kompisar som han skulle trivas med.\n\nNu är Oscar tjugoett år och jobbar i föreningen på heltid. Hans uppgift är att åka ut till skolor och prata med elever om alkohol. Det är vanligt att ungdomar i åldern 16-19 år prövar alkohol för att kompisar gör det. Det vill Oscar ändra på. Ingen ska känna att man måste tacka ja till ett glas öl eller vin.\n\nFöreningen ordnar en resa varje år. Då åker ungdomarna iväg en vecka och har roligt tillsammans. I föreningen får de också lära sig hur man kan hjälpa kompisar som dricker mycket alkohol.\n\nDen senaste tiden har äldre människor börjat dricka mer alkohol men unga dricker mindre.\n- Ungdomar vill inte göra likadant som sina föräldrar, tror Oscar. Och de tänker nog mer på vad som är nyttigt när de väljer vad de ska äta och dricka. Många tycker att man mår bättre utan alkohol, särskilt om man tränar.\n\nOscars föräldrar tror att Oscar kommer att börja dricka alkohol när han blir äldre. Men Oscar är nöjd med sitt beslut och säger att han inte kommer att ändra sig.\n\nSamma kväll som vi träffar Oscar ordnar han en träff i föreningens lokal. Han ska informera om resan och efter det ska de göra pizza. Strax innan träffen ska börja är Oscar på plats i lokalen. Han hälsar på alla ungdomar med en kram. Ungdomarna berättar att de ofta ses i lokalen på vardagskvällarna men på helgerna går de gärna ut och dansar."
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. Varför gick Oscar med i föreningen?",
+      "options": [
+        "För att träffa en flickvän.",
+        "För att åka på en resa.",
+        "För att hitta nya vänner."
+      ],
+      "answer": "För att hitta nya vänner."
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad gör Oscar på dagarna?",
+      "options": [
+        "Han studerar.",
+        "Han söker jobb.",
+        "Han arbetar."
+      ],
+      "answer": "Han arbetar."
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad ska Oscar göra i kväll?",
+      "options": [
+        "Hålla i ett möte.",
+        "Äta på restaurang.",
+        "Gå ut och dansa."
+      ],
+      "answer": "Hålla i ett möte."
+    },
+    {
+      "id": "A_Q4",
+      "type": "mcq",
+      "prompt": "D. Varför tror Oscar att ungdomar dricker mindre alkohol nu?",
+      "options": [
+        "För att de vill ha bra hälsa.",
+        "För att det är svårt att köpa.",
+        "För att det kostar mycket."
+      ],
+      "answer": "För att de vill ha bra hälsa."
+    },
+    {
+      "id": "A_Q5",
+      "type": "mcq",
+      "prompt": "E. Tror Oscar att han kommer att dricka alkohol i framtiden?",
+      "options": ["Ja", "Nej", "Kanske"],
+      "answer": "Nej"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: الإجابات الصحيحة حسب النص (سبب الانضمام للجمعية، عمله، أنشطته، رأيه في الشباب، ومستقبله).",
+    "explanation": "المقال يوضح لماذا لا يشرب Oscar الكحول، وكيف يعمل في جمعية تدعم الشباب.",
+    "translation": "النص يتحدث عن حياة Oscar وقراره بعدم شرب الكحول.",
+    "vocabulary": [
+      "alkohol (كحول)",
+      "förening (جمعية)",
+      "ungdomar (شباب)",
+      "hälsa (صحة)"
+    ],
+    "examples": [
+      "Jag dricker inte alkohol. (أنا لا أشرب الكحول.)"
+    ],
+    "tip": "ابحث عن الكلمات المفتاحية في النص مثل الشباب والصحة والجمعية."
+  }
 }

@@ -1,9 +1,89 @@
 {
   "section": "D",
-  "icon": "📊",
-  "title": "Sektion D",
-  "instructions": "Studera diagrammen och svara på frågorna.",
-  "texts": [],
-  "charts": [],
-  "questions": []
+  "icon": "✨",
+  "title": "Läsa A – Uppgift 4: Vad är viktigt för dig?",
+  "instructions": "Läs texterna om vad som är viktigt för Ludmila, Jonny, Amanda och Ryan och välj rätt alternativ.",
+  "texts": [
+    {
+      "heading": "A. Ludmila",
+      "body": "- Jag älskar att dansa och min dröm är att kunna försörja mig på det. Just nu jobbar jag på ett bageri och trivs väldigt bra. Men till hösten ska jag söka till Danshögskolan. Att komma in där är det viktigaste i livet för mig just nu."
+    },
+    {
+      "heading": "B. Jonny",
+      "body": "- För mig är det viktigt att ha människor omkring mig som jag kan lita på, både på jobbet och på fritiden. Personer som jag kan prata och skratta med när jag är glad. Men också gråta tillsammans med när livet känns svårt."
+    },
+    {
+      "heading": "C. Amanda",
+      "body": "- Jag funderar mycket på livet och vill gärna dela med mig av mina tankar. Jag har en blogg på nätet där jag lägger ut mina dikter och texter om hur jag känner mig. Det är roligt när andra vill veta hur jag tänker."
+    },
+    {
+      "heading": "D. Ryan",
+      "body": "- Det finns saker i samhället som inte fungerar, tycker jag. För mig är det viktigt att prata med andra om hur världen kan bli bättre. Man tycker inte alltid likadant men det är intressant att höra andras åsikter."
+    }
+  ],
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "mcq",
+      "prompt": "A. Ludmila – Vad är viktigast för henne nu?",
+      "options": [
+        "Att komma in på Danshögskolan",
+        "Att ha vänner man kan lita på",
+        "Att dela tankar på en blogg",
+        "Att diskutera hur världen kan bli bättre"
+      ],
+      "answer": "Att komma in på Danshögskolan"
+    },
+    {
+      "id": "D_Q2",
+      "type": "mcq",
+      "prompt": "B. Jonny – Vad är viktigast för honom?",
+      "options": [
+        "Att komma in på Danshögskolan",
+        "Att ha vänner man kan lita på",
+        "Att dela tankar på en blogg",
+        "Att diskutera hur världen kan bli bättre"
+      ],
+      "answer": "Att ha vänner man kan lita på"
+    },
+    {
+      "id": "D_Q3",
+      "type": "mcq",
+      "prompt": "C. Amanda – Vad är viktigast för henne?",
+      "options": [
+        "Att komma in på Danshögskolan",
+        "Att ha vänner man kan lita på",
+        "Att dela tankar på en blogg",
+        "Att diskutera hur världen kan bli bättre"
+      ],
+      "answer": "Att dela tankar på en blogg"
+    },
+    {
+      "id": "D_Q4",
+      "type": "mcq",
+      "prompt": "D. Ryan – Vad är viktigast för honom?",
+      "options": [
+        "Att komma in på Danshögskolan",
+        "Att ha vänner man kan lita på",
+        "Att dela tankar på en blogg",
+        "Att diskutera hur världen kan bli bättre"
+      ],
+      "answer": "Att diskutera hur världen kan bli bättre"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: Ludmila تركز على دخول مدرسة الرقص العليا، Jonny يركز على وجود أصدقاء موثوقين، Amanda تركز على مشاركة أفكارها عبر المدونة، وRyan يركز على الحوار حول جعل العالم أفضل.",
+    "explanation": "كل شخصية توضح ما تعتبره الأهم حاليًا في حياتها: الدراسة/الحلم، الصداقة والثقة، الكتابة والمدونة، أو النقاش المجتمعي.",
+    "translation": "نصوص قصيرة حول أولويات وقيم أربعة أشخاص.",
+    "vocabulary": [
+      "viktigast (الأكثر أهمية)",
+      "lita på (يثق بـ)",
+      "tankar (أفكار)",
+      "åsikter (آراء)"
+    ],
+    "examples": [
+      "Det är viktigt att ha vänner man kan lita på. (من المهم أن يكون لديك أصدقاء تثق بهم.)"
+    ],
+    "tip": "ابحث عن العبارة التي تصف هدف أو قيمة كل شخص بوضوح."
+  }
 }

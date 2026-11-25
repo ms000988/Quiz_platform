@@ -1,8 +1,73 @@
 {
   "section": "E",
-  "icon": "🚗",
-  "title": "Sektion E",
-  "instructions": "Läs intervjun och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "📰",
+  "title": "Läsa A – Uppgift 5: Läsarnas sida",
+  "instructions": "Läs vad personerna har skrivit på läsarnas sida och svara på frågorna genom att välja rätt namn.",
+  "texts": [
+    {
+      "heading": "Talita",
+      "body": "Ni som röker på balkongen, var snälla och sluta med det! Röken kommer in i andras lägenheter. Dessutom är det inte kul med fimparna på marken."
+    },
+    {
+      "heading": "Gunnar",
+      "body": "Nu när det är vinter och mörkt ute, glöm inte att sätta på reflexer på er själva, era barn och husdjur. Det är den bästa och billigaste livförsäkringen."
+    },
+    {
+      "heading": "Ellen",
+      "body": "Du som hjälpte mig till sjukhuset när jag ramlade vid stationen i Råstad den 27/8. Jag skadade mig i foten men mår bra nu. Tyvärr vet jag inte vad du heter men jag vill ge dig en stor kram. Utan dig vet jag inte hur det hade gått!"
+    },
+    {
+      "heading": "Johan",
+      "body": "Du äldre kvinna eller man! Vår familj tycker om att lära känna nya människor. Våra barn vill ha en extra mormor eller morfar. Vill du komma och fika eller äta middag med oss ibland? Du är varmt välkommen! Tidningen har mitt telefonnummer."
+    },
+    {
+      "heading": "Karin",
+      "body": "Jag bor ensam med min hund, Lajka. Nu har jag brutit benet och kan inte promenera. Tycker du om djur och har tid och lust att gå ut med min hund så är du välkommen att höra av dig till mig. Tidningen har mitt telefonnummer."
+    }
+  ],
+  "questions": [
+    {
+      "id": "E_Q1",
+      "type": "mcq",
+      "prompt": "A. Vem vill tacka för något?",
+      "options": ["Talita", "Gunnar", "Ellen", "Johan", "Karin"],
+      "answer": "Ellen"
+    },
+    {
+      "id": "E_Q2",
+      "type": "mcq",
+      "prompt": "B. Vem vill be om hjälp?",
+      "options": ["Talita", "Gunnar", "Ellen", "Johan", "Karin"],
+      "answer": "Karin"
+    },
+    {
+      "id": "E_Q3",
+      "type": "mcq",
+      "prompt": "C. Vem är arg på något?",
+      "options": ["Talita", "Gunnar", "Ellen", "Johan", "Karin"],
+      "answer": "Talita"
+    },
+    {
+      "id": "E_Q4",
+      "type": "mcq",
+      "prompt": "D. Vem vill bjuda hem någon?",
+      "options": ["Talita", "Gunnar", "Ellen", "Johan", "Karin"],
+      "answer": "Johan"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: يشكر على المساعدة → Ellen، يطلب مساعدة (تمشية الكلب بعد كسر الساق) → Karin، غاضب من التدخين والأعقاب → Talita، يدعو إلى المنزل/القهوة أو العشاء → Johan.",
+    "explanation": "رسائل القرّاء تعبر عن مواقف مختلفة: شكر، طلب مساعدة، انزعاج/غضب، أو دعوة.",
+    "translation": "رسائل متنوعة من قراء الصحيفة حول مواقف يومية.",
+    "vocabulary": [
+      "tacka (يشكر)",
+      "be om hjälp (يطلب مساعدة)",
+      "arg (غاضب / منزعج)",
+      "bjuda hem (يدعو إلى المنزل)"
+    ],
+    "examples": [
+      "Ellen vill tacka den som hjälpte henne. (Ellen تريد أن تشكر من ساعدها.)"
+    ],
+    "tip": "ابحث عن الشعور أو الطلب الأساسي في رسالة كل شخص."
+  }
 }

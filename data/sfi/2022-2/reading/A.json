@@ -1,8 +1,58 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "✉️",
+  "title": "Uppgift 1: Kusinträffen",
+  "instructions": "Läs mejlet från Ella till Martin och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Mejlet: Kusinträffen",
+      "body": "Till: Martin\nÄmne: Kusinträffen\n\nHej Martin!\n\nVad kul att du tackade ja till kusinträffen! Det blir nio kusiner och alla tar med sina familjer. Så roligt! Vi hörs inte så ofta men vi har ju bra koll på varandra och vad alla gör tack vare vår facebookgrupp, eller hur? Jag älskar allas bilder och kommentarer!\n\nSom du vet har vi flyttat till en större villa men vi håller på att renovera den just nu. Det finns visserligen gott om plats att duka för alla på uteplatsen och gräsmattan men man kan ju aldrig lita på att vädret blir bra. Men en vän tipsade oss om ett bra ställe som han hade hyrt förra året. Det ligger jättevackert precis vid en liten sjö, så vi bestämde oss för det. Vi har beställt en buffé med både kött, fisk och vegetariskt för att maten ska passa alla.\n\nSen har jag tagit fram mina gamla bilder och videofilmer som vi kan titta på efter middagen. Som du vet hade jag kameran med mig överallt även förr, precis som nu! Jag ser också fram emot att höra sången som du har skrivit om oss alla!\n\nVi ses snart!\nElla"
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad berättar Ella om sina kusiner?",
+      "options": [
+        "De brukar besöka varandra.",
+        "De brukar ringa varandra.",
+        "De brukar ha kontakt på nätet."
+      ],
+      "answer": "De brukar ha kontakt på nätet."
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Var ska kusinträffen vara?",
+      "options": [
+        "i Ellas hus",
+        "i trädgården",
+        "i en festlokal"
+      ],
+      "answer": "i en festlokal"
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad tycker Ella om att göra?",
+      "options": [
+        "fotografera",
+        "laga mat",
+        "sjunga"
+      ],
+      "answer": "fotografera"
+    },
+    {
+      "id": "A_Q4",
+      "type": "mcq",
+      "prompt": "D. Varför skriver Ella till Martin? Hon vill ...",
+      "options": [
+        "få hjälp av Martin på kusinträffen.",
+        "ge Martin information om kusinträffen.",
+        "veta om Martin kan komma på kusinträffen."
+      ],
+      "answer": "ge Martin information om kusinträffen."
+    }
+  ]
 }

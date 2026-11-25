@@ -1,0 +1,69 @@
+{
+  "section": "J",
+  "icon": "✉️",
+  "title": "Läsa B – Uppgift 5: Meddelanden till vänner",
+  "instructions": "Anna skriver till sina vänner: \"Jag fyller år på lördag och det skulle vara kul att ses! Kom till Café Kakan kl. 16:00 så bjuder jag på fika.\" Läs svaren och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Björn",
+      "body": "- Åh, jag hade glömt att du fyller år! Jag och Stina har köpt biljetter till en konsert på lördag. Om vi kan byta dem så kommer vi. Jag hör av mig när jag vet!"
+    },
+    {
+      "heading": "Iris",
+      "body": "- Anna! Jag ser fram emot att få träffa dig på lördag! Önskar du dig något speciellt? Kram, Iris"
+    },
+    {
+      "heading": "Tomas",
+      "body": "- Hej Anna, vad trevligt det låter! Det skulle vara kul att ses men vi ska hälsa på min svärfar i helgen. Ni får ha det så bra! Vi hörs!"
+    },
+    {
+      "heading": "Elsa",
+      "body": "- Hej! Jag spelar en viktig match vid tvåtiden så jag blir lite sen. Hoppas att det inte gör något! Vi ses / Elsa"
+    }
+  ],
+  "questions": [
+    {
+      "id": "J_Q1",
+      "type": "mcq",
+      "prompt": "A. Kan Björn komma?",
+      "options": ["Ja", "Nej", "Kanske"],
+      "answer": "Kanske"
+    },
+    {
+      "id": "J_Q2",
+      "type": "mcq",
+      "prompt": "B. Kan Iris komma?",
+      "options": ["Ja", "Nej", "Kanske"],
+      "answer": "Ja"
+    },
+    {
+      "id": "J_Q3",
+      "type": "mcq",
+      "prompt": "C. Kan Tomas komma?",
+      "options": ["Ja", "Nej", "Kanske"],
+      "answer": "Nej"
+    },
+    {
+      "id": "J_Q4",
+      "type": "mcq",
+      "prompt": "D. Kan Elsa komma?",
+      "options": ["Ja", "Nej", "Kanske"],
+      "answer": "Ja"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: Björn → Kanske (إذا استطاع تبديل التذاكر)، Iris → Ja، Tomas → Nej (سيزور حماه في عطلة نهاية الأسبوع)، Elsa → Ja (ستأتي متأخرة قليلًا بعد المباراة).",
+    "explanation": "ردود الأصدقاء على دعوة عيد الميلاد توضح من سيحضر، من يعتذر، ومن يعتمد حضوره على ظرف آخر.",
+    "translation": "ردود الأصدقاء على دعوة لقاء في المقهى بمناسبة عيد الميلاد.",
+    "vocabulary": [
+      "födelsedag (عيد ميلاد)",
+      "fika (قهوة وكعك)",
+      "konsert (حفل موسيقي)",
+      "sen (متأخر)"
+    ],
+    "examples": [
+      "Jag blir lite sen eftersom jag har en match. (سأتأخر قليلًا لأن لدي مباراة.)"
+    ],
+    "tip": "انتبه لكلمات مثل 'Om vi kan byta dem' (Kanske) أو 'men vi ska hälsa på...' (Nej)."
+  }
+}

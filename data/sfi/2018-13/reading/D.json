@@ -1,9 +1,73 @@
 {
   "section": "D",
-  "icon": "📊",
-  "title": "Sektion D",
-  "instructions": "Studera diagrammen och svara på frågorna.",
-  "texts": [],
-  "charts": [],
-  "questions": []
+  "icon": "🤝",
+  "title": "Läsa A – Uppgift 4: Tips på internet",
+  "instructions": "Några personer berättar på en webbsida om hur man kan dela saker och tjänster med varandra i vardagen. Skriv personens namn.",
+  "texts": [
+    {
+      "heading": "Petter",
+      "body": "- Jag och min sambo har hittat en webbsida där man kan anmäla sig om man vill laga en middag för personer som man inte känner. Spännande att få träffa nya människor!"
+    },
+    {
+      "heading": "Maja",
+      "body": "- Jag tar bilen till jobbet i stan för bussen går så sällan här. Men vi är tre grannar som brukar göra sällskap dit och hem. En av oss kör och så delar vi på kostnaden för bensinen."
+    },
+    {
+      "heading": "Georg",
+      "body": "- När man ska ha en stor fest och det fattas stolar, glas och tallrikar kan man fråga sina grannar eller vänner om de har. Så kan man också göra med gräsklippare, symaskin och annat som man inte använder ofta."
+    },
+    {
+      "heading": "Selma",
+      "body": "- I vårt bostadshus har vi en lokal där vi kan reparera cyklar, möbler, barnvagnar och annat som har gått sönder. Där kan alla som bor i huset hjälpas åt med det."
+    },
+    {
+      "heading": "Ali",
+      "body": "- Vi har en stor trädgård och kan inte äta upp all frukt som vi får. Vi brukar ställa en korg full med äpplen bredvid brevlådan och skriva 'Varsågod!' så att folk som går förbi kan ta med lite frukt."
+    }
+  ],
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "short",
+      "prompt": "A. Vem ger tips om att åka tillsammans?",
+      "answer": "Maja",
+      "acceptedAnswers": ["Maja", "maja"]
+    },
+    {
+      "id": "D_Q2",
+      "type": "short",
+      "prompt": "B. Vem ger tips om att låna saker av varandra?",
+      "answer": "Georg",
+      "acceptedAnswers": ["Georg", "georg"]
+    },
+    {
+      "id": "D_Q3",
+      "type": "short",
+      "prompt": "C. Vem ger tips om att bjuda hem någon på mat?",
+      "answer": "Petter",
+      "acceptedAnswers": ["Petter", "petter"]
+    },
+    {
+      "id": "D_Q4",
+      "type": "short",
+      "prompt": "D. Vem ger tips om att fixa trasiga saker tillsammans?",
+      "answer": "Selma",
+      "acceptedAnswers": ["Selma", "selma"]
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: مطابقة النصائح مع الأسماء (Maja, Georg, Petter, Selma, Ali).",
+    "explanation": "كل شخص يعطي نصيحة عن المشاركة والتعاون بين الجيران أو الناس في الحياة اليومية.",
+    "translation": "النصائح تدور حول مساعدة الآخرين، مشاركة الأشياء، والتعاون.",
+    "vocabulary": [
+      "tips (نصيحة)",
+      "hjälpa (يساعد)",
+      "låna (يستعير / يقرض)",
+      "grannar (جيران)"
+    ],
+    "examples": [
+      "Jag vill ge ett tips. (أريد أن أقدم نصيحة.)"
+    ],
+    "tip": "عند قراءة نصوص قصيرة، اربط كل جملة بالشخص المناسب."
+  }
 }

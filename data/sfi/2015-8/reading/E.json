@@ -1,8 +1,42 @@
 {
   "section": "E",
-  "icon": "🚗",
-  "title": "Sektion E",
-  "instructions": "Läs intervjun och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🚲",
+  "title": "Läsa A – Uppgift 5: Tips i en tidning",
+  "instructions": "Alina vill börja cykla till jobbet och läser tips i en tidning. Svara på frågan.",
+  "texts": [
+    {
+      "heading": "Tips för att cykla till jobbet",
+      "body": "Ett bra tips är att kunna byta om på jobbet ifall du blir svettig när du cyklar. Det är också bra att alltid ha med sig en regnjacka och ett extra par skor."
+    }
+  ],
+  "questions": [
+    {
+      "id": "E_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad handlar tipset om?",
+      "options": [
+        "Börja lugnt.",
+        "Ha rätt kläder.",
+        "Planera din väg.",
+        "Ha en bra väska.",
+        "Ät bra."
+      ],
+      "answer": "Ha rätt kläder."
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: النص يتحدث عن ارتداء وإحضار الملابس والأحذية المناسبة (Ha rätt kläder) مثل معطف المطر وحذاء إضافي وتغيير الملابس.",
+    "explanation": "النص يركز على الاستعداد بالملابس المناسبة للطقس والتعرق عند الذهاب للعمل بالدراجة.",
+    "translation": "نصيحة حول الملابس والأحذية المناسبة لركوب الدراجة إلى العمل.",
+    "vocabulary": [
+      "regnjacka (معطف مطر)",
+      "byta om (يغير ملابسه)",
+      "kläder (ملابس)",
+      "skor (أحذية)"
+    ],
+    "examples": [
+      "Ha alltid med dig en regnjacka när du cyklar. (احمل معك دائمًا معطف مطر عندما تقود الدراجة.)"
+    ],
+    "tip": "كلمات مثل 'byta om' و'regnjacka' و'skor' تدل مباشرة على الملابس."
+  }
 }

@@ -1,9 +1,69 @@
 {
   "section": "D",
-  "icon": "📊",
-  "title": "Sektion D",
-  "instructions": "Studera diagrammen och svara på frågorna.",
-  "texts": [],
-  "charts": [],
-  "questions": []
+  "icon": "💛",
+  "title": "Läsa A – Uppgift 4: Vad är viktigt för att må bra?",
+  "instructions": "Läs texterna och välj rätt siffra bland alternativen:\n1. Att skratta | 2. Att vila | 3. Att sporta | 4. Att vara utomhus | 5. Att kramas | 6. Att äta gott | 7. Att hjälpa andra",
+  "texts": [
+    {
+      "heading": "A. Camilla",
+      "body": "- Jag älskar att hitta på egna recept men också att smaka nya spännande rätter. Det är härligt att njuta av en måltid tillsammans med någon som man tycker om."
+    },
+    {
+      "heading": "B. Joram",
+      "body": "- Att träna var viktigt för mig förut. Men nu har jag två små barn att ta hand om. För att orka det är det viktigt för mig att sova åtta timmar på natten och inte göra någonting alls ibland."
+    },
+    {
+      "heading": "C. Ida",
+      "body": "- Vintern är här och det är kallt. Många av de som inte har något hem sover ute. Därför har jag börjat samla in kläder och skor som jag ska ge till dem. Det blir jag glad av."
+    },
+    {
+      "heading": "D. Toni",
+      "body": "- Att sitta i soffan och mysa med min flickvän får mig att må bra. När hon är nära mig och vi håller om varandra känner jag mig lycklig. Jag har läst att kroppskontakt är bra mot stress."
+    }
+  ],
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "mcq",
+      "prompt": "A. Camilla – välj rätt alternativ (1–7):",
+      "options": ["1", "2", "3", "4", "5", "6", "7"],
+      "answer": "6"
+    },
+    {
+      "id": "D_Q2",
+      "type": "mcq",
+      "prompt": "B. Joram – välj rätt alternativ (1–7):",
+      "options": ["1", "2", "3", "4", "5", "6", "7"],
+      "answer": "2"
+    },
+    {
+      "id": "D_Q3",
+      "type": "mcq",
+      "prompt": "C. Ida – välj rätt alternativ (1–7):",
+      "options": ["1", "2", "3", "4", "5", "6", "7"],
+      "answer": "7"
+    },
+    {
+      "id": "D_Q4",
+      "type": "mcq",
+      "prompt": "D. Toni – välj rätt alternativ (1–7):",
+      "options": ["1", "2", "3", "4", "5", "6", "7"],
+      "answer": "5"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: Camilla → 6 (الأكل الجيد/الوجبات)، Joram → 2 (الراحة والنوم)، Ida → 7 (مساعدة الآخرين)، Toni → 5 (العناق/القرب الجسدي).",
+    "explanation": "كل شخص يوضح ما يجعله يشعر بالراحة والسعادة في حياته اليومية.",
+    "translation": "نصوص قصيرة حول ما يساعد على الشعور بالرضا والسعادة.",
+    "vocabulary": [
+      "måltid (وجبة)",
+      "vila (راحة)",
+      "hjälpa andra (مساعدة الآخرين)",
+      "kramas (يتعانق)"
+    ],
+    "examples": [
+      "Det är viktigt att vila när man är trött. (من المهم أن ترتاح عندما تكون متعبًا.)"
+    ],
+    "tip": "ابحث عن الكلمات الدالة على النشاط الأساسي لكل شخصية."
+  }
 }

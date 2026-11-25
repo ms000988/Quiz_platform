@@ -1,8 +1,64 @@
 {
   "section": "F",
-  "icon": "🍦",
-  "title": "Sektion F",
-  "instructions": "Läs artikeln och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "📧",
+  "title": "Läsa B – Uppgift 4: Mejl på en arbetsplats",
+  "instructions": "Läs mejlen på en arbetsplats och välj det alternativ som passar bäst för de markerade orden.",
+  "texts": [
+    {
+      "heading": "Mejl A–E",
+      "body": "• A (Assar): ... Gärna direkt om det går bra ...\n• B (Theo): ... Vi har även lite problem med kaffebryggaren ...\n• C (Farah): ... och titta igenom den tillsammans.\n• D (Fredrika): ... så snart som möjligt ...\n• E (Sture): ... om vi kan byta dag ..."
+    }
+  ],
+  "questions": [
+    {
+      "id": "F_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad betyder 'direkt' i Assars mejl?",
+      "options": ["senare", "tidigare", "nu"],
+      "answer": "nu"
+    },
+    {
+      "id": "F_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad betyder 'även' i Theos mejl?",
+      "options": ["förstås", "också", "egentligen"],
+      "answer": "också"
+    },
+    {
+      "id": "F_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad betyder 'titta igenom' i Farahs mejl?",
+      "options": ["fråga om", "svara på", "berätta om"],
+      "answer": "berätta om"
+    },
+    {
+      "id": "F_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad betyder 'så snart som möjligt' i Fredrikas mejl?",
+      "options": ["så fort du kan", "så mycket du kan", "så ofta du kan"],
+      "answer": "så fort du kan"
+    },
+    {
+      "id": "F_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad betyder 'byta' i Stures mejl?",
+      "options": ["hitta", "ändra", "bestämma"],
+      "answer": "ändra"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: direkt → nu، även → också، titta igenom (في سياق مراجعة/عرض التقرير) → berätta om، så snart som möjligt → så fort du kan، byta → ändra.",
+    "explanation": "فهم معاني الكلمات والتعابير الشائعة في رسائل البريد الإلكتروني في بيئة العمل.",
+    "translation": "معاني الكلمات والتعابير في رسائل العمل.",
+    "vocabulary": [
+      "direkt (مباشرة / الآن)",
+      "även (أيضًا)",
+      "så snart som möjligt (في أقرب وقت ممكن)",
+      "byta (يغيّر / يبدّل)"
+    ],
+    "examples": [
+      "Kan du svara mig så snart som möjligt? (هل يمكنك الرد عليّ في أقرب وقت ممكن؟)"
+    ],
+    "tip": "اقرأ الجملة كاملة لفهم المعنى المقصود في السياق."
+  }
 }

@@ -1,8 +1,64 @@
 {
   "section": "F",
-  "icon": "🍦",
-  "title": "Sektion F",
-  "instructions": "Läs artikeln och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "📊",
+  "title": "Uppgift 2: Ett diagram (Resor till arbetet i Malmö)",
+  "instructions": "Studera diagrammet som visar hur människor i Malmö reste till arbetet under några år på 2000-talet och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Information om diagrammet",
+      "body": "Diagrammet visar andelen resor till arbetet i Malmö åren 2003, 2008, 2013 och 2018 fördelat på resor med bil, cykelresor och promenader samt resor med buss och tåg.\nKälla: Malmö miljöbarometer."
+    }
+  ],
+  "charts": [
+    {
+      "id": "chartMalmoCommute",
+      "type": "bar",
+      "title": "Resor till arbetet* i Malmö",
+      "labels": ["2003", "2008", "2013", "2018"],
+      "datasets": [
+        {
+          "label": "resor med bil",
+          "data": [43, 32, 30, 14],
+          "backgroundColor": "#3b5998"
+        },
+        {
+          "label": "cykelresor och promenader",
+          "data": [43, 54, 46, 32],
+          "backgroundColor": "#334155"
+        },
+        {
+          "label": "resor med buss och tåg",
+          "data": [12, 13, 19, 43],
+          "backgroundColor": "#cbd5e1"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "F_Q1",
+      "type": "short",
+      "prompt": "A. Ungefär hur många procent reste med buss och tåg till arbetet år 2013?",
+      "answer": "19%",
+      "acceptedAnswers": ["19%", "19", "ca 19%", "cirka 19%"]
+    },
+    {
+      "id": "F_Q2",
+      "type": "short",
+      "prompt": "B. Vilket år var andelen resor med bil lika stor som andelen cykelresor och promenader?",
+      "answer": "2003",
+      "acceptedAnswers": ["2003", "år 2003"]
+    },
+    {
+      "id": "F_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilka resor till arbetet var vanligast år 2008?",
+      "options": [
+        "resor med bil",
+        "cykelresor och promenader",
+        "resor med buss och tåg"
+      ],
+      "answer": "cykelresor och promenader"
+    }
+  ]
 }

@@ -1,8 +1,69 @@
 {
   "section": "F",
-  "icon": "🍦",
-  "title": "Sektion F",
-  "instructions": "Läs artikeln och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "😊",
+  "title": "Läsa B – Uppgift 1: Vad tycker de? (Smileys)",
+  "instructions": "Läs vad personerna tycker om att använda smileys när man skickar sms och mejl och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Gunilla",
+      "body": "- Med smileys går det lättare att skicka sms. Det finns ju så många olika nu. Det går snabbt att meddela saker. Ett sms ser lite tråkigt ut utan en smiley tycker jag."
+    },
+    {
+      "heading": "Nevzat",
+      "body": "- Jag tycker att det är barnsligt när vuxna människor har smileys i varenda mening. De behövs inte, tycker jag."
+    },
+    {
+      "heading": "Rebecka",
+      "body": "- Det beror på vem man skriver till. När man söker ett jobb eller mejlar till sin chef passar det inte. Men till min pojkvän skickar jag alltid en smiley eller ett hjärta, annars tror han att jag är sur."
+    },
+    {
+      "heading": "Yosuf",
+      "body": "- Det är lätt att missförstå varandra när man skickar sms. Man ser inte om en person är glad eller ledsen. Därför lägger jag gärna till en smiley när jag messar."
+    }
+  ],
+  "questions": [
+    {
+      "id": "F_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad tycker Gunilla om smileys?",
+      "options": ["Bra", "Dåligt", "Både bra och dåligt"],
+      "answer": "Bra"
+    },
+    {
+      "id": "F_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad tycker Nevzat om smileys?",
+      "options": ["Bra", "Dåligt", "Både bra och dåligt"],
+      "answer": "Dåligt"
+    },
+    {
+      "id": "F_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad tycker Rebecka om smileys?",
+      "options": ["Bra", "Dåligt", "Både bra och dåligt"],
+      "answer": "Både bra och dåligt"
+    },
+    {
+      "id": "F_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad tycker Yosuf om smileys?",
+      "options": ["Bra", "Dåligt", "Både bra och dåligt"],
+      "answer": "Bra"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: Gunilla → Bra، Nevzat → Dåligt، Rebecka → Både bra och dåligt (حسب الشخص المرسل إليه)، Yosuf → Bra.",
+    "explanation": "الآراء تختلف حول استخدام الرموز التعبيرية (smileys) في الرسائل بين مؤيد ومعارض ومحايد حسب الموقف.",
+    "translation": "آراء أربعة أشخاص حول استخدام الـ smileys في الرسائل.",
+    "vocabulary": [
+      "missförstå (يسيء الفهم)",
+      "barnsligt (طفولي)",
+      "chef (مدير)",
+      "skicka sms (يرسل رسالة نصية)"
+    ],
+    "examples": [
+      "Det beror på vem man skriver till. (يعتمد ذلك على الشخص الذي تكتب إليه.)"
+    ],
+    "tip": "إذا ذكر الشخص حالتين مختلفتين (مناسب في حالة وغير مناسب في أخرى)، فالاختيار غالبًا Både bra och dåligt."
+  }
 }

@@ -1,9 +1,70 @@
 {
   "section": "D",
-  "icon": "📊",
-  "title": "Sektion D",
-  "instructions": "Studera diagrammen och svara på frågorna.",
-  "texts": [],
-  "charts": [],
-  "questions": []
+  "icon": "🥗",
+  "title": "Uppgift 4: Tips om mat",
+  "instructions": "Läs texterna på webbsidan (www.mattips.univ.nu) och välj vilken rubrik som passar bäst till varje text.",
+  "texts": [
+    {
+      "heading": "Text A",
+      "body": "Undvik att köpa frukt och grönsaker som har fraktats över halva jordklotet innan de säljs i butiken. Att köpa lokalt producerade varor är ofta bättre så köp istället det som är i säsong där du bor. I december smakar jordgubbarna ändå inte lika mycket."
+    },
+    {
+      "heading": "Text B",
+      "body": "Matrester som har blivit kvar efter middagen värmer du i mikron dagen efter. Du kan också använda mat som blivit över till andra rätter. Köttfärsen kan bli en god gratäng. Grönsaker som börjar bli gamla kan du ha i en soppa. Så kasta inget utan använd din fantasi istället."
+    },
+    {
+      "heading": "Text C",
+      "body": "Mat som har stått framme på matbordet eller i grytan på spisen ska in i kylskåpet direkt så inte bakterier förstör maten. De flesta färskvaror håller bäst i kylen men exempelvis bananer och tomater trivs bäst i rumstemperatur."
+    },
+    {
+      "heading": "Text D",
+      "body": "Det är bra att spara kvitton och skriva upp vad maten kostar under en månad. Då är det lättare att planera din ekonomi och du ser hur mycket som blir över till annat. Det finns enkla program på internet att använda."
+    }
+  ],
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilken rubrik passar bäst till text A?",
+      "options": [
+        "Ät vegetariskt",
+        "Välj mat efter årstid",
+        "Köp gärna ekologiskt"
+      ],
+      "answer": "Välj mat efter årstid"
+    },
+    {
+      "id": "D_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilken rubrik passar bäst till text B?",
+      "options": [
+        "Välj nyttig mat",
+        "Släng inte maten",
+        "Gör en veckomeny"
+      ],
+      "answer": "Släng inte maten"
+    },
+    {
+      "id": "D_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilken rubrik passar bäst till text C?",
+      "options": [
+        "Håll rent i köket",
+        "Stek maten noga",
+        "Förvara maten rätt"
+      ],
+      "answer": "Förvara maten rätt"
+    },
+    {
+      "id": "D_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilken rubrik passar bäst till text D?",
+      "options": [
+        "Gör en budget",
+        "Handla på nätet",
+        "Betala med kort"
+      ],
+      "answer": "Gör en budget"
+    }
+  ]
 }

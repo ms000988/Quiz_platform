@@ -1,8 +1,69 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "📰",
+  "title": "Uppgift 1: Livet som pappa",
+  "instructions": "Läs artikeln om Muene och lilla Nancy och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Livet som pappa",
+      "body": "Muene blev pappa för första gången för ett halvår sedan. Snart ska han vara föräldraledig med lilla Nancy.\n\nMuene är 31 år och bor utanför Stockholm. För några månader sedan föddes hans dotter. Muene och hans sambo hade inte planerat att få barn precis nu, men Nancy var en välkommen överraskning.\n\nJust nu är Muenes sambo hemma från jobbet och tar hand om Nancy på dagarna. Men Muene ska vara föräldraledig från april till januari nästa år.\n- Vi ska dela lika på ledigheten. Det är viktigt för oss att Nancy är lika trygg med mig som med sin mamma, säger han.\n\nHan umgås mycket med sin kusin som har flera barn. Kusinen är cool och lugn tillsammans med barnen. Det har hjälpt Muene till att inte oroa sig för allt.\n- Man behöver inte vara så hysteriskt noga. Det går bra ändå. Det är bra att vara lugn och inte bli tokig innerst inne om man är stressad, säger han.\n\nHan önskar förstås att Nancy får en god hälsa och hittar något i livet som hon verkligen tycker om att göra. Men Muene tycker också att det är viktigt att hon får uppleva lite svårigheter.\n- Livet är upp ibland och ner ibland. Man ska ha det lite tufft också, för man kan lära sig mycket av sina misstag."
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. Hur tycker Muene att det är att vara pappa?",
+      "options": [
+        "Det är svårt.",
+        "Det är roligt.",
+        "Det är stressigt."
+      ],
+      "answer": "Det är roligt."
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad har Muene lärt sig av sin kusin om livet?",
+      "options": [
+        "att be om hjälp",
+        "att planera mycket",
+        "att ta det lugnt"
+      ],
+      "answer": "att ta det lugnt"
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad berättar Muene om sin pappa? Att hans pappa ...",
+      "options": [
+        "ger tips om livet.",
+        "har studerat mycket.",
+        "är gammal men frisk."
+      ],
+      "answer": "ger tips om livet."
+    },
+    {
+      "id": "A_Q4",
+      "type": "mcq",
+      "prompt": "D. Varför vill Muene och hans sambo dela på föräldraledigheten?",
+      "options": [
+        "för att Muenes sambo har ett viktigt jobb",
+        "för att båda ska ha bra kontakt med barnet",
+        "för att Muene vill lära känna andra föräldrar"
+      ],
+      "answer": "för att båda ska ha bra kontakt med barnet"
+    },
+    {
+      "id": "A_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad tycker Muene är viktigt för Nancy? Att Nancy ...",
+      "options": [
+        "skaffar sig en utbildning och ett bra jobb",
+        "möter både jobbiga och roliga saker i livet",
+        "aldrig behöver vara olycklig eller ledsen"
+      ],
+      "answer": "möter både jobbiga och roliga saker i livet"
+    }
+  ]
 }

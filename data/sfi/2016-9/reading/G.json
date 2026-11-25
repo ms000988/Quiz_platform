@@ -1,8 +1,69 @@
 {
   "section": "G",
-  "icon": "📱",
-  "title": "Sektion G",
-  "instructions": "Läs inläggen och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "📰",
+  "title": "Läsa B – Uppgift 5: Läsarnas sida",
+  "instructions": "Läs vad personerna har skrivit på läsarnas sida och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Bertil",
+      "body": "En stor kram till er, ni unga män som hjälpte min väninna Ulla när hon ramlade utanför Folkets hus i tisdags förra veckan. Ni ringde snabbt 112 och väntade där tills ambulansen kom. Utan er hade det kanske inte gått så bra."
+    },
+    {
+      "heading": "Elli",
+      "body": "Hej! Jag vill gärna hjälpa flyktingar som kommer till vår kommun och jag undrar vart man kan vända sig för att göra det. Snälla ni som jobbar med sånt här eller ni som vet något om det, skriv gärna till Läsarnas sida och berätta!"
+    },
+    {
+      "heading": "Bella",
+      "body": "Har någon sett min tygkasse - röd med en stor rosa blomma på? Jag tror att jag tappade den i Sportaffären eller på torget utanför. Har du hittat den, kontakta mig snarast! Tidningen har mitt telefonnummer."
+    },
+    {
+      "heading": "Petra",
+      "body": "Jag blir så trött! Jag bor bredvid arenan här i stan och det är någon konsert eller show varje helg. Jag måste ofta lyssna till hög musik och skrik, även när jag har mina fönster stängda. Kommunen borde tänka lite mer på var det passar att ha en arena, innan man bygger en!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "G_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad vill Bertil?",
+      "options": ["Träffa någon.", "Tacka för något.", "Klaga på något."],
+      "answer": "Tacka för något."
+    },
+    {
+      "id": "G_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad vill Elli?",
+      "options": ["Tacka för något.", "Sälja något.", "Fråga om något."],
+      "answer": "Fråga om något."
+    },
+    {
+      "id": "G_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad vill Bella?",
+      "options": ["Be om hjälp.", "Sälja något.", "Köpa något."],
+      "answer": "Be om hjälp."
+    },
+    {
+      "id": "G_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad vill Petra?",
+      "options": ["Fråga om något.", "Klaga på något.", "Be om ursäkt."],
+      "answer": "Klaga på något."
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: Bertil → Tacka för något، Elli → Fråga om något، Bella → Be om hjälp، Petra → Klaga på något.",
+    "explanation": "كل رسالة في صفحة القراء تعبر عن غرض محدد: شكر على مساعدة، سؤال عن مكان للتطوع، طلب مساعدة للعثور على حقيبة مفقودة، أو شكوى من الضوضاء.",
+    "translation": "رسائل متنوعة في صفحة القراء حول مواقف حياتية.",
+    "vocabulary": [
+      "tacka (يشكر)",
+      "fråga (يسأل)",
+      "be om hjälp (يطلب مساعدة)",
+      "klaga (يشتكي)"
+    ],
+    "examples": [
+      "Petra klagar på hög musik vid arenan. (Petra تشتكي من الموسيقى العالية قرب الساحة.)"
+    ],
+    "tip": "حدد الهدف الرئيسي لكل كاتب: شكر، سؤال، طلب مساعدة، أو شكوى."
+  }
 }

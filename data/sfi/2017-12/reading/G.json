@@ -1,8 +1,94 @@
 {
   "section": "G",
-  "icon": "📱",
-  "title": "Sektion G",
-  "instructions": "Läs inläggen och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🏬",
+  "title": "Läsa B – Annonser och Intervjuer i en galleria",
+  "instructions": "Läs annonserna och intervjuerna i gallerian och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Uppgift 3: Annonser (1–5)",
+      "body": "1. Solängens gatuloppis! Söndag 28 maj från morgon till kväll, Solgatan 2–24.\n2. Snart är det sommar! Anmälan till årets simundervisning i juli vid Lillsjön.\n3. Välkommen till Kafé Silver! Mötesplatsen för alla seniorer (65 år eller äldre), öppet varje dag kl. 14–17.\n4. Välkommen till Nyckelpigan på Öppet Hus! Förskola för barn i åldern 1–6 år, Skogsvägen 13.\n5. Kom och sjung med oss! Körsång på måndagar kl. 19.00 på Musikhuset – ett roligt sätt att öva svenska."
+    },
+    {
+      "heading": "Uppgift 4: Intervjuer i en galleria",
+      "body": "• Marc: - Jag ska på fest i morgon kväll så jag ska leta efter något snyggt att ha på mig. Sen sätter jag mig kanske och tar en kopp kaffe någonstans.\n• Alice: - En kompis och jag har startat ett företag tillsammans och nu ska vi träffa en kund. Efter det ska vi ha ett möte och planera lite.\n• Carlos: - I dag har jag varit gift med min fru i ett år. Vi ska fira i kväll och då vill jag ge henne en present. Hon jobbar på restaurang så jag tror att hon skulle bli glad över ett par sköna skor.\n• Julia: - Jag köpte en jacka på internet för en vecka sedan och har hämtat paketet i mataffären nu. En gammal jobbarkompis ville bjuda mig på fika här i dag så det passade bra."
+    }
+  ],
+  "questions": [
+    {
+      "id": "G_Q1",
+      "type": "mcq",
+      "prompt": "Annons A. Khadir ska välja förskola till sin dotter. Vilken annons passar bäst?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "id": "G_Q2",
+      "type": "mcq",
+      "prompt": "Annons B. Ruth är pensionär och vill träffa andra pensionärer. Vilken annons passar bäst?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": "G_Q3",
+      "type": "mcq",
+      "prompt": "Annons C. Adam vill sälja/fynda på loppis. Vilken annons passar bäst?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "1"
+    },
+    {
+      "id": "G_Q4",
+      "type": "mcq",
+      "prompt": "Annons D. Tricia vill träna svenska genom körsång. Vilken annons passar bäst?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "G_Q5",
+      "type": "mcq",
+      "prompt": "Galleria A. Vad ska Marc göra i gallerian?",
+      "options": ["Handla något", "Träffa en vän", "Söka jobb"],
+      "answer": "Handla något"
+    },
+    {
+      "id": "G_Q6",
+      "type": "mcq",
+      "prompt": "Galleria B. Vad ska Alice göra i gallerian?",
+      "options": ["Söka jobb", "Arbeta", "Äta lunch"],
+      "answer": "Arbeta"
+    },
+    {
+      "id": "G_Q7",
+      "type": "mcq",
+      "prompt": "Galleria C. Vad ska Carlos göra i gallerian?",
+      "options": ["Handla något", "Arbeta", "Äta lunch"],
+      "answer": "Handla något"
+    },
+    {
+      "id": "G_Q8",
+      "type": "mcq",
+      "prompt": "Galleria D. Vad ska Julia göra i gallerian?",
+      "options": ["Handla något", "Arbeta", "Träffa en vän"],
+      "answer": "Träffa en vän"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: مطابقة الإعلانات (4 روضة أطفال، 3 مقهى لكبار السن، 1 سوق مستعمل، 5 غناء/تدريب لغة) وأنشطة الأشخاص في المول.",
+    "explanation": "الإعلانات تقدم أنشطة وخدمات مختلفة، ومقابلات المول توضح ما يفعله كل شخص هناك.",
+    "translation": "النصوص توضح الأنشطة الاجتماعية والتسوق والعمل في الحياة اليومية.",
+    "vocabulary": [
+      "annons (إعلان)",
+      "loppis (سوق مستعمل)",
+      "café (مقهى)",
+      "sjunga (يغني)",
+      "galleria (مول / مركز تجاري)",
+      "handla (يتسوق)",
+      "äta lunch (يتناول الغداء)",
+      "söka jobb (يبحث عن عمل)"
+    ],
+    "examples": [
+      "Jag handlar kläder i gallerian. (أتسوق ملابس في المول.)",
+      "Jag läser en annons i tidningen. (أقرأ إعلانًا في الجريدة.)"
+    ],
+    "tip": "في الإعلانات انتبه للوقت والمكان والفئة المستهدفة، وفي المقابلات ابحث عن الفعل الأساسي."
+  }
 }

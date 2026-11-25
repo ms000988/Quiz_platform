@@ -1,8 +1,69 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "💧",
+  "title": "Uppgift 2: Två diagram (Vatten)",
+  "instructions": "Studera diagrammen som visar hur vi använder vatten hemma och hur mycket vatten som behövs för olika varor, och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Så här använder vi vattnet i våra hem",
+      "body": "Mat och dryck: 7%\nToalettspolning: 22%\nDisk och tvätt: 21%\nPersonlig hygien: 43%\nÖvrigt: 7%\nKälla: www.svensktvatten.se"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chartWaterHome",
+      "type": "bar",
+      "title": "Så här använder vi vattnet i våra hem (%)",
+      "labels": ["Personlig hygien", "Toalettspolning", "Disk och tvätt", "Mat och dryck", "Övrigt"],
+      "datasets": [
+        {
+          "label": "Andel (%)",
+          "data": [43, 22, 21, 7, 7],
+          "backgroundColor": "#0284c7"
+        }
+      ]
+    },
+    {
+      "id": "chartWaterGoods",
+      "type": "bar",
+      "title": "Så här mycket vatten behövs för att producera olika varor (liter)",
+      "labels": ["1 kilo vete", "1 kilo ris", "1 kilo majs", "1 kilo ost", "1 liter mjölk"],
+      "datasets": [
+        {
+          "label": "Antal liter",
+          "data": [1200, 2700, 450, 5000, 900],
+          "backgroundColor": "#334155"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "short",
+      "prompt": "A. Hur många procent av vattnet i våra hem använder vi för att diska och tvätta?",
+      "answer": "21%",
+      "acceptedAnswers": ["21%", "21"]
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad använder vi vattnet mest till i våra hem?",
+      "options": [
+        "mat och dryck",
+        "toalettspolning",
+        "disk och tvätt",
+        "personlig hygien",
+        "övrigt"
+      ],
+      "answer": "personlig hygien"
+    },
+    {
+      "id": "B_Q3",
+      "type": "short",
+      "prompt": "C. Hur många liter vatten behövs för att producera ett kilo ris?",
+      "answer": "2700 liter",
+      "acceptedAnswers": ["2700 liter", "2700"]
+    }
+  ]
 }

@@ -1,5 +1,6 @@
 {
   "examId": "2019-16",
-  "promptText": "Skriv en text om dina framtidsplaner eller en upplevelse. Motivera dina åsikter.",
-  "minWords": 100
+  "title": "Skriv och berätta (Din fritid)",
+  "promptHtml": "<p><strong>Du ska skriva en text om vad du gör på fritiden, när du är ledig.</strong></p><p style='margin-top: 12px;'><strong>Skriv och berätta om din fritid. Du ska berätta:</strong></p><ul><li>vad du gör när du är ledig,</li><li>vad du brukade göra på fritiden förut, innan du kom till Sverige,</li><li>vad du vill göra om du får mer ledig tid.</li></ul>",
+  "minWords": 80
 }

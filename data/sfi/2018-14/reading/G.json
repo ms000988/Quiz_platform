@@ -1,8 +1,49 @@
 {
   "section": "G",
-  "icon": "📱",
-  "title": "Sektion G",
-  "instructions": "Läs inläggen och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🥋",
+  "title": "Uppgift 7: En intervju med Tim (Judo)",
+  "instructions": "Tim berättar om sitt intresse för sporten judo. Läs frågorna och välj bland svaren (1–6).",
+  "texts": [
+    {
+      "heading": "Svar från intervjun (1–6)",
+      "body": "1. Det finns många bra judoklubbar, så kolla om det finns en i din stad. I så fall är det bara att kontakta dem och be att få komma och träna.\n\n2. Då arbetar jag på en fritidsgård och trivs väldigt bra med det. Jag jobbar måndag till fredag så jag har inte så mycket tid över till annat, men jag gillar att se på film också.\n\n3. Det är att man får röra på sig mycket, och så blir man mjuk i kroppen. Sen är det kul att jag har fått många bra kompisar genom judon också.\n\n4. Jag vill fortsätta att utvecklas i den här sporten och kanske börja som tränare för klubbens nybörjare. Och det skulle förstås vara roligt att få vinna en stor tävling någon gång.\n\n5. Jag provade flera lagsporter först, handboll och fotboll, men de passade inte mig. Så hittade jag en annons om judo och testade det.\n\n6. Jag kör ett träningspass varje kväll på vardagar. Och på helgen är det ofta tävling en av dagarna och träning på den andra. Judon är en stor del av mitt liv just nu."
+    }
+  ],
+  "questions": [
+    {
+      "id": "G_Q0",
+      "type": "mcq",
+      "prompt": "Exempel: Varför började du med judo?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "5"
+    },
+    {
+      "id": "G_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad är det bästa med att träna judo, tycker du?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "3"
+    },
+    {
+      "id": "G_Q2",
+      "type": "mcq",
+      "prompt": "B. Hur ofta tränar du judo?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "6"
+    },
+    {
+      "id": "G_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad gör du när du inte tränar judo?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "2"
+    },
+    {
+      "id": "G_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad har du för planer för framtiden?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "4"
+    }
+  ]
 }

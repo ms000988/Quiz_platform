@@ -1,0 +1,69 @@
+{
+  "section": "I",
+  "icon": "✉️",
+  "title": "Läsa B – Uppgift 4: Meddelanden",
+  "instructions": "Läs meddelandena och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Bettan",
+      "body": "Ville bara säga att jag är ledsen! Det var inte meningen att det skulle bli så här... Kram, Bettan"
+    },
+    {
+      "heading": "Sara i personalgruppen",
+      "body": "Ämne: Nybakat. Jag har bakat, välkomna på fika i lunchrummet i eftermiddag! / Sara i personalgruppen"
+    },
+    {
+      "heading": "Ali",
+      "body": "Se hit! Har du ett köksbord som du inte behöver? Jag tar gärna hand om det. Jag betalar kontant och kan hämta det själv. Kontakta mig på 0709391410 / Ali"
+    },
+    {
+      "heading": "Hasse, lokalansvarig",
+      "body": "Var försiktig! Halt golv. Gå inte på golvet innan det torkat! / Hasse, lokalansvarig"
+    }
+  ],
+  "questions": [
+    {
+      "id": "I_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad vill Bettan?",
+      "options": ["Be om information.", "Be om hjälp.", "Be om ursäkt."],
+      "answer": "Be om ursäkt."
+    },
+    {
+      "id": "I_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad vill Sara?",
+      "options": ["Bjuda på något.", "Bestämma en tid.", "Boka ett möte."],
+      "answer": "Bjuda på något."
+    },
+    {
+      "id": "I_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad vill Ali?",
+      "options": ["Låna något.", "Sälja något.", "Köpa något."],
+      "answer": "Köpa något."
+    },
+    {
+      "id": "I_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad vill Hasse?",
+      "options": ["Varna för något.", "Be om ursäkt.", "Klaga på något."],
+      "answer": "Varna för något."
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: Bettan → Be om ursäkt (اعتذار)، Sara → Bjuda på något (دعوة/ضيافة)، Ali → Köpa något (رغبة في شراء طاولة)، Hasse → Varna för något (تحذير من أرضية زلقة).",
+    "explanation": "كل رسالة قصيرة تعبر عن هدف تواصل واضح ومباشر.",
+    "translation": "رسائل قصيرة تعبر عن اعتذار، ضيافة، شراء، وتحذير.",
+    "vocabulary": [
+      "be om ursäkt (يعتذر)",
+      "bjuda på (يدعو / يضيف)",
+      "köpa (يشتري)",
+      "varna (يحذر)"
+    ],
+    "examples": [
+      "Var försiktig! Halt golv. (احذر! الأرضية زلقة.)"
+    ],
+    "tip": "ركز على الفعل أو الغرض الأساسي في كل رسالة قصيرة."
+  }
+}

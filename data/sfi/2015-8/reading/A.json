@@ -1,8 +1,73 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🚆",
+  "title": "Läsa A – Uppgift 1: Joakim är lokförare",
+  "instructions": "Läs artikeln om lokföraren Joakim Malm och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Joakim är lokförare",
+      "body": "Joakim Malm har alltid varit intresserad av teknik. Hans första jobb var som maskinoperatör på en fabrik men efter ett tag ville han göra något annat.\n- Jag sökte och kom in på lokförarutbildningen. Sedan fick jag jobb direkt, berättar Joakim.\n\nNu kör han ofta tåg mellan Malmö och Stockholm. Tågen går snabbt, den högsta hastigheten är 200 kilometer i timmen.\n\nOm man funderar på att jobba som lokförare måste man tycka om att ta ansvar, berättar Joakim. Men det viktigaste är att man kan klara av stressiga situationer, även när det är mycket att göra.\n- Jag kan till exempel inte hålla på med mobilen eller göra något annat under tiden jag kör. Det är också jag som informerar passagerarna om nästa stopp, säger Joakim.\n\nDet som han gillar mest med yrket är att han har mycket ansvar.\n- Jag kör ibland med 400 passagerare i ett 165 meter långt tåg och måste ofta ta många beslut själv. Men det är roligt att ha det ansvaret. Som lokförare får man också bra betalt, tillägger Joakim.\n\nJoakim Malm är lokförare för persontåg. Däremot är han inte nöjd med att jobba så oregelbundet. Varannan helg och ungefär tre till fyra gånger i månaden måste han sova över i en annan stad. Det tycker han kan vara jobbigt. Joakim säger också att det kan vara svårt att planera in saker direkt efter arbetsdagen eftersom tågen ofta blir försenade.\n\nPå frågan om det blir någon tid över till andra intressen svarar Joakim med ett leende:\n- Jo, lite. Jag spelar elgitarr i ett rockband och det tycker jag är jättekul.\n\nKälla: www.arbetsförmedlingen.se (Texten är bearbetad)"
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. Varför ville Joakim bli lokförare?",
+      "options": [
+        "Han ville jobba med människor.",
+        "Han ville byta jobb.",
+        "Han ville resa mer."
+      ],
+      "answer": "Han ville byta jobb."
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Hur ska en bra lokförare vara, tycker Joakim?",
+      "options": [
+        "Lugn",
+        "Snabb",
+        "Trevlig"
+      ],
+      "answer": "Lugn"
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad tycker Joakim är dåligt med att vara lokförare?",
+      "options": [
+        "Lönen",
+        "Passagerarna",
+        "Arbetstiderna"
+      ],
+      "answer": "Arbetstiderna"
+    },
+    {
+      "id": "A_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad handlar texten mest om?",
+      "options": [
+        "Joakims utbildning.",
+        "Joakims jobb.",
+        "Joakims fritid."
+      ],
+      "answer": "Joakims jobb."
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: أراد تغيير عمله (Han ville byta jobb)، يجب أن يكون هادئًا ويتحمل المواقف المجهدة (Lugn)، وما يزعجه هو مواعيد العمل غير المنتظمة (Arbetstiderna)، والنص يتحدث بشكل رئيسي عن عمل Joakim (Joakims jobb).",
+    "explanation": "المقال يحكي عن Joakim الذي يعمل سائق قطار، وكيف انتقل إلى هذه المهنة، وما يحبه فيها، وما يجده صعبًا بسبب ساعات العمل والتأخيرات.",
+    "translation": "مقال عن مهنة سائق القطار Joakim ومميزاتها وصعوباتها.",
+    "vocabulary": [
+      "lokförare (سائق قطار)",
+      "ansvar (مسؤولية)",
+      "arbetstider (مواعيد العمل)",
+      "yrke (مهنة)"
+    ],
+    "examples": [
+      "Det är ett stort ansvar att köra tåg. (قيادة القطار مسؤولية كبيرة.)"
+    ],
+    "tip": "ابحث عن الفقرات التي تشرح سبب تغيير العمل، صفات السائق الجيد، والجانب السلبي في ساعات العمل."
+  }
 }

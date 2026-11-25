@@ -1,8 +1,84 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🎂",
+  "title": "Läsa A – Uppgift 1: Lilly är en pigg hundraåring",
+  "instructions": "Läs artikeln om Lilly Karlsson och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Lilly är en pigg hundraåring",
+      "body": "Det är allt fler människor som lever länge. På fredag fyller Lilly Karlsson i Delsbo hundra år. Hon berättar om sitt långa liv och hur hon ska fira sin 100-årsdag.\n\nLilly växte upp i en by i norra Sverige i början av 1900-talet. Hon hade elva syskon så det fanns alltid någon att leka med.\n- Det var fattigt i alla gårdar, men vi hade ett par kor och några höns på gården så vi fick smör, mjölk och ägg från dem, berättar Lilly.\n\nLilly sitter vid köksbordet på sitt äldreboende. Hon tittar ut genom fönstret och säger:\n- Idag skulle det vara skönt att gå på promenad.\n\nLilly har alltid gillat att röra på sig. När hon var sjuttio år började hon att träna på ett gym.\n- Det blev jag stark av. Det blev lättare att gå i trappor och bära tunga matkassar. Och så var det kul att träffa folk där. Här på äldreboendet har vi gymnastik två gånger i veckan istället. Det är också bra. Jag har blivit för trött för att träna på gymmet, säger Lilly.\n\nLilly tror inte att det är träningen som har gjort att hon har fått leva så länge.\n- Jag har inte gjort något speciellt för att bli hundra år. Varför det blev så förstår jag inte, jag är själv förvånad. Men jag är tacksam över att känna mig pigg, säger Lilly.\n\nLilly berättar hur hon ska fira födelsedagen. I morgon ska hon få hjälp att gå till frisören och bli fin i håret. Och på fredag ska hon bjuda på tårta på äldreboendet. Då kommer hennes son, barnbarn och två yngre systrar och firar henne. Hon kommer också att få ett brev med gratulationer från kungen och drottningen, för det får alla hundraåringar i Sverige.\n\nLillys liv har varit svårt ibland, till exempel när hennes man dog, då kände hon sig ensam. Men hon känner sig ändå mest nöjd när hon tänker tillbaka på sitt långa liv. Hon har arbetat med många olika saker, till exempel som kock, affärsbiträde och städerska. Lilly har också haft tid att dansa och ha kul med sina vänner.\n- Jag var ung och vacker förut. Nu är jag bara vacker, säger Lilly och skrattar."
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad berättar Lilly om sin familj?",
+      "options": [
+        "Familjen hade ingen mat.",
+        "Familjen hade många barn.",
+        "Familjen bodde i stan."
+      ],
+      "answer": "Familjen hade många barn."
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Hur brukar Lilly träna nu när hon är 100 år?",
+      "options": [
+        "Hon gör gymnastik.",
+        "Hon går till ett gym.",
+        "Hon dansar."
+      ],
+      "answer": "Hon gör gymnastik."
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Varför tror Lilly att hon har blivit så gammal?",
+      "options": [
+        "Hon vet inte varför.",
+        "Hon har tränat på gym hela livet.",
+        "Hon är glad och positiv."
+      ],
+      "answer": "Hon vet inte varför."
+    },
+    {
+      "id": "A_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad ska Lilly göra på sin födelsedag?",
+      "options": [
+        "Hon ska åka till sin son på fest.",
+        "Hon ska träffa kungen och drottningen.",
+        "Hon ska ha fest där hon bor."
+      ],
+      "answer": "Hon ska ha fest där hon bor."
+    },
+    {
+      "id": "A_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad berättar Lilly om sitt liv?",
+      "options": [
+        "Allt i hennes liv har varit bra.",
+        "Livet har varit både roligt och jobbigt.",
+        "Hon har jobbat för mycket."
+      ],
+      "answer": "Livet har varit både roligt och jobbigt."
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: العائلة كان لديها أطفال كثيرون (11 إخوة)، والآن تمارس الجمباز (gymnastik)، ولا تعرف سبب بلوغها 100 عام، وستحتفل في دار المسنين حيث تعيش، وحياتها كانت ممتعة وصعبة أحيانًا.",
+    "explanation": "المقال يتحدث عن Lilly التي ستبلغ مئة عام، وعن طفولتها، رياضتها الحالية، احتفالها بعيد ميلادها، وذكريات حياتها.",
+    "translation": "قصة حية عن امرأة عمرها 100 عام تحكي عن عائلتها، حركتها، واحتفالها بعيد ميلادها.",
+    "vocabulary": [
+      "hundraåring (شخص عمره مئة عام)",
+      "syskon (إخوة وأخوات)",
+      "gymnastik (جمباز / تمارين خفيفة)",
+      "födelsedag (عيد ميلad)"
+    ],
+    "examples": [
+      "Hon fyller hundra år på fredag. (ستتم المئة عام يوم الجمعة.)"
+    ],
+    "tip": "ابحث عن الفروق الدقيقة مثل الفرق بين التدريب في النادي الرياضي قديمًا والجمباز في دار المسنين حاليًا."
+  }
 }

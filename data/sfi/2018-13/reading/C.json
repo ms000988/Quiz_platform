@@ -1,8 +1,65 @@
 {
   "section": "C",
-  "icon": "👨‍👩‍👧‍👦",
-  "title": "Sektion C",
-  "instructions": "Läs texterna och matcha rätt person med påståendet.",
-  "texts": [],
-  "questions": []
+  "icon": "🔨",
+  "title": "Läsa A – Uppgift 3: En intervju med en snickare",
+  "instructions": "Axel är snickare och har ett eget företag. Läs frågorna och välj bland svaren (1–6).",
+  "texts": [
+    {
+      "heading": "Svar från intervjun (1–6)",
+      "body": "1. Det är att kunna planera jobbet. Det kan bli stressigt om ett jobb tar längre tid än jag har tänkt och då blir det problem att bli klar i tid.\n\n2. Kontakta någon som jobbar med att bygga och be att få praktisera hos honom eller henne. Då kan du se om det är rätt jobb för dig.\n\n3. För att jag var trött på det jobbet som jag hade då och ville prova något annat. Jag hade hjälpt folk med att snickra och bygga tidigare, så jag visste att jag skulle klara det.\n\n4. Jag kanske inte har kvar min firma om tio år men jag kommer nog att snickra ibland ändå åt vänner och släktingar.\n\n5. En snickare bygger till exempel möbler, kök och väggar. Snickare kan också bygga hus.\n\n6. Att jag bestämmer själv vilka jobb jag ska göra, det är skönt. Och så att möta kunder som är nöjda och tycker att jag har gjort ett bra jobb."
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q0",
+      "type": "mcq",
+      "prompt": "Exempel: Vad gör en snickare?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "5"
+    },
+    {
+      "id": "C_Q1",
+      "type": "mcq",
+      "prompt": "A. Varför startade du ditt företag?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "3"
+    },
+    {
+      "id": "C_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad är det bästa med ditt arbete?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "6"
+    },
+    {
+      "id": "C_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad är svårt i ditt arbete?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "1"
+    },
+    {
+      "id": "C_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilket råd vill du ge till en person som vill bli snickare?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "2"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: اختيار الجواب الصحيح حسب المقابلة مع النجار (snickare).",
+    "explanation": "النجار يشرح لماذا بدأ شركته، ما هو الأفضل والأصعب في عمله، وما هي نصيحته.",
+    "translation": "النص يوضح تفاصيل مهنة النجار وأعماله اليومية.",
+    "vocabulary": [
+      "snickare (نجار)",
+      "möbler (أثاث)",
+      "verktyg (أدوات)",
+      "kunder (زبائن)"
+    ],
+    "examples": [
+      "Jag bygger möbler. (أنا أبني أثاثًا.)",
+      "Han är snickare. (هو نجار.)"
+    ],
+    "tip": "في المقابلات، اقرأ إجابات الشخص بعناية وابحث عن السبب أو الصعوبة أو النصيحة."
+  }
 }

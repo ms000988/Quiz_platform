@@ -1,9 +1,64 @@
 {
   "section": "D",
-  "icon": "📊",
-  "title": "Sektion D",
-  "instructions": "Studera diagrammen och svara på frågorna.",
-  "texts": [],
-  "charts": [],
-  "questions": []
+  "icon": "✈️",
+  "title": "Läsa A – Uppgift 4: Information på flygplatsen",
+  "instructions": "Para ihop texterna (A–E) med rätt rubrik (1–6):\n1. Bagage | 2. Resa med barn | 3. Resa till och från flygplatsen | 4. Säkerhetskontroll | 5. Mat och service | 6. Särskilda behov",
+  "texts": [
+    {
+      "heading": "Texter (A–E)",
+      "body": "• A: Du får inte ha med dig saker som kan skada dig själv eller andra inne i flygplanet. Därför undersöker personalen på flygplatsen om du har några farliga föremål på dig.\n• B: På flygplatsen finns frisör, valutaväxling, banker, restauranger och hotell. Det finns en stor informationsdisk som ligger i terminal 4. Du kan också surfa fritt i tre timmar på flygplatsens wifi.\n• C: I närheten av flygterminalerna finns det både bussar, taxi och tåg. Det finns också en långtidsparkering om du kommer med egen bil samt en biluthyrning.\n• D: Du får bara ha en liten väska med dig inne i flygplanet. Stora väskor lämnar du vid incheckningsdisken. Musikinstrument, cyklar och andra stora föremål måste paketeras och lämnas vid en speciell disk.\n• E: Säg till när du bokar din flygbiljett om du behöver stöd eller hjälp under resan. Det kan till exempel vara att du använder rullstol eller har svårt att se eller höra och behöver extra hjälp."
+    }
+  ],
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "mcq",
+      "prompt": "A. Säkerhetskontroll / Farliga föremål – Välj rätt rubrik (1–6):",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "4"
+    },
+    {
+      "id": "D_Q2",
+      "type": "mcq",
+      "prompt": "B. Restauranger, banker, wifi och service – Välj rätt rubrik (1–6):",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "5"
+    },
+    {
+      "id": "D_Q3",
+      "type": "mcq",
+      "prompt": "C. Bussar, taxi, tåg och parkering – Välj rätt rubrik (1–6):",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "3"
+    },
+    {
+      "id": "D_Q4",
+      "type": "mcq",
+      "prompt": "D. Väskor och incheckning – Välj rätt rubrik (1–6):",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "1"
+    },
+    {
+      "id": "D_Q5",
+      "type": "mcq",
+      "prompt": "E. Rullstol eller extra hjälp – Välj rätt rubrik (1–6):",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "6"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: A → 4 (التفتيش الأمني)، B → 5 (الطعام والخدمات)، C → 3 (السفر إلى ومن المطار)، D → 1 (الأمتعة)، E → 6 (الاحتياجات الخاصة).",
+    "explanation": "كل فقرة تقدم إرشادات من موقع المطار حول موضوع محدد من مواضيع السفر.",
+    "translation": "معلومات إرشادية للمسافرين في المطار.",
+    "vocabulary": [
+      "bagage (أمتعة)",
+      "säkerhetskontroll (تفتيش أمني)",
+      "service (خدمات)",
+      "särskilda behov (احتياجات خاصة)"
+    ],
+    "examples": [
+      "Stora väskor lämnar du vid incheckningsdisken. (تترك الحقائب الكبيرة عند مكتب تسجيل الوصول.)"
+    ],
+    "tip": "طابق الكلمات المفتاحية في النص مع العنوان الأنسب."
+  }
 }

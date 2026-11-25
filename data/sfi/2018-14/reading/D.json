@@ -1,9 +1,49 @@
 {
   "section": "D",
-  "icon": "📊",
-  "title": "Sektion D",
-  "instructions": "Studera diagrammen och svara på frågorna.",
-  "texts": [],
-  "charts": [],
-  "questions": []
+  "icon": "🌊",
+  "title": "Uppgift 4: En text om vatten",
+  "instructions": "Läs faktatexten om Sveriges vatten och välj det ord eller uttryck som passar bäst i varje lucka.",
+  "texts": [
+    {
+      "heading": "Sveriges vatten",
+      "body": "Vatten är livsviktigt. Utan vatten skulle det inte finnas något liv alls på jorden. Men 97 procent av jordens vatten finns i haven och är salt, och [A] inte att dricka.\n\nVatten som har så lite salt så att man kan dricka det kallas sötvatten. Det finns i regn, älvar, sjöar och i marken. I Sverige har vi många älvar och sjöar. När man reser genom vårt land [B] man vatten överallt i naturen.\n\nEn del år regnar det väldigt lite och då finns det mindre vatten. Då måste man tänka på att inte använda för mycket vatten. Så läs gärna på din kommuns webbsida där brukar det finnas tips på hur man kan [C] vatten.\n\nVi använder nästan 900 miljarder liter dricksvatten per år i Sverige. Dricksvattnet använder vi även till tvätt, disk, dusch och bad. Vattnet renas och används igen och igen. Därför är det [D] att vi inte spolar och sköljer ner farliga ämnen i toaletten och i köket.\n\nAlla som bor i Sverige tycker nog att det är självklart att få rent vatten ur kranen i köket och badrummet. Men för att vi ska ha friskt vatten och rena hav och sjöar i framtiden också, måste vi alla [E] och vara rädda om vårt vatten."
+    }
+  ],
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilket ord passar i texten?",
+      "options": ["ger", "har", "går"],
+      "answer": "går"
+    },
+    {
+      "id": "D_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilket ord passar i texten?",
+      "options": ["vet", "ser", "känner"],
+      "answer": "ser"
+    },
+    {
+      "id": "D_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilket ord passar i texten?",
+      "options": ["sakna", "spara", "smaka"],
+      "answer": "spara"
+    },
+    {
+      "id": "D_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilket ord eller uttryck passar i texten?",
+      "options": ["svårt", "dåligt", "viktigt"],
+      "answer": "viktigt"
+    },
+    {
+      "id": "D_Q5",
+      "type": "mcq",
+      "prompt": "E. Vilket uttryck passar i texten?",
+      "options": ["ta ansvar", "ha bråttom", "få hjälp"],
+      "answer": "ta ansvar"
+    }
+  ]
 }

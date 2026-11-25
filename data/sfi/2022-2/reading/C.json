@@ -1,8 +1,42 @@
 {
   "section": "C",
-  "icon": "👨‍👩‍👧‍👦",
-  "title": "Sektion C",
-  "instructions": "Läs texterna och matcha rätt person med påståendet.",
-  "texts": [],
-  "questions": []
+  "icon": "💼",
+  "title": "Uppgift 3: Åsikter på internet (Relationer på jobbet)",
+  "instructions": "Några personer skriver på en webbsida om relationer mellan arbetskamrater. Svara på frågorna genom att skriva personens namn.\n\nPersoner: Berit, Kim, Abdu, Shalini, Tindra, Lukas",
+  "texts": [
+    {
+      "heading": "Inlägg på webbsidan",
+      "body": "• Berit (Idag: 12:45): Nu har jag äntligen vågat säga ifrån när jag tycker att någon säger något dumt. På vårt möte igår var det en kollega som pratade illa om vår rektor som är sjukskriven. När jag sa att det inte är okej blev hon lite sur. Men sen bad hon faktiskt om ursäkt.\n\n• Kim (Idag: 15:15): En kille på mitt jobb är i vanliga fall glad och trevlig. Men nu vill han inte prata. Jag vet inte vad som har hänt, om han är deprimerad eller nåt. Jag är bekymrad och undrar vad jag ska göra. Prata med ledningen eller...?\n\n• Abdu (Idag: 17:50): Jobbarkompisarna betyder mycket för mig. Vi skojar alltid med varandra och sitter och pratar i lunchrummet när vi får chansen. På min flickväns jobb verkar det så stressigt. De tar sällan fikapauser. Jag skulle aldrig vilja jobba så.\n\n• Shalini (Idag: 17:58): Jag är ansvarig för en vårdcentral och uppskattar mina medarbetare. Men ibland får jag höra negativa kommentarer från personalen. Det är inte så kul. Om de visste hur tufft det är att ha allt ansvar! De borde tänka sig lite för innan de klagar på allt möjligt.\n\n• Tindra (Idag: 18:40): Jag trivs bra här i mataffären men jag irriterar mig på vår arbetsledare. Jag älskar att stå och sälja ost men vissa får göra det mycket oftare. Det är orättvist att vi behandlas olika. Dessutom sitter en del och fikar jättelänge utan att hon säger nåt.\n\n• Lukas (Idag: 19:10): Jag har ett ganska tråkigt jobb men vill inte byta för jag har blivit förälskad i en ny jobbarkompis. I början var jag nervös när vi jobbade på lagret ihop men nu känns det bara härligt. Vi har träffats en del på fritiden men ingen här vet något än."
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q1",
+      "type": "short",
+      "prompt": "A. Vem är orolig att en arbetskamrat mår dåligt?",
+      "answer": "Kim",
+      "acceptedAnswers": ["Kim", "kim"]
+    },
+    {
+      "id": "C_Q2",
+      "type": "short",
+      "prompt": "B. Vem har blivit kär på jobbet?",
+      "answer": "Lukas",
+      "acceptedAnswers": ["Lukas", "lukas"]
+    },
+    {
+      "id": "C_Q3",
+      "type": "short",
+      "prompt": "C. Vem tycker att chefen gör fel?",
+      "answer": "Tindra",
+      "acceptedAnswers": ["Tindra", "tindra"]
+    },
+    {
+      "id": "C_Q4",
+      "type": "short",
+      "prompt": "D. Vem tycker att det är viktigt att umgås på rasten?",
+      "answer": "Abdu",
+      "acceptedAnswers": ["Abdu", "abdu"]
+    }
+  ]
 }

@@ -1,8 +1,39 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🐕‍🦺",
+  "title": "Uppgift 1: Hunden får Eva att känna sig trygg",
+  "instructions": "Läs artikeln om Eva Christiansson och servicehunden Raffe.",
+  "texts": [
+    {
+      "heading": "Hunden får Eva att känna sig trygg",
+      "body": "Hunden Raffe innebär en stor trygghet för Eva Christiansson. Han är både hennes assistent och bästa vän.\n\nFör knappt 15 år sedan drabbades Eva Christiansson av en allvarlig sjukdom som gör det svårt för henne att röra sig. Då var hon 24 år gammal och höll på att avsluta sin lärarutbildning. Sjukdomen har gjort att det har blivit svårare för Eva att klara av vardagen.\n- Den påverkar mig i allt. Mina ben fungerar dåligt. Den gör mig trött och jag orkar oftast bara en aktivitet per dag, säger Eva Christiansson.\n\nDet tog tid för henne att acceptera sin nya situation och de nya svårigheter hon upplevde i vardagen. De första två åren ville hon absolut inte använda rullstol. Istället försökte hon gå med hjälp av kryckor, fastän det gjorde henne trött.\n- Jag ville vara som jag alltid hade varit. Det är ett stort steg att säga ja till rullstol.\n\nNär hon träffade sin blivande man pratade han mycket om att hon trots allt skulle acceptera rullstolen. Då skulle hon lättare kunna ta sig till olika platser och ha mer energi till deras gemensamma aktiviteter.\n- Jag ville inte sätta mig ner, men det är det bästa jag har gjort, säger Eva Christiansson idag.\n\nEva Christiansson har alltid haft hund. När hon för drygt tre år sedan skaffade sin fjärde hund Raffe, gick hon och den nya hunden kurs tillsammans. Det var då som läraren pratade om att utbilda Raffe till servicehund, och det tyckte Eva lät som en bra idé.\n\nNu är Raffe en färdigutbildad servicehund och han hjälper Eva i hennes vardag. Han plockar upp saker som hon har tappat eller har svårt att nå från rullstolen och om något skulle hända henne kan han hämta hjälp.\n- Det är en stor trygghet att ha honom med, han är alltid beredd och om nånting händer hjälper han mig.\n\nDessutom gör han henne gladare. När Eva tappade något tidigare blev hon irriterad eftersom hon då blev påmind om sin sjukdom. Nu blir det istället en rolig lek för Raffe att plocka upp det som hon har tappat.\n\nÄven om hon idag har slutat att bry sig om vad folk tänker så är det alltid skönt att ha med Raffe.\n- När jag till exempel går in i en affär så är jag inte bara en tjej i en rullstol utan jag är en tjej med en hund. Det känns bra att folk tittar mer på Raffe än på mig."
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. Hur gammal var Eva när hon fick sjukdomen?",
+      "options": ["20 år", "24 år", "30 år"],
+      "answer": "24 år"
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad använde Eva de första två åren istället för rullstol?",
+      "options": ["kryckor", "cykel", "bil"],
+      "answer": "kryckor"
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Hur hjälper Raffe Eva i vardagen?",
+      "options": [
+        "Han lagar mat och städar.",
+        "Han plockar upp tappade saker och kan hämta hjälp.",
+        "Han kör bilen åt henne."
+      ],
+      "answer": "Han plockar upp tappade saker och kan hämta hjälp."
+    }
+  ]
 }

@@ -1,8 +1,55 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "📱",
+  "title": "Läsa A – Uppgift 2: Meddelanden",
+  "instructions": "Läs Saras meddelande och Robins svar och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Sara",
+      "body": "Hej alla vänner! Välkomna att träna med mig i parken, på tisdag klockan 18:00! Kul om många av er kommer. / Sara"
+    },
+    {
+      "heading": "Robin",
+      "body": "Hej Sara! Din träning hjälper mig att komma i form. Jag mår mycket bättre nu. Du är fantastisk! / Robin"
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad vill Sara?",
+      "options": [
+        "Tacka för något.",
+        "Be om hjälp.",
+        "Bjuda in."
+      ],
+      "answer": "Bjuda in."
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad vill Robin?",
+      "options": [
+        "Tacka för något.",
+        "Be om hjälp.",
+        "Bestämma träff."
+      ],
+      "answer": "Tacka för något."
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: Sara تريد أن تدعو أصدقاءها (Bjuda in)، وRobin يريد أن يشكرها على التدريب (Tacka för något).",
+    "explanation": "الرسالة الأولى دعوة للتمرين في الحديقة، والرسالة الثانية شكر على تحسن اللياقة والصحة.",
+    "translation": "رسالة دعوة للتدريب وردّ شكر من صديق.",
+    "vocabulary": [
+      "bjuda in (يدعو)",
+      "tacka (يشكر)",
+      "komma i form (يستعيد لياقته)",
+      "meddelande (رسالة)"
+    ],
+    "examples": [
+      "Tack för att du hjälper mig! (شكرًا لمساعدتك لي!)"
+    ],
+    "tip": "كلمات مثل 'Välkomna...' تدل على دعوة (Bjuda in)، وكلمات مثل 'Du är fantastisk!' و'hjälper mig' تدل على الشكر."
+  }
 }

@@ -1,8 +1,85 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "📈",
+  "title": "Läsa A – Uppgift 2: Ett diagram (Detta gör ungdomar på fritiden)",
+  "instructions": "Studera diagrammet som visar vad ungdomar gör på fritiden (tjejer och killar i procent) och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Detta gör ungdomar på fritiden (Procent)",
+      "body": "• Går på teater, konsert eller museum: tjejer 70%, killar 63%\n• Läser böcker: tjejer 31%, killar 20%\n• Är med i en förening: tjejer 56%, killar 59%\n• Motionerar eller idrottar: tjejer 73%, killar 68%\n\nKälla: www.ungidag.se"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chartYouthLeisure2017",
+      "type": "bar",
+      "title": "Detta gör ungdomar på fritiden (%)",
+      "labels": [
+        "Går på teater, konsert eller museum",
+        "Läser böcker",
+        "Är med i en förening",
+        "Motionerar eller idrottar"
+      ],
+      "datasets": [
+        {
+          "label": "tjejer",
+          "data": [70, 31, 56, 73],
+          "backgroundColor": "#1d4ed8"
+        },
+        {
+          "label": "killar",
+          "data": [63, 20, 59, 68],
+          "backgroundColor": "#93c5fd"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad är vanligast att ungdomar gör på fritiden?",
+      "options": [
+        "Går på teater, konsert eller museum",
+        "Läser böcker",
+        "Är med i en förening",
+        "Motionerar eller idrottar"
+      ],
+      "answer": "Motionerar eller idrottar"
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad är minst vanligt att ungdomar gör på fritiden?",
+      "options": [
+        "Går på teater, konsert eller museum",
+        "Läser böcker",
+        "Är med i en förening",
+        "Motionerar eller idrottar"
+      ],
+      "answer": "Läser böcker"
+    },
+    {
+      "id": "B_Q3",
+      "type": "short",
+      "prompt": "C. Hur många procent av killarna är med i en förening?",
+      "answer": "59%",
+      "acceptedAnswers": ["59%", "59", "ca 60%", "60%"]
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: أكثر نشاط هو ممارسة الرياضة (Motionerar/idrottar)، والأقل هو قراءة الكتب (Läser böcker)، ونسبة الأولاد في الجمعية هي 59% (حوالي 60%).",
+    "explanation": "الرسم يوضح كيف يقضي الشباب وقت الفراغ بين الرياضة، القراءة، الثقافة، والجمعيات.",
+    "translation": "المخطط يوضح الأنشطة الأكثر والأقل شيوعًا لدى الشباب.",
+    "vocabulary": [
+      "fritid (وقت فراغ)",
+      "böcker (كتب)",
+      "motionera (يمارس الرياضة)",
+      "förening (جمعية)"
+    ],
+    "examples": [
+      "Jag läser böcker på fritiden. (أقرأ الكتب في وقت الفراغ.)"
+    ],
+    "tip": "في الرسوم البيانية، قارن بين القيم الأعلى والأقل وابحث عن الفروق بين البنات والأولاد."
+  }
 }

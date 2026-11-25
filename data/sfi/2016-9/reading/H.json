@@ -1,8 +1,64 @@
 {
   "section": "H",
-  "icon": "🏛️",
-  "title": "Sektion H",
-  "instructions": "Läs mötesanteckningarna och informationsbladet.",
-  "texts": [],
-  "questions": []
+  "icon": "🛋️",
+  "title": "Läsa B – Möbelbutik & Tips om distansrelationer",
+  "instructions": "Läs texterna och välj rätt rubrik (1–6) för varje del:\nRubriker: 1. Handla på nätet | 2. Kontakta oss | 3. Öppet köp | 4. Jobba hos oss | 5. Transport | 6. Hitta hit",
+  "texts": [
+    {
+      "heading": "Möbelbutikens information",
+      "body": "• Chattr/telefon/mejl för frågor -> 2. Kontakta oss\n• Beställa möbler via dator/telefon -> 1. Handla på nätet\n• Köra hem varor -> 5. Transport\n• Adress och vägbeskrivning -> 6. Hitta hit\n• Lämna tillbaka vara inom 60 dagar -> 3. Öppet köp"
+    }
+  ],
+  "questions": [
+    {
+      "id": "H_Q1",
+      "type": "mcq",
+      "prompt": "A. Vi hjälper dig gärna. Du når oss alltid snabbast via chatt eller telefon... (1–6)",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "2"
+    },
+    {
+      "id": "H_Q2",
+      "type": "mcq",
+      "prompt": "B. Om du inte kan besöka vår butik, kan du beställa möbler och inredning via din dator eller telefon... (1–6)",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "1"
+    },
+    {
+      "id": "H_Q3",
+      "type": "mcq",
+      "prompt": "C. Svårt att bära ett stort skåp eller en säng? Vi kör gärna dina varor hem till dig... (1–6)",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "5"
+    },
+    {
+      "id": "H_Q4",
+      "type": "mcq",
+      "prompt": "D. Vår butik ligger på Lagervägen 1... (1–6)",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "6"
+    },
+    {
+      "id": "H_Q5",
+      "type": "mcq",
+      "prompt": "E. Har du ångrat dig? Du kan lämna tillbaka din vara inom 60 dagar... (1–6)",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "3"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: التواصل/الأسئلة → 2 (Kontakta oss)، الطلب عبر الإنترنت → 1 (Handla på nätet)، التوصيل للمنزل → 5 (Transport)، الموقع والعنوان → 6 (Hitta hit)، الإرجاع خلال 60 يومًا → 3 (Öppet köp).",
+    "explanation": "كل فقرة معلوماتية من موقع متجر الأثاث تناسب عنوانًا محددًا يصف الخدمة المقدمة.",
+    "translation": "عناوين معلومات متجر الأثاث والخدمات للزبائن.",
+    "vocabulary": [
+      "beställa (يطلب شراء)",
+      "transport (نقل / توصيل)",
+      "öppet köp (حق الإرجاع المفتوح)",
+      "lämna tillbaka (يُرجِع)"
+    ],
+    "examples": [
+      "Du kan lämna tillbaka din vara inom 60 dagar. (يمكنك إرجاع سلعتك خلال 60 يومًا.)"
+    ],
+    "tip": "ابحث عن الكلمة المفتاحية مثل beställa أو kör hem أو ligger på أو lämna tillbaka."
+  }
 }

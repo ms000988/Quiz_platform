@@ -1,8 +1,69 @@
 {
   "section": "G",
-  "icon": "📱",
-  "title": "Sektion G",
-  "instructions": "Läs inläggen och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🛒",
+  "title": "Läsa B – Uppgift 2: Vad tycker de?",
+  "instructions": "Läs vad personerna tycker om att handla på internet och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Natalia",
+      "body": "- För mig är det praktiskt att handla på nätet eftersom man sparar tid och energi. Det kan också vara lite billigare och då sparar man även pengar."
+    },
+    {
+      "heading": "David",
+      "body": "- Jag tycker det är krångligt eftersom man ofta köper saker som man behöver byta. Det kan även vara svårt att få kontakt med kundservice och det irriterar mig."
+    },
+    {
+      "heading": "Dorota",
+      "body": "- Jag tycker att det är enkelt och smidigt att handla på nätet. Den största fördelen är att jag kan handla exakt när jag vill."
+    },
+    {
+      "heading": "Eduardo",
+      "body": "- Jag gillar att man kan sitta hemma och välja vad man vill ha i lugn och ro. Nackdelen är just kläder som inte passar eller att man får hem fel saker."
+    }
+  ],
+  "questions": [
+    {
+      "id": "G_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad tycker Natalia om att handla på internet?",
+      "options": ["Bra", "Dåligt", "Både bra och dåligt"],
+      "answer": "Bra"
+    },
+    {
+      "id": "G_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad tycker David om att handla på internet?",
+      "options": ["Bra", "Dåligt", "Både bra och dåligt"],
+      "answer": "Dåligt"
+    },
+    {
+      "id": "G_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad tycker Dorota om att handla på internet?",
+      "options": ["Bra", "Dåligt", "Både bra och dåligt"],
+      "answer": "Bra"
+    },
+    {
+      "id": "G_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad tycker Eduardo om att handla på internet?",
+      "options": ["Bra", "Dåligt", "Både bra och dåligt"],
+      "answer": "Både bra och dåligt"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: Natalia → Bra، David → Dåligt، Dorota → Bra، Eduardo → Både bra och dåligt.",
+    "explanation": "الآراء تختلف حول التسوق عبر الإنترنت حسب تجربة كل شخص مع الوقت والتكلفة وخدمة العملاء أو المقاسات.",
+    "translation": "آراء أربعة أشخاص حول التسوق عبر الإنترنت.",
+    "vocabulary": [
+      "praktiskt (عملي)",
+      "krångligt (معقد / صعب)",
+      "smidigt (سلس / سهل)",
+      "nackdel (عيب / نقطة سلبية)"
+    ],
+    "examples": [
+      "Det är smidigt att handla på nätet när man vill. (من السهل والمرن التسوق عبر الإنترنت متى شئت.)"
+    ],
+    "tip": "ابحث عن الكلمات التي توضح الإيجابية فقط، السلبية فقط، أو وجود ميزة وعيب معًا (nackdelen)."
+  }
 }

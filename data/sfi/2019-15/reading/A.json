@@ -1,8 +1,69 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "✈️",
+  "title": "Uppgift 1: Nathanel tog med sig mormor på resa",
+  "instructions": "Läs artikeln om Nathanel och hans mormor Edna och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Nathanel tog med sig mormor på resa",
+      "body": "Nathanel och hans mormor bor på olika ställen i världen men nu har de haft mycket tid tillsammans. De har just kommit hem från en lång resa.\n\nNathanel är 26 år och kommer från Göteborg. De senaste sju åren har han rest mycket själv och studerat på olika platser i Europa. Senast bodde han i Barcelona.\n\nNär Nathanel bodde i Barcelona kom hans mormor Edna och besökte honom. De gick långa promenader och pratade. Då märkte Nathanel att han hade många frågor som han ville få svar på. Han undrade till exempel hur hans mormor och morfar hade träffats och hur hans mamma var som barn.\n\nDärför började Nathanel fundera på att göra en resa med sin mormor. På en resa skulle de få tid att umgås och han skulle få svar på sina frågor.\n\nNathanel ville åka iväg så fort som möjligt. Han tänkte på att mormor var gammal och kanske inte skulle orka resa i många år till.\n- Jag kände att det var 'nu eller aldrig', säger Nathanel.\n\nFöre resan diskuterade de vart de ville åka. De bestämde sig för Asien och vilka länder de ville besöka där. Men de bestämde inte exakt vilka städer de ville se. När de kom till en ny stad försökte de få kontakt med människor som bodde där. Av dem fick de tips om roliga saker att göra.\n\nDe sov oftast på hotell eller vandrarhem. Men båda var intresserade av att möta nya människor, så om de fick chansen att sova i någons vardagsrum så tackade de gärna ja.\n\nNathanel berättar att resan var olik hans tidigare resor med kompisar. Han och mormor hade ett långsamt tempo. På dagarna besökte de marknader, satt en stund i någon park och promenerade i naturen. På kvällarna brukade de läsa eller titta på något tv-program och lägga sig tidigt.\n\nNathanel tycker att unga kan lära sig mycket av hur äldre personer tänker, men också tvärtom. Därför vill han inspirera andra att resa med en äldre släkting.\n- Den här resan har varit vårt livs äventyr, avslutar han."
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. Varför ville Nathanel resa med sin mormor? Han ville veta mer om ...",
+      "options": [
+        "mormors hemland.",
+        "sin familj.",
+        "andra länder."
+      ],
+      "answer": "sin familj."
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Varför ville Nathanel göra resan just då?",
+      "options": [
+        "för att han hittade billiga flygbiljetter",
+        "för att fira mormors födelsedag",
+        "för att mormor fortfarande var frisk"
+      ],
+      "answer": "för att mormor fortfarande var frisk"
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Hur planerade de resan innan de åkte?",
+      "options": [
+        "De bestämde bara vilka länder de skulle åka till.",
+        "De kontaktade vänner för att få bo hos dem.",
+        "De bokade hotell och vandrarhem i alla städer."
+      ],
+      "answer": "De bestämde bara vilka länder de skulle åka till."
+    },
+    {
+      "id": "A_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad berättar Nathanel om resan?",
+      "options": [
+        "att han saknade sina vänner",
+        "att mormor var trött hela tiden",
+        "att han och mormor tog det lugnt"
+      ],
+      "answer": "att han och mormor tog det lugnt"
+    },
+    {
+      "id": "A_Q5",
+      "type": "mcq",
+      "prompt": "E. Varför tycker Nathanel att fler unga och gamla ska resa tillsammans? För att lära sig ...",
+      "options": [
+        "att lösa problem.",
+        "att förstå varandra.",
+        "att sluta stressa."
+      ],
+      "answer": "att förstå varandra."
+    }
+  ]
 }

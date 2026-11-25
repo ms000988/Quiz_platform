@@ -1,8 +1,42 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "♟️",
+  "title": "Uppgift 1: En intervju med Fadia Kariti",
+  "instructions": "Läs intervjusvaren (1–6) med Fadia Kariti som spelar schack på fritiden och välj det svar som passar bäst till varje fråga.",
+  "texts": [
+    {
+      "heading": "Intervjusvar (1–6)",
+      "body": "1. Det är att kunna fatta bra beslut under tidspress. Man måste själv bestämma hur man ska spela samtidigt som man ska försöka förstå hur den man spelar mot tänker.\n\n2. - Jag har ingen ambition att tävla på någon högre nivå, utan tänker fortsätta som jag gör nu. För mig är schack mest ett sätt att ha kul. Det är roligt att möta olika motståndare och utveckla sitt spel men jag tänker inte satsa mer än så.\n\n3. - Man vinner för att man har spelat bra eller för att motståndaren har gjort misstag, inte för att man har tur. Jag gillar att spelet kräver koncentration och skicklighet. Sen har schackklubben gett mig många vänner också.\n\n4. - Spela och analysera mycket. Använd schackböcker, men spela också mycket online. Det gäller att öva regelbundet. Det tog två år för mig att bli duktig.\n\n5. - Jag tränar ungefär två gånger i veckan. Men om jag har någon tävling framför mig tränar jag oftare. Den senaste tävlingen jag deltog i var klubbmästerskapet. Det gick bra, jag kom på tredje plats!\n\n6. - Det var redan på mellanstadiet. Jag fastnade direkt för sporten. Sedan blev det ännu mer intressant när jag började tävla."
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. När började du spela schack?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "6"
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad är roligt med att spela schack?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "3"
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Hur blir man bra på schack? / Hur tränar du?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "4"
+    },
+    {
+      "id": "A_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad har du för framtidsplaner med schack?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "2"
+    }
+  ]
 }

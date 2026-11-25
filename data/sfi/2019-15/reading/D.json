@@ -1,9 +1,58 @@
 {
   "section": "D",
-  "icon": "📊",
-  "title": "Sektion D",
-  "instructions": "Studera diagrammen och svara på frågorna.",
-  "texts": [],
-  "charts": [],
-  "questions": []
+  "icon": "🤝",
+  "title": "Uppgift 5: Tankar om att umgås",
+  "instructions": "Några personer berättar på en webbsida om hur de umgås med vänner. Svara på frågorna genom att skriva personens namn.\n\nPersoner: Fartun, Anton, Isabel, Hamid, Emil",
+  "texts": [
+    {
+      "heading": "Fartun",
+      "body": "Jag har en stor familj och barnen har alltid massor av saker som de ska göra när vi är lediga så jag hinner sällan träffa mina vänner så ofta som jag skulle vilja."
+    },
+    {
+      "heading": "Anton",
+      "body": "Det är så skönt att alltid kunna ringa en vän när man har något problem. Som förra månaden, då lagade en kompis min bil när den gick sönder. Mina vänner finns alltid där för mig."
+    },
+    {
+      "heading": "Isabel",
+      "body": "Vi är ett stort gäng från min gamla klass som träffas en gång i månaden. Då går vi på någon klubb eller på bio eller spelar spel. Det är så kul att göra roliga saker tillsammans."
+    },
+    {
+      "heading": "Hamid",
+      "body": "Jag är en nyfiken person som gärna pratar med alla jag möter. Att gå på en fest där jag inte känner så många är toppen. Det är alltid så spännande med folk som man inte vet något om."
+    },
+    {
+      "heading": "Emil",
+      "body": "Jag har flera trevliga arbetskamrater och är faktiskt väldigt social på jobbet. Men när jag är ledig stannar jag helst hemma och tar det lugnt eller promenerar själv i skogen."
+    }
+  ],
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "short",
+      "prompt": "A. Vem älskar att träffa nya människor?",
+      "answer": "Hamid",
+      "acceptedAnswers": ["Hamid", "hamid"]
+    },
+    {
+      "id": "D_Q2",
+      "type": "short",
+      "prompt": "B. Vem trivs med att vara ensam?",
+      "answer": "Emil",
+      "acceptedAnswers": ["Emil", "emil"]
+    },
+    {
+      "id": "D_Q3",
+      "type": "short",
+      "prompt": "C. Vem har inte så mycket tid för sina vänner?",
+      "answer": "Fartun",
+      "acceptedAnswers": ["Fartun", "fartun"]
+    },
+    {
+      "id": "D_Q4",
+      "type": "short",
+      "prompt": "D. Vem får mycket hjälp av sina vänner?",
+      "answer": "Anton",
+      "acceptedAnswers": ["Anton", "anton"]
+    }
+  ]
 }

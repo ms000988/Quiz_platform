@@ -1,0 +1,57 @@
+{
+  "section": "I",
+  "icon": "🗺️",
+  "title": "Läsa B – Uppgift 4: En intervju med Fredrik",
+  "instructions": "Läs frågorna (A–D) och välj rätt svar bland alternativen (1–5):\n1. Min favoritplats i Stockholm är Gamla Stan...\n2. Det är när jag får bra kontakt med folk och ser att de gillar att lyssna på mig.\n3. Man måste veta hur man berättar om saker på ett spännande sätt så att folk blir intresserade. Det är också bra att kunna tala många språk.\n4. För att jag är intresserad av historia och gamla byggnader. När en vän tipsade mig om en guidekurs, anmälde jag mig direkt.\n5. Det brukar bli en helg varannan vecka eftersom jag studerar på vardagarna.",
+  "texts": [
+    {
+      "heading": "Intervju med guiden Fredrik",
+      "body": "Fredrik arbetar som guide och visar platser för turister."
+    }
+  ],
+  "questions": [
+    {
+      "id": "I_Q1",
+      "type": "mcq",
+      "prompt": "A. Varför utbildade du dig till guide? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "id": "I_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad behöver man kunna när man är guide? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": "I_Q3",
+      "type": "mcq",
+      "prompt": "C. Hur ofta jobbar du som guide? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "I_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad är det bästa med att vara guide? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "2"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: A → 4 (الاهتمام بالتاريخ والمباني القديمة)، B → 3 (الحكي الشيق والتحدث بلغات)، C → 5 (عطلة نهاية أسبوع كل أسبوعين)، D → 2 (التواصل الجيد واستماع الناس).",
+    "explanation": "مقابلة مع المرشد السياحي Fredrik حول سبب اختياره للمهنة، المهارات المطلوبة، مواعيد العمل، وأفضل ما فيها.",
+    "translation": "إجابات المرشد السياحي Fredrik على أسئلة المقابلة.",
+    "vocabulary": [
+      "guide (مرشد سياحي)",
+      "historia (تاريخ)",
+      "språk (لغة)",
+      "helg (عطلة نهاية الأسبوع)"
+    ],
+    "examples": [
+      "Jag gillar historia och gamla byggnader. (أحب التاريخ والمباني القديمة.)"
+    ],
+    "tip": "ركّز على أداة الاستفهام (Varför, Vad behöver man kunna, Hur ofta, Vad är det bästa)."
+  }
+}

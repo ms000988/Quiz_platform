@@ -1,8 +1,62 @@
 {
   "section": "E",
-  "icon": "🚗",
-  "title": "Sektion E",
-  "instructions": "Läs intervjun och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🤟",
+  "title": "Läsa A – Uppgift 5: En blogg",
+  "instructions": "Läs bloggen om hur det är att vara döv och kryssa för rätt ord som passar i texten.",
+  "texts": [
+    {
+      "heading": "Jag är döv",
+      "body": "Att vara döv betyder att man inte kan höra. Jag har varit döv hela livet. Det är svårt för mig att prata så att alla förstår. Jag pratar med mina händer. Mitt språk [heter] teckenspråk."
+    },
+    {
+      "heading": "Min familj kan höra",
+      "body": "Mina föräldrar och syskon är inte döva. De har lärt sig teckenspråk så att de kan tala med mig. Men min mormor är gammal och hon kan inte det. Därför känner jag inte min mormor så bra och det är [A] tycker jag."
+    },
+    {
+      "heading": "Jag gör praktik",
+      "body": "Just nu gör jag praktik på en restaurang, det är jättekul! Jag brukar lägga en lapp på gästernas bord. På lappen står det: \"Jag är döv. Visa på menyn vad ni vill äta.\" En del gäster blir förvånade men ingen verkar tycka att det är [B]."
+    },
+    {
+      "heading": "Jag lever ett vanligt liv",
+      "body": "Det finns bra teknik som hjälper oss som är döva. På mobilen ringer jag videosamtal till mina kompisar. Om det ringer på dörren hemma blinkar en lampa. När den lyser ser jag att jag ska [C]."
+    }
+  ],
+  "questions": [
+    {
+      "id": "E_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilket ord passar i texten?",
+      "options": ["roligt", "intressant", "tråkigt"],
+      "answer": "tråkigt"
+    },
+    {
+      "id": "E_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilket ord passar i texten?",
+      "options": ["konstigt", "rätt", "dyrt"],
+      "answer": "konstigt"
+    },
+    {
+      "id": "E_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilket ord passar i texten?",
+      "options": ["fråga", "öppna", "lämna"],
+      "answer": "öppna"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: اختيار الكلمات المناسبة في المدونة (A: محزن/مزعج، B: غريب، C: يفتح).",
+    "explanation": "المدونة تشرح حياة شخص أصم وكيف يتواصل بلغة الإشارة ويستخدم التقنيات في حياته اليومية.",
+    "translation": "النص يوضح كيف يتواصل الصم مع الآخرين ويعيشون حياة طبيعية.",
+    "vocabulary": [
+      "döv (أصم)",
+      "teckenspråk (لغة الإشارة)",
+      "öppna (يفتح)",
+      "roligt (ممتع)"
+    ],
+    "examples": [
+      "Jag använder teckenspråk. (أستخدم لغة الإشارة.)"
+    ],
+    "tip": "في نصوص المدونات، ابحث عن الفعل أو الصفة التي تناسب سياق الجملة."
+  }
 }

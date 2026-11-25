@@ -1,8 +1,62 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "📱",
+  "title": "Uppgift 2: Spela mobilspel",
+  "instructions": "Här får du läsa om vad några personer tycker om att spela mobilspel (www.spelamobilspel.univ.nu). Svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Robin (Idag: 14.35)",
+      "body": "Jag tycker att det är skönt att hålla på med ett äventyrsspel på kvällarna tills jag blir riktigt trött. Det hjälper mig att varva ner och gör det lättare att somna. Jag skulle bli stressad om jag inte spelade en stund varje dag."
+    },
+    {
+      "heading": "Alma (Idag: 15.07)",
+      "body": "Jag förstår inte varför människor vill lägga tid och pengar på spelande. Personligen slösar jag inte bort min fritid vid en skärm. Jag gillar istället att ses på riktigt och umgås med mina vänner."
+    },
+    {
+      "heading": "Jim (Idag: 16.49)",
+      "body": "Det beror på vad det är för spel. Spel som är stressiga och kostar pengar undviker jag helt, men kreativa spel är intressanta. Men jag har lätt att sitta för länge. Jag ska försöka minska på spelandet."
+    },
+    {
+      "heading": "Elmas (Idag: 19.27)",
+      "body": "Jag spelar ett ordspel ibland och det är kul. Men annars ser jag mest på tv-serier, för det är skön vila efter jobbet. Mina tonåringar spelar mycket och det oroar mig. Jag hoppas att de får andra intressen i framtiden."
+    },
+    {
+      "heading": "Yassin (Idag: 19.35)",
+      "body": "Mobilspel är helt meningslösa tycker jag. Jag är däremot bra på att hålla kontakt med vänner med mobilen. Vissa kanske tror att jag spelar spel när jag i själva verket skickar sms."
+    },
+    {
+      "heading": "Leila (Idag: 20.18)",
+      "body": "Ganska kul! Jag använder själv några riktigt bra spelappar. Men jag har läst en del rapporter om spelande och tycker inte att det borde vara tillåtet för de yngsta. I förskoleåldern ska man leka och röra på sig istället!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "short",
+      "prompt": "A. Vem vill förbjuda mobilspel för små barn? (Skriv ett namn)",
+      "answer": "Leila",
+      "acceptedAnswers": ["Leila", "leila"]
+    },
+    {
+      "id": "B_Q2",
+      "type": "short",
+      "prompt": "B. Vem vill spela mindre på mobilen? (Skriv ett namn)",
+      "answer": "Jim",
+      "acceptedAnswers": ["Jim", "jim"]
+    },
+    {
+      "id": "B_Q3",
+      "type": "short",
+      "prompt": "C. Vem brukar spela mobilspel för att koppla av? (Skriv ett namn)",
+      "answer": "Robin",
+      "acceptedAnswers": ["Robin", "robin"]
+    },
+    {
+      "id": "B_Q4",
+      "type": "short",
+      "prompt": "D. Vilka tycker inte om att spela mobilspel? (Skriv två namn)",
+      "answer": "Yassin och Alma",
+      "acceptedAnswers": ["Yassin och Alma", "Alma och Yassin", "yassin och alma", "alma och yassin"]
+    }
+  ]
 }

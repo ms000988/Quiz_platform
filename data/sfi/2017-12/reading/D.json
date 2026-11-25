@@ -1,9 +1,62 @@
 {
   "section": "D",
-  "icon": "📊",
-  "title": "Sektion D",
-  "instructions": "Studera diagrammen och svara på frågorna.",
-  "texts": [],
-  "charts": [],
-  "questions": []
+  "icon": "💬",
+  "title": "Läsa A – Uppgift 4: Meddelanden",
+  "instructions": "Edvin skriver ett sms till sina kompisar om filmkväll kl. 19. Läs kompisarnas svar och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Edvins sms",
+      "body": "Hej allihopa! Ska vi ses hemma hos mig i kväll och se på film? Kom kl. 19! / Edvin"
+    },
+    {
+      "heading": "Mari",
+      "body": "Hej Edvin! Jag vill komma, men min kusin är här och hälsar på hos mig den här veckan. Är det okej att hon följer med hem till dig? Kram, Mari"
+    },
+    {
+      "heading": "Lukas",
+      "body": "Ledsen Edvin, men jag måste plugga i kväll! Har ett prov i morgon. Ni får försöka ha roligt utan mig ;-) Vi hörs! Lukas"
+    },
+    {
+      "heading": "Tindra",
+      "body": "Filmkväll, toppen! Men jag måste fixa en sak åt min mormor först. Jag skyndar mig så jag är nog hos dig cirka kvart över. Tindra"
+    }
+  ],
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad vill Mari?",
+      "options": ["Bjuda på något", "Tacka nej", "Fråga om något"],
+      "answer": "Fråga om något"
+    },
+    {
+      "id": "D_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad vill Lukas?",
+      "options": ["Tacka nej", "Komma senare", "Be om hjälp"],
+      "answer": "Tacka nej"
+    },
+    {
+      "id": "D_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad vill Tindra?",
+      "options": ["Be om hjälp", "Tacka nej", "Komma senare"],
+      "answer": "Komma senare"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: Mari تسأل عن شيء، Lukas يرفض الدعوة (Tacka nej)، وTindra ستأتي متأخرة (Komma senare).",
+    "explanation": "الرسائل القصيرة بين الأصدقاء توضح الغرض: سؤال، اعتذار/رفض، أو تأخير.",
+    "translation": "كل رسالة قصيرة لها هدف محدد مثل السؤال أو الرفض أو الحضور لاحقًا.",
+    "vocabulary": [
+      "meddelande (رسالة قصيرة)",
+      "tacka nej (يرفض)",
+      "fråga (يسأل)",
+      "komma senare (يأتي متأخرًا)"
+    ],
+    "examples": [
+      "Jag skickar ett meddelande. (أرسل رسالة قصيرة.)"
+    ],
+    "tip": "اقرأ الرسالة كاملةً وركّز على السبب أو الطلب لتحديد الهدف بدقة."
+  }
 }

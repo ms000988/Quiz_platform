@@ -1,8 +1,57 @@
 {
   "section": "H",
-  "icon": "🏛️",
-  "title": "Sektion H",
-  "instructions": "Läs mötesanteckningarna och informationsbladet.",
-  "texts": [],
-  "questions": []
+  "icon": "📣",
+  "title": "Läsa B – Uppgift 3: Annonser i lokaltidningen",
+  "instructions": "Läs annonserna (1–5) och välj rätt siffra för varje person:\n1. Problem hemma? Samtalsgrupp för dig som har en tonåring (Biblioteket måndagar kl. 19–20)\n2. Intressant kväll om kroppsspråk (Runbyskolans matsal, tisdag 4 oktober kl. 18.30)\n3. Sjung med oss! Vi sjunger och leker med våra barn och fikar (Musikhuset onsdagar kl. 10–11)\n4. Internationella vänner – ny vän och öva svenska (www.lv.univ.nu)\n5. Lär dig att kommunicera! Brev, mejl, chatt, blogg, PC och surfplatta (www.text.univ.nu)",
+  "texts": [
+    {
+      "heading": "Personer (A–D)",
+      "body": "• Irma: Irma vill bli bättre på att använda sin dator.\n• Abdul: Abdul är hemma med sin lilla dotter och vill träffa andra föräldrar.\n• Axel: Axel vill lära känna någon från ett annat land.\n• Hanna: Hanna bråkar mycket med sin 14-årige son."
+    }
+  ],
+  "questions": [
+    {
+      "id": "H_Q1",
+      "type": "mcq",
+      "prompt": "A. Irma – Vilken annons passar bäst (1–5)?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "H_Q2",
+      "type": "mcq",
+      "prompt": "B. Abdul – Vilken annons passar bäst (1–5)?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": "H_Q3",
+      "type": "mcq",
+      "prompt": "C. Axel – Vilken annons passar bäst (1–5)?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "id": "H_Q4",
+      "type": "mcq",
+      "prompt": "D. Hanna – Vilken annons passar bäst (1–5)?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "1"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: Irma → 5 (الكمبيوتر والكتابة/التواصل)، Abdul → 3 (الغناء واللعب مع الأطفال والآباء)، Axel → 4 (أصدقاء دوليون وتدريب اللغة)، Hanna → 1 (مجموعة حوار لمن لديه مراهق).",
+    "explanation": "كل شخص يبحث عن نشاط أو مساعدة محددة تناسب وضعه الأسري أو الاجتماعي أو التعليمي.",
+    "translation": "مطابقة احتياجات الأشخاص مع الإعلانات المحلية.",
+    "vocabulary": [
+      "tonåring (مراهق)",
+      "föräldrar (آباء وأمهات)",
+      "kommunicera (يتواصل)",
+      "vän (صديق)"
+    ],
+    "examples": [
+      "Han vill träffa nya vänner från ett annat land. (يريد مقابلة أصدقاء جدد من بلد آخر.)"
+    ],
+    "tip": "طابق الكلمات المفتاحية مثل dator أو tonåring أو barn مع الإعلان المناسب."
+  }
 }

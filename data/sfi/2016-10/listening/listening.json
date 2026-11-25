@@ -3,17 +3,195 @@
   "parts": [
     {
       "id": 1,
-      "title": "Del 1",
-      "audio": "audio1.mp3",
+      "title": "Uppgift 1: Några personer berättar (vad de är bra på och vad de vill bli bättre på)",
+      "audio": "spar01.mp3",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L1_A",
+          "prompt": "A. Vad är Ali bra på?",
+          "options": ["Sporta", "Fotografera", "Studera"],
+          "answer": "Fotografera"
+        },
+        {
+          "id": "L1_B",
+          "prompt": "B. Vad vill Ali bli bättre på?",
+          "options": ["Säga förlåt", "Spara pengar", "Komma i tid"],
+          "answer": "Komma i tid"
+        },
+        {
+          "id": "L1_C",
+          "prompt": "C. Vad är Johanna bra på?",
+          "options": ["Lyssna", "Vila", "Studera"],
+          "answer": "Lyssna"
+        },
+        {
+          "id": "L1_D",
+          "prompt": "D. Vad vill Johanna bli bättre på?",
+          "options": ["Laga mat", "Städa", "Vila"],
+          "answer": "Vila"
+        },
+        {
+          "id": "L1_E",
+          "prompt": "E. Vad är Hamid bra på?",
+          "options": ["Laga mat", "Komma i tid", "Köra bil"],
+          "answer": "Laga mat"
+        },
+        {
+          "id": "L1_F",
+          "prompt": "F. Vad vill Hamid bli bättre på?",
+          "options": ["Sporta", "Vila", "Sjunga"],
+          "answer": "Sporta"
+        },
+        {
+          "id": "L1_G",
+          "prompt": "G. Vad är Emelie bra på?",
+          "options": ["Läsa", "Sjunga", "Fotografera"],
+          "answer": "Sjunga"
+        },
+        {
+          "id": "L1_H",
+          "prompt": "H. Vad vill Emelie bli bättre på?",
+          "options": ["Vila", "Köra bil", "Studera"],
+          "answer": "Köra bil"
+        }
+      ]
     },
     {
       "id": 2,
-      "title": "Del 2",
-      "audio": "audio2.mp3",
+      "title": "Uppgift 2: Ett samtal om trädgården",
+      "audio": "spar02.mp3",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L2_A",
+          "prompt": "A. Ska de odla morötter?",
+          "options": ["Ja", "Nej", "Kanske"],
+          "answer": "Ja"
+        },
+        {
+          "id": "L2_B",
+          "prompt": "B. Ska de åka och handla i morgon?",
+          "options": ["Ja", "Nej", "Kanske"],
+          "answer": "Ja"
+        },
+        {
+          "id": "L2_C",
+          "prompt": "C. Ska de plantera ett äppelträd nu?",
+          "options": ["Ja", "Nej", "Kanske"],
+          "answer": "Nej"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Uppgift 3: Fyra nyheter",
+      "audio": "spar03.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L3_A",
+          "prompt": "A. Vad handlar nyheten om?",
+          "options": ["Miljö", "Arbete", "Hälsa"],
+          "answer": "Miljö"
+        },
+        {
+          "id": "L3_B",
+          "prompt": "B. Vad handlar nyheten om?",
+          "options": ["Bostad", "Hälsa", "Arbete"],
+          "answer": "Hälsa"
+        },
+        {
+          "id": "L3_C",
+          "prompt": "C. Vad handlar nyheten om?",
+          "options": ["Miljö", "Fritid", "Vård"],
+          "answer": "Fritid"
+        },
+        {
+          "id": "L3_D",
+          "prompt": "D. Vad handlar nyheten om?",
+          "options": ["Fritid", "Sport", "Bostad"],
+          "answer": "Bostad"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "Uppgift 4: Meddelanden på kommunens telefonsvarare",
+      "audio": "spar04.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L4_A",
+          "prompt": "A. Maria talar in ett meddelande. Vad vill Maria?",
+          "options": ["Meddela ett fel.", "Boka en tid.", "Byta förskola."],
+          "answer": "Boka en tid."
+        },
+        {
+          "id": "L4_B",
+          "prompt": "B. Frank talar in ett meddelande. Vad vill Frank?",
+          "options": ["Klaga på något.", "Be om ursäkt.", "Be om hjälp."],
+          "answer": "Klaga på något."
+        },
+        {
+          "id": "L4_C",
+          "prompt": "C. Simon talar in ett meddelande. Vad vill Simon?",
+          "options": ["Bestämma en tid.", "Fråga om något.", "Be om ursäkt."],
+          "answer": "Fråga om något."
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "Uppgift 5: Tre telefonsamtal",
+      "audio": "spar05.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L5_A",
+          "prompt": "A. Personen ringer till...",
+          "options": ["en frisör", "en skola", "en vårdcentral"],
+          "answer": "en vårdcentral"
+        },
+        {
+          "id": "L5_B",
+          "prompt": "B. Personen ringer till...",
+          "options": ["en frisör", "en vårdcentral", "en möbelaffär"],
+          "answer": "en frisör"
+        },
+        {
+          "id": "L5_C",
+          "prompt": "C. Personen ringer till...",
+          "options": ["en skola", "en vårdcentral", "en möbelaffär"],
+          "answer": "en skola"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "title": "Uppgift 6: Michael berättar om personliga assistenter",
+      "audio": "spar06.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L6_A",
+          "prompt": "A. När får Michael hjälp av en personlig assistent?",
+          "options": ["Bara på dagen.", "Bara på natten.", "Både på dagen och på natten."],
+          "answer": "Både på dagen och på natten."
+        },
+        {
+          "id": "L6_B",
+          "prompt": "B. Vad tycker Michael är bäst med att ha en personlig assistent? Att han...",
+          "options": ["kan leva som han vill.", "aldrig är ensam.", "känner sig trygg hemma."],
+          "answer": "kan leva som han vill."
+        },
+        {
+          "id": "L6_C",
+          "prompt": "C. Vad är viktigast när Michael väljer en assistent? Att assistenten...",
+          "options": ["gillar sitt jobb.", "är stark.", "är bra på att lyssna."],
+          "answer": "är bra på att lyssna."
+        }
+      ]
     }
   ]
 }

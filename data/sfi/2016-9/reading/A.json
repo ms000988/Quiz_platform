@@ -1,8 +1,84 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🌏",
+  "title": "Läsa A – Kärlek på distans",
+  "instructions": "Läs artikeln Kärlek på distans om Emma och Bao och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Kärlek på distans",
+      "body": "Emma flyttade till Kina efter studenten och där träffade hon Bao. De blev kära i varandra, men det tog lång tid innan de kunde leva ihop i samma land.\n\nEmma kommer från Örebro, där hon växte upp och gick på en skola för döva. När hon var nitton år, åkte hon till Peking i Kina för att studera konst i ett år. Hon fick snabbt nya vänner och efter bara en månad träffade hon Bao på en fest.\n- Jag brukade umgås med en tjej som hette Li Jing. Hon jobbade extra på ett café i närheten av min bostad. En kväll bjöd Li Jing hem mig, tillsammans med några av sina gamla kompisar, för att fira sin födelsedag. Det var där och då som jag och Bao såg varandra för första gången, berättar Emma.\n\nEmma och Bao hade samma intressen. De kände att de gillade varandra och började träffas ofta. Efter några veckor blev de ett par.\nEtt år senare, när Emma var klar med sina studier i Kina, flyttade hon tillbaka till Örebro för att gå på högskolan där. Bao stannade kvar i Kina eftersom han precis hade börjat på ett nytt jobb.\n- Vi visste från början att det skulle ta ett tag innan vi kunde bo i samma land, men det var inte ett problem eftersom vår kärlek var så stark, berättar Emma.\n\nSenare, efter nästan fyra år, bestämde de att det var dags att bo tillsammans. Det var jobbigt och dyrt med alla resor och de saknade varandra. De pratade mycket om vilket land de skulle bo i, vilka fördelar och nackdelar som fanns i de olika länderna. De pratade också om arbete, familj och ekonomi.\nMen det som fick dem att bestämma sig för Peking till slut, var att de fick en lägenhet där. Den låg på 22:a våningen och hade en fantastisk utsikt. Vi kände att det var rätt, berättar Emma.\n\nNu kunde de äntligen flytta ihop. Emma berättar att det var skönt att få bo tillsammans på riktigt efter så många år långt ifrån varandra. Men hon berättar att det var svårt också.\n- Vi var glada över att äntligen få bo tillsammans, men det var också lite kämpigt i början. Vi var båda vana vid att ha egna liv och göra som vi själva ville, berättar Emma.\nMen med tiden blev det enklare och de bor fortfarande kvar i Peking. Emma längtar till Sverige ibland men de har inga planer på att flytta just nu. På frågan om hon rekommenderar andra att flytta utomlands om de träffar kärleken svarar hon:\n- Ja absolut! Vi lever bara en gång, varför inte testa något nytt och spännande?"
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. Var träffades Emma och Bao?",
+      "options": [
+        "På jobbet",
+        "På universitetet",
+        "Hos en vän"
+      ],
+      "answer": "Hos en vän"
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Varför flyttade Emma hem till Sverige igen?",
+      "options": [
+        "För att jobba",
+        "För att studera",
+        "För att bo med familjen"
+      ],
+      "answer": "För att studera"
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Varför bestämde sig Emma och Bao för att bo i Peking?",
+      "options": [
+        "De fick bostad där.",
+        "De fick arbete där.",
+        "De fick bättre ekonomi där."
+      ],
+      "answer": "De fick bostad där."
+    },
+    {
+      "id": "A_Q4",
+      "type": "mcq",
+      "prompt": "D. Hur tyckte Emma det var att bo tillsammans i början?",
+      "options": [
+        "Bra",
+        "Jobbigt",
+        "Både bra och jobbigt"
+      ],
+      "answer": "Både bra och jobbigt"
+    },
+    {
+      "id": "A_Q5",
+      "type": "mcq",
+      "prompt": "E. Vilket råd ger Emma till andra som träffar kärleken i ett annat land?",
+      "options": [
+        "Våga pröva!",
+        "Lär er varandras språk!",
+        "Res mycket tillsammans!"
+      ],
+      "answer": "Våga pröva!"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: التقيا عند صديقة (Hos en vän)، وعادت Emma إلى السويد للدراسة (För att studera)، وقررا السكن في بكين لأنهما حصلا على شقة هناك (De fick bostad där)، وفي البداية كان الأمر مختلطًا بين الفرح والصعوبة (Både bra och jobbigt)، ونصيحتها هي أن يجرّبوا بجرأة (Våga pröva!).",
+    "explanation": "يتناول المقال قصة حب عن بعد بين Emma وBao منذ تعارفهما في بكين حتى انتقالهما للعيش معًا هناك.",
+    "translation": "حب عن بعد: قصة انتقال وعيش مشترك بعد سنوات من البعد.",
+    "vocabulary": [
+      "distans (مسافة / عن بُعد)",
+      "bostad (سكن / شقة)",
+      "kämpigt (شاق / فيه صعوبة)",
+      "våga pröva (يجرؤ على التجربة)"
+    ],
+    "examples": [
+      "De bestämde sig för att bo i Peking eftersom de fick en lägenhet där. (قررا السكن في بكين لأنهما حصلا على شقة هناك.)"
+    ],
+    "tip": "انتبه للجمل التي تشرح السبب (eftersom / det som fick dem att bestämma sig) وللمشاعر المزدوجة في بداية السكن المشترك."
+  }
 }

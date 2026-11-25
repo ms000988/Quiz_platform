@@ -1,8 +1,42 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "🏡",
+  "title": "Uppgift 2: Information om att hyra stuga",
+  "instructions": "Här får du läsa information om vad som gäller när man vill hyra en stuga på semestern. Läs frågorna och välj rätt siffra (1–6).",
+  "texts": [
+    {
+      "heading": "Hyr stuga hos oss (https://www.stugsemester.univ.nu)",
+      "body": "1. Om du planerar att semestra i Sverige i år har du kommit rätt. Vi förmedlar stugor i hela landet – i alla storlekar och prisklasser. Vi gör vårt bästa för att du ska bli nöjd med den stuga som du väljer och är flexibla om du får ändrade planer.\n\n2. Alla våra stugor är rökfria. Läs information vid varje objekt om husdjur är tillåtna. Om någon sak i stugan går sönder är du skyldig att ersätta ägaren. Skulle du få något problem med vatten, avlopp eller el under din vistelse ringer du vår jourtelefon.\n\n3. Sök efter en passande stuga här på vår webbsida och reservera den som du är intresserad av. Du är också välkommen att kontakta vår kundservice på vardagar klockan 9–15 så hjälper vi dig att få en stuga som du är nöjd med.\n\n4. Vårt Trygghetspaket ingår alltid i priset. Med detta skydd får du pengarna tillbaka om din semesterresa blir inställd på grund av sjukdom. Du kan också byta till en annan stuga eller annat datum utan kostnad.\n\n5. När du har bestämt dig för vilken stuga du vill ha, får du en personlig sida på internet, som vi kallar 'Min sida'. Där kan du lägga in ditt kortnummer om du vill att avgiften ska dras direkt. Du kan också välja att få en pappersfaktura.\n\n6. Det väljer du själv. Om du vill hålla nere kostnaden gör du rent stugan på egen hand. Om du i stället vill köpa den tjänsten ordnar vi det. Det brukar kosta cirka 700–1000 kronor för rengöring av en normalstor stuga."
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "A. Hur bokar jag en stuga?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "3"
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. Hur betalar jag för stugan?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "5"
+    },
+    {
+      "id": "B_Q3",
+      "type": "mcq",
+      "prompt": "C. Måste jag betala extra för städning?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "6"
+    },
+    {
+      "id": "B_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilka regler gäller om jag behöver avboka?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "4"
+    }
+  ]
 }

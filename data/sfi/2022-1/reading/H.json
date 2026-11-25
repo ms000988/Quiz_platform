@@ -1,8 +1,100 @@
 {
   "section": "H",
-  "icon": "🏛️",
-  "title": "Sektion H",
-  "instructions": "Läs mötesanteckningarna och informationsbladet.",
-  "texts": [],
-  "questions": []
+  "icon": "💬",
+  "title": "Uppgift 5: Meddelanden",
+  "instructions": "Erik har fått några sms. Läs meddelandena och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Sms från Gustav",
+      "body": "Hej Erik! Hoppas du läst klart boken som du hittade på loppisen förra lördagen? Den verkade så bra. Jag vill gärna läsa den efter dig om det går bra. 😊\n/Gustav"
+    },
+    {
+      "heading": "Sms från Tina",
+      "body": "Hej, jag och några klasskompisar ska gå ut och äta på lördag. Vi brukar ofta gå till Mat & Dryck men nu vill vi prova något nytt. Vet du något ställe som har bra italiensk mat?\nHälsningar Tina"
+    },
+    {
+      "heading": "Sms från John",
+      "body": "Hej! Jag fick precis veta att du har bokat en resa till Paris. Vad kul! Missa inte alla fina små caféer! Ha det så mysigt!\n/John"
+    },
+    {
+      "heading": "Sms från Ali",
+      "body": "Hej Erik! I helgen ska jag ha gäster. Då vill jag göra din goda vaniljglass, men jag har glömt vad du hade i den. Hade du citron i också? Ska snart åka och handla så svara gärna snabbt. 😊\nHälsningar Ali"
+    },
+    {
+      "heading": "Sms från Sarah",
+      "body": "Hej Erik! Om du vill kan jag komma till dig i morgon och sätta ihop den där hyllan som du fick av din syster när du fyllde år. Fixar du middag i så fall ...?\nKram Sarah"
+    },
+    {
+      "heading": "Sms från Ken",
+      "body": "Hej Erik! Nu har jag fått nycklarna till min nya lägenhet! Den här veckan ska jag måla alla rum och på lördag har jag hyrt en lastbil. Skulle du kunna hjälpa till att bära flyttlådor? Har du tid och möjlighet?\n/Ken"
+    }
+  ],
+  "questions": [
+    {
+      "id": "H_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad vill Gustav? Han vill ...",
+      "options": [
+        "låna en bok.",
+        "ge tips om en bok.",
+        "köpa en bok."
+      ],
+      "answer": "låna en bok."
+    },
+    {
+      "id": "H_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad vill Tina? Hon vill ...",
+      "options": [
+        "bjuda på restaurang.",
+        "få tips om en restaurang.",
+        "berätta om en restaurang."
+      ],
+      "answer": "få tips om en restaurang."
+    },
+    {
+      "id": "H_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad vill John? Han vill ...",
+      "options": [
+        "fråga om en resa.",
+        "planera en resa.",
+        "önska trevlig resa."
+      ],
+      "answer": "önska trevlig resa."
+    },
+    {
+      "id": "H_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad vill Ali? Han vill ...",
+      "options": [
+        "bjuda Erik på middag.",
+        "träffa Erik och fika.",
+        "få ett recept av Erik."
+      ],
+      "answer": "få ett recept av Erik."
+    },
+    {
+      "id": "H_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad vill Sarah? Hon vill ...",
+      "options": [
+        "hjälpa Erik.",
+        "bjuda Erik på mat.",
+        "ge Erik en present."
+      ],
+      "answer": "hjälpa Erik."
+    },
+    {
+      "id": "H_Q6",
+      "type": "mcq",
+      "prompt": "F. Vad vill Ken? Han vill få hjälp med att ...",
+      "options": [
+        "måla väggarna.",
+        "köra lastbilen.",
+        "bära saker."
+      ],
+      "answer": "måla väggarna."
+    }
+  ]
 }

@@ -1,8 +1,54 @@
 {
   "section": "H",
-  "icon": "🏛️",
-  "title": "Sektion H",
-  "instructions": "Läs mötesanteckningarna och informationsbladet.",
-  "texts": [],
-  "questions": []
+  "icon": "💰",
+  "title": "Läsa B – Uppgift 3: En faktatext",
+  "instructions": "Läs texten om unga människors ekonomi och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Unga människors ekonomi",
+      "body": "Konsumentverket har gjort en undersökning för att se vad unga människor använder sina pengar till. De har tittat på hur ungdomar mellan 15 och 17 år handlar under tre månader.\n\nDet finns några saker som i stort sett alla unga köper, till exempel mat och fika. När det gäller fritidsaktiviteter, nöjen och kläder ser det lite olika ut. I genomsnitt är det 48 procent av de unga som använder sina pengar till fritidsaktiviteter. Ungefär 65 procent använder sina pengar till nöjen och cirka 90 procent köper kläder.\n\nEn tredjedel av ungdomarna får fickpengar från sina föräldrar. Ungefär var fjärde person tjänar också egna pengar och får lön. Men de pengar som ungdomarna använder kommer framför allt från barnbidrag och studiebidrag.\n\nDe allra flesta unga sparar också en del av sina pengar. Undersökningen visar att killar sparar en större andel av sina pengar än tjejer. 86 procent av alla unga sparar på något sätt, men 14 procent sparar inte alls.\n\nKälla: Konsumentverket, 2011 (Texten är bearbetad)"
+    }
+  ],
+  "questions": [
+    {
+      "id": "H_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad använder ungdomarna i undersökningen mest pengar till?",
+      "options": ["Fritidsaktiviteter", "Nöjen", "Kläder"],
+      "answer": "Kläder"
+    },
+    {
+      "id": "H_Q2",
+      "type": "mcq",
+      "prompt": "B. Varifrån får de flesta unga i undersökningen sina pengar?",
+      "options": ["Från föräldrar", "Från bidrag", "Från jobb"],
+      "answer": "Från bidrag"
+    },
+    {
+      "id": "H_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad säger undersökningen om de ungas sparande?",
+      "options": [
+        "Killar och tjejer sparar lika mycket.",
+        "Tjejer sparar mest.",
+        "Killar sparar mest."
+      ],
+      "answer": "Killar sparar mest."
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: ينفقون أكثر على الملابس (Kläder - حوالي 90%)، ومصدر المال الأساسي هو الإعانات (Från bidrag)، والأولاد يدخرون نسبة أكبر من الفتيات (Killar sparar mest).",
+    "explanation": "النص يعرض نتائج دراسة حول إنفاق الشباب ومصادر أموالهم وادخارهم.",
+    "translation": "نص معلوماتي عن اقتصاد الشباب ومصروفاتهم وادخارهم.",
+    "vocabulary": [
+      "undersökning (دراسة / استطلاع)",
+      "bidrag (إعانة / مخصص مالي)",
+      "sparar (يدخر / يوفر)",
+      "kläder (ملابس)"
+    ],
+    "examples": [
+      "Cirka 90 procent av de unga köper kläder. (حوالي 90% من الشباب يشترون الملابس.)"
+    ],
+    "tip": "قارن النسب المئوية والكلمات الدالة مثل 'framför allt' و'större andel'."
+  }
 }

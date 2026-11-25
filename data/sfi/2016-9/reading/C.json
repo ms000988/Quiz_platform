@@ -1,8 +1,50 @@
 {
   "section": "C",
-  "icon": "👨‍👩‍👧‍👦",
-  "title": "Sektion C",
-  "instructions": "Läs texterna och matcha rätt person med påståendet.",
-  "texts": [],
-  "questions": []
+  "icon": "📊",
+  "title": "Läsa A – Uppgift 3: Två diagram",
+  "instructions": "Svara kort på frågorna utifrån de två diagrammen om var man träffar sin partner.",
+  "texts": [
+    {
+      "heading": "Diagramfrågor: Var man träffar sin partner",
+      "body": "• A: Var träffade de flesta personer sin partner?\n• B: I vilket yrke är det vanligast att träffa sin partner på jobbet?\n• C: Hur många procent i yrkesgruppen poliser träffar sin partner på jobbet?"
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q1",
+      "type": "short",
+      "prompt": "A. Var träffade de flesta personer sin partner?",
+      "answer": "Genom vänner",
+      "acceptedAnswers": ["Genom vänner", "genom vänner", "Genom vänner (29%)", "29%"]
+    },
+    {
+      "id": "C_Q2",
+      "type": "short",
+      "prompt": "B. I vilket yrke är det vanligast att träffa sin partner på jobbet?",
+      "answer": "Läkare",
+      "acceptedAnswers": ["Läkare", "läkare", "Läkare (25%)", "25%"]
+    },
+    {
+      "id": "C_Q3",
+      "type": "short",
+      "prompt": "C. Hur många procent i yrkesgruppen poliser träffar sin partner på jobbet?",
+      "answer": "15%",
+      "acceptedAnswers": ["15%", "15", "15 procent"]
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: معظم الأشخاص التقوا بشريك حياتهم عن طريق الأصدقاء (Genom vänner)، وأكثر مهنة يلتقي فيها الأشخاص بشريكهم في العمل هي الأطباء (Läkare)، ونسبة رجال الشرطة هي 15%.",
+    "explanation": "الأسئلة تعتمد على قراءة سريعة ودقيقة للبيانات الإحصائية في الرسمين البيانيين.",
+    "translation": "أسئلة قصيرة حول إحصاءات أماكن تعارف الشركاء والمهن.",
+    "vocabulary": [
+      "partner (شريك الحياة)",
+      "yrke (مهنة)",
+      "genom vänner (عن طريق الأصدقاء)",
+      "procent (نسبة مئوية)"
+    ],
+    "examples": [
+      "De flesta träffade sin partner genom vänner. (معظم الأشخاص التقوا بشريكهم عن طريق الأصدقاء.)"
+    ],
+    "tip": "اكتب إجابة قصيرة ومباشرة كما هو مطلوب في السؤال."
+  }
 }

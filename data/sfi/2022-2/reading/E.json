@@ -1,8 +1,54 @@
 {
   "section": "E",
-  "icon": "🚗",
-  "title": "Sektion E",
-  "instructions": "Läs intervjun och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "📰",
+  "title": "Uppgift 5: Insändarsida",
+  "instructions": "Läs texterna på tidningens insändarsida och välj rätt rubrik (1–6) för varje insändare.\n\nRubriker:\n1. Stäng av mobilen\n2. Allt slutade bra\n3. Skräpa inte ner\n4. Ring istället\n5. Bjud dina grannar\n6. De gör mig trygg",
+  "texts": [
+    {
+      "heading": "Insändare A (Emil)",
+      "body": "Många klagar på polisen. Det tycker jag är dumt. Hur skulle samhället se ut utan dem? När någon kör för fort och polisen tar fast den personen så gör de bara sitt jobb. De ser ju till att trafiken och annat fungerar bra! Jag känner mig lugn och säker när jag ser en polis."
+    },
+    {
+      "heading": "Insändare B (En tant i stan)",
+      "body": "Jag var ute och handlade i tisdags och när jag kom hem upptäckte jag att min telefon var borta. Jag blev orolig och tänkte att någon hade tagit den. Men när jag gick tillbaka till affären och frågade efter den i kassan så fanns den där. En ung kille hade hittat den och lämnat in den. Han räddade min dag! Tur att det finns ärliga människor!"
+    },
+    {
+      "heading": "Insändare C",
+      "body": "Jag tycker det är tråkigt att vi så sällan pratar med varandra nuförtiden. Vi ser vad andra gör på sociala medier och skickar sms men det är inte samma sak som ett riktigt samtal. Min uppmaning till alla är: lyft luren och prata en stund med en släkting eller gammal vän!"
+    },
+    {
+      "heading": "Insändare D (Valle)",
+      "body": "Nu har vi fått besök av råttor igen i vårt område. Det är inte så kul att vara ute på gården och grilla när folk lämnar kvar matrester som råttor och fåglar sen kommer och äter av! Dessutom ser det tråkigt ut med slängda förpackningar och plastflaskor. Plocka undan efter er, är ni snälla!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "E_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilken rubrik (1–6) passar bäst till insändare A (Emil)?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "6"
+    },
+    {
+      "id": "E_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilken rubrik (1–6) passar bäst till insändare B (En tant i stan)?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "2"
+    },
+    {
+      "id": "E_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilken rubrik (1–6) passar bäst till insändare C?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "4"
+    },
+    {
+      "id": "E_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilken rubrik (1–6) passar bäst till insändare D (Valle)?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "3"
+    }
+  ]
 }

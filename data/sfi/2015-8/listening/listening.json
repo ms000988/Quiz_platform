@@ -3,17 +3,223 @@
   "parts": [
     {
       "id": 1,
-      "title": "Del 1",
-      "audio": "audio1.mp3",
+      "title": "Uppgift 1: Några personer berättar (hur ofta de tränar och vad de gör för att inte bli sjuka)",
+      "audio": "spar01.mp3",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L1_A",
+          "prompt": "A. Hur ofta tränar Natalia?",
+          "options": ["Aldrig", "En gång i veckan", "Några gånger i veckan", "Alla dagar i veckan"],
+          "answer": "Aldrig"
+        },
+        {
+          "id": "L1_B",
+          "prompt": "B. Vad tycker Natalia är viktigt för att inte bli sjuk?",
+          "options": ["Frisk luft", "Mat", "Kompisar", "Motion", "Sömn"],
+          "answer": "Sömn"
+        },
+        {
+          "id": "L1_C",
+          "prompt": "C. Hur ofta tränar Marcus?",
+          "options": ["Aldrig", "En gång i veckan", "Några gånger i veckan", "Alla dagar i veckan"],
+          "answer": "En gång i veckan"
+        },
+        {
+          "id": "L1_D",
+          "prompt": "D. Vad tycker Marcus är viktigt för att inte bli sjuk?",
+          "options": ["Frisk luft", "Mat", "Kompisar", "Motion", "Sömn"],
+          "answer": "Mat"
+        },
+        {
+          "id": "L1_E",
+          "prompt": "E. Hur ofta tränar Frida?",
+          "options": ["Aldrig", "En gång i veckan", "Några gånger i veckan", "Alla dagar i veckan"],
+          "answer": "Några gånger i veckan"
+        },
+        {
+          "id": "L1_F",
+          "prompt": "F. Vad tycker Frida är viktigt för att inte bli sjuk?",
+          "options": ["Frisk luft", "Mat", "Kompisar", "Motion", "Sömn"],
+          "answer": "Motion"
+        },
+        {
+          "id": "L1_G",
+          "prompt": "G. Hur ofta tränar Emil?",
+          "options": ["Aldrig", "En gång i veckan", "Några gånger i veckan", "Alla dagar i veckan"],
+          "answer": "Några gånger i veckan"
+        },
+        {
+          "id": "L1_H",
+          "prompt": "H. Vad tycker Emil är viktigt för att inte bli sjuk?",
+          "options": ["Frisk luft", "Mat", "Kompisar", "Motion", "Sömn"],
+          "answer": "Frisk luft"
+        }
+      ]
     },
     {
       "id": 2,
-      "title": "Del 2",
-      "audio": "audio2.mp3",
+      "title": "Uppgift 2: Ett samtal (hälsa på en studiekamrat som är sjuk)",
+      "audio": "spar02.mp3",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L2_A",
+          "prompt": "A. Ska de ta med sig middag?",
+          "options": ["Ja", "Nej", "Kanske"],
+          "answer": "Nej"
+        },
+        {
+          "id": "L2_B",
+          "prompt": "B. Ska de köpa choklad?",
+          "options": ["Ja", "Nej", "Kanske"],
+          "answer": "Ja"
+        },
+        {
+          "id": "L2_C",
+          "prompt": "C. Ska de åka buss?",
+          "options": ["Ja", "Nej", "Kanske"],
+          "answer": "Nej"
+        },
+        {
+          "id": "L2_D",
+          "prompt": "D. Ska de hyra en film?",
+          "options": ["Ja", "Nej", "Kanske"],
+          "answer": "Kanske"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Uppgift 3: Telefonsvarare",
+      "audio": "spar03.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L3_A",
+          "prompt": "A. Telefonsvarare på en frisörsalong: När stänger frisörsalongen på torsdagar?",
+          "options": ["Klockan 16", "Klockan 17", "Klockan 18", "Klockan 21"],
+          "answer": "Klockan 17"
+        },
+        {
+          "id": "L3_B",
+          "prompt": "B. Telefonsvarare på ett försäkringsbolag: Du har tappat din mobil. Vilken knapp ska du trycka på?",
+          "options": ["1", "2", "3", "4"],
+          "answer": "3"
+        },
+        {
+          "id": "L3_C",
+          "prompt": "C. Telefonsvarare på en vårdcentral: Du vill boka en tid. Vad ska du göra?",
+          "options": ["Lämna ett meddelande.", "Ringa på telefontiden.", "Ringa sjuksköterska."],
+          "answer": "Ringa på telefontiden."
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Uppgift 4: Fyra nyheter",
+      "audio": "spar04.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L4_A",
+          "prompt": "A. Vad handlar nyheten om?",
+          "options": ["Resor", "Väder", "Trafik"],
+          "answer": "Väder"
+        },
+        {
+          "id": "L4_B",
+          "prompt": "B. Vad handlar nyheten om?",
+          "options": ["Arbete", "Resor", "Utbildning"],
+          "answer": "Arbete"
+        },
+        {
+          "id": "L4_C",
+          "prompt": "C. Vad handlar nyheten om?",
+          "options": ["Arbete", "Fritid", "Utbildning"],
+          "answer": "Utbildning"
+        },
+        {
+          "id": "L4_D",
+          "prompt": "D. Vad handlar nyheten om?",
+          "options": ["Hälsa", "Trafik", "Väder"],
+          "answer": "Trafik"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Uppgift 5: Tre telefonsamtal",
+      "audio": "spar05.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L5_A",
+          "prompt": "A. Samtal 1 – Zack ringer till en bank. Vad vill Zack?",
+          "options": ["Boka ett möte.", "Öppna ett konto.", "Beställa ett betalkort."],
+          "answer": "Beställa ett betalkort."
+        },
+        {
+          "id": "L5_B",
+          "prompt": "B. Samtal 2 – Magda ringer till ett hotell. Vad vill Magda?",
+          "options": ["Ändra en bokning.", "Klaga på hotellet.", "Betala för ett rum."],
+          "answer": "Ändra en bokning."
+        },
+        {
+          "id": "L5_C",
+          "prompt": "C. Samtal 3 – Samuel ringer till en vårdcentral. Vad vill Samuel?",
+          "options": ["Fråga om öppettider.", "Förnya ett recept.", "Be om råd."],
+          "answer": "Förnya ett recept."
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Uppgift 6: En läkare berättar (Klara)",
+      "audio": "spar06.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L6_A",
+          "prompt": "A. Varför ville Klara bli läkare?",
+          "options": [
+            "Hennes föräldrar var läkare.",
+            "Hon gick en intressant kurs.",
+            "Hon tyckte om att arbeta inom vården."
+          ],
+          "answer": "Hon tyckte om att arbeta inom vården."
+        },
+        {
+          "id": "L6_B",
+          "prompt": "B. Vad tyckte Klara var svårt under utbildningen?",
+          "options": [
+            "Att få vänner.",
+            "Att bo utomlands.",
+            "Att studera på ett annat språk."
+          ],
+          "answer": "Att studera på ett annat språk."
+        },
+        {
+          "id": "L6_C",
+          "prompt": "C. Vad tycker Klara är bäst med sitt arbete?",
+          "options": [
+            "Arbetskamraterna.",
+            "Arbetstiderna.",
+            "Arbetsuppgifterna."
+          ],
+          "answer": "Arbetsuppgifterna."
+        },
+        {
+          "id": "L6_D",
+          "prompt": "D. Vad säger Klara om sig själv som läkare?",
+          "options": [
+            "Hon är bra på att kommunicera.",
+            "Hon tycker om att planera.",
+            "Hon är snabb."
+          ],
+          "answer": "Hon är bra på att kommunicera."
+        }
+      ]
     }
   ]
 }

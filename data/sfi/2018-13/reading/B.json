@@ -1,8 +1,75 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "📊",
+  "title": "Läsa A – Uppgift 2: Ett diagram (Antal djur i olika län)",
+  "instructions": "Studera diagrammet som visar hur många får, kor och hästar det finns i några län i Sverige år 2016 och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Information om diagrammet",
+      "body": "Diagrammet visar antal djur (får, kor och hästar) i länen Dalarna, Gotland, Jämtland, Skåne, Stockholm och Örebro år 2016.\nKälla: Jordbruksverket. Kor avser här kor för mjölkproduktion."
+    }
+  ],
+  "charts": [
+    {
+      "id": "chartAnimals2016",
+      "type": "bar",
+      "title": "Antal djur i olika län i Sverige (2016)",
+      "labels": ["Dalarna", "Gotland", "Jämtland", "Skåne", "Stockholm", "Örebro"],
+      "datasets": [
+        {
+          "label": "får",
+          "data": [7500, 26000, 4500, 18000, 7500, 8000],
+          "backgroundColor": "#0284c7"
+        },
+        {
+          "label": "kor",
+          "data": [5500, 15000, 6000, 23000, 3000, 5000],
+          "backgroundColor": "#f59e0b"
+        },
+        {
+          "label": "hästar",
+          "data": [2500, 2500, 1500, 6000, 6500, 1500],
+          "backgroundColor": "#e2e8f0"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilket av djuren är vanligast i Dalarna?",
+      "options": ["får", "kor", "hästar"],
+      "answer": "får"
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. I vilket län finns det ungefär lika många får och hästar?",
+      "options": ["Dalarna", "Gotland", "Jämtland", "Skåne", "Stockholm", "Örebro"],
+      "answer": "Stockholm"
+    },
+    {
+      "id": "B_Q3",
+      "type": "short",
+      "prompt": "C. Hur många kor finns det på Gotland?",
+      "answer": "15000 kor",
+      "acceptedAnswers": ["15000 kor", "15000", "15 000 kor", "15 000"]
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: أسئلة حول عدد الحيوانات في مناطق مختلفة من السويد (kor, får, hästar).",
+    "explanation": "الرسم يوضح مقارنة بين الأقاليم (län) وعدد الحيوانات.",
+    "translation": "مثلاً في Gotland يوجد عدد كبير من الأبقار والأغنام مقارنة بالخيول.",
+    "vocabulary": [
+      "djur (حيوان)",
+      "kor (أبقار)",
+      "får (أغنام)",
+      "hästar (خيول)"
+    ],
+    "examples": [
+      "Det finns många kor på Gotland. (هناك الكثير من الأبقار في غوتلاند.)"
+    ],
+    "tip": "عند قراءة الرسوم البيانية، ابحث عن القيم الأكبر والأصغر وقارن الأعمدة بدقة."
+  }
 }

@@ -1,8 +1,84 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🐑",
+  "title": "Läsa A – Uppgift 1: Erika och Johan bor och arbetar på landet",
+  "instructions": "Läs artikeln om Erika och Johan i Laxviken och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Erika och Johan bor och arbetar på landet",
+      "body": "Erika och Johan Winterlia möttes tack vare Erikas mamma. Nu har de ett företag tillsammans i byn Laxviken. De trivs med sina liv och har många drömmar om framtiden.\n\nErika och Johan bor i den lilla byn Laxviken, som ligger i Jämtland i norra Sverige. Deras liv tillsammans började med hjälp av Erikas mamma, som bodde granne med Johan i Laxviken. Erika jobbade i Namibia i Afrika på den tiden. När hon kom tillbaka till Sverige, bjöd mamman hem både Erika och Johan på middag. Mötet ledde till kärlek och snart flyttade Erika in hos Johan i Laxviken.\n\nLaxviken ligger långt från närmaste större stad. Till en början reste både Erika och Johan tio mil till Östersund varje dag för att jobba.\n- Men vi längtade efter att leva på en gård med djur, nära naturen och inte behöva pendla till ett arbete, säger Erika.\n\nSå när de fick chans att köpa 160 får av en kvinna i byn, bestämde de sig direkt för att köpa fåren. Då visste de inte så mycket om hur får ska skötas. Dessutom skulle de snart få sitt första barn. Så det nya livet, med både barn och får att ta hand om, blev inte lätt.\n- I början undrade vi hur vi skulle klara av allt, säger Erika.\n\nNu har det gått några år och idag har de mer erfarenhet. Det är mycket arbete med gården, men Erika och Johan trivs ändå.\n- Vissa dagar är det tungt att vara fårbonde, andra dagar är det fantastiskt. Och det är alltid väldigt vackert, säger Johan.\n\nFåren ger familjen inkomster på flera sätt. De säljer fårkorv och köttprodukter. Och så fårskinn och saker som Erika tillverkar av ull från fåren. Erika och Johan har många idéer och drömmar, bland annat att odla alla grönsaker som familjen behöver. De måste också bygga ett nytt och modernt fårhus. Men båda två är överens om vad de vill göra först:\n- Vi hoppas att kunna starta en gårdsbutik med servering där folk som handlar kan fika!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. Var träffade Erika sin man?",
+      "options": [
+        "På en restaurang.",
+        "Under en resa.",
+        "Hos sin mamma."
+      ],
+      "answer": "Hos sin mamma."
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Varför köpte Erika och Johan sina får?",
+      "options": [
+        "För att båda var arbetslösa.",
+        "För att kunna jobba där de bor.",
+        "För att fåren var billiga."
+      ],
+      "answer": "För att kunna jobba där de bor."
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad tycker Erika och Johan om sitt liv på gården?",
+      "options": [
+        "Att det alltid är lugnt och skönt.",
+        "Att det oftast är svårt och kämpigt.",
+        "Att det är bra men jobbigt ibland."
+      ],
+      "answer": "Att det är bra men jobbigt ibland."
+    },
+    {
+      "id": "A_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad säger de om framtiden?",
+      "options": [
+        "Att de vill ha en stor familj.",
+        "Att de vill starta en gårdsbutik med servering / café.",
+        "Att de vill köpa fler får."
+      ],
+      "answer": "Att de vill starta en gårdsbutik med servering / café."
+    },
+    {
+      "id": "A_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad handlar texten mest om?",
+      "options": [
+        "Att vara ute i naturen.",
+        "Att tjäna mycket pengar.",
+        "Att leva som man vill."
+      ],
+      "answer": "Att leva som man vill."
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: إجابات حول حياة Erika و Johan في الريف.",
+    "explanation": "النص يوضح انتقال العائلة إلى الريف، الصعوبات والفوائد، وكيف يعيشون ويعملون هناك.",
+    "translation": "المقال يصف كيف يعيش Erika و Johan في الريف، ويعملان على مزرعتهما، ويخططان للمستقبل.",
+    "vocabulary": [
+      "landsbygd (ريف)",
+      "familj (عائلة)",
+      "framtid (مستقبل)",
+      "självförsörjande (مكتفٍ ذاتيًا)"
+    ],
+    "examples": [
+      "De bor på landsbygden. (إنهم يعيشون في الريف.)"
+    ],
+    "tip": "في مقالات الحياة اليومية، ركّز على الجمل التي تصف المكان وطريقة العيش."
+  }
 }

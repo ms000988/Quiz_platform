@@ -1,8 +1,69 @@
 {
   "section": "C",
-  "icon": "👨‍👩‍👧‍👦",
-  "title": "Sektion C",
-  "instructions": "Läs texterna och matcha rätt person med påståendet.",
-  "texts": [],
-  "questions": []
+  "icon": "👵",
+  "title": "Läsa A – Uppgift 3: Sofia berättar om sitt jobb",
+  "instructions": "Sofia jobbar extra på ett äldreboende när hon är ledig från skolan. Välj den mening (1–5) som bäst beskriver varje text (A–D).\n\nMeningar:\n1. Jag gör olika saker.\n2. Jag får gå på kurs.\n3. Jag tjänar pengar.\n4. Jag får veta hur det var förr.\n5. Jag har bra arbetstider.",
+  "texts": [
+    {
+      "heading": "Text A",
+      "body": "- Jag är glad att jag har hittat ett helgjobb för det är svårt att klara sig på studiebidraget när man pluggar. Lönen är inte så hög men jag är ändå nöjd."
+    },
+    {
+      "heading": "Text B",
+      "body": "- Det är skönt att vi inte behöver börja före elva. Ibland jobbar jag både lördag och söndag men bara fyra timmar per dag så jag hinner vara ledig också."
+    },
+    {
+      "heading": "Text C",
+      "body": "- Vi sjunger, fikar och spelar spel med de äldre. Om det är fint väder går vi ut på promenad. Det är ett omväxlande jobb så det blir aldrig tråkigt."
+    },
+    {
+      "heading": "Text D",
+      "body": "- De äldre blir glada när jag kommer. De berättar om sina liv och hur det var för länge sen, när de var unga. Det är spännande att höra deras historier."
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilken mening (1–5) passar bäst till text A?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": "C_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilken mening (1–5) passar bäst till text B?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "C_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilken mening (1–5) passar bäst till text C?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "1"
+    },
+    {
+      "id": "C_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilken mening (1–5) passar bäst till text D?",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: مطابقة العبارات مع النصوص (A → 3 كسب المال، B → 5 أوقات عمل جيدة، C → 1 أنشطة متنوعة، D → 4 معرفة كيف كان الماضي).",
+    "explanation": "Sofia تتحدث عن عملها مع كبار السن والأنشطة والمزايا المختلفة في هذا العمل.",
+    "translation": "النصوص قصيرة وتصف العمل اليومي والخبرات مع كبار السن.",
+    "vocabulary": [
+      "äldre (كبار السن)",
+      "promenad (تمشية)",
+      "historier (قصص)",
+      "arbeta (يعمل)"
+    ],
+    "examples": [
+      "Jag arbetar med äldre. (أعمل مع كبار السن.)"
+    ],
+    "tip": "اقرأ كل نص وابحث عن النشاط الأساسي أو الفكرة المركزية."
+  }
 }

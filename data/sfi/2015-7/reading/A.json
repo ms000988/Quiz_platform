@@ -1,8 +1,42 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "📘",
+  "title": "Läsa B – Information och tid (60 minuter)",
+  "instructions": "Försättsblad för Läsa B i Nationellt slutprov 7, 2015, Kurs C.",
+  "texts": [
+    {
+      "heading": "Utbildning i svenska för invandrare – Läsa B",
+      "body": "Nationellt slutprov 7, 2015, Kurs C. Provtid för Läsa B är 60 minuter."
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "Hur lång tid är provtiden för Läsa B i Nationellt slutprov 7, 2015?",
+      "options": ["35 minuter", "45 minuter", "60 minuter"],
+      "answer": "60 minuter"
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "Vilken kurs gäller detta häfte för?",
+      "options": ["Kurs B", "Kurs C", "Kurs D"],
+      "answer": "Kurs C"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: مدة قسم القراءة Läsa B هي 60 دقيقة (60 minuter)، وهذا الاختبار مخصص للمستوى Kurs C.",
+    "explanation": "معلومات أساسية من صفحة غلاف قسم القراءة ب حول المدة الزمنية والمستوى الدراسي.",
+    "translation": "غلاف قسم القراءة ب – المستوى ج – المدة 60 دقيقة.",
+    "vocabulary": [
+      "slutprov (امتحان نهائي)",
+      "invandrare (مهاجرون)",
+      "provtid (مدة الامتحان)"
+    ],
+    "examples": [
+      "Du har 60 minuter på dig för Läsa B. (لديك 60 دقيقة لقسم القراءة ب.)"
+    ],
+    "tip": "انتبه دائمًا لاسم القسم والمدة الزمنية في أعلى الغلاف."
+  }
 }

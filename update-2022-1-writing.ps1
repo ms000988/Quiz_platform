@@ -1,0 +1,20 @@
+# update-2022-1-writing.ps1 - Populates official Writing prompt for exam session 2022-1
+
+Write-Host "Populating Writing prompt for 2022-1..." -ForegroundColor Cyan
+
+$writingDir = "data/sfi/2022-1/writing"
+if (!(Test-Path $writingDir)) {
+    New-Item -ItemType Directory -Path $writingDir -Force | Out-Null
+}
+
+$promptJson = @'
+{
+  "examId": "2022-1",
+  "title": "Svara på ett mejl (Hjälp med att flytta)",
+  "promptHtml": "<p><strong>Du har fått ett mejl från en vän som vill ha hjälp med att flytta. Läs mejlet och skriv ett svar.</strong></p><div style='background: var(--bg-page); padding: 16px; border-radius: 8px; border: 1px solid var(--border); margin: 12px 0;'><p style='color: var(--text-muted); font-size: 0.9rem;'>Från: vännen</p><p><strong>Hej!</strong></p><p>Hur är det med dig? Bra, hoppas jag 🙂.</p><p>Jag har fått en ny lägenhet och ska flytta nästa helg. Jag är stressad eftersom det är mycket jag måste göra: packa, köra allt till den nya lägenheten och städa den gamla lägenheten. Kan du hjälpa mig med något? Vilken dag i så fall?</p><p>Efteråt vill jag bjuda alla som hjälper mig på mat. Ska jag laga mat hemma eller bjuda på restaurang? Vad tycker du?</p><p>Kram</p></div><p style='margin-top: 16px;'><strong>Svara på mejlet. Du ska berätta:</strong></p><ul><li>kort om hur det är med dig,</li><li>vad du kan hjälpa din vän med och när,</li><li>hur din vän ska göra med maten och varför du tycker det.</li></ul><p style='margin-top: 8px; color: var(--text-muted); font-size: 0.9rem;'>Tänk på hur du börjar och avslutar mejlet.</p>",
+  "minWords": 80
+}
+'@
+
+Set-Content -Path "$writingDir/prompt.json" -Value $promptJson -Encoding utf8
+Write-Host "=== Successfully populated 2022-1 Writing prompt! ===" -ForegroundColor Cyan

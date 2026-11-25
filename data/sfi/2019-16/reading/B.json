@@ -1,8 +1,49 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "☕",
+  "title": "Uppgift B: Intervju med Frida (Café)",
+  "instructions": "Läs svaren från intervjun med Frida som har öppnat ett café och välj rätt svar till varje fråga.",
+  "texts": [
+    {
+      "heading": "Svar från intervjun med Frida",
+      "body": "• Svar 1: Jag bodde i Malmö några år direkt efter gymnasiet och jobbade på kontor. Sen arbetade jag på olika caféer och restauranger, och där lärde jag mig att baka och brygga gott kaffe.\n\n• Svar 2: Det är inte bestämt än för jag vet inte när kunderna vill komma. Men i början är jag på plats hela dagarna så att folk kan komma från tidig morgon till sent på kvällen. Jag får se hur det blir sen.\n\n• Svar 3: För att jag har drömt om att ha ett eget café sedan jag var liten. Min pappa tog med mig till ett fint konditori när jag var fem år och jag minns att det var så mysigt.\n\n• Svar 4: Det var inte lätt, jag letade länge. Men en kväll gick jag förbi och såg att det var tomt. Det hade varit en affär här. Perfekt läge och hyran var låg så det var toppen!\n\n• Svar 5: Kaféet har blivit så väl mottagen här. Många kommer hit och fikar i lugnet och vi har redan haft ett födelsedagskalas här när en kille fyllde år och bjöd sina kompisar på tårta."
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q0",
+      "type": "mcq",
+      "prompt": "Exempel: Varför har du öppnat ett café?",
+      "options": ["Svar 1", "Svar 2", "Svar 3", "Svar 4", "Svar 5"],
+      "answer": "Svar 3"
+    },
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "A. Hur hittade du den här lokalen?",
+      "options": ["Svar 1", "Svar 2", "Svar 3", "Svar 4", "Svar 5"],
+      "answer": "Svar 4"
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad säljer ni på caféet?",
+      "options": ["Svar 1", "Svar 2", "Svar 3", "Svar 4", "Svar 5"],
+      "answer": "Svar 5"
+    },
+    {
+      "id": "B_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilka tider ska caféet ha öppet?",
+      "options": ["Svar 1", "Svar 2", "Svar 3", "Svar 4", "Svar 5"],
+      "answer": "Svar 2"
+    },
+    {
+      "id": "B_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad har du jobbat med förut?",
+      "options": ["Svar 1", "Svar 2", "Svar 3", "Svar 4", "Svar 5"],
+      "answer": "Svar 1"
+    }
+  ]
 }

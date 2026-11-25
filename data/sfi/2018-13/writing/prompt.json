@@ -1,5 +1,6 @@
 {
   "examId": "2018-13",
-  "promptText": "Skriv en text om dina framtidsplaner eller en upplevelse. Motivera dina åsikter.",
-  "minWords": 100
+  "title": "Skriv ett mejl till en vän (Tacka nej till en fest)",
+  "promptHtml": "<p><strong>Du har fått en inbjudan till en fest från en kompis men du kan inte gå på festen.</strong></p><p style='margin-top: 8px;'><strong>Skriv ett mejl till din vän och berätta att du inte kan komma.</strong></p><p style='margin-top: 12px;'><strong>Du ska skriva om de här punkterna:</strong></p><ul><li>tacka för inbjudan,</li><li>berätta att du inte kan komma,</li><li>förklara varför du inte kan komma,</li><li>ge förslag på en annan dag då ni kan träffas,</li><li>ge förslag på vad ni kan göra då.</li></ul><p style='margin-top: 8px; color: var(--text-muted); font-size: 0.9rem;'>Tänk på hur du börjar och avslutar mejlet.</p>",
+  "minWords": 80
 }

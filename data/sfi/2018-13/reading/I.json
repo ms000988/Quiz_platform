@@ -1,0 +1,131 @@
+{
+  "section": "I",
+  "icon": "🌲",
+  "title": "Läsa B – Nationalpark, Mejl och Fotbollsblogg",
+  "instructions": "Läs texterna om Garphyttans nationalpark, mejlen på arbetsplatsen och Senaits fotbollsblogg och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Information om en nationalpark (Garphyttan)",
+      "body": "• Text A: Garphyttan ligger cirka 25 kilometer från Örebro. Inga bussar stannar här, så bil är det bästa sättet att ta sig hit. Du kör väg E18 västerut från Örebro - lättast är att se karta på internet!\n• Text B: Ett bra sätt att se och uppleva naturen här är att gå den tre kilometer långa Bergstigen. Den går förbi ängar, genom skog och upp på ett berg där du kan titta på utsikten. I området finns också flera kortare gångvägar att välja mellan.\n• Text C: Du får gärna plocka bär och svamp i nationalparken. Men du får inte plocka blommor och stenar eller skada träd och buskar. Tänk på att du bara får elda på grillplatserna.\n• Text D: Nationalparken är gratis och vem som helst kan besöka parken. Rastplatsen, grillplatsen och de flesta små vägar fungerar bra även för dig som har barnvagn eller rullstol.\n\nRubriker (1–6): 1. En park för alla | 2. Kontakta oss | 3. Parkering | 4. Våra regler | 5. Promenader | 6. Hitta till oss"
+    },
+    {
+      "heading": "Mejl på en arbetsplats",
+      "body": "• Anders: Hallå alla kollegor! I går blev jag morfar! Kom och fira med mig i lunchrummet i eftermiddag klockan 15. Jag har bakat äppelkaka.\n• Soraya: Hej! Jag hittar inte den stora termosen till kaffet. Den står inte i skåpet där den brukar vara. Hör av dig till mig om du har sett den någonstans är du snäll!\n• Michael: Hej! Jag behöver ditt kontonummer så att jag kan sätta in din lön i slutet av månaden. Mejla det så snart som möjligt!\n• John: God morgon! Jag har fått en akut tid hos tandläkaren nu på morgonen så jag hinner inte vara med på vårt morgonmöte. Jag är på jobbet vid elva. Hoppas att det är okej!"
+    },
+    {
+      "heading": "En blogg (Senait)",
+      "body": "Vi har världens bästa tränare och jag är bra kompis med alla i mitt fotbollslag. Vi har jättekul ihop! Det är viktigare än att [A] alla matcher.\n\nIbland får jag träna i ett lag med äldre spelare. Det är inte lätt för mig för de äldre är jättebra. Men jag lär mig mycket när jag spelar med dem. Jag vill träna mycket så att jag blir lika [B] som dem.\n\nVarje sommarlov har klubben en fotbollsskola. Jag älskade fotbollsskolan när jag var liten. Och i år ska jag vara ledare där. Jag längtar till det. Det ska bli så [C]!\n\nI vårt fotbollslag finns det ungdomar från olika delar av världen. Några har kommit hit för bara några månader sen. Men vi kan spela tillsammans ändå för det är [D] regler i fotboll i alla länder."
+    }
+  ],
+  "questions": [
+    {
+      "id": "I_Q1",
+      "type": "mcq",
+      "prompt": "Nationalpark A. Vilken rubrik passar bäst till text A?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "6"
+    },
+    {
+      "id": "I_Q2",
+      "type": "mcq",
+      "prompt": "Nationalpark B. Vilken rubrik passar bäst till text B?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "5"
+    },
+    {
+      "id": "I_Q3",
+      "type": "mcq",
+      "prompt": "Nationalpark C. Vilken rubrik passar bäst till text C?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "4"
+    },
+    {
+      "id": "I_Q4",
+      "type": "mcq",
+      "prompt": "Nationalpark D. Vilken rubrik passar bäst till text D?",
+      "options": ["1", "2", "3", "4", "5", "6"],
+      "answer": "1"
+    },
+    {
+      "id": "I_Q5",
+      "type": "mcq",
+      "prompt": "Mejl A. Vad vill Anders?",
+      "options": ["tacka för något", "bjuda på något", "be om hjälp"],
+      "answer": "bjuda på något"
+    },
+    {
+      "id": "I_Q6",
+      "type": "mcq",
+      "prompt": "Mejl B. Vad vill Soraya?",
+      "options": ["bjuda på något", "fråga efter något", "tacka för något"],
+      "answer": "fråga efter något"
+    },
+    {
+      "id": "I_Q7",
+      "type": "mcq",
+      "prompt": "Mejl C. Vad vill Michael?",
+      "options": ["bestämma en tid", "fråga efter något", "be om ursäkt"],
+      "answer": "fråga efter något"
+    },
+    {
+      "id": "I_Q8",
+      "type": "mcq",
+      "prompt": "Mejl D. Vad vill John?",
+      "options": ["boka något", "meddela försening", "be om hjälp"],
+      "answer": "meddela försening"
+    },
+    {
+      "id": "I_Q9",
+      "type": "mcq",
+      "prompt": "Blogg A. Vilket ord passar i texten?",
+      "options": ["kunna", "träffa", "vinna"],
+      "answer": "vinna"
+    },
+    {
+      "id": "I_Q10",
+      "type": "mcq",
+      "prompt": "Blogg B. Vilket ord passar i texten?",
+      "options": ["gammal", "glad", "duktig"],
+      "answer": "duktig"
+    },
+    {
+      "id": "I_Q11",
+      "type": "mcq",
+      "prompt": "Blogg C. Vilket ord passar i texten?",
+      "options": ["svårt", "roligt", "långt"],
+      "answer": "roligt"
+    },
+    {
+      "id": "I_Q12",
+      "type": "mcq",
+      "prompt": "Blogg D. Vilket ord passar i texten?",
+      "options": ["lagom", "samma", "tyvärr"],
+      "answer": "samma"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: مطابقة نصوص الحديقة الوطنية مع العناوين، تحديد غرض رسائل العمل، واختيار الكلمات المناسبة في المدونة.",
+    "explanation": "تقدم نصوص الحديقة الوطنية معلومات عن الوصول، المشي، القواعد، وإتاحة المكان للجميع؛ والرسائل توضح دعوة أو سؤالًا أو تأخيرًا؛ والمدونة تتحدث عن فريق كرة القدم.",
+    "translation": "النصوص توضح كيفية الوصول إلى الحديقة، قواعدها، رسائل العمل، وأنشطة فريق كرة القدم.",
+    "vocabulary": [
+      "nationalpark (حديقة وطنية)",
+      "regler (قواعد)",
+      "promenad (تمشية)",
+      "gratis (مجاني)",
+      "mejl (بريد إلكتروني)",
+      "fråga (يسأل)",
+      "bjuda (يدعو)",
+      "försening (تأخير)",
+      "fotboll (كرة القدم)",
+      "vinna (يفوز)",
+      "träna (يتدرب)",
+      "lag (فريق)"
+    ],
+    "examples": [
+      "Nationalparken är gratis. (الحديقة الوطنية مجانية.)",
+      "Jag skickar ett mejl. (أرسل بريدًا إلكترونيًا.)",
+      "Vi vill vinna matchen. (نريد أن نفوز بالمباراة.)"
+    ],
+    "tip": "اقرأ العناوين بدقة، وركّز على الفعل الأساسي في الرسائل، واختر الكلمة التي تكمل المعنى في المدونة."
+  }
+}

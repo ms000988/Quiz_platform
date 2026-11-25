@@ -1,9 +1,70 @@
 {
   "section": "D",
-  "icon": "📊",
-  "title": "Sektion D",
-  "instructions": "Studera diagrammen och svara på frågorna.",
-  "texts": [],
-  "charts": [],
-  "questions": []
+  "icon": "📚",
+  "title": "Uppgift 4: Tips när du studerar hemma",
+  "instructions": "Läs texterna på webbsidan (www.studietips.univ.nu) och välj vilken rubrik som passar bäst till varje text.",
+  "texts": [
+    {
+      "heading": "Text A",
+      "body": "Sätt dig på en plats där det är tyst och lugnt. Stäng av tv:n och notiser på telefon och dator. Varje litet pip från mobilen tar fokus från studierna och du kan tappa koncentrationen. Om du bor tillsammans med andra kanske du kan gå till ett bibliotek."
+    },
+    {
+      "heading": "Text B",
+      "body": "Att studera ett nytt språk kan vara svårt. Ett tips är att läsa igenom de nya orden en gång till före läggdags. När du sen sover fortsätter hjärnan att arbeta och du kommer troligen att minnas den nya informationen lättare dagen efter."
+    },
+    {
+      "heading": "Text C",
+      "body": "När du har många uppgifter som du ska hinna med är det bra att skriva en lista på det som du måste göra. Då kan du ta en sak i taget och stryka det som du har gjort. Din hjärna reagerar då positivt och du får mer lust att börja med nästa uppgift."
+    },
+    {
+      "heading": "Text D",
+      "body": "Fysisk aktivitet hjälper hjärnan att ta in ny information. När du har suttit länge med studierna kan du ge dig ut och jogga. Gör det nästa gång du blir sömnig i stället för att dricka kaffe eller gå och lägga dig."
+    }
+  ],
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilken rubrik passar bäst till text A?",
+      "options": [
+        "Sök fakta på internet",
+        "Låna dina kursböcker",
+        "Ta bort allt som stör"
+      ],
+      "answer": "Ta bort allt som stör"
+    },
+    {
+      "id": "D_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilken rubrik passar bäst till text B?",
+      "options": [
+        "Repetera gärna på kvällen",
+        "Ta det lugnt före ett prov",
+        "Dåligt att studera sent"
+      ],
+      "answer": "Repetera gärna på kvällen"
+    },
+    {
+      "id": "D_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilken rubrik passar bäst till text C?",
+      "options": [
+        "Planera dina studier",
+        "Välj det roliga först",
+        "Gör alltid läxorna"
+      ],
+      "answer": "Planera dina studier"
+    },
+    {
+      "id": "D_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilken rubrik passar bäst till text D?",
+      "options": [
+        "Vila när du är trött",
+        "Träna för att bli pigg",
+        "Drick kaffe för att orka"
+      ],
+      "answer": "Träna för att bli pigg"
+    }
+  ]
 }

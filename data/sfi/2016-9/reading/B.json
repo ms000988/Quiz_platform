@@ -1,8 +1,57 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "🏡",
+  "title": "Läsa A – Uppgift 2: En intervju med Erik",
+  "instructions": "Erik Berg har öppnat ett eget vandrarhem. Läs frågorna (A–D) och välj rätt svar (1–5):\n1. Jag hoppas att jag ska kunna bygga en stuga nere vid sjön. Jag vill också göra en badplats där, så att gästerna kan bada i sjön efter bastun.\n2. Tänk positivt, det mesta löser sig! Tänk på att det är mycket hårt arbete i början, men fortsätt jobba och kämpa på.\n3. Jag läste ekonomi på gymnasiet och det har jag haft användning av nu. Jag har egentligen inte någon annan utbildning, men hittills har det gått bra ändå.\n4. Det är svårt att vara ledig när man vill och det kan vara lite stressigt ibland.\n5. Att jag kan bestämma det mesta själv. Det är ett stort ansvar men det ger också en härlig frihet.",
+  "texts": [
+    {
+      "heading": "Intervju med Erik Berg",
+      "body": "Erik driver ett eget vandrarhem och svarar på frågor om jobbet, framtidsplaner och råd till andra."
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad är det bästa med ditt jobb på vandrarhemmet? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. Finns det något negativt med ditt jobb? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "id": "B_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad har du för planer för framtiden? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "1"
+    },
+    {
+      "id": "B_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilka tips har du till andra som vill starta ett vandrarhem? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "2"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: أفضل ما في العمل → 5 (حرية اتخاذ القرار والاستقلالية)، الجانب السلبي → 4 (صعوبة أخذ إجازة والتوتر أحيانًا)، خطط المستقبل → 1 (بناء كوخ ومكان للسباحة قرب البحيرة)، النصائح → 2 (التفكير الإيجابي والاستمرار رغم صعوبة البداية).",
+    "explanation": "مقابلة مع Erik صاحب نزل (vandrarhem) حول إيجابيات العمل، سلبياته، خططه المستقبلية، ونصائحه للراغبين في بدء مشروع مشابه.",
+    "translation": "إجابات Erik حول إدارة نزل خاص.",
+    "vocabulary": [
+      "vandrarhem (نزل / فندق بسيط)",
+      "frihet (حرية)",
+      "planer för framtiden (خطط للمستقبل)",
+      "tips (نصائح)"
+    ],
+    "examples": [
+      "Det är ett stort ansvar men det ger också en härlig frihet. (إنها مسؤولية كبيرة ولكنها تمنح أيضًا حرية رائعة.)"
+    ],
+    "tip": "طابق كل سؤال مع الفقرة التي تحمل معناه المباشر (frihet، stressigt/ledig، hoppas/framtiden، tänk positivt)."
+  }
 }

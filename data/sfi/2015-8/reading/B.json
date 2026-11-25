@@ -1,8 +1,87 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "📊",
+  "title": "Läsa A – Uppgift 2: Ett diagram",
+  "instructions": "Diagrammet visar hur invånare i en kommun kommer till arbetet eller skolan. Svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Diagram: Hur kommer du till arbetet eller skolan?",
+      "body": "• 15–24 år: Promenerar 12%, Cyklar 38%, Åker bil 25%, Åker buss 25%\n• 25–44 år: Promenerar 5%, Cyklar 17%, Åker bil 75%, Åker buss 3%\n• 45–64 år: Promenerar 5%, Cyklar 26%, Åker bil 68%, Åker buss 1%\n\nKälla: Piteå kommun, 2015"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chartCommute201508",
+      "type": "bar",
+      "title": "Hur kommer du till arbetet eller skolan? (%)",
+      "labels": ["15-24 år", "25-44 år", "45-64 år"],
+      "datasets": [
+        {
+          "label": "Promenerar (%)",
+          "data": [12, 5, 5],
+          "backgroundColor": "#eab308"
+        },
+        {
+          "label": "Cyklar (%)",
+          "data": [38, 17, 26],
+          "backgroundColor": "#93c5fd"
+        },
+        {
+          "label": "Åker bil (%)",
+          "data": [25, 75, 68],
+          "backgroundColor": "#9a3412"
+        },
+        {
+          "label": "Åker buss (%)",
+          "data": [25, 3, 1],
+          "backgroundColor": "#2563eb"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilken åldersgrupp promenerar mest till arbetet eller skolan?",
+      "options": ["15-24 år", "25-44 år", "45-64 år"],
+      "answer": "15-24 år"
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "B. Hur kommer åldersgruppen 15-24 år oftast till arbetet eller skolan?",
+      "options": ["Promenerar", "Cyklar", "Åker bil", "Åker buss"],
+      "answer": "Cyklar"
+    },
+    {
+      "id": "B_Q3",
+      "type": "short",
+      "prompt": "C. Hur många procent i åldersgruppen 25-44 år åker bil?",
+      "answer": "75%",
+      "acceptedAnswers": ["75%", "75", "75 procent"]
+    },
+    {
+      "id": "B_Q4",
+      "type": "short",
+      "prompt": "D. Hur många procent i åldersgruppen 45-64 år cyklar?",
+      "answer": "26%",
+      "acceptedAnswers": ["26%", "26", "26 procent"]
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: الفئة العمرية الأكثر مشيًا هي 15–24 سنة (12%)، وفئة 15–24 سنة تذهب غالبًا بالدراجة (38%)، ونسبة من يذهبون بالسيارة في فئة 25–44 سنة هي 75%، ونسبة من يركبون الدراجة في فئة 45–64 سنة هي 26%.",
+    "explanation": "الرسم البياني يقارن وسائل التنقل للعمل أو المدرسة عبر ثلاث فئات عمرية.",
+    "translation": "إحصاءات وسائل التنقل حسب الفئة العمرية.",
+    "vocabulary": [
+      "åldersgrupp (فئة عمرية)",
+      "promenerar (يمشي)",
+      "cyklar (يركب الدراجة)",
+      "åker bil (يذهب بالسيارة)"
+    ],
+    "examples": [
+      "75 procent i åldersgruppen 25–44 år åker bil. (75% في الفئة العمرية 25–44 سنة يذهبون بالسيارة.)"
+    ],
+    "tip": "طابق الفئة العمرية أولًا ثم اقرأ العمود أو النسبة المئوية بدقة."
+  }
 }

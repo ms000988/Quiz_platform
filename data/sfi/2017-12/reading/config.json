@@ -1,7 +1,17 @@
 {
   "year": "2017-12",
   "module": "reading",
-  "title": "SFI Läsförståelse 2017-12",
+  "title": "SFI Läsförståelse – Nationellt slutprov 12, 2017",
   "passThreshold": 0.6,
-  "sections": ["A.json", "B.json", "C.json", "D.json", "E.json", "F.json", "G.json", "H.json"]
+  "sections": [
+    "A.json",
+    "B.json",
+    "C.json",
+    "D.json",
+    "E.json",
+    "F.json",
+    "G.json",
+    "H.json",
+    "I.json"
+  ]
 }

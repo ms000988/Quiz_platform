@@ -1,8 +1,42 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "🎧",
+  "title": "Hörförståelse – Sammanfattning av uppgifter (2015-7)",
+  "instructions": "Repetitionsfrågor kopplade till de inlämnade hörövningarna i Nationellt slutprov 7, 2015.",
+  "texts": [
+    {
+      "heading": "Återblick på hörförståelsen (2015-7)",
+      "body": "• Uppgift 1: Moa, Benjamin, Maj-Lis och Uno berättar om bussresor.\n• Uppgift 2: Lars och Maria pratar om sin resa.\n• Uppgift 3: Telefonsvarare på ett passkontor (öppet på kvällen onsdagar, ändra tid = knapp 2).\n• Uppgift 4: Korta nyheter (trafik, arbete, ekonomi, arbete).\n• Uppgift 5: Telefonsamtal till simhallen om intensivkurs (3 gånger/vecka, 1250 kr, bokning på internet).\n• Uppgift 6: Tre telefonsamtal (ändra bokning, fråga om något, fråga om något)."
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "Vilken kväll har passkontoret öppet i Uppgift 3?",
+      "options": ["Tisdagar", "Onsdagar", "Torsdagar"],
+      "answer": "Onsdagar"
+    },
+    {
+      "id": "B_Q2",
+      "type": "mcq",
+      "prompt": "Hur bokar man intensivkursen i simhallen enligt Uppgift 5?",
+      "options": ["På telefon", "På internet", "På plats"],
+      "answer": "På internet"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: مكتب الجوازات مفتوح مساءً أيام الأربعاء (Onsdagar)، والحجز لدورة السباحة المكثفة يتم عبر الإنترنت (På internet).",
+    "explanation": "مراجعة سريعة لأبرز المعلومات الواردة في صفحات الاستماع المقدمة لامتحان 2015-7.",
+    "translation": "مراجعة لأهم نقاط الاستماع في امتحان 2015-7.",
+    "vocabulary": [
+      "passkontor (مكتب جوازات السفر)",
+      "intensivkurs (دورة مكثفة)",
+      "boka (يحجز)"
+    ],
+    "examples": [
+      "Man bokar kursen på internet. (يتم حجز الدورة عبر الإنترنت.)"
+    ],
+    "tip": "راجع الأرقام والأيام والكلمات المرتبطة بكل مكالمة أو رسالة صوتية."
+  }
 }

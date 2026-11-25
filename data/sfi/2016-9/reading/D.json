@@ -1,9 +1,57 @@
 {
   "section": "D",
-  "icon": "📊",
-  "title": "Sektion D",
-  "instructions": "Studera diagrammen och svara på frågorna.",
-  "texts": [],
-  "charts": [],
-  "questions": []
+  "icon": "📌",
+  "title": "Läsa A – Uppgift 4: Annonser på en anslagstavla",
+  "instructions": "Läs annonserna (1–5) och välj rätt siffra för varje person:\n1. HUNDKURS (Hundskolan, Lillgatan 22)\n2. Sökes! Medarbetare till ungdomshem (Brackegården, Bräcke)\n3. Dags att renovera bostaden? Fixarna (tapeter, golv, måla/fixa hemma)\n4. Ny i Sverige? Bibliotekets Språkcafé (fika och pratar i liten grupp, måndagar kl. 19.00–20.30)\n5. Familjedag lördag 19/8 på Bräcke Tivoli (barn går in gratis tillsammans med en betalande vuxen)",
+  "texts": [
+    {
+      "heading": "Personer (A–D)",
+      "body": "• A. Rita vill bli bättre på att tala svenska.\n• B. Ahmed vill göra något kul med sina små döttrar.\n• C. Amir behöver hjälp med att måla om i köket.\n• D. Ulla vill gärna jobba med unga människor."
+    }
+  ],
+  "questions": [
+    {
+      "id": "D_Q1",
+      "type": "mcq",
+      "prompt": "A. Rita vill bli bättre på att tala svenska. Vilken annons passar bäst? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    },
+    {
+      "id": "D_Q2",
+      "type": "mcq",
+      "prompt": "B. Ahmed vill göra något kul med sina små döttrar. Vilken annons passar bäst? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "D_Q3",
+      "type": "mcq",
+      "prompt": "C. Amir behöver hjälp med att måla om i köket. Vilken annons passar bäst? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": "D_Q4",
+      "type": "mcq",
+      "prompt": "D. Ulla vill gärna jobba med unga människor. Vilken annons passar bäst? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "2"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: Rita (تحدث السويدية) → 4 (Språkcafé)، Ahmed (نشاط مع بناته الصغيرات) → 5 (Familjedag på Tivoli)، Amir (تجديد/إصلاح المنزل) → 3 (Fixarna / renovera bostaden)، Ulla (العمل مع الشباب) → 2 (ungdomshem).",
+    "explanation": "كل شخص له حاجة أو رغبة محددة تتطابق مع إعلان واحد على لوحة الإعلانات.",
+    "translation": "مطابقة الأشخاص مع الإعلانات المناسبة على لوحة الإعلانات.",
+    "vocabulary": [
+      "anslagstavla (لوحة إعلانات)",
+      "språkcafé (مقهى لغوي)",
+      "renovera (يجدد / يرمم)",
+      "ungdomshem (دار رعاية للشباب)"
+    ],
+    "examples": [
+      "På språkcafét får man öva på att prata svenska. (في مقهى اللغة يمكنك التدرب على التحدث بالسويدية.)"
+    ],
+    "tip": "ابحث عن الكلمات الدالة مثل prata svenska أو barn أو renovera أو ungdomshem."
+  }
 }

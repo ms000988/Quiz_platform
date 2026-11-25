@@ -1,8 +1,57 @@
 {
   "section": "E",
-  "icon": "🚗",
-  "title": "Sektion E",
-  "instructions": "Läs intervjun och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "👮",
+  "title": "Läsa A – Uppgift 5: En intervju med Nadia",
+  "instructions": "Läs frågorna (A–D) och välj rätt svar bland textalternativen (1–5):\n1. Det är viktigt att vara ansvarsfull och noggrann. Man ska vara intresserad av människor och kunna lyssna, eftersom en polis oftast löser problem genom att prata. För att passa som polis behöver man använda både hjärta och hjärna.\n2. Man ska inte ge upp om man inte kommer in på utbildningen direkt. Det är positivt att ha erfarenhet av andra yrken och av livet, innan man utbildar sig. Det har man nytta av i jobbet sen.\n3. Jag jobbade som brevbärare tidigare och visste inte vad jag ville arbeta med i framtiden. Men så läste jag om en tjej som var polis och jag tyckte att det verkade vara ett roligt och omväxlande jobb.\n4. Alla möten med människor. Jag känner att jag gör något viktigt och att jag behövs. Jag kan inte lösa alla problem men jag kan hjälpa och stötta människor som är i svåra situationer.\n5. Om det har hänt något svårt eller tråkigt blir människor ibland arga på oss poliser. Det är okej för mig. De flesta är ändå positiva och glada över den hjälp de får.",
+  "texts": [
+    {
+      "heading": "Intervju med polisen Nadia",
+      "body": "Nadia arbetar som polis och berättar om sitt yrke, hur hon blev polis och hur det är att möta människor."
+    }
+  ],
+  "questions": [
+    {
+      "id": "E_Q1",
+      "type": "mcq",
+      "prompt": "A. Varför blev du polis? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": "E_Q2",
+      "type": "mcq",
+      "prompt": "B. Hur ska en bra polis vara? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "E_Q3",
+      "type": "mcq",
+      "prompt": "C. Hur brukar folk vara mot dig? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "E_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad är det bästa med ditt jobb? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "4"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: سبب اختيار مهنة الشرطة → 3 (قراءة قصة عن شرطية ورؤيتها كعمل ممتع ومتنوع)، صفات الشرطي الجيد → 1 (مسؤول ودقيق ومستمع جيد)، تعامل الناس معها → 5 (أحيانًا غاضبون لكن معظمهم إيجابيون)، وأفضل شيء في العمل → 4 (لقاء الناس ومساعدتهم).",
+    "explanation": "مقابلة مع الشرطية Nadia تشرح بدايتها المهنية، الصفات المطلوبة في الشرطي، ردود فعل الناس، وما تحبه أكثر في عملها.",
+    "translation": "إجابات الشرطية Nadia حول مهنة الشرطة وتجربتها اليومية.",
+    "vocabulary": [
+      "polis (شرطي / شرطة)",
+      "ansvarsfull (مسؤول)",
+      "noggrann (دقيق)",
+      "hjälpa (يساعد)"
+    ],
+    "examples": [
+      "En polis behöver lyssna och hjälpa människor. (يحتاج الشرطي إلى الاستماع ومساعدة الناس.)"
+    ],
+    "tip": "طابق كل سؤال مع الفقرة التي تجيب عنه مباشرة: السبب (3)، الصفات (1)، رد فعل الناس (5)، والأفضل (4)."
+  }
 }

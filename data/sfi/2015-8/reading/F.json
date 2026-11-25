@@ -1,8 +1,57 @@
 {
   "section": "F",
-  "icon": "🍦",
-  "title": "Sektion F",
-  "instructions": "Läs artikeln och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "💐",
+  "title": "Läsa B – Uppgift 1: En intervju med Noura",
+  "instructions": "Noura är florist. Para ihop frågorna (A–D) med rätt svar (1–5):\n1. Det är att få arbeta med det jag alltid har drömt om. Jag älskar att arbeta med kunder, få vara kreativ och att skapa med händerna. Det är det roligaste jag vet.\n2. Gör det du vill göra. Gå utbildningar, ta praktikplatser och gå som lärling. Ge inte upp!\n3. Jag har alltid gillat att plocka blommor och göra buketter. Men det var först när jag skulle välja program till gymnasiet som det blev klart för mig att det var just det här jag ville jobba med.\n4. Jag har arbetat med det sedan jag utbildade mig och jag tror att jag kommer att hålla på tills jag går i pension.\n5. Man arbetar långa dagar och står upp varje dag. Det är ganska ansträngande och tungt.",
+  "texts": [
+    {
+      "heading": "Intervju med floristen Noura",
+      "body": "Noura säljer blommor i en blomsteraffär och berättar om sitt yrke."
+    }
+  ],
+  "questions": [
+    {
+      "id": "F_Q1",
+      "type": "mcq",
+      "prompt": "A. När bestämde du dig för att bli florist? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "3"
+    },
+    {
+      "id": "F_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad är det bästa med att jobba som florist? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "1"
+    },
+    {
+      "id": "F_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad är det jobbigaste med att jobba som florist? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "5"
+    },
+    {
+      "id": "F_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilka tips har du till andra som vill bli florist? (1–5)",
+      "options": ["1", "2", "3", "4", "5"],
+      "answer": "2"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: متى قررت أن تصبحي بائعة زهور → 3 (عند اختيار برنامج المرحلة الثانوية)، أفضل شيء → 1 (العمل في حلمها والإبداع)، الأصعب → 5 (أيام طويلة والوقوف يوميًا)، النصائح → 2 (الدراسة والتدريب وعدم الاستسلام).",
+    "explanation": "مقابلة مع بائعة الزهور Noura حول بدايتها، إيجابيات المهنة، صعوباتها، ونصائحها للآخرين.",
+    "translation": "إجابات Noura حول عملها كبائعة زهور.",
+    "vocabulary": [
+      "florist (بائع/بائعة زهور)",
+      "bukett (باقة زهور)",
+      "praktikplats (مكان تدريب)",
+      "jobbigaste (الأصعب / الأكثر إرهاقًا)"
+    ],
+    "examples": [
+      "Det är det roligaste jag vet att skapa med händerna. (أكثر ما أحبه هو الابتكار والصناعة باليدين.)"
+    ],
+    "tip": "طابق كل سؤال مع الفقرة التي تجيب عن وقت القرار، الأفضل، الأصعب، أو النصيحة."
+  }
 }

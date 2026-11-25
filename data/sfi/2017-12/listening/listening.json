@@ -3,17 +3,107 @@
   "parts": [
     {
       "id": 1,
-      "title": "Del 1",
-      "audio": "audio1.mp3",
+      "title": "Uppgift 1: Några personer berättar (Johanna)",
+      "audio": "spar01.mp3",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L1_A",
+          "prompt": "A. Vilken arbetsplats berättar Johanna om?",
+          "options": ["en restaurang", "en frisörsalong", "en möbelaffär"],
+          "answer": "en frisörsalong"
+        },
+        {
+          "id": "L1_B",
+          "prompt": "B. Vad tänker Johanna göra i framtiden?",
+          "options": ["anställa ny personal", "arbeta mer", "sälja företaget"],
+          "answer": "anställa ny personal"
+        }
+      ]
     },
     {
-      "id": 2,
-      "title": "Del 2",
-      "audio": "audio2.mp3",
+      "id": 4,
+      "title": "Uppgift 4: Samtal mellan grannar",
+      "audio": "spar04.mp3",
       "maxPlays": 2,
-      "questions": []
+      "questions": [
+        {
+          "id": "L4_A",
+          "prompt": "A. En kvinna ringer på en grannes dörr. Vad vill kvinnan?",
+          "options": ["Be om hjälp", "Bjuda på något", "Tacka för något"],
+          "answer": "Bjuda på något"
+        },
+        {
+          "id": "L4_B",
+          "prompt": "B. En kvinna möter en man i trappan. Vad vill kvinnan?",
+          "options": ["Informera om något", "Presentera sig", "Hälsa till någon"],
+          "answer": "Informera om något"
+        },
+        {
+          "id": "L4_C",
+          "prompt": "C. En man och en kvinna pratar med varandra i tvättstugan. Vad vill mannen?",
+          "options": ["Tacka för något", "Be om hjälp", "Byta en tid"],
+          "answer": "Be om hjälp"
+        },
+        {
+          "id": "L4_D",
+          "prompt": "D. En man och en kvinna pratar med varandra på gården. Vad vill mannen?",
+          "options": ["Informera om något", "Bjuda på något", "Hälsa till någon"],
+          "answer": "Hälsa till någon"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Uppgift 5: Nyheter",
+      "audio": "spar05.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L5_A",
+          "prompt": "A. Vad handlar nyheten om? (Bostäder i Mölndal renoveras och hyran höjs med 50%)",
+          "options": ["Familj", "Ekonomi", "Arbete"],
+          "answer": "Ekonomi"
+        },
+        {
+          "id": "L5_B",
+          "prompt": "B. Vad handlar nyheten om? (Varning från Vägverket på väg 57 mellan Mölndal och Gnesta)",
+          "options": ["Väder", "Fritid", "Trafik"],
+          "answer": "Trafik"
+        },
+        {
+          "id": "L5_C",
+          "prompt": "C. Vad handlar nyheten om? (Studie om gifta par och vem som tar hand om hemmet)",
+          "options": ["Familj", "Hälsa", "Utbildning"],
+          "answer": "Familj"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Uppgift 6: Miranda berättar om när hon tog körkort",
+      "audio": "spar06.mp3",
+      "maxPlays": 2,
+      "questions": [
+        {
+          "id": "L6_A",
+          "prompt": "A. Hur lärde sig Miranda att köra bil?",
+          "options": ["Med sina föräldrar", "På en trafikskola", "Med några vänner"],
+          "answer": "På en trafikskola"
+        },
+        {
+          "id": "L6_B",
+          "prompt": "B. Vad gjorde Miranda när hon hade fått sitt körkort?",
+          "options": ["Hon körde till sin bästa vän.", "Hon ordnade en fest.", "Hon gick på restaurang."],
+          "answer": "Hon ordnade en fest."
+        },
+        {
+          "id": "L6_C",
+          "prompt": "C. Vad lärde sig Miranda av att ta körkort?",
+          "options": ["Att alltid fortsätta kämpa.", "Att alltid ta det lugnt.", "Att alltid lyssna på råd."],
+          "answer": "Att alltid fortsätta kämpa."
+        }
+      ]
     }
   ]
 }

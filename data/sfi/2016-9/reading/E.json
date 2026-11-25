@@ -1,8 +1,80 @@
 {
   "section": "E",
-  "icon": "🚗",
-  "title": "Sektion E",
-  "instructions": "Läs intervjun och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🏨",
+  "title": "Läsa B – Stadshotellet",
+  "instructions": "Läs vad personerna säger om Stadshotellet och svara på frågan.",
+  "texts": [
+    {
+      "heading": "Marie",
+      "body": "Läget är fint och nära centrum. Det var rent i rummet men det fanns ingen sänglampa. Man blev också störd av prat och musik från rummen bredvid."
+    },
+    {
+      "heading": "Goitom",
+      "body": "Jag stannade en natt och tycker att stället passar perfekt om man vill ha en billig och lugn plats att sova på. Wifi fungerade utan problem."
+    },
+    {
+      "heading": "Yasmin",
+      "body": "Jag vill ha det svalt när jag sover men det gick inte att dra ner värmen på elementet. Badrummet var inte helt fräscht heller."
+    },
+    {
+      "heading": "Albin",
+      "body": "Prisvärt, centralt och mysigt! Fina rum med bekväma sängar. Men frukosten blev jag besviken på, den var inte alls så god som jag hade hoppats på."
+    },
+    {
+      "heading": "Marjam",
+      "body": "Ett enkelt hotell i ett lugnt område. Rent och snyggt, trots att det är gammalt. Rummet hade allt som vi behövde så vi var nöjda."
+    }
+  ],
+  "questions": [
+    {
+      "id": "E_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad tycker Marie om hotellet?",
+      "options": ["Bra", "Dåligt", "Både bra och dåligt"],
+      "answer": "Både bra och dåligt"
+    },
+    {
+      "id": "E_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad tycker Goitom om hotellet?",
+      "options": ["Bra", "Dåligt", "Både bra och dåligt"],
+      "answer": "Bra"
+    },
+    {
+      "id": "E_Q3",
+      "type": "mcq",
+      "prompt": "C. Vad tycker Yasmin om hotellet?",
+      "options": ["Bra", "Dåligt", "Både bra och dåligt"],
+      "answer": "Dåligt"
+    },
+    {
+      "id": "E_Q4",
+      "type": "mcq",
+      "prompt": "D. Vad tycker Albin om hotellet?",
+      "options": ["Bra", "Dåligt", "Både bra och dåligt"],
+      "answer": "Både bra och dåligt"
+    },
+    {
+      "id": "E_Q5",
+      "type": "mcq",
+      "prompt": "E. Vad tycker Marjam om hotellet?",
+      "options": ["Bra", "Dåligt", "Både bra och dåligt"],
+      "answer": "Bra"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: Marie → Både bra och dåligt، Goitom → Bra، Yasmin → Dåligt، Albin → Både bra och dåligt، Marjam → Bra.",
+    "explanation": "تقييمات نزلاء الفندق تختلف بين من يذكر نقاطًا إيجابية وسلبية معًا، ومن يبدي رضاه التام، ومن يذكر ملاحظات سلبية فقط.",
+    "translation": "آراء خمسة أشخاص حول إقامتهم في الفندق.",
+    "vocabulary": [
+      "läge (موقع)",
+      "besviken (خائب الأمل)",
+      "nöjd (راضٍ)",
+      "både bra och dåligt (جيد وسيئ معًا)"
+    ],
+    "examples": [
+      "Rummet var fint men frukosten var inte så god. (الغرفة كانت جميلة ولكن الفطور لم يكن جيدًا جدًا.)"
+    ],
+    "tip": "إذا وُجد 'men' يربط بين ميزة وعيب، فالاختيار غالبًا Både bra och dåligt."
+  }
 }

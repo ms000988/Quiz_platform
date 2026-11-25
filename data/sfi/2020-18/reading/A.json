@@ -1,8 +1,47 @@
 {
   "section": "A",
-  "icon": "🛒",
-  "title": "Sektion A",
-  "instructions": "Läs texterna och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "🌿",
+  "title": "Uppgift A: Råd mot stress i vardagen",
+  "instructions": "Läs texten om hur man kan hantera stress när man pluggar och har mycket hemma, och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Ta pauser och planera i lugn takt",
+      "body": "När man både studerar svenska och har ansvar hemma kan det lätt kännas som att tiden inte räcker till. Ett vanligt misstag är att försöka göra allt på en gång. Många lärare tipsar om att dela upp uppgifterna i mindre delar och bestämma en tydlig tid för när man stänger böckerna för dagen.\n\nKorta pauser utomhus, en promenad i parken eller att prata med en vän gör det lättare att rensa tankarna. Att sova tillräckligt och äta regelbundet hjälper också kroppen och hjärnan att orka bättre."
+    }
+  ],
+  "questions": [
+    {
+      "id": "A_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad är ett vanligt misstag när man har mycket att göra enligt texten?",
+      "options": [
+        "Att försöka göra allt på en gång.",
+        "Att gå en promenad utomhus.",
+        "Att sova för länge på natten."
+      ],
+      "answer": "Att försöka göra allt på en gång."
+    },
+    {
+      "id": "A_Q2",
+      "type": "mcq",
+      "prompt": "B. Vad rekommenderas för att rensa tankarna?",
+      "options": [
+        "Att plugga utan rast hela kvällen.",
+        "Att ta korta pauser utomhus eller prata med en vän.",
+        "Att hoppa över måltiderna."
+      ],
+      "answer": "Att ta korta pauser utomhus eller prata med en vän."
+    },
+    {
+      "id": "A_Q3",
+      "type": "mcq",
+      "prompt": "C. Varför är det bra att bestämma när man stänger böckerna?",
+      "options": [
+        "Det hjälper en att få vila och sätta gränser för studierna.",
+        "Det gör att man slipper skriva prov.",
+        "Det ersätter all sömn."
+      ],
+      "answer": "Det hjälper en att få vila och sätta gränser för studierna."
+    }
+  ]
 }

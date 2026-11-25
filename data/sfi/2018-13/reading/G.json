@@ -1,8 +1,55 @@
 {
   "section": "G",
-  "icon": "📱",
-  "title": "Sektion G",
-  "instructions": "Läs inläggen och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "💃",
+  "title": "Läsa A – Uppgift 7: Danskurs",
+  "instructions": "Några personer berättar om varför de går på danskurs. Läs vad personerna säger och svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Rashid",
+      "body": "- Jag jobbar mycket och blir ofta stressad. Men när jag dansar slappnar jag av och somnar lätt på kvällen sen när jag kommer hem från kursen."
+    },
+    {
+      "heading": "Kate",
+      "body": "- Jag hade aldrig dansat när jag träffade min man. Men eftersom han älskar det bestämde jag mig för att gå en kurs och se om jag också gillar det. Det är svårt men samtidigt bra för mig eftersom vi kan öva hemma."
+    }
+  ],
+  "questions": [
+    {
+      "id": "G_Q1",
+      "type": "mcq",
+      "prompt": "A. Varför går Rashid på danskurs?",
+      "options": [
+        "För att bli glad.",
+        "För att bli lugn.",
+        "För att bli stark."
+      ],
+      "answer": "För att bli lugn."
+    },
+    {
+      "id": "G_Q2",
+      "type": "mcq",
+      "prompt": "B. Varför går Kate på danskurs?",
+      "options": [
+        "För att prova något nytt.",
+        "För att lära sig svenska.",
+        "För att hitta en partner."
+      ],
+      "answer": "För att prova något nytt."
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: اختيار الإجابة الصحيحة لسبب المشاركة في دورة الرقص (danskurs).",
+    "explanation": "بعضهم يذهب للاسترخاء وتخفيف التوتر، وآخرون لتجربة شيء جديد.",
+    "translation": "الأسباب مختلفة لتجربة شيء جديد أو للاسترخاء.",
+    "vocabulary": [
+      "dans (رقص)",
+      "kurs (دورة)",
+      "prova (يجرب)",
+      "partner (شريك)"
+    ],
+    "examples": [
+      "Jag går på danskurs. (أشارك في دورة رقص.)"
+    ],
+    "tip": "اقرأ إجابات كل شخص وابحث عن السبب المباشر."
+  }
 }

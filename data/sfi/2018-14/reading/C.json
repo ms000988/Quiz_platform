@@ -1,8 +1,58 @@
 {
   "section": "C",
-  "icon": "👨‍👩‍👧‍👦",
-  "title": "Sektion C",
-  "instructions": "Läs texterna och matcha rätt person med påståendet.",
-  "texts": [],
-  "questions": []
+  "icon": "☔",
+  "title": "Uppgift 3: Åsikter på internet (Regn)",
+  "instructions": "Några personer berättar på en webbsida om varför de gillar regn. Skriv personens namn.",
+  "texts": [
+    {
+      "heading": "Henry",
+      "body": "- Jag älskar regn! Då kan jag pyssla här hemma hela dagen. Jag tvättar, städar, betalar räkningar, bakar bröd och lyssnar på radio. När solen skiner känner jag ofta att jag borde gå ut."
+    },
+    {
+      "heading": "Ayan",
+      "body": "- Det är så mysigt att sitta ute och fika på balkongen när det regnar på sommaren. Och att simma i sjön i regnet är också härligt. Men på hösten och vintern är det så kallt och då är det aldrig skönt med regn tycker jag."
+    },
+    {
+      "heading": "Judit",
+      "body": "- Jag tycker om att vara aktiv. Men ibland stressar jag för mycket och då har jag svårt för att somna på kvällen. Men när jag hör regnet droppa mot fönstret blir jag avslappnad och kan sova gott."
+    },
+    {
+      "heading": "Magnus",
+      "body": "- När de berättar om vädret på tv så pratar de alltid om att regn är dåligt väder. Men regn är bra för vi behöver ju vatten. Jag blir glad när det regnar för då behöver jag inte vattna mina grönsaker som jag odlar."
+    },
+    {
+      "heading": "Carl",
+      "body": "- Jag är allergisk mot pollen och kan inte vara ute så mycket när träden blommar. Men när det regnar blir luften ren och jag kan andas lättare. Då passar jag på att jogga en tur. För mig är regn det bästa vädret att träna i!"
+    }
+  ],
+  "questions": [
+    {
+      "id": "C_Q1",
+      "type": "short",
+      "prompt": "A. Vem gillar att springa i regnet?",
+      "answer": "Carl",
+      "acceptedAnswers": ["Carl", "carl"]
+    },
+    {
+      "id": "C_Q2",
+      "type": "short",
+      "prompt": "B. Vem blir lugn av att lyssna på regn?",
+      "answer": "Judit",
+      "acceptedAnswers": ["Judit", "judit"]
+    },
+    {
+      "id": "C_Q3",
+      "type": "short",
+      "prompt": "C. Vem är gärna inomhus på regniga dagar?",
+      "answer": "Henry",
+      "acceptedAnswers": ["Henry", "henry"]
+    },
+    {
+      "id": "C_Q4",
+      "type": "short",
+      "prompt": "D. Vem gillar regn bara när det är varmt ute?",
+      "answer": "Ayan",
+      "acceptedAnswers": ["Ayan", "ayan"]
+    }
+  ]
 }

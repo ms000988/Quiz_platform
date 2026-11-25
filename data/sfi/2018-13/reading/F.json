@@ -1,8 +1,69 @@
 {
   "section": "F",
-  "icon": "🍦",
-  "title": "Sektion F",
-  "instructions": "Läs artikeln och svara på frågorna.",
-  "texts": [],
-  "questions": []
+  "icon": "💭",
+  "title": "Läsa A – Uppgift 6: Personliga åsikter",
+  "instructions": "Läs texterna (A–D) och välj rätt alternativ (1–7).\n\nAlternativ:\n1. Att skratta\n2. Att vila\n3. Att sporta\n4. Att vara utomhus\n5. Att kramas\n6. Att äta gott\n7. Att hjälpa andra",
+  "texts": [
+    {
+      "heading": "Text A (Camilla)",
+      "body": "- Jag älskar att hitta på egna recept men också att smaka nya spännande rätter. Det är härligt att njuta av en måltid tillsammans med någon som man tycker om."
+    },
+    {
+      "heading": "Text B (Joram)",
+      "body": "- Att träna var viktigt för mig förut. Men nu har jag två små barn att ta hand om. För att orka det är det viktigt för mig att sova åtta timmar på natten och inte göra någonting alls ibland."
+    },
+    {
+      "heading": "Text C (Ida)",
+      "body": "- Vintern är här och det är kallt. Många av de som inte har något hem sover ute. Därför har jag börjat samla in kläder och skor som jag ska ge till dem. Det blir jag glad av."
+    },
+    {
+      "heading": "Text D (Toni)",
+      "body": "- Att sitta i soffan och mysa med min flickvän får mig att må bra. När hon är nära mig och vi håller om varandra känner jag mig lycklig. Jag har läst att kroppskontakt är bra mot stress."
+    }
+  ],
+  "questions": [
+    {
+      "id": "F_Q1",
+      "type": "mcq",
+      "prompt": "A. Vilket alternativ passar bäst till text A?",
+      "options": ["1", "2", "3", "4", "5", "6", "7"],
+      "answer": "6"
+    },
+    {
+      "id": "F_Q2",
+      "type": "mcq",
+      "prompt": "B. Vilket alternativ passar bäst till text B?",
+      "options": ["1", "2", "3", "4", "5", "6", "7"],
+      "answer": "2"
+    },
+    {
+      "id": "F_Q3",
+      "type": "mcq",
+      "prompt": "C. Vilket alternativ passar bäst till text C?",
+      "options": ["1", "2", "3", "4", "5", "6", "7"],
+      "answer": "7"
+    },
+    {
+      "id": "F_Q4",
+      "type": "mcq",
+      "prompt": "D. Vilket alternativ passar bäst till text D?",
+      "options": ["1", "2", "3", "4", "5", "6", "7"],
+      "answer": "5"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: مطابقة كل شخص بالنشاط المناسب (Att äta gott, Att vila, Att hjälpa andra, Att kramas).",
+    "explanation": "النصوص تعبر عن أنشطة مختلفة تمنح الأشخاص الراحة أو السعادة مثل الأكل الطيب، الراحة، مساعدة الآخرين، والمعانقة.",
+    "translation": "كل شخص يذكر نشاطًا يجعله مرتاحًا أو سعيدًا.",
+    "vocabulary": [
+      "skratta (يضحك)",
+      "sporta (يمارس الرياضة)",
+      "vila (يرتاح)",
+      "krama (يعانق)"
+    ],
+    "examples": [
+      "Jag vill vila. (أريد أن أرتاح.)"
+    ],
+    "tip": "في النصوص القصيرة، اربط النشاط المذكور بالكلمة الأساسية في الاختيارات."
+  }
 }

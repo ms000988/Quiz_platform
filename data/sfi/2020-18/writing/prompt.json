@@ -1,5 +1,6 @@
 {
   "examId": "2020-18",
-  "promptText": "Skriv en text om dina framtidsplaner eller en upplevelse. Motivera dina åsikter.",
-  "minWords": 100
+  "title": "Svara på ett mejl (Stress och studier)",
+  "promptHtml": "<p><strong>Du har fått ett mejl från en vän. Läs mejlet och skriv ett svar.</strong></p><div style='background: var(--bg-page); padding: 16px; border-radius: 8px; border: 1px solid var(--border); margin: 12px 0;'><p style='color: var(--text-muted); font-size: 0.9rem;'>Från: vännen</p><p><strong>Hej!</strong></p><p>Hur är det med dig och hur går det på sfi?</p><p>Jag har så mycket att göra både hemma och med mina studier, så jag är lite stressad. Har du några tips på vad jag kan göra för att må bättre?</p><p>Har du tid att ses snart? Och har du förslag på något som vi kan göra då?</p><p>Kram 😊</p></div><p style='margin-top: 16px;'><strong>Svara på mejlet. Du ska:</strong></p><ul><li>berätta kort om hur du har det och hur det går på sfi,</li><li>ge tips på vad din vän kan göra för att må bättre,</li><li>berätta när du kan ses och vad ni kan göra då.</li></ul><p style='margin-top: 8px; color: var(--text-muted); font-size: 0.9rem;'>Tänk på hur du inleder och avslutar mejlet.</p>",
+  "minWords": 80
 }

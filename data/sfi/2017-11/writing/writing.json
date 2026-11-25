@@ -1,0 +1,21 @@
+{
+  "examId": "2017-11",
+  "title": "Skriva – Skriv ett mejl till din vän",
+  "prompt": "Du har en vän som aldrig har varit hemma hos dig och nu ska komma hem till dig.\n\nSkriv ett mejl till din vän. Du ska skriva om några av de här sakerna:\n• berätta varför vännen ska komma\n• ge förslag på dag och tid\n• beskriv var du bor\n• berätta vad du ska bjuda på\n• ge förslag på något som ni kan göra hos dig\n\nTänk på hur du börjar och avslutar brevet!",
+  "modelResponse": "Hej vännen!\n\nJag hoppas att du mår bra! Det var så länge sedan vi sågs, och eftersom du aldrig har varit hemma hos mig skulle jag bli jätteglad om du ville komma på besök.\n\nJag bor i en fin lägenhet nära centrum, bara fem minuter med buss från stationen. Skulle det passa att komma nu på lördag klockan 15.00? Jag tänkte bjuda på nybryggt kaffe, te och hembakad kaka.\n\nEfter fikat kan vi lyssna på musik, prata ikapp och kanske spela ett sällskapsspel eller ta en promenad i parken i närheten.\n\nHör av dig och säg om dagen och tiden passar dig!\n\nVänliga hälsningar,\n[Ditt namn]",
+  "arabicNotes": {
+    "summary": "المطلوب: كتابة بريد إلكتروني لصديق لم يزر منزلك من قبل، مع ذكر سبب الدعوة، اقتراح اليوم والوقت، وصف مكان السكن، ما ستقدمه من ضيافة، ونشاط يمكن القيام به.",
+    "explanation": "احرص على استخدام تحية مناسبة في البداية (Hej...) وخاتمة مناسبة (Vänliga hälsningar...)، وربط الجمل بوضوح لمستوى SFI Kurs C.",
+    "translation": "رسالة دعوة صديق لزيارة المنزل لأول مرة.",
+    "vocabulary": [
+      "bjuda på (يدعو إلى / يضيف)",
+      "förslag (اقتراح)",
+      "beskriv (يصف)",
+      "hälsningar (تحيات)"
+    ],
+    "examples": [
+      "Jag bor nära centrum och bjuder på fika. (أسكن بالقرب من المركز وأدعوك إلى فيكا.)"
+    ],
+    "tip": "تأكد من تغطية معظم النقاط المطلوبة في المهمة وكتابة فقرات مترابطة."
+  }
+}

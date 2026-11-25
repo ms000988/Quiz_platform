@@ -1,8 +1,75 @@
 {
   "section": "B",
-  "icon": "📔",
-  "title": "Sektion B",
-  "instructions": "Läs texterna och välj rätt ord.",
-  "texts": [],
-  "questions": []
+  "icon": "📊",
+  "title": "Läsa A – Uppgift 2: En tabell och ett diagram",
+  "instructions": "Tabellen visar varför kvinnor och män i Sverige tränar. Diagrammet visar var de tränar. Svara på frågorna.",
+  "texts": [
+    {
+      "heading": "Tabell: Varför tränar du?",
+      "body": "• För att träffa andra: Kvinnor 17%, Män 23%\n• För att gå ner i vikt: Kvinnor 24%, Män 20%\n• För att få bra kondition: Kvinnor 67%, Män 64%\n• För att det är roligt: Kvinnor 53%, Män 53%\n• För att få tävla: Kvinnor 5%, Män 12%\n\nKälla: Svenskarnas idrottsvanor 2011. RF."
+    },
+    {
+      "heading": "Diagram: Var tränar du? (ca %)",
+      "body": "• Hemma: ca 45%\n• Utomhus: ca 67%\n• På gym: ca 43%\n• I sporthall: ca 17%\n\nKälla: Special Eurobarometer 412, mars 2014"
+    }
+  ],
+  "charts": [
+    {
+      "id": "chartWhereTrain201711",
+      "type": "bar",
+      "title": "Var tränar du? (%)",
+      "labels": ["Hemma", "Utomhus", "På gym", "I sporthall"],
+      "datasets": [
+        {
+          "label": "Andel (%)",
+          "data": [45, 67, 43, 17],
+          "backgroundColor": "#2563eb"
+        }
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "B_Q1",
+      "type": "mcq",
+      "prompt": "A. Vad är den vanligaste anledningen till att kvinnor och män tränar?",
+      "options": [
+        "För att träffa andra.",
+        "För att gå ner i vikt.",
+        "För att få bra kondition.",
+        "För att det är roligt.",
+        "För att få tävla."
+      ],
+      "answer": "För att få bra kondition."
+    },
+    {
+      "id": "B_Q2",
+      "type": "short",
+      "prompt": "B. Hur många procent av männen tränar för att träffa andra?",
+      "answer": "23%",
+      "acceptedAnswers": ["23%", "23", "23 procent"]
+    },
+    {
+      "id": "B_Q3",
+      "type": "mcq",
+      "prompt": "C. Var tränar de flesta?",
+      "options": ["Hemma", "Utomhus", "På gym", "I sporthall"],
+      "answer": "Utomhus"
+    }
+  ],
+  "arabicNotes": {
+    "summary": "الحل: السبب الأكثر شيوعًا هو الحصول على لياقة بدنية جيدة (För att få bra kondition)، ونسبة الرجال الذين يتدربون لمقابلة الآخرين هي 23%، ومعظم الناس يتدربون في الخارج (Utomhus).",
+    "explanation": "الجدول يقارن أسباب التمرين بين النساء والرجال، والرسم البياني يوضح أماكن التمرين.",
+    "translation": "بيانات إحصائية عن أسباب ممارسة الرياضة وأماكنها.",
+    "vocabulary": [
+      "kondition (لياقة بدنية)",
+      "utomhus (في الهواء الطلق / بالخارج)",
+      "anledning (سبب)",
+      "tävlingsinriktad / tävla (يتنافس)"
+    ],
+    "examples": [
+      "De flesta tränar utomhus. (معظم الناس يتدربون في الخارج.)"
+    ],
+    "tip": "اقرأ عمود (Män) بدقة عند السؤال عن الرجال، وابحث عن أعلى عمود في الرسم البياني."
+  }
 }
